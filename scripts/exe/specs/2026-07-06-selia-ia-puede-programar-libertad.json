@@ -1,0 +1,105 @@
+{
+  "id": "2026-07-06-selia-ia-puede-programar-libertad",
+  "title": "La IA puede programar, pero la libertad hay que cuidarla",
+  "subtitle": "Implicaciones de la IA en el desarrollo de software libre, con eXeLearning como ejemplo",
+  "author": "Ernesto Serrano Collado",
+  "lang": "es",
+  "theme": "base",
+  "license": "creative commons: cc by-sa 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "footer": "<p>Ernesto Serrano Collado · seLIA 2026 · Licencia <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license noopener\" target=\"_blank\">CC BY-SA 4.0</a></p>",
+  "pages": [
+    {
+      "title": "Inicio",
+      "icon": "book",
+      "blocks": [
+        {
+          "title": "La IA puede programar, pero la libertad hay que cuidarla",
+          "icon": "book",
+          "md": "**La IA ya escribe código. La pregunta es quién protege las libertades de quien lo recibe.**\n\nCharla corta en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n- Ponente: **Ernesto Serrano Collado** — *Rompiendo cosas desde 1983*. DevOps Engineer en eXeLearning.\n- Idea central: la IA facilita el desarrollo, pero en software libre aparecen cuestiones que hay que **cuidar especialmente**."
+        }
+      ]
+    },
+    {
+      "title": "La IA puede programar",
+      "icon": "info",
+      "blocks": [
+        {
+          "title": "Qué facilita hoy de verdad",
+          "icon": "info",
+          "md": "Sin hype: hoy la IA ayuda de forma real en tareas concretas.\n\n- **Generación de código**: borradores, funciones repetitivas, *boilerplate*.\n- **Detección de errores**: explicar trazas, sugerir causas.\n- **Pruebas**: tests para código existente sin cobertura.\n- **Documentación**: a partir del código real.\n\nNada de esto sustituye el criterio: **propone, no decide**."
+        }
+      ]
+    },
+    {
+      "title": "El giro: software libre",
+      "icon": "objectives",
+      "blocks": [
+        {
+          "title": "¿Qué libertad hay que cuidar?",
+          "icon": "objectives",
+          "md": "Cuando ese desarrollo ocurre en el **ámbito del software libre**, aparecen preguntas específicas.\n\nLas **cuatro libertades** (usar, estudiar, modificar, distribuir) dependen de que el código tenga una **procedencia y una licencia limpias**.\n\n> Si no sabemos de dónde viene el código que genera la IA, no sabemos si podemos ejercer esas libertades."
+        }
+      ]
+    },
+    {
+      "title": "Cuestiones específicas",
+      "icon": "ask",
+      "blocks": [
+        {
+          "title": "Licencias y procedencia del código generado",
+          "icon": "ask",
+          "md": "- ¿Quién es el **autor** de la salida de la IA? ¿Tiene copyright?\n- ¿Es **compatible** con la licencia (GPL / copyleft) del proyecto?\n- Aceptar PRs asistidos por IA sin **contaminar** la base de código: DCO / CLA, trazabilidad."
+        },
+        {
+          "title": "Open washing: pesos abiertos ≠ software libre",
+          "icon": "info",
+          "md": "No es lo mismo:\n\n- **Pesos abiertos** (puedes descargar el modelo).\n- **Código abierto** (puedes ver y modificar el software).\n- **Datos abiertos** (sabes con qué se entrenó).\n\nMuchos modelos *\"open\"* no lo son del todo. Conviene mirar la **licencia real**."
+        },
+        {
+          "title": "Privacidad, soberanía y lock-in",
+          "icon": "case",
+          "md": "- **Privacidad / soberanía**: ¿a dónde va tu código? Servicios propietarios en la nube *vs.* ejecutar modelos **en local** (llama.cpp, Ollama, pesos abiertos).\n- **Dependencia / lock-in**: no cambiar una dependencia libre por un **SaaS propietario imprescindible**.\n- **Sostenibilidad del procomún**: devolver al común lo que tomamos de él."
+        }
+      ]
+    },
+    {
+      "title": "eXeLearning como ejemplo",
+      "icon": "guide",
+      "blocks": [
+        {
+          "title": "IA en un proyecto de software libre real",
+          "icon": "guide",
+          "md": "**eXeLearning** es un editor libre (GPL) para crear recursos educativos. ¿Cómo interviene la IA en su desarrollo **manteniendo** su carácter libre?\n\n- Asistencia de código, tests y documentación — siempre con **revisión humana**.\n- Preferencia por herramientas **auditables y abiertas**.\n- Licencias **limpias** y política de contribución clara.\n- La IA acelera el trabajo; las **libertades** las defienden las personas."
+        }
+      ]
+    },
+    {
+      "title": "Cómo cuidar la libertad",
+      "icon": "reflection",
+      "blocks": [
+        {
+          "title": "Buenas prácticas",
+          "icon": "reflection",
+          "md": "- **Revisa siempre el diff.**\n- Mantén **procedencia y licencias** limpias.\n- Prefiere modelos **abiertos y locales** cuando sea posible.\n- **No subas datos sensibles** a servicios de terceros.\n- Mantén el **control humano**.\n- **Devuelve al procomún.**"
+        },
+        {
+          "title": "Takeaways",
+          "icon": "objectives",
+          "md": "1. **La IA programa; tú defiendes las libertades.**\n2. **Pesos abiertos no es lo mismo que software libre.**\n3. **Cuida la procedencia y las licencias.**\n4. **Prefiere lo auditable y local.**\n5. **Revisa siempre el diff.**"
+        }
+      ]
+    },
+    {
+      "title": "Enlaces y gracias",
+      "icon": "download",
+      "blocks": [
+        {
+          "title": "Para seguir",
+          "icon": "download",
+          "md": "Gracias. ¿Preguntas?\n\n- eXeLearning — <https://exelearning.net>\n- seLIA (jornada) — <https://codeberg.org/seLIA>\n- GitHub de Ernesto — <https://github.com/erseco>\n- Web personal — <https://ernesto.es>"
+        }
+      ]
+    }
+  ]
+}

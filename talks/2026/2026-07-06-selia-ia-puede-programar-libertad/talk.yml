@@ -20,11 +20,9 @@ topics:
   - "open-source"
   - "licensing"
   - "exelearning"
-engine: "slidev"
+engine: "exelearning"
 formats:
-  source: "slides.md"
-  pdf: null
-  html: null
+  unit: "index.html"
 external:
   canonical_url: null
   source_url: "https://codeberg.org/seLIA/Contrib/src/branch/main/propuestas/27_Cristina_Valdera-La_IA_puede_programar.md"

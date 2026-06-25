@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>jacquenetta</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>202606252333105DA07U</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20260625233310HPMYUD</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value></value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>De Ballena a Gallopedro. Optimizando Dockerfiles</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_author</key>
+    <value>Ernesto Serrano</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_description</key>
+    <value>De imágenes de gigabytes a kilobytes: técnicas para adelgazar tus Dockerfiles</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: cc by-sa 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>jacquenetta</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>2026-06-25T22:33:10.804Z</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>SP00000001</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Inicio</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Inicio</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Inicio</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Inicio</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000001</odePageId>
+      <odeBlockId>SP00000002</odeBlockId>
+      <blockName>De Ballena a Gallopedro</blockName>
+      <iconName>book</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000001</odePageId>
+          <odeBlockId>SP00000002</odeBlockId>
+          <odeIdeviceId>SP00000003</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h2>De Ballena a Gallopedro</h2>
+<h3>Optimizando Dockerfiles</h3>
+<p>Charla presentada en <strong>esLibre</strong>, Granada, junio de 2019.</p>
+<p>La idea: pasar de imágenes Docker enormes (la <em>ballena</em>) a imágenes diminutas (el <em>gallopedro</em>), aplicando una serie de técnicas sencillas sobre el mismo Dockerfile.</p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","markdownTextarea":"## De Ballena a Gallopedro\n### Optimizando Dockerfiles\n\nCharla presentada en **esLibre**, Granada, junio de 2019.\n\nLa idea: pasar de imágenes Docker enormes (la *ballena*) a imágenes diminutas (el *gallopedro*), aplicando una serie de técnicas sencillas sobre el mismo Dockerfile.","markdownTextareaHtml":"<h2>De Ballena a Gallopedro</h2>\n<h3>Optimizando Dockerfiles</h3>\n<p>Charla presentada en <strong>esLibre</strong>, Granada, junio de 2019.</p>\n<p>La idea: pasar de imágenes Docker enormes (la <em>ballena</em>) a imágenes diminutas (el <em>gallopedro</em>), aplicando una serie de técnicas sencillas sobre el mismo Dockerfile.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000001</odePageId>
+      <odeBlockId>SP00000004</odeBlockId>
+      <blockName>¡Hola! Quién soy</blockName>
+      <iconName>info</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000001</odePageId>
+          <odeBlockId>SP00000004</odeBlockId>
+          <odeIdeviceId>SP00000005</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h2>¡Hola!</h2>
+<ul>
+<li>Me llamo <strong>Ernesto Serrano</strong></li>
+<li>Rompiendo cosas desde 1983</li>
+<li>Desarrollador del <em>Stevie Wonder Simulator</em> para Android</li>
+<li><strong>DevOps Engineer</strong> en OpenExO</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000005","markdownTextarea":"## ¡Hola!\n\n- Me llamo **Ernesto Serrano**\n- Rompiendo cosas desde 1983\n- Desarrollador del *Stevie Wonder Simulator* para Android\n- **DevOps Engineer** en OpenExO","markdownTextareaHtml":"<h2>¡Hola!</h2>\n<ul>\n<li>Me llamo <strong>Ernesto Serrano</strong></li>\n<li>Rompiendo cosas desde 1983</li>\n<li>Desarrollador del <em>Stevie Wonder Simulator</em> para Android</li>\n<li><strong>DevOps Engineer</strong> en OpenExO</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000006</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>El problema: el ExO Monster</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>El problema: el ExO Monster</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>El problema: el ExO Monster</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>El problema: el ExO Monster</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000006</odePageId>
+      <odeBlockId>SP00000007</odeBlockId>
+      <blockName>El advenimiento del ExO Monster</blockName>
+      <iconName>case</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000006</odePageId>
+          <odeBlockId>SP00000007</odeBlockId>
+          <odeIdeviceId>SP00000008</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h2>El advenimiento del ExO Monster</h2>
+<p>O la dockerización más estúpida de la historia.</p>
+<p>La arquitectura previa metía todo en un único contenedor monolítico:</p>
+<ul>
+<li><strong>Frontend</strong></li>
+<li><strong>API</strong></li>
+<li><strong>Storage</strong></li>
+<li><strong>Backend</strong></li>
+</ul>
+<p>El resultado era un monstruo:</p>
+<ul>
+<li><strong>Tamaño:</strong> 8,5 GB</li>
+<li><strong>Tiempo de construcción:</strong> 20 min</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000008","markdownTextarea":"## El advenimiento del ExO Monster\n\nO la dockerización más estúpida de la historia.\n\nLa arquitectura previa metía todo en un único contenedor monolítico:\n\n- **Frontend**\n- **API**\n- **Storage**\n- **Backend**\n\nEl resultado era un monstruo:\n\n- **Tamaño:** 8,5 GB\n- **Tiempo de construcción:** 20 min","markdownTextareaHtml":"<h2>El advenimiento del ExO Monster</h2>\n<p>O la dockerización más estúpida de la historia.</p>\n<p>La arquitectura previa metía todo en un único contenedor monolítico:</p>\n<ul>\n<li><strong>Frontend</strong></li>\n<li><strong>API</strong></li>\n<li><strong>Storage</strong></li>\n<li><strong>Backend</strong></li>\n</ul>\n<p>El resultado era un monstruo:</p>\n<ul>\n<li><strong>Tamaño:</strong> 8,5 GB</li>\n<li><strong>Tiempo de construcción:</strong> 20 min</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000009</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>El experimento: ¡Hola Lenna!</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>El experimento: ¡Hola Lenna!</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>El experimento: ¡Hola Lenna!</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>El experimento: ¡Hola Lenna!</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000009</odePageId>
+      <odeBlockId>SP00000010</odeBlockId>
+      <blockName>¡Hola Lenna!</blockName>
+      <iconName>pieces</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000009</odePageId>
+          <odeBlockId>SP00000010</odeBlockId>
+          <odeIdeviceId>SP00000011</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h2>¡Hola Lenna!</h2>
+<p>Para medir las distintas formas de dockerizar usamos un ejemplo mínimo: un pequeño script en Python que desenfoca la clásica imagen <em>Lenna.png</em> usando <strong>Pillow</strong>.</p>
+<pre><code class="language-python">#!/usr/bin/env python
+# This code blurr the "Lenna.png" image file
+import os
+from PIL import Image, ImageFilter
+
+# Pillow part
+in_file = "Lenna.png"
+out_file = "Lenna-blurred.png"
+original = Image.open(in_file)
+blurred = original.filter(ImageFilter.BLUR)
+blurred.save(out_file)
+print("Original image: %d" % os.stat(in_file).st_size)
+print("Blurred image: %d" % os.stat(out_file).st_size)
+</code></pre></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000011","markdownTextarea":"## ¡Hola Lenna!\n\nPara medir las distintas formas de dockerizar usamos un ejemplo mínimo: un pequeño script en Python que desenfoca la clásica imagen *Lenna.png* usando **Pillow**.\n\n```python\n#!/usr/bin/env python\n# This code blurr the \"Lenna.png\" image file\nimport os\nfrom PIL import Image, ImageFilter\n\n# Pillow part\nin_file = \"Lenna.png\"\nout_file = \"Lenna-blurred.png\"\noriginal = Image.open(in_file)\nblurred = original.filter(ImageFilter.BLUR)\nblurred.save(out_file)\nprint(\"Original image: %d\" % os.stat(in_file).st_size)\nprint(\"Blurred image: %d\" % os.stat(out_file).st_size)\n```","markdownTextareaHtml":"<h2>¡Hola Lenna!</h2>\n<p>Para medir las distintas formas de dockerizar usamos un ejemplo mínimo: un pequeño script en Python que desenfoca la clásica imagen <em>Lenna.png</em> usando <strong>Pillow</strong>.</p>\n<pre><code class=\"language-python\">#!/usr/bin/env python\n# This code blurr the &quot;Lenna.png&quot; image file\nimport os\nfrom PIL import Image, ImageFilter\n\n# Pillow part\nin_file = &quot;Lenna.png&quot;\nout_file = &quot;Lenna-blurred.png&quot;\noriginal = Image.open(in_file)\nblurred = original.filter(ImageFilter.BLUR)\nblurred.save(out_file)\nprint(&quot;Original image: %d&quot; % os.stat(in_file).st_size)\nprint(&quot;Blurred image: %d&quot; % os.stat(out_file).st_size)\n</code></pre>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000012</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Dockericemos hermanos</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Dockericemos hermanos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Dockericemos hermanos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Dockericemos hermanos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000012</odePageId>
+      <odeBlockId>SP00000013</odeBlockId>
+      <blockName>Diferentes formas de dockerizar</blockName>
+      <iconName>guide</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000012</odePageId>
+          <odeBlockId>SP00000013</odeBlockId>
+          <odeIdeviceId>SP00000014</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h2>Dockericemos hermanos</h2>
+<p>Veamos diferentes formas de dockerizar la misma aplicación y cómo, en cada iteración, vamos reduciendo el tamaño de la imagen y el tiempo de construcción.</p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000014","markdownTextarea":"## Dockericemos hermanos\n\nVeamos diferentes formas de dockerizar la misma aplicación y cómo, en cada iteración, vamos reduciendo el tamaño de la imagen y el tiempo de construcción.","markdownTextareaHtml":"<h2>Dockericemos hermanos</h2>\n<p>Veamos diferentes formas de dockerizar la misma aplicación y cómo, en cada iteración, vamos reduciendo el tamaño de la imagen y el tiempo de construcción.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000012</odePageId>
+      <odeBlockId>SP00000015</odeBlockId>
+      <blockName>1. Imagen base debian:stretch</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000012</odePageId>
+          <odeBlockId>SP00000015</odeBlockId>
+          <odeIdeviceId>SP00000016</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h3>1. Punto de partida: <code>debian:stretch</code></h3>
+<pre><code class="language-dockerfile">FROM debian:stretch AS example
+COPY . .
+RUN apt-get update && \
+    apt-get install -y \
+        python3 \
+        python3-pip
+RUN pip3 install -r requirements.txt
+RUN python3 test.py
+</code></pre>
+<ul>
+<li><strong>Tamaño:</strong> 515 MB</li>
+<li><strong>Tiempo:</strong> 57 s</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000016","markdownTextarea":"### 1. Punto de partida: `debian:stretch`\n\n```dockerfile\nFROM debian:stretch AS example\nCOPY . .\nRUN apt-get update && \\\n    apt-get install -y \\\n        python3 \\\n        python3-pip\nRUN pip3 install -r requirements.txt\nRUN python3 test.py\n```\n\n- **Tamaño:** 515 MB\n- **Tiempo:** 57 s","markdownTextareaHtml":"<h3>1. Punto de partida: <code>debian:stretch</code></h3>\n<pre><code class=\"language-dockerfile\">FROM debian:stretch AS example\nCOPY . .\nRUN apt-get update &amp;&amp; \\\n    apt-get install -y \\\n        python3 \\\n        python3-pip\nRUN pip3 install -r requirements.txt\nRUN python3 test.py\n</code></pre>\n<ul>\n<li><strong>Tamaño:</strong> 515 MB</li>\n<li><strong>Tiempo:</strong> 57 s</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000012</odePageId>
+      <odeBlockId>SP00000017</odeBlockId>
+      <blockName>2. debian:stretch-slim y caché de capas</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000012</odePageId>
+          <odeBlockId>SP00000017</odeBlockId>
+          <odeIdeviceId>SP00000018</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h3>2. Versión slim y aprovechar la caché</h3>
+<p>Usamos <code>debian:stretch-slim</code> y copiamos primero <code>requirements.txt</code> para aprovechar la caché de capas antes de copiar el resto del código.</p>
+<pre><code class="language-dockerfile">FROM debian:stretch-slim AS example
+RUN apt-get update && \
+    apt-get install -y \
+        python3 \
+        python3-pip
+COPY requirements.txt .
+RUN pip3 install -r requirements.txt
+COPY . .
+RUN python3 test.py
+</code></pre>
+<ul>
+<li><strong>Tamaño:</strong> 427 MB</li>
+<li><strong>Tiempo:</strong> 51 s</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000018","markdownTextarea":"### 2. Versión slim y aprovechar la caché\n\nUsamos `debian:stretch-slim` y copiamos primero `requirements.txt` para aprovechar la caché de capas antes de copiar el resto del código.\n\n```dockerfile\nFROM debian:stretch-slim AS example\nRUN apt-get update && \\\n    apt-get install -y \\\n        python3 \\\n        python3-pip\nCOPY requirements.txt .\nRUN pip3 install -r requirements.txt\nCOPY . .\nRUN python3 test.py\n```\n\n- **Tamaño:** 427 MB\n- **Tiempo:** 51 s","markdownTextareaHtml":"<h3>2. Versión slim y aprovechar la caché</h3>\n<p>Usamos <code>debian:stretch-slim</code> y copiamos primero <code>requirements.txt</code> para aprovechar la caché de capas antes de copiar el resto del código.</p>\n<pre><code class=\"language-dockerfile\">FROM debian:stretch-slim AS example\nRUN apt-get update &amp;&amp; \\\n    apt-get install -y \\\n        python3 \\\n        python3-pip\nCOPY requirements.txt .\nRUN pip3 install -r requirements.txt\nCOPY . .\nRUN python3 test.py\n</code></pre>\n<ul>\n<li><strong>Tamaño:</strong> 427 MB</li>\n<li><strong>Tiempo:</strong> 51 s</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000012</odePageId>
+      <odeBlockId>SP00000019</odeBlockId>
+      <blockName>3. Imagen base python:3.6-alpine</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>4</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000012</odePageId>
+          <odeBlockId>SP00000019</odeBlockId>
+          <odeIdeviceId>SP00000020</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h3>3. Saltamos a Alpine: <code>python:3.6-alpine</code></h3>
+<pre><code class="language-dockerfile">FROM python:3.6-alpine AS example
+RUN apk add --no-cache \
+        build-base \
+        zlib-dev \
+        jpeg-dev \
+        libpng-dev
+COPY requirements.txt .
+RUN pip3 install -r requirements.txt
+COPY . .
+RUN python3 test.py
+</code></pre>
+<ul>
+<li><strong>Tamaño:</strong> 287 MB</li>
+<li><strong>Tiempo:</strong> 40 s</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000020","markdownTextarea":"### 3. Saltamos a Alpine: `python:3.6-alpine`\n\n```dockerfile\nFROM python:3.6-alpine AS example\nRUN apk add --no-cache \\\n        build-base \\\n        zlib-dev \\\n        jpeg-dev \\\n        libpng-dev\nCOPY requirements.txt .\nRUN pip3 install -r requirements.txt\nCOPY . .\nRUN python3 test.py\n```\n\n- **Tamaño:** 287 MB\n- **Tiempo:** 40 s","markdownTextareaHtml":"<h3>3. Saltamos a Alpine: <code>python:3.6-alpine</code></h3>\n<pre><code class=\"language-dockerfile\">FROM python:3.6-alpine AS example\nRUN apk add --no-cache \\\n        build-base \\\n        zlib-dev \\\n        jpeg-dev \\\n        libpng-dev\nCOPY requirements.txt .\nRUN pip3 install -r requirements.txt\nCOPY . .\nRUN python3 test.py\n</code></pre>\n<ul>\n<li><strong>Tamaño:</strong> 287 MB</li>\n<li><strong>Tiempo:</strong> 40 s</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000012</odePageId>
+      <odeBlockId>SP00000021</odeBlockId>
+      <blockName>4. Paquetes virtuales y limpieza</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>5</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000012</odePageId>
+          <odeBlockId>SP00000021</odeBlockId>
+          <odeIdeviceId>SP00000022</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h3>4. Dependencias de compilación como paquete virtual</h3>
+<p>Instalamos las dependencias de compilación en un paquete virtual (<code>.build-deps</code>) y las borramos en la misma capa, dejando solo lo necesario para ejecutar.</p>
+<pre><code class="language-dockerfile">FROM python:3.6-alpine AS example
+COPY requirements.txt .
+RUN apk add --no-cache jpeg libpng && \
+    apk add --no-cache --virtual .build-deps \
+        build-base \
+        zlib-dev \
+        jpeg-dev \
+        libpng-dev && \
+    pip3 install -r requirements.txt && \
+    apk del .build-deps --force-broken-world
+COPY . .
+RUN python3 test.py
+</code></pre>
+<ul>
+<li><strong>Tamaño:</strong> 123 MB</li>
+<li><strong>Tiempo:</strong> 34 s</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000022","markdownTextarea":"### 4. Dependencias de compilación como paquete virtual\n\nInstalamos las dependencias de compilación en un paquete virtual (`.build-deps`) y las borramos en la misma capa, dejando solo lo necesario para ejecutar.\n\n```dockerfile\nFROM python:3.6-alpine AS example\nCOPY requirements.txt .\nRUN apk add --no-cache jpeg libpng && \\\n    apk add --no-cache --virtual .build-deps \\\n        build-base \\\n        zlib-dev \\\n        jpeg-dev \\\n        libpng-dev && \\\n    pip3 install -r requirements.txt && \\\n    apk del .build-deps --force-broken-world\nCOPY . .\nRUN python3 test.py\n```\n\n- **Tamaño:** 123 MB\n- **Tiempo:** 34 s","markdownTextareaHtml":"<h3>4. Dependencias de compilación como paquete virtual</h3>\n<p>Instalamos las dependencias de compilación en un paquete virtual (<code>.build-deps</code>) y las borramos en la misma capa, dejando solo lo necesario para ejecutar.</p>\n<pre><code class=\"language-dockerfile\">FROM python:3.6-alpine AS example\nCOPY requirements.txt .\nRUN apk add --no-cache jpeg libpng &amp;&amp; \\\n    apk add --no-cache --virtual .build-deps \\\n        build-base \\\n        zlib-dev \\\n        jpeg-dev \\\n        libpng-dev &amp;&amp; \\\n    pip3 install -r requirements.txt &amp;&amp; \\\n    apk del .build-deps --force-broken-world\nCOPY . .\nRUN python3 test.py\n</code></pre>\n<ul>\n<li><strong>Tamaño:</strong> 123 MB</li>\n<li><strong>Tiempo:</strong> 34 s</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000012</odePageId>
+      <odeBlockId>SP00000023</odeBlockId>
+      <blockName>5. alpine:3.9 con py3-pillow</blockName>
+      <iconName>file</iconName>
+      <odePagStructureOrder>6</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000012</odePageId>
+          <odeBlockId>SP00000023</odeBlockId>
+          <odeIdeviceId>SP00000024</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h3>5. Alpine puro con <code>py3-pillow</code> del repositorio</h3>
+<p>Partimos de <code>alpine:3.9</code> e instalamos Pillow ya empaquetado (<code>py3-pillow</code>), evitando compilar nada.</p>
+<pre><code class="language-dockerfile">FROM alpine:3.9 AS example
+RUN apk add --no-cache \
+        python3 \
+        py3-pillow
+COPY requirements.txt .
+RUN pip3 install -r requirements.txt
+COPY . .
+RUN python3 test.py
+</code></pre>
+<ul>
+<li><strong>Tamaño:</strong> 64,9 MB</li>
+<li><strong>Tiempo:</strong> 6 s</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000024","markdownTextarea":"### 5. Alpine puro con `py3-pillow` del repositorio\n\nPartimos de `alpine:3.9` e instalamos Pillow ya empaquetado (`py3-pillow`), evitando compilar nada.\n\n```dockerfile\nFROM alpine:3.9 AS example\nRUN apk add --no-cache \\\n        python3 \\\n        py3-pillow\nCOPY requirements.txt .\nRUN pip3 install -r requirements.txt\nCOPY . .\nRUN python3 test.py\n```\n\n- **Tamaño:** 64,9 MB\n- **Tiempo:** 6 s","markdownTextareaHtml":"<h3>5. Alpine puro con <code>py3-pillow</code> del repositorio</h3>\n<p>Partimos de <code>alpine:3.9</code> e instalamos Pillow ya empaquetado (<code>py3-pillow</code>), evitando compilar nada.</p>\n<pre><code class=\"language-dockerfile\">FROM alpine:3.9 AS example\nRUN apk add --no-cache \\\n        python3 \\\n        py3-pillow\nCOPY requirements.txt .\nRUN pip3 install -r requirements.txt\nCOPY . .\nRUN python3 test.py\n</code></pre>\n<ul>\n<li><strong>Tamaño:</strong> 64,9 MB</li>\n<li><strong>Tiempo:</strong> 6 s</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000025</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Dockerrizando el rizo</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Dockerrizando el rizo</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Dockerrizando el rizo</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Dockerrizando el rizo</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000025</odePageId>
+      <odeBlockId>SP00000026</odeBlockId>
+      <blockName>Extrae lo importante y descarta el resto</blockName>
+      <iconName>objectives</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000025</odePageId>
+          <odeBlockId>SP00000026</odeBlockId>
+          <odeIdeviceId>SP00000027</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h2>Dockerrizando el rizo</h2>
+<p>Extrae lo importante y descarta el resto. Con un <strong>multi-stage build</strong> construimos en una etapa y, en una etapa final basada en <code>scratch</code>, copiamos únicamente el resultado (<code>COPY --from</code>).</p>
+<pre><code class="language-dockerfile">FROM alpine:3.9 AS example
+RUN apk add --no-cache python3 py3-pillow
+COPY requirements.txt .
+RUN pip3 install -r requirements.txt
+COPY . .
+RUN python3 test.py
+
+FROM scratch AS result
+COPY --from=example Lenna-blurred.png .
+</code></pre>
+<ul>
+<li><strong>Tamaño:</strong> 310 kB</li>
+<li><strong>Tiempo:</strong> 26 ms</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000027","markdownTextarea":"## Dockerrizando el rizo\n\nExtrae lo importante y descarta el resto. Con un **multi-stage build** construimos en una etapa y, en una etapa final basada en `scratch`, copiamos únicamente el resultado (`COPY --from`).\n\n```dockerfile\nFROM alpine:3.9 AS example\nRUN apk add --no-cache python3 py3-pillow\nCOPY requirements.txt .\nRUN pip3 install -r requirements.txt\nCOPY . .\nRUN python3 test.py\n\nFROM scratch AS result\nCOPY --from=example Lenna-blurred.png .\n```\n\n- **Tamaño:** 310 kB\n- **Tiempo:** 26 ms","markdownTextareaHtml":"<h2>Dockerrizando el rizo</h2>\n<p>Extrae lo importante y descarta el resto. Con un <strong>multi-stage build</strong> construimos en una etapa y, en una etapa final basada en <code>scratch</code>, copiamos únicamente el resultado (<code>COPY --from</code>).</p>\n<pre><code class=\"language-dockerfile\">FROM alpine:3.9 AS example\nRUN apk add --no-cache python3 py3-pillow\nCOPY requirements.txt .\nRUN pip3 install -r requirements.txt\nCOPY . .\nRUN python3 test.py\n\nFROM scratch AS result\nCOPY --from=example Lenna-blurred.png .\n</code></pre>\n<ul>\n<li><strong>Tamaño:</strong> 310 kB</li>\n<li><strong>Tiempo:</strong> 26 ms</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000028</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Conclusiones</pageName>
+  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Conclusiones</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Conclusiones</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Conclusiones</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000028</odePageId>
+      <odeBlockId>SP00000029</odeBlockId>
+      <blockName>Conclusiones</blockName>
+      <iconName>reflection</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000028</odePageId>
+          <odeBlockId>SP00000029</odeBlockId>
+          <odeIdeviceId>SP00000030</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h2>Conclusiones</h2>
+<ul>
+<li><strong>Utiliza Alpine Linux</strong> (<code>apk add --no-cache</code>)</li>
+<li><strong>Concatena para reducir el número de capas</strong> (<code>&& \</code>)</li>
+<li><strong>Aprovecha la caché entre capas</strong> (<code>COPY requirements.txt</code>)</li>
+<li><strong>Extrae solo lo importante</strong> (<code>COPY --from</code>)</li>
+</ul>
+<p>Resultado: pasamos de <strong>515 MB / 57 s</strong> a <strong>310 kB / 26 ms</strong> trabajando sobre el mismo Dockerfile.</p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000030","markdownTextarea":"## Conclusiones\n\n- **Utiliza Alpine Linux** (`apk add --no-cache`)\n- **Concatena para reducir el número de capas** (`&& \\`)\n- **Aprovecha la caché entre capas** (`COPY requirements.txt`)\n- **Extrae solo lo importante** (`COPY --from`)\n\nResultado: pasamos de **515 MB / 57 s** a **310 kB / 26 ms** trabajando sobre el mismo Dockerfile.","markdownTextareaHtml":"<h2>Conclusiones</h2>\n<ul>\n<li><strong>Utiliza Alpine Linux</strong> (<code>apk add --no-cache</code>)</li>\n<li><strong>Concatena para reducir el número de capas</strong> (<code>&amp;&amp; \\</code>)</li>\n<li><strong>Aprovecha la caché entre capas</strong> (<code>COPY requirements.txt</code>)</li>\n<li><strong>Extrae solo lo importante</strong> (<code>COPY --from</code>)</li>\n</ul>\n<p>Resultado: pasamos de <strong>515 MB / 57 s</strong> a <strong>310 kB / 26 ms</strong> trabajando sobre el mismo Dockerfile.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000031</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Recursos y gracias</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Recursos y gracias</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Recursos y gracias</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Recursos y gracias</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000031</odePageId>
+      <odeBlockId>SP00000032</odeBlockId>
+      <blockName>¡Gracias!</blockName>
+      <iconName>ask</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000031</odePageId>
+          <odeBlockId>SP00000032</odeBlockId>
+          <odeIdeviceId>SP00000033</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h2>¡Gracias!</h2>
+<p>¿Alguna pregunta?</p>
+<ul>
+<li>Código disponible en: <a href="https://github.com/erseco/dockerfile-optimization-examples">https://github.com/erseco/dockerfile-optimization-examples</a></li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000033","markdownTextarea":"## ¡Gracias!\n\n¿Alguna pregunta?\n\n- Código disponible en: <https://github.com/erseco/dockerfile-optimization-examples>","markdownTextareaHtml":"<h2>¡Gracias!</h2>\n<p>¿Alguna pregunta?</p>\n<ul>\n<li>Código disponible en: <a href=\"https://github.com/erseco/dockerfile-optimization-examples\">https://github.com/erseco/dockerfile-optimization-examples</a></li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000031</odePageId>
+      <odeBlockId>SP00000034</odeBlockId>
+      <blockName>Licencia</blockName>
+      <iconName>info</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000031</odePageId>
+          <odeBlockId>SP00000034</odeBlockId>
+          <odeIdeviceId>SP00000035</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><h2>Licencia</h2>
+<p>Esta presentación se puede distribuir bajo la licencia <strong>Creative Commons Reconocimiento-CompartirIgual 4.0 (CC BY-SA 4.0)</strong>.</p>
+<p><a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000035","markdownTextarea":"## Licencia\n\nEsta presentación se puede distribuir bajo la licencia **Creative Commons Reconocimiento-CompartirIgual 4.0 (CC BY-SA 4.0)**.\n\n<https://creativecommons.org/licenses/by-sa/4.0/>","markdownTextareaHtml":"<h2>Licencia</h2>\n<p>Esta presentación se puede distribuir bajo la licencia <strong>Creative Commons Reconocimiento-CompartirIgual 4.0 (CC BY-SA 4.0)</strong>.</p>\n<p><a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</a></p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>

@@ -1,25 +1,27 @@
 ###############################################################################
 # talks — presentations & materials of talks, workshops and training sessions
 #
-# Root Makefile: validate metadata, render decks (Slidev/Marp) and build the site.
+# Talks are eXeLearning units: each talk folder holds the committed, unzipped
+# .elpx (content.xml + rendered index.html/html/libs/theme). The site just
+# validates metadata and copies the units. Regenerating the units from the
+# specs (scripts/exe/build.sh) is a LOCAL step needing the eXeLearning CLI —
+# see scripts/exe/README.md.
 ###############################################################################
 
 ROOT_DIR  := $(abspath .)
 OUTPUT_DIR ?= $(ROOT_DIR)/output
-SLIDEV_BIN ?= $(ROOT_DIR)/node_modules/.bin/slidev
-MARP_BIN  ?= $(ROOT_DIR)/node_modules/.bin/marp
-# Deck to preview with `make serve` (override: make serve TALK=path/to/slides.md)
-TALK ?= talks/2026/2026-07-03-3ipunt-dev-tools-ci-ai/slides.md
+PORT ?= 8080
+EXE_DIR ?= $(HOME)/Downloads/git/exelearning_5
 
-export ROOT_DIR OUTPUT_DIR SLIDEV_BIN MARP_BIN
+export ROOT_DIR OUTPUT_DIR EXE_DIR
 
-.PHONY: all build validate test slides site serve clean help install import-external check-engines
+.PHONY: all build validate test site serve clean help install import-external exe
 .DEFAULT_GOAL := build
 
 all: build
 
-## build: validate, render every deck (Slidev/Marp) and generate the static site
-build: validate slides site
+## build: validate metadata and generate the static site
+build: validate site
 	@echo "Build complete -> $(OUTPUT_DIR)/site/index.html"
 
 ## validate: check every talk.yml against the schema
@@ -29,37 +31,31 @@ validate:
 ## test: run the repository checks (metadata validation)
 test: validate
 
-## slides: render decks to HTML (+ PDF, best-effort) in output/talks/
-slides: check-engines
-	@node scripts/build-talks.js
-
 ## site: generate the static site in output/site/
 site:
 	@node scripts/generate-site.js
 
-## serve: live preview a deck with Slidev (override: make serve TALK=path/slides.md)
-serve: check-engines
-	@$(SLIDEV_BIN) "$(TALK)"
+## exe: (local) regenerate the eXeLearning units from scripts/exe/specs/*.json
+exe:
+	@EXE_DIR="$(EXE_DIR)" bash scripts/exe/build.sh
+
+## serve: serve the generated site locally (http://localhost:$(PORT))
+serve:
+	@cd "$(OUTPUT_DIR)/site" && python3 -m http.server $(PORT)
 
 ## import-external: cache external PDF exports locally (best-effort)
 import-external:
 	@node scripts/import-external-talks.js
 
-## install: install Node dependencies (Slidev, Marp CLI, Playwright, js-yaml)
+## install: install Node dependencies (js-yaml)
 install:
 	@npm install
 
 ## clean: remove generated artifacts (keeps output/.gitkeep)
 clean:
-	@rm -rf "$(OUTPUT_DIR)/site" "$(OUTPUT_DIR)/talks" "$(OUTPUT_DIR)/external" \
+	@rm -rf "$(OUTPUT_DIR)/site" "$(OUTPUT_DIR)/external" \
 		"$(OUTPUT_DIR)/index.json" "$(OUTPUT_DIR)/site.zip"
 	@echo "Cleaned generated output."
-
-check-engines:
-	@test -x "$(SLIDEV_BIN)" || command -v slidev >/dev/null 2>&1 || { \
-		echo "Error: slidev not found. Run 'make install'."; \
-		exit 1; \
-	}
 
 ## help: list available targets
 help:

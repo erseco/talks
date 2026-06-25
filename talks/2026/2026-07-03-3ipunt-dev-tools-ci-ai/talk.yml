@@ -21,11 +21,9 @@ topics:
   - "ai"
   - "devops"
   - "software-quality"
-engine: "slidev"
+engine: "exelearning"
 formats:
-  source: "slides.md"
-  pdf: null
-  html: null
+  unit: "index.html"
 external:
   canonical_url: null
   source_url: null

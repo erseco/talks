@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<theme>
+    <name>jacquenetta</name>
+    <title>Jacquenetta</title>
+    <version>2026</version>
+    <compatibility>3.0</compatibility>
+    <author>Ernesto Serrano</author>
+    <license>Creative Commons by-sa</license>
+    <license-url>https://creativecommons.org/licenses/by-sa/4.0/</license-url>
+    <description>Estilo minimalista en blanco y negro, inspirado en la plantilla Jacquenetta (SlidesCarnival). Basado en el tema base de eXeLearning.</description>
+    <downloadable>1</downloadable>
+</theme>

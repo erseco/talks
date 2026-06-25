@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>base</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>20260625233313SLPU5R</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20260625233313O96UKJ</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value></value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>La IA puede programar, pero la libertad hay que cuidarla</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_author</key>
+    <value>Ernesto Serrano Collado</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_description</key>
+    <value>Implicaciones de la IA en el desarrollo de software libre, con eXeLearning como ejemplo</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: cc by-sa 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>base</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>2026-06-25T22:33:13.263Z</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>SP00000001</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Inicio</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Inicio</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Inicio</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Inicio</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000001</odePageId>
+      <odeBlockId>SP00000002</odeBlockId>
+      <blockName>La IA puede programar, pero la libertad hay que cuidarla</blockName>
+      <iconName>book</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000001</odePageId>
+          <odeBlockId>SP00000002</odeBlockId>
+          <odeIdeviceId>SP00000003</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p><strong>La IA ya escribe código. La pregunta es quién protege las libertades de quien lo recibe.</strong></p>
+<p>Charla corta en la <strong>I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)</strong>.</p>
+<ul>
+<li>Ponente: <strong>Ernesto Serrano Collado</strong> — <em>Rompiendo cosas desde 1983</em>. DevOps Engineer en eXeLearning.</li>
+<li>Idea central: la IA facilita el desarrollo, pero en software libre aparecen cuestiones que hay que <strong>cuidar especialmente</strong>.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","markdownTextarea":"**La IA ya escribe código. La pregunta es quién protege las libertades de quien lo recibe.**\n\nCharla corta en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n- Ponente: **Ernesto Serrano Collado** — *Rompiendo cosas desde 1983*. DevOps Engineer en eXeLearning.\n- Idea central: la IA facilita el desarrollo, pero en software libre aparecen cuestiones que hay que **cuidar especialmente**.","markdownTextareaHtml":"<p><strong>La IA ya escribe código. La pregunta es quién protege las libertades de quien lo recibe.</strong></p>\n<p>Charla corta en la <strong>I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)</strong>.</p>\n<ul>\n<li>Ponente: <strong>Ernesto Serrano Collado</strong> — <em>Rompiendo cosas desde 1983</em>. DevOps Engineer en eXeLearning.</li>\n<li>Idea central: la IA facilita el desarrollo, pero en software libre aparecen cuestiones que hay que <strong>cuidar especialmente</strong>.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000004</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>La IA puede programar</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>La IA puede programar</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>La IA puede programar</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>La IA puede programar</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000004</odePageId>
+      <odeBlockId>SP00000005</odeBlockId>
+      <blockName>Qué facilita hoy de verdad</blockName>
+      <iconName>info</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000004</odePageId>
+          <odeBlockId>SP00000005</odeBlockId>
+          <odeIdeviceId>SP00000006</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Sin hype: hoy la IA ayuda de forma real en tareas concretas.</p>
+<ul>
+<li><strong>Generación de código</strong>: borradores, funciones repetitivas, <em>boilerplate</em>.</li>
+<li><strong>Detección de errores</strong>: explicar trazas, sugerir causas.</li>
+<li><strong>Pruebas</strong>: tests para código existente sin cobertura.</li>
+<li><strong>Documentación</strong>: a partir del código real.</li>
+</ul>
+<p>Nada de esto sustituye el criterio: <strong>propone, no decide</strong>.</p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000006","markdownTextarea":"Sin hype: hoy la IA ayuda de forma real en tareas concretas.\n\n- **Generación de código**: borradores, funciones repetitivas, *boilerplate*.\n- **Detección de errores**: explicar trazas, sugerir causas.\n- **Pruebas**: tests para código existente sin cobertura.\n- **Documentación**: a partir del código real.\n\nNada de esto sustituye el criterio: **propone, no decide**.","markdownTextareaHtml":"<p>Sin hype: hoy la IA ayuda de forma real en tareas concretas.</p>\n<ul>\n<li><strong>Generación de código</strong>: borradores, funciones repetitivas, <em>boilerplate</em>.</li>\n<li><strong>Detección de errores</strong>: explicar trazas, sugerir causas.</li>\n<li><strong>Pruebas</strong>: tests para código existente sin cobertura.</li>\n<li><strong>Documentación</strong>: a partir del código real.</li>\n</ul>\n<p>Nada de esto sustituye el criterio: <strong>propone, no decide</strong>.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000007</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>El giro: software libre</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>El giro: software libre</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>El giro: software libre</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>El giro: software libre</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000007</odePageId>
+      <odeBlockId>SP00000008</odeBlockId>
+      <blockName>¿Qué libertad hay que cuidar?</blockName>
+      <iconName>objectives</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000007</odePageId>
+          <odeBlockId>SP00000008</odeBlockId>
+          <odeIdeviceId>SP00000009</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Cuando ese desarrollo ocurre en el <strong>ámbito del software libre</strong>, aparecen preguntas específicas.</p>
+<p>Las <strong>cuatro libertades</strong> (usar, estudiar, modificar, distribuir) dependen de que el código tenga una <strong>procedencia y una licencia limpias</strong>.</p>
+<blockquote>
+<p>Si no sabemos de dónde viene el código que genera la IA, no sabemos si podemos ejercer esas libertades.</p>
+</blockquote></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000009","markdownTextarea":"Cuando ese desarrollo ocurre en el **ámbito del software libre**, aparecen preguntas específicas.\n\nLas **cuatro libertades** (usar, estudiar, modificar, distribuir) dependen de que el código tenga una **procedencia y una licencia limpias**.\n\n> Si no sabemos de dónde viene el código que genera la IA, no sabemos si podemos ejercer esas libertades.","markdownTextareaHtml":"<p>Cuando ese desarrollo ocurre en el <strong>ámbito del software libre</strong>, aparecen preguntas específicas.</p>\n<p>Las <strong>cuatro libertades</strong> (usar, estudiar, modificar, distribuir) dependen de que el código tenga una <strong>procedencia y una licencia limpias</strong>.</p>\n<blockquote>\n<p>Si no sabemos de dónde viene el código que genera la IA, no sabemos si podemos ejercer esas libertades.</p>\n</blockquote>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000010</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Cuestiones específicas</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Cuestiones específicas</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Cuestiones específicas</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Cuestiones específicas</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000010</odePageId>
+      <odeBlockId>SP00000011</odeBlockId>
+      <blockName>Licencias y procedencia del código generado</blockName>
+      <iconName>ask</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000010</odePageId>
+          <odeBlockId>SP00000011</odeBlockId>
+          <odeIdeviceId>SP00000012</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>¿Quién es el <strong>autor</strong> de la salida de la IA? ¿Tiene copyright?</li>
+<li>¿Es <strong>compatible</strong> con la licencia (GPL / copyleft) del proyecto?</li>
+<li>Aceptar PRs asistidos por IA sin <strong>contaminar</strong> la base de código: DCO / CLA, trazabilidad.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000012","markdownTextarea":"- ¿Quién es el **autor** de la salida de la IA? ¿Tiene copyright?\n- ¿Es **compatible** con la licencia (GPL / copyleft) del proyecto?\n- Aceptar PRs asistidos por IA sin **contaminar** la base de código: DCO / CLA, trazabilidad.","markdownTextareaHtml":"<ul>\n<li>¿Quién es el <strong>autor</strong> de la salida de la IA? ¿Tiene copyright?</li>\n<li>¿Es <strong>compatible</strong> con la licencia (GPL / copyleft) del proyecto?</li>\n<li>Aceptar PRs asistidos por IA sin <strong>contaminar</strong> la base de código: DCO / CLA, trazabilidad.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000010</odePageId>
+      <odeBlockId>SP00000013</odeBlockId>
+      <blockName>Open washing: pesos abiertos ≠ software libre</blockName>
+      <iconName>info</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000010</odePageId>
+          <odeBlockId>SP00000013</odeBlockId>
+          <odeIdeviceId>SP00000014</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>No es lo mismo:</p>
+<ul>
+<li><strong>Pesos abiertos</strong> (puedes descargar el modelo).</li>
+<li><strong>Código abierto</strong> (puedes ver y modificar el software).</li>
+<li><strong>Datos abiertos</strong> (sabes con qué se entrenó).</li>
+</ul>
+<p>Muchos modelos <em>"open"</em> no lo son del todo. Conviene mirar la <strong>licencia real</strong>.</p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000014","markdownTextarea":"No es lo mismo:\n\n- **Pesos abiertos** (puedes descargar el modelo).\n- **Código abierto** (puedes ver y modificar el software).\n- **Datos abiertos** (sabes con qué se entrenó).\n\nMuchos modelos *\"open\"* no lo son del todo. Conviene mirar la **licencia real**.","markdownTextareaHtml":"<p>No es lo mismo:</p>\n<ul>\n<li><strong>Pesos abiertos</strong> (puedes descargar el modelo).</li>\n<li><strong>Código abierto</strong> (puedes ver y modificar el software).</li>\n<li><strong>Datos abiertos</strong> (sabes con qué se entrenó).</li>\n</ul>\n<p>Muchos modelos <em>\"open\"</em> no lo son del todo. Conviene mirar la <strong>licencia real</strong>.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000010</odePageId>
+      <odeBlockId>SP00000015</odeBlockId>
+      <blockName>Privacidad, soberanía y lock-in</blockName>
+      <iconName>case</iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000010</odePageId>
+          <odeBlockId>SP00000015</odeBlockId>
+          <odeIdeviceId>SP00000016</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li><strong>Privacidad / soberanía</strong>: ¿a dónde va tu código? Servicios propietarios en la nube <em>vs.</em> ejecutar modelos <strong>en local</strong> (llama.cpp, Ollama, pesos abiertos).</li>
+<li><strong>Dependencia / lock-in</strong>: no cambiar una dependencia libre por un <strong>SaaS propietario imprescindible</strong>.</li>
+<li><strong>Sostenibilidad del procomún</strong>: devolver al común lo que tomamos de él.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000016","markdownTextarea":"- **Privacidad / soberanía**: ¿a dónde va tu código? Servicios propietarios en la nube *vs.* ejecutar modelos **en local** (llama.cpp, Ollama, pesos abiertos).\n- **Dependencia / lock-in**: no cambiar una dependencia libre por un **SaaS propietario imprescindible**.\n- **Sostenibilidad del procomún**: devolver al común lo que tomamos de él.","markdownTextareaHtml":"<ul>\n<li><strong>Privacidad / soberanía</strong>: ¿a dónde va tu código? Servicios propietarios en la nube <em>vs.</em> ejecutar modelos <strong>en local</strong> (llama.cpp, Ollama, pesos abiertos).</li>\n<li><strong>Dependencia / lock-in</strong>: no cambiar una dependencia libre por un <strong>SaaS propietario imprescindible</strong>.</li>\n<li><strong>Sostenibilidad del procomún</strong>: devolver al común lo que tomamos de él.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000017</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>eXeLearning como ejemplo</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>eXeLearning como ejemplo</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>eXeLearning como ejemplo</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>eXeLearning como ejemplo</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000017</odePageId>
+      <odeBlockId>SP00000018</odeBlockId>
+      <blockName>IA en un proyecto de software libre real</blockName>
+      <iconName>guide</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000017</odePageId>
+          <odeBlockId>SP00000018</odeBlockId>
+          <odeIdeviceId>SP00000019</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p><strong>eXeLearning</strong> es un editor libre (GPL) para crear recursos educativos. ¿Cómo interviene la IA en su desarrollo <strong>manteniendo</strong> su carácter libre?</p>
+<ul>
+<li>Asistencia de código, tests y documentación — siempre con <strong>revisión humana</strong>.</li>
+<li>Preferencia por herramientas <strong>auditables y abiertas</strong>.</li>
+<li>Licencias <strong>limpias</strong> y política de contribución clara.</li>
+<li>La IA acelera el trabajo; las <strong>libertades</strong> las defienden las personas.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000019","markdownTextarea":"**eXeLearning** es un editor libre (GPL) para crear recursos educativos. ¿Cómo interviene la IA en su desarrollo **manteniendo** su carácter libre?\n\n- Asistencia de código, tests y documentación — siempre con **revisión humana**.\n- Preferencia por herramientas **auditables y abiertas**.\n- Licencias **limpias** y política de contribución clara.\n- La IA acelera el trabajo; las **libertades** las defienden las personas.","markdownTextareaHtml":"<p><strong>eXeLearning</strong> es un editor libre (GPL) para crear recursos educativos. ¿Cómo interviene la IA en su desarrollo <strong>manteniendo</strong> su carácter libre?</p>\n<ul>\n<li>Asistencia de código, tests y documentación — siempre con <strong>revisión humana</strong>.</li>\n<li>Preferencia por herramientas <strong>auditables y abiertas</strong>.</li>\n<li>Licencias <strong>limpias</strong> y política de contribución clara.</li>\n<li>La IA acelera el trabajo; las <strong>libertades</strong> las defienden las personas.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000020</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Cómo cuidar la libertad</pageName>
+  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Cómo cuidar la libertad</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Cómo cuidar la libertad</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Cómo cuidar la libertad</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000020</odePageId>
+      <odeBlockId>SP00000021</odeBlockId>
+      <blockName>Buenas prácticas</blockName>
+      <iconName>reflection</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000020</odePageId>
+          <odeBlockId>SP00000021</odeBlockId>
+          <odeIdeviceId>SP00000022</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li><strong>Revisa siempre el diff.</strong></li>
+<li>Mantén <strong>procedencia y licencias</strong> limpias.</li>
+<li>Prefiere modelos <strong>abiertos y locales</strong> cuando sea posible.</li>
+<li><strong>No subas datos sensibles</strong> a servicios de terceros.</li>
+<li>Mantén el <strong>control humano</strong>.</li>
+<li><strong>Devuelve al procomún.</strong></li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000022","markdownTextarea":"- **Revisa siempre el diff.**\n- Mantén **procedencia y licencias** limpias.\n- Prefiere modelos **abiertos y locales** cuando sea posible.\n- **No subas datos sensibles** a servicios de terceros.\n- Mantén el **control humano**.\n- **Devuelve al procomún.**","markdownTextareaHtml":"<ul>\n<li><strong>Revisa siempre el diff.</strong></li>\n<li>Mantén <strong>procedencia y licencias</strong> limpias.</li>\n<li>Prefiere modelos <strong>abiertos y locales</strong> cuando sea posible.</li>\n<li><strong>No subas datos sensibles</strong> a servicios de terceros.</li>\n<li>Mantén el <strong>control humano</strong>.</li>\n<li><strong>Devuelve al procomún.</strong></li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000020</odePageId>
+      <odeBlockId>SP00000023</odeBlockId>
+      <blockName>Takeaways</blockName>
+      <iconName>objectives</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000020</odePageId>
+          <odeBlockId>SP00000023</odeBlockId>
+          <odeIdeviceId>SP00000024</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ol>
+<li><strong>La IA programa; tú defiendes las libertades.</strong></li>
+<li><strong>Pesos abiertos no es lo mismo que software libre.</strong></li>
+<li><strong>Cuida la procedencia y las licencias.</strong></li>
+<li><strong>Prefiere lo auditable y local.</strong></li>
+<li><strong>Revisa siempre el diff.</strong></li>
+</ol></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000024","markdownTextarea":"1. **La IA programa; tú defiendes las libertades.**\n2. **Pesos abiertos no es lo mismo que software libre.**\n3. **Cuida la procedencia y las licencias.**\n4. **Prefiere lo auditable y local.**\n5. **Revisa siempre el diff.**","markdownTextareaHtml":"<ol>\n<li><strong>La IA programa; tú defiendes las libertades.</strong></li>\n<li><strong>Pesos abiertos no es lo mismo que software libre.</strong></li>\n<li><strong>Cuida la procedencia y las licencias.</strong></li>\n<li><strong>Prefiere lo auditable y local.</strong></li>\n<li><strong>Revisa siempre el diff.</strong></li>\n</ol>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000025</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Enlaces y gracias</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Enlaces y gracias</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Enlaces y gracias</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Enlaces y gracias</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000025</odePageId>
+      <odeBlockId>SP00000026</odeBlockId>
+      <blockName>Para seguir</blockName>
+      <iconName>download</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000025</odePageId>
+          <odeBlockId>SP00000026</odeBlockId>
+          <odeIdeviceId>SP00000027</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Gracias. ¿Preguntas?</p>
+<ul>
+<li>eXeLearning — <a href="https://exelearning.net">https://exelearning.net</a></li>
+<li>seLIA (jornada) — <a href="https://codeberg.org/seLIA">https://codeberg.org/seLIA</a></li>
+<li>GitHub de Ernesto — <a href="https://github.com/erseco">https://github.com/erseco</a></li>
+<li>Web personal — <a href="https://ernesto.es">https://ernesto.es</a></li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000027","markdownTextarea":"Gracias. ¿Preguntas?\n\n- eXeLearning — <https://exelearning.net>\n- seLIA (jornada) — <https://codeberg.org/seLIA>\n- GitHub de Ernesto — <https://github.com/erseco>\n- Web personal — <https://ernesto.es>","markdownTextareaHtml":"<p>Gracias. ¿Preguntas?</p>\n<ul>\n<li>eXeLearning — <a href=\"https://exelearning.net\">https://exelearning.net</a></li>\n<li>seLIA (jornada) — <a href=\"https://codeberg.org/seLIA\">https://codeberg.org/seLIA</a></li>\n<li>GitHub de Ernesto — <a href=\"https://github.com/erseco\">https://github.com/erseco</a></li>\n<li>Web personal — <a href=\"https://ernesto.es\">https://ernesto.es</a></li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>

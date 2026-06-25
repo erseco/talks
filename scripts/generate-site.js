@@ -23,9 +23,11 @@ const { ROOT, DECKS_SUBDIR, loadAllTalks, sortKey, siteConfig } = require('./lib
 
 const OUTPUT = path.join(ROOT, 'output');
 const SITE = path.join(OUTPUT, 'site');
-const BUILT_TALKS = path.join(OUTPUT, 'talks');
 const STATIC_SRC = path.join(ROOT, 'site', 'static');
 const SITE_DECKS = path.join(SITE, DECKS_SUBDIR);
+
+// Files that make up an eXeLearning unit (the unzipped .elpx) in a talk folder.
+const UNIT_PATHS = ['index.html', 'content.xml', 'content.dtd', 'search_index.js', 'html', 'libs', 'idevices', 'content', 'theme'];
 
 const SITE_CFG = siteConfig();
 const REPO_URL = (SITE_CFG.repo_url || 'https://github.com/erseco/talks').replace(/\/$/, '');
@@ -109,15 +111,11 @@ function normalise(t) {
   const d = t.data;
   const id = d.id || path.basename(t.dir);
   const ext = d.external || {};
-  const engine = d.engine || (t.hasSlides ? 'slidev' : 'external');
+  const engine = d.engine || (t.hasUnit ? 'exelearning' : 'external');
   const DD = DECKS_SUBDIR;
 
-  const builtSlidev = fs.existsSync(path.join(BUILT_TALKS, id, 'slides', 'index.html'));
-  const builtMarp = fs.existsSync(path.join(BUILT_TALKS, id, `${id}.html`));
-  const builtPdf = fs.existsSync(path.join(BUILT_TALKS, id, `${id}.pdf`));
-
-  const online = builtSlidev ? `${DD}/${id}/slides/index.html`
-    : builtMarp ? `${DD}/${id}/${id}.html` : null;
+  // eXeLearning talks ship a pre-rendered unit (unzipped .elpx) under unit/.
+  const online = (engine === 'exelearning' && t.hasUnit) ? `${DD}/${id}/unit/index.html` : null;
 
   return {
     id,
@@ -144,9 +142,8 @@ function normalise(t) {
     links: {
       detail: `${DD}/${id}/index.html`,
       online,
-      pdf: builtPdf ? `${DD}/${id}/${id}.pdf` : (ext.pdf_url || null),
+      pdf: ext.pdf_url || null,
       pptx: ext.pptx_url || null,
-      source: t.hasSlides ? `${REPO_URL}/blob/${BRANCH}/${t.repoPath}/slides.md` : null,
       github: `${REPO_URL}/tree/${BRANCH}/${t.repoPath}`,
       external_source: ext.canonical_url || ext.source_url || ext.event_url || null,
       video: ext.video_url || null,
@@ -165,10 +162,9 @@ function actionButtons(v, prefix = '') {
   };
   return [
     btn(L.online, 'ver online ↗', true),
-    btn(L.pdf, 'pdf', false),
-    btn(L.pptx, 'pptx · notas', false),
-    btn(L.source, 'fuente', false),
-    btn(L.external_source, 'fuente externa ↗', false),
+    btn(L.pdf, 'pdf original ↗', false),
+    btn(L.pptx, 'pptx · notas ↗', false),
+    btn(L.external_source, 'fuente original ↗', false),
     btn(L.video, 'vídeo ↗', false),
     btn(L.github, 'github ↗', false),
   ].filter(Boolean).join('\n          ');
@@ -306,16 +302,29 @@ ${meta}
 </html>`;
 }
 
+function copyUnit(srcDir, destDir) {
+  for (const p of UNIT_PATHS) {
+    const s = path.join(srcDir, p);
+    if (!fs.existsSync(s)) continue;
+    if (fs.statSync(s).isDirectory()) {
+      copyDir(s, path.join(destDir, p));
+    } else {
+      fs.mkdirSync(destDir, { recursive: true });
+      fs.copyFileSync(s, path.join(destDir, p));
+    }
+  }
+}
+
 function main() {
-  const views = loadAllTalks()
+  const talks = loadAllTalks();
+  const dirById = new Map(talks.map((t) => [t.data.id || path.basename(t.dir), t.dir]));
+  const views = talks
     .map(normalise)
     .sort((a, b) => sortKey(b.date).localeCompare(sortKey(a.date)));
 
   fs.rmSync(SITE, { recursive: true, force: true });
   fs.mkdirSync(SITE, { recursive: true });
-
   copyDir(STATIC_SRC, path.join(SITE, 'static'));
-  copyDir(BUILT_TALKS, SITE_DECKS); // built decks (html/pdf/assets) into the site tree
 
   fs.writeFileSync(path.join(SITE, 'index.html'), indexPage(views));
 
@@ -323,6 +332,9 @@ function main() {
     const dir = path.join(SITE_DECKS, v.id);
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, 'index.html'), detailPage(v));
+    if (v.engine === 'exelearning' && dirById.get(v.id)) {
+      copyUnit(dirById.get(v.id), path.join(dir, 'unit'));
+    }
   }
 
   const json = JSON.stringify(views, null, 2);

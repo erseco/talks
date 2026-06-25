@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-SP00000016">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La CI como contrato de calidad | Herramientas de desarrollo, CI e IA</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Del editor al pipeline: cómo trabajar mejor sin delegar el criterio">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"","packageTitle":"Herramientas de desarrollo, CI e IA","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../search_index.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/markdown-text/markdown-text.js"></script><link rel="stylesheet" href="../idevices/markdown-text/markdown-text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#SP00000016" id="skipNav">Saltar al contenido</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Inicio</a>
+</li>
+<li> <a href="../html/el-problema-real.html" class="no-ch">El problema real</a>
+</li>
+<li> <a href="../html/herramientas-de-desarrollo.html" class="no-ch">Herramientas de desarrollo</a>
+</li>
+<li class="active"> <a href="../html/la-ci-como-contrato-de-calidad.html" class="active no-ch">La CI como contrato de calidad</a>
+</li>
+<li> <a href="../html/la-ia-en-el-desarrollo.html" class="no-ch">La IA en el desarrollo</a>
+</li>
+<li> <a href="../html/ia-agentica.html" class="no-ch">IA agéntica</a>
+</li>
+<li> <a href="../html/flujo-y-ejemplo-practico.html" class="no-ch">Flujo y ejemplo práctico</a>
+</li>
+<li> <a href="../html/cierre.html" class="no-ch">Cierre</a>
+</li>
+</ul>
+</nav><main id="SP00000016" class="page"> <div id="exe-client-search" data-block-order-string="Caja %e" data-no-results-string="Sin resultados.">
+</div>
+<header class="main-header"> <p class="page-counter"> <span class="page-counter-label">Página </span><span class="page-counter-content"> <strong class="page-counter-current-page">4</strong><span class="page-counter-sep">/</span><strong class="page-counter-total">8</strong></span></p>
+
+<div class="package-header"><p class="package-title">Herramientas de desarrollo, CI e IA</p></div>
+<div class="page-header"><h1 class="page-title">La CI como contrato de calidad</h1></div>
+</header><div id="page-content-SP00000016" class="page-content">
+<article id="SP00000017" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/objectives.png" alt="">
+</div>
+<h1 class="box-title">La CI no es &quot;un YAML al final&quot;</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="SP00000018" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000018&quot;,&quot;markdownTextarea&quot;:&quot;Es el **acuerdo del equipo** sobre qué significa \&quot;esto está aceptable\&quot;.\n\n- Es **ejecutable**: no es un wiki que nadie lee, es código que falla.\n- Es **memoria**: codifica las lecciones aprendidas a base de incidentes.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;Es el &lt;strong&gt;acuerdo del equipo&lt;/strong&gt; sobre qué significa \&quot;esto está aceptable\&quot;.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Es &lt;strong&gt;ejecutable&lt;/strong&gt;: no es un wiki que nadie lee, es código que falla.&lt;/li&gt;\n&lt;li&gt;Es &lt;strong&gt;memoria&lt;/strong&gt;: codifica las lecciones aprendidas a base de incidentes.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Es el <strong>acuerdo del equipo</strong> sobre qué significa "esto está aceptable".</p>
+<ul>
+<li>Es <strong>ejecutable</strong>: no es un wiki que nadie lee, es código que falla.</li>
+<li>Es <strong>memoria</strong>: codifica las lecciones aprendidas a base de incidentes.</li>
+</ul></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000019" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/pieces.png" alt="">
+</div>
+<h1 class="box-title">Qué ejecuta el mínimo aceptable</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="SP00000020" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000020&quot;,&quot;markdownTextarea&quot;:&quot;1. **Lint** y formato.\n2. **Tests unitarios**.\n3. **Tests de integración**.\n4. **Análisis estático**.\n5. **Build**.\n6. **Seguridad básica** (dependencias y secretos).\n7. **Artefactos / releases / deploys controlados**.\n\nNo hace falta tenerlo todo el día 1, pero sí **decidirlo conscientemente**.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;ol&gt;\n&lt;li&gt;&lt;strong&gt;Lint&lt;/strong&gt; y formato.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Tests unitarios&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Tests de integración&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Análisis estático&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Build&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Seguridad básica&lt;/strong&gt; (dependencias y secretos).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Artefactos / releases / deploys controlados&lt;/strong&gt;.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;No hace falta tenerlo todo el día 1, pero sí &lt;strong&gt;decidirlo conscientemente&lt;/strong&gt;.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ol>
+<li><strong>Lint</strong> y formato.</li>
+<li><strong>Tests unitarios</strong>.</li>
+<li><strong>Tests de integración</strong>.</li>
+<li><strong>Análisis estático</strong>.</li>
+<li><strong>Build</strong>.</li>
+<li><strong>Seguridad básica</strong> (dependencias y secretos).</li>
+<li><strong>Artefactos / releases / deploys controlados</strong>.</li>
+</ol>
+<p>No hace falta tenerlo todo el día 1, pero sí <strong>decidirlo conscientemente</strong>.</p></div></div></div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/herramientas-de-desarrollo.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/la-ia-en-el-desarrollo.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class=""> <p> <span class="license-label">Licencia: </span><span class="license">creative commons: cc by-sa 4.0</span></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

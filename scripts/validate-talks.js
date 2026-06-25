@@ -11,7 +11,7 @@ const path = require('path');
 const { loadAllTalks } = require('./lib/talks');
 
 const REQUIRED = ['id', 'title', 'date', 'year', 'event', 'language', 'type', 'status', 'engine'];
-const ENGINES = ['slidev', 'marp', 'external'];
+const ENGINES = ['exelearning', 'external'];
 const STATUSES = [
   'draft',
   'ready',
@@ -70,11 +70,8 @@ function validate() {
       errors.push(`${where}: unknown engine "${d.engine}" (allowed: ${ENGINES.join(', ')})`);
     }
 
-    if (d.engine === 'slidev' || d.engine === 'marp') {
-      const source = (d.formats && d.formats.source) || 'slides.md';
-      if (!fs.existsSync(path.join(t.dir, source))) {
-        errors.push(`${where}: engine "${d.engine}" but source "${source}" does not exist`);
-      }
+    if (d.engine === 'exelearning' && !fs.existsSync(path.join(t.dir, 'index.html'))) {
+      errors.push(`${where}: engine "exelearning" but no rendered unit (index.html). Run scripts/exe/build.sh.`);
     }
 
     if (typeof d.status === 'string' && d.status.startsWith('external')) {

@@ -45,8 +45,9 @@ function loadTalk(talkYmlPath) {
     dir,
     repoPath,
     file: talkYmlPath,
-    hasSlides: fs.existsSync(path.join(dir, 'slides.md')),
     hasNotes: fs.existsSync(path.join(dir, 'notes.md')),
+    // An eXeLearning unit (unzipped .elpx) ships a rendered index.html.
+    hasUnit: fs.existsSync(path.join(dir, 'index.html')),
   };
 }
 

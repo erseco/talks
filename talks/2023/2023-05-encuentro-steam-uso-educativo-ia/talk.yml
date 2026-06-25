@@ -8,16 +8,14 @@ event: "II Encuentro STEAM en Fuerteventura"
 location: "Fuerteventura"
 language: "es"
 type: "talk"
-status: "external"
-engine: "external"
+status: "delivered"
+engine: "exelearning"
 topics:
   - "ai"
   - "education"
   - "steam"
 formats:
-  source: null
-  pdf: null
-  html: null
+  unit: "index.html"
 external:
   canonical_url: null
   source_url: "https://ernesto.es/"

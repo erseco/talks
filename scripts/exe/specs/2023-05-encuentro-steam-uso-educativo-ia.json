@@ -1,0 +1,162 @@
+{
+  "id": "2023-05-encuentro-steam-uso-educativo-ia",
+  "title": "Uso educativo de la IA",
+  "subtitle": "Qué es la inteligencia artificial y cómo usarla (bien) en el aula",
+  "author": "Ernesto Serrano",
+  "lang": "es",
+  "theme": "jacquenetta",
+  "license": "unknown",
+  "licenseUrl": "",
+  "footer": "<p>Ernesto Serrano · II Encuentro STEAM en Fuerteventura, 2023</p>",
+  "pages": [
+    {
+      "title": "Inicio",
+      "icon": "book",
+      "blocks": [
+        {
+          "title": "Uso educativo de la IA",
+          "icon": "book",
+          "md": "## Uso educativo de la IA\n\n*II Encuentro STEAM en Fuerteventura · CEP Puerto del Rosario, mayo de 2023.*\n\n¿Alguien reconoce la película? En **Juegos de Guerra** (*WarGames*, 1983), un joven hacker se comunica sin querer con **WOPR** (*War Operation Plan Response*), una inteligencia artificial militar que controla las defensas nucleares de Estados Unidos y confunde la realidad con una simulación de juego, llevando al mundo al borde de una guerra nuclear.\n\n> Si ya conocéis la película, esta charla no os contará nada nuevo... pero siempre viene bien repasar conceptos.\n\n**Play time:** a lo largo de la charla aparecerá la frase *\"play time\"*. Cada vez que la veáis, preparaos para una pregunta que os permitirá aplicar y reflexionar sobre lo que estemos comentando. Aprovechad estas oportunidades para participar y compartir vuestras ideas."
+        },
+        {
+          "title": "¡Hola!",
+          "icon": "info",
+          "md": "## ¡Hola!\n\nBuenas tardes a todos, me llamo **Ernesto Serrano** y es un placer estar aquí hoy.\n\n- **Asesor TIC** en el CEP El Hierro, donde apoyo y formo a docentes y profesionales de la educación en tecnologías de la información y la comunicación.\n- **Desarrollador principal** del *Stevie Wonder Simulator* para Android.\n- **Rompiendo cosas desde 1983.**\n\nSiempre me ha gustado explorar y aprender, y eso me ha llevado a \"romper cosas\" desde bien pequeño. Espero compartir hoy con vosotros mis experiencias y conocimientos. ¡Empecemos!"
+        }
+      ]
+    },
+    {
+      "title": "¿Qué es la IA?",
+      "icon": "info",
+      "blocks": [
+        {
+          "title": "¿Qué es la Inteligencia Artificial?",
+          "icon": "info",
+          "md": "## ¿Qué es la Inteligencia Artificial?\n\nLa Inteligencia Artificial (IA) es, básicamente, la forma en que enseñamos a las computadoras a pensar y actuar como humanos, ¡pero sin los descansos para el café ni las distracciones de las redes sociales! Es una rama de la informática que busca crear máquinas y programas capaces de **aprender, razonar y resolver problemas por sí mismos**.\n\nImagina una máquina que reconoce tu voz, sabe si estás triste o feliz e incluso predice lo que harás a continuación, casi como si pudiera leer tu mente. Para lograrlo, la IA utiliza métodos ingeniosos como el **aprendizaje automático**, que permite a las computadoras aprender de sus errores y mejorar, y las **redes neuronales**, inspiradas en cómo funciona nuestro propio cerebro."
+        },
+        {
+          "title": "La IA ya está en tu día a día",
+          "icon": "ask",
+          "md": "## La IA ya está en tu día a día\n\n**Play time:** ¿qué tienen en común estos objetos cotidianos? Todos usan inteligencia artificial.\n\n- **La cámara del móvil:** usa IA para ofrecer imágenes de mayor calidad y efectos personalizados (para que salgamos más guapos).\n- **Las aspiradoras autónomas:** mantienen la casa limpia de manera eficiente, trazando rutas y evitando obstáculos sin nuestra intervención.\n- **Netflix y servicios similares:** analizan nuestros hábitos de visualización y aprenden nuestras preferencias para ofrecernos recomendaciones precisas y personalizadas.\n\n> *Boomer*: persona poco familiarizada con la tecnología, nacida antes de los 90. La IA, en cambio, ya forma parte de la vida de todos."
+        }
+      ]
+    },
+    {
+      "title": "Breve historia de la IA",
+      "icon": "book",
+      "blocks": [
+        {
+          "title": "Los orígenes",
+          "icon": "book",
+          "md": "## Breve historia de la IA\n\nHoy la IA se ha convertido en una disciplina que abarca la informática, las matemáticas, la filosofía y otras áreas del conocimiento, con importantes aplicaciones en campos como la medicina, la robótica y la inteligencia empresarial. ¿Pero cuándo empezó?\n\nEl desarrollo de la IA comenzó en la **década de 1950**. El concepto fue presentado por primera vez por **Alan Turing** en 1950, en su artículo *\"Computing Machinery and Intelligence\"*. A partir de ahí la investigación creció rápidamente, con avances como el programa de ajedrez de **Claude Shannon** (1950) y el primer programa de IA, el *\"Logic Theorist\"* de **Allen Newell y Herbert A. Simon** (1955).\n\nUn evento clave fue la **Conferencia de Dartmouth (1956)**, organizada por John McCarthy, Marvin Minsky, Nathaniel Rochester y Claude Shannon, donde los expertos se reunieron para explorar cómo enseñar a las máquinas a imitar la inteligencia humana. Desde entonces, la investigación en IA no ha dejado de evolucionar.\n\nLa idea, sin embargo, es mucho más antigua en la cultura: la novela *El Golem* (1914), o la mítica *2001: Una odisea del espacio* (Stanley Kubrick, 1968) ya imaginaban máquinas e inteligencias capaces de pensar."
+        },
+        {
+          "title": "Algunos hitos de la IA",
+          "icon": "calculate",
+          "md": "## Algunos hitos de la IA\n\n- **1950:** Test de Turing, propuesto por Alan Turing.\n- **1979:** *Stanford Cart*, vehículo autónomo que navega evitando obstáculos.\n- **1997:** *Deep Blue* de IBM derrota al campeón mundial de ajedrez **Garry Kasparov**.\n- **2016:** una IA aprende a jugar y ganar al *Super Mario* usando *Deep Learning*.\n- **2018:** OpenAI lanza **GPT-2**, un generador de texto avanzado.\n- **2022:** OpenAI presenta **ChatGPT**, capaz de mantener conversaciones coherentes y contextuales."
+        }
+      ]
+    },
+    {
+      "title": "Tipos de IA",
+      "icon": "pieces",
+      "blocks": [
+        {
+          "title": "Tipos de inteligencia artificial",
+          "icon": "pieces",
+          "md": "## Tipos de inteligencia artificial\n\nExisten varios tipos de IA, según el enfoque que utilizan:\n\n- **IA basada en reglas:** usa un conjunto de reglas explícitas definidas por los programadores para tomar decisiones y realizar tareas concretas.\n- **IA basada en aprendizaje automático:** usa algoritmos que aprenden con la experiencia y mejoran a medida que procesan más datos.\n- **IA basada en redes neuronales:** imita la estructura y función de las redes neuronales biológicas; se usa en reconocimiento de imágenes y voz.\n- **IA evolutiva:** se apoya en algoritmos genéticos y evolutivos para crear sistemas que se adaptan y mejoran continuamente.\n- **IA de procesamiento del lenguaje natural:** se usa en aplicaciones de texto y habla, como chatbots y asistentes virtuales.\n- **IA basada en Transformer:** usa la arquitectura Transformer, muy eficiente para procesar secuencias de texto; está detrás de la traducción automática, la generación de texto y el análisis de sentimientos."
+        },
+        {
+          "title": "Entenderlo jugando",
+          "icon": "case",
+          "md": "## Entenderlo jugando\n\nLos juegos son un entorno estupendo para entrenar IAs: tienen reglas bien definidas y permiten asignar \"pesos\" a los eventos que suceden para que el sistema aprenda por sí mismo.\n\n- **Redes neuronales — *¿Quién es quién?*:** en este juego se hacen preguntas para descartar personajes en función de sus atributos. Las redes neuronales usan capas de nodos interconectados para procesar y filtrar los datos de entrada y reconocer patrones o tomar decisiones.\n- **Algoritmos genéticos — *Tetris*:** hay que encajar las piezas que caen sin dejar huecos. Los algoritmos genéticos son técnicas de optimización que usan principios de selección natural, mutación y cruce para evolucionar soluciones a lo largo de varias generaciones, como encontrar estrategias óptimas para jugar."
+        },
+        {
+          "title": "¿Sabemos identificar cada tipo?",
+          "icon": "ask",
+          "md": "## ¿Sabemos identificar cada tipo?\n\n**Play time:** ¿a qué tipo de IA corresponde cada ejemplo?\n\n- **Basada en reglas:** un sistema de detección de fraude en tarjetas de crédito.\n- **Aprendizaje automático:** el motor de recomendaciones de Amazon.\n- **Redes neuronales:** el reconocimiento de caras de Google Photos.\n- **Evolutiva:** la optimización de rutas en Google Maps.\n- **Procesamiento del lenguaje natural:** Google Translate.\n- **Basada en Transformer:** GPT-3 de OpenAI."
+        }
+      ]
+    },
+    {
+      "title": "¿Qué es un PROMPT?",
+      "icon": "ask",
+      "blocks": [
+        {
+          "title": "¿Qué es un PROMPT?",
+          "icon": "ask",
+          "md": "## ¿Qué es un PROMPT?\n\nUn **prompt**, en el contexto del procesamiento del lenguaje natural y de modelos como GPT, es la **entrada de texto** que proporcionamos al modelo para que genere una respuesta. Actúa como una señal o indicación que le dice qué tipo de respuesta o información esperamos de él.\n\nUn prompt puede ser una pregunta, una oración incompleta, una serie de palabras clave o cualquier otra forma de texto. Es fundamental, porque aporta el **contexto y el propósito** de la tarea que pedimos al modelo."
+        },
+        {
+          "title": "¿Qué pinta aquí Roald Dahl?",
+          "icon": "book",
+          "md": "## ¿Qué pinta aquí Roald Dahl?\n\nRoald Dahl es conocido por clásicos como *Charlie y la fábrica de chocolate* (1964), *Matilda* (1988) o *Las brujas* (1983). Pero hay un relato suyo mucho menos conocido y sorprendentemente profético.\n\nEn *El gran gramatizador automático* (1954), un inventor excéntrico llamado **Adolfo Knipe** crea una máquina capaz de corregir y mejorar la gramática de cualquier texto. El cuento es una crítica a la idea de que la perfección gramatical baste para escribir bien: lo que de verdad importa es la **imaginación y la creatividad**. Casi 70 años antes de ChatGPT, Dahl ya imaginaba una máquina capaz de generar textos."
+        }
+      ]
+    },
+    {
+      "title": "La IA en la educación",
+      "icon": "reflection",
+      "blocks": [
+        {
+          "title": "Impacto de la IA en la educación: análisis DAFO",
+          "icon": "reflection",
+          "md": "## La IA en la educación: análisis DAFO\n\n**Debilidades**\n\n- **Brecha digital:** la IA puede aumentar la desigualdad educativa en áreas menos desarrolladas.\n- **Falta de capacitación:** el profesorado puede necesitar más habilidades para usar eficazmente estas herramientas.\n\n**Amenazas**\n\n- **Privacidad y seguridad:** preocupaciones sobre la protección de datos del alumnado y los docentes.\n- **Uso indebido:** el alumnado ya está usando la IA.\n\n**Fortalezas**\n\n- **Personalización:** permite adaptar la enseñanza a cada estudiante.\n- **Innovación educativa:** impulsa nuevas herramientas y métodos de enseñanza.\n\n**Oportunidades**\n\n- **Educación inclusiva:** facilita la inclusión de estudiantes con necesidades especiales.\n- **Eficiencia:** ahorra tiempo y esfuerzo a los docentes en tareas administrativas y de evaluación."
+        },
+        {
+          "title": "Una herramienta, no una amenaza",
+          "icon": "reflection",
+          "md": "## Una herramienta, no una amenaza\n\n> \"La inteligencia artificial no es una amenaza, es una herramienta. La amenaza es la ignorancia de aquellos que la utilizan.\"\n>\n> — **Roger Schank**"
+        }
+      ]
+    },
+    {
+      "title": "Ejemplos: el bien, el mal y el WTF",
+      "icon": "case",
+      "blocks": [
+        {
+          "title": "Ejemplos para el bien 😇",
+          "icon": "case",
+          "md": "## Ejemplos para el bien 😇\n\nLa IA puede ayudarnos en nuestra labor docente. Modelos basados en Transformer como **GPT**, **BERT**, **T5**, **RoBERTa** o **XLNet** permiten generar y procesar texto de forma muy potente. Algunos usos prácticos en el aula:\n\n- **Crear materiales:** *\"Crea un examen de Historia de Canarias para 3.º de ESO\"* — y la IA genera las preguntas (¡e incluso las responde!).\n- **Dar retroalimentación:** *\"Eres el profesor de Biología, te llamas Ernesto. Crea un mensaje breve, formal, constructivo e inspirador para la tarea de Ana (infografía sobre la mitosis), calificación APTA.\"* — y obtenemos un comentario personalizado en segundos."
+        },
+        {
+          "title": "Ejemplos para el mal 😈",
+          "icon": "case",
+          "md": "## Ejemplos para el mal 😈\n\nLa misma tecnología puede usarse para **\"hacer trampa\"** en la evaluación. Si un cuestionario en línea se puede resolver simplemente copiando las preguntas a ChatGPT, el alumnado puede completarlo sin aprender nada. Las herramientas que facilitan nuestra labor también facilitan el atajo."
+        },
+        {
+          "title": "Ejemplos para el WTF 🤷",
+          "icon": "reflection",
+          "md": "## Ejemplos para el WTF 🤷\n\nAunque los modelos de lenguaje como GPT producen resultados asombrosos, también pueden **\"alucinar\"** o proporcionar información incorrecta debido a errores, sesgos o datos engañosos en su entrenamiento. Como se basan en técnicas estadísticas, sus resultados no siempre son precisos ni fiables.\n\nPreguntas como *\"¿cuál es el queso originario de Fuerteventura?\"* o *\"¿cómo se llamaba el panadero de Barrio Sésamo?\"* pueden recibir respuestas inventadas con total seguridad. **Conviene siempre verificar la información** con fuentes adicionales o expertos antes de tomar decisiones importantes."
+        }
+      ]
+    },
+    {
+      "title": "Cómo mejorar el uso de la IA",
+      "icon": "guide",
+      "blocks": [
+        {
+          "title": "Cómo mejorar el uso de la IA en educación",
+          "icon": "guide",
+          "md": "## Cómo mejorar el uso de la IA en educación\n\nEstá en nuestra mano concienciar a los usuarios y aprovechar los beneficios de la IA sin renunciar a un aprendizaje auténtico. Algunas estrategias para evitar el uso indebido y fomentar un aprendizaje más comprometido:\n\n- **Establecer políticas claras:** informar al alumnado de las reglas y expectativas sobre el uso de ChatGPT y herramientas similares.\n- **Fomentar la creatividad:** diseñar tareas que promuevan la creatividad y el pensamiento crítico, lo que dificulta resolverlas de forma automática.\n- **Exposiciones orales:** valorarlas como parte importante del aprendizaje y la evaluación, ya que son más difíciles de delegar en una IA.\n- **Cuestionarios en clase (incluso en papel):** realizarlos a una hora determinada y, si es posible, en papel, para limitar el acceso a estas herramientas. La corrección puede automatizarse con plantillas.\n- **Trabajo en grupo y colaborativo:** promueve la discusión y el aprendizaje conjunto.\n- **Fomentar la reflexión personal:** animar al alumnado a reflexionar sobre su propio proceso de aprendizaje y a desarrollar la autorregulación.\n- **Monitoreo y seguimiento:** seguir de cerca el progreso del alumnado y estar atentos a posibles señales de uso indebido.\n\n> El objetivo: un entorno donde el alumnado se sienta motivado para aprender y aplicar sus conocimientos de manera autónoma."
+        }
+      ]
+    },
+    {
+      "title": "Conclusiones y gracias",
+      "icon": "objectives",
+      "blocks": [
+        {
+          "title": "Conclusiones",
+          "icon": "objectives",
+          "md": "## Conclusiones\n\n- La IA puede **mejorar la educación** personalizando la enseñanza y adaptándose a las necesidades de cada estudiante.\n- Hay que abordar desafíos como la **brecha digital**, la **capacitación** del profesorado y la **privacidad** para un uso responsable de la IA.\n- Bien empleada, la IA puede impulsar la **inclusión** y la **eficiencia**, beneficiando tanto a estudiantes como a docentes."
+        },
+        {
+          "title": "¡Gracias!",
+          "icon": "file",
+          "md": "## ¡Gracias!\n\n*One more thing...* 🍆 (entre \"Uso educativo de la IA\" y \"La inteligencia artificial, qué berenjenal\").\n\n¿Alguna pregunta?\n\nPodéis encontrarme en **[ernesto.es](https://ernesto.es)**.\n\n*Ernesto Serrano · II Encuentro STEAM en Fuerteventura, 2023.*"
+        }
+      ]
+    }
+  ]
+}

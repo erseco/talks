@@ -16,17 +16,12 @@
   "scripts": {
     "build": "make build",
     "site": "make site",
-    "slides": "make slides",
     "validate": "node scripts/validate-talks.js",
     "import-external": "node scripts/import-external-talks.js",
     "serve": "make serve",
     "clean": "make clean"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.1.2",
-    "@slidev/cli": "^52.16.0",
-    "@slidev/theme-seriph": "^0.25.0",
-    "js-yaml": "^4.1.0",
-    "playwright-chromium": "^1.61.1"
+    "js-yaml": "^4.1.0"
   }
 }

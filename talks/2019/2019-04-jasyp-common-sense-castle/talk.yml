@@ -8,14 +8,12 @@ event: "JASYP 2019"
 location: ""
 language: "es"
 type: "talk"
-status: "external"
-engine: "external"
+status: "delivered"
+engine: "exelearning"
 topics:
   - "security"
 formats:
-  source: null
-  pdf: null
-  html: null
+  unit: "index.html"
 external:
   canonical_url: null
   source_url: "https://ernesto.es/"
@@ -24,4 +22,4 @@ external:
   video_url: null
   event_url: null
 license:
-  content: "unknown"
+  content: "CC BY-SA 4.0"

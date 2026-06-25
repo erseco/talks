@@ -1,0 +1,141 @@
+{
+  "id": "2026-07-03-3ipunt-dev-tools-ci-ai",
+  "title": "Herramientas de desarrollo, CI e IA",
+  "subtitle": "Del editor al pipeline: cómo trabajar mejor sin delegar el criterio",
+  "author": "Ernesto Serrano",
+  "lang": "es",
+  "theme": "base",
+  "license": "creative commons: cc by-sa 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "footer": "<p>Ernesto Serrano · 3ipunt, 2026-07-03 · Licencia <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license noopener\" target=\"_blank\">CC BY-SA 4.0</a></p>",
+  "pages": [
+    {
+      "title": "Inicio",
+      "icon": "book",
+      "blocks": [
+        {
+          "title": "Herramientas de desarrollo, CI e IA",
+          "icon": "book",
+          "md": "**Del editor al pipeline: trabajar mejor sin delegar el criterio.**\n\nCharla para **3ipunt** — herramientas modernas de desarrollo, integración continua e IA aplicada al ciclo de vida del software.\n\n- **Ernesto Serrano** — freelance software / DevOps (ernesto.es). PHP / Moodle, Docker, CI/CD, infra reproducible.\n- No vengo a venderos una herramienta: vengo a hablar de **proceso**."
+        },
+        {
+          "title": "La idea principal",
+          "icon": "objectives",
+          "md": "La IA se enchufa al final de un proceso que **ya existe**.\n\n> La IA no reemplaza el proceso. **Amplifica lo bueno y lo malo** del proceso que ya tienes.\n\n- Si el proceso es bueno, la IA lo hace más rápido.\n- Si el proceso es malo, multiplica el desastre más rápido todavía."
+        }
+      ]
+    },
+    {
+      "title": "El problema real",
+      "icon": "ask",
+      "blocks": [
+        {
+          "title": "El código no falla por falta de inteligencia",
+          "icon": "ask",
+          "md": "Falla por **falta de feedback rápido**.\n\n- El error existe desde el minuto 0; lo que tarda es **enterarte**.\n- Cuanto más tarde llega el feedback, más caro es el arreglo.\n- La pregunta no es *\"¿es correcto?\"*, sino **\"¿cuándo me entero de que no lo es?\"**."
+        },
+        {
+          "title": "Síntomas que todos reconocemos",
+          "icon": "info",
+          "md": "- **Context switching** constante.\n- **Builds lentos** que rompen la concentración.\n- **Entornos inconsistentes**: \"en mi máquina funciona\".\n- **Revisiones superficiales** por prisa o PRs gigantes.\n- **Documentación desactualizada** que miente.\n- **Pipelines que llegan tarde**."
+        }
+      ]
+    },
+    {
+      "title": "Herramientas de desarrollo",
+      "icon": "case",
+      "blocks": [
+        {
+          "title": "El kit base (independiente del lenguaje)",
+          "icon": "case",
+          "md": "- **Editor / IDE** bien configurado: navegación, refactor, LSP.\n- **Terminal** y **git** con fluidez: ramas baratas, commits pequeños.\n- **Docker** para entornos reproducibles.\n- **Makefile** como interfaz única.\n- **Linters** y **formatters**: el estilo, automatizado.\n- **Tests**, **debugging** y **pre-commit hooks**: el feedback más barato posible."
+        },
+        {
+          "title": "En contexto Moodle / PHP",
+          "icon": "guide",
+          "md": "```bash\n# Estándar de código de Moodle\nphpcs --standard=moodle local/miplugin\n# Tests unitarios\nvendor/bin/phpunit local/miplugin/tests\n# El pipeline de un plugin, en local\nmoodle-plugin-ci phplint && moodle-plugin-ci phpunit\n```\n\n`moodle-plugin-ci` ejecuta **en local lo mismo** que la CI: reproducir el fallo deja de ser una lotería."
+        }
+      ]
+    },
+    {
+      "title": "La CI como contrato de calidad",
+      "icon": "objectives",
+      "blocks": [
+        {
+          "title": "La CI no es \"un YAML al final\"",
+          "icon": "objectives",
+          "md": "Es el **acuerdo del equipo** sobre qué significa \"esto está aceptable\".\n\n- Es **ejecutable**: no es un wiki que nadie lee, es código que falla.\n- Es **memoria**: codifica las lecciones aprendidas a base de incidentes."
+        },
+        {
+          "title": "Qué ejecuta el mínimo aceptable",
+          "icon": "pieces",
+          "md": "1. **Lint** y formato.\n2. **Tests unitarios**.\n3. **Tests de integración**.\n4. **Análisis estático**.\n5. **Build**.\n6. **Seguridad básica** (dependencias y secretos).\n7. **Artefactos / releases / deploys controlados**.\n\nNo hace falta tenerlo todo el día 1, pero sí **decidirlo conscientemente**."
+        }
+      ]
+    },
+    {
+      "title": "La IA en el desarrollo",
+      "icon": "reflection",
+      "blocks": [
+        {
+          "title": "Dónde la IA ayuda",
+          "icon": "reflection",
+          "md": "- **Explorar** código desconocido.\n- **Borradores**: primer esqueleto de una función o un test.\n- **Tests** para código sin cobertura.\n- **Refactors pequeños** y mecánicos.\n- **Explicar errores** y trazas.\n- **Documentación** a partir del código real.\n- **Revisión inicial** (primer filtro, no el último)."
+        },
+        {
+          "title": "Dónde la IA NO debe decidir sola",
+          "icon": "info",
+          "md": "- **Arquitectura**: decisiones a años vista.\n- **Seguridad**: permisos, criptografía, control de acceso.\n- **Datos sensibles**: RGPD, datos de alumnado, calificaciones.\n- **Cambios masivos sin tests**.\n- **Dependencias críticas** y **producción**.\n\nLa IA **propone**; el humano **dispone**."
+        }
+      ]
+    },
+    {
+      "title": "IA agéntica",
+      "icon": "guide",
+      "blocks": [
+        {
+          "title": "Chat ≠ autocomplete ≠ agente",
+          "icon": "guide",
+          "md": "- **Chat**: preguntas y respuestas. Tú copias y pegas.\n- **Autocomplete**: sugiere mientras escribes.\n- **Agente**: tiene **herramientas** y **bucle**: actúa, observa, corrige.\n\n> La diferencia no es \"más listo\": es **cuánto le dejas tocar** sin mirar.\n\nUn agente puede leer el repo, crear ramas, modificar archivos, ejecutar tests y abrir PRs."
+        },
+        {
+          "title": "Riesgos y buenas prácticas",
+          "icon": "ask",
+          "md": "**Riesgos:** cambios demasiado grandes · falsos positivos · dependencias inventadas · borrado accidental · secretos expuestos · falta de contexto.\n\n**Buenas prácticas:**\n\n- Issues pequeños y acotados.\n- Prompts con **restricciones** (qué NO tocar).\n- Tests antes y después.\n- **Revisar los diffs** siempre.\n- No mezclar objetivos · commits pequeños · **CI obligatoria**."
+        }
+      ]
+    },
+    {
+      "title": "Flujo y ejemplo práctico",
+      "icon": "pieces",
+      "blocks": [
+        {
+          "title": "El humano abre y cierra el ciclo",
+          "icon": "pieces",
+          "md": "```text\nHumano define objetivo → Issue claro → Agente propone plan →\nCambios pequeños → Tests locales → CI → Pull Request →\nRevisión humana → Merge → Release\n```\n\nLa IA acelera el centro; el humano controla **los extremos**."
+        },
+        {
+          "title": "Ejemplo: este repositorio de charlas",
+          "icon": "case",
+          "md": "Esta misma charla se construye sola: **eXeLearning** + **Makefile** + **GitHub Actions** + **GitHub Pages** + pre-release.\n\nUna tarea bien acotada para un agente:\n\n```text\nImplement the smallest possible change to add metadata\nvalidation for talk.yml files.\nDo not modify unrelated files.\nAdd or update tests.\nRun the validation command.\nOpen a PR with a concise Markdown summary.\n```\n\n- **Nunca toques secretos** desde un agente ni desde un prompt.\n- **CI obligatoria** antes de aceptar un PR.\n- **Revisa siempre el diff**: lo verde no es lo correcto."
+        }
+      ]
+    },
+    {
+      "title": "Cierre",
+      "icon": "download",
+      "blocks": [
+        {
+          "title": "Takeaways",
+          "icon": "objectives",
+          "md": "1. **Automatiza antes de escalar.**\n2. **La CI debe reflejar el acuerdo de calidad del equipo.**\n3. **La IA acelera, pero no valida.**\n4. **Los agentes necesitan tareas pequeñas y tests.**\n5. **Revisa siempre el diff.**"
+        },
+        {
+          "title": "Enlaces y gracias",
+          "icon": "download",
+          "md": "Gracias. ¿Preguntas?\n\n- Repositorio de la charla — <https://github.com/erseco/talks>\n- Web de presentaciones — <https://erseco.github.io/talks/>\n- GitHub de Ernesto — <https://github.com/erseco>\n- Web personal — <https://ernesto.es>"
+        }
+      ]
+    }
+  ]
+}
