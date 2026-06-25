@@ -1,0 +1,29 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Presentaciones y materiales de charlas, talleres y sesiones formativas",
+  "author": "Ernesto Serrano <erseco@gmail.com> (https://ernesto.es)",
+  "license": "CC-BY-SA-4.0",
+  "homepage": "https://erseco.github.io/talks/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erseco/talks.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "make build",
+    "site": "make site",
+    "slides": "make slides",
+    "validate": "node scripts/validate-talks.js",
+    "import-external": "node scripts/import-external-talks.js",
+    "serve": "make serve",
+    "clean": "make clean"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.2",
+    "js-yaml": "^4.1.0"
+  }
+}

@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate talk metadata
+        run: make validate
+
+      - name: Build slides and site
+        run: make build
+
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: site
+          path: output/site
+          if-no-files-found: error
+
+      - name: Upload slide PDFs
+        uses: actions/upload-artifact@v7
+        with:
+          name: slides-pdf
+          path: output/talks/**/*.pdf
+          if-no-files-found: ignore

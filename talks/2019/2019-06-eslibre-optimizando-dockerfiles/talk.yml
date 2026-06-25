@@ -1,0 +1,27 @@
+id: "2019-06-eslibre-optimizando-dockerfiles"
+title: "De Ballena a Gallopedro. Optimizando Dockerfiles"
+subtitle: ""
+description: "Charla impartida en esLibre 2019 sobre optimización de Dockerfiles. La presentación original está alojada en Google Slides y se referencia aquí como entrada del catálogo."
+date: "2019-06"
+year: 2019
+event: "esLibre 2019"
+location: ""
+language: "es"
+type: "talk"
+status: "external"
+topics:
+  - "docker"
+  - "devops"
+  - "containers"
+formats:
+  marp: null
+  pdf: null
+  html: null
+external:
+  canonical_url: null
+  source_url: "https://ernesto.es/"
+  pdf_url: "https://docs.google.com/presentation/export?format=pdf&id=1QmzNPbj6NUXw-_RVQzFiti_rzOmY-AhRVI-0KXI-cHA"
+  video_url: null
+  event_url: null
+license:
+  content: "unknown"

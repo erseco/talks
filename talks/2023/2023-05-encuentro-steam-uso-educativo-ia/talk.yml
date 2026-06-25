@@ -1,0 +1,27 @@
+id: "2023-05-encuentro-steam-uso-educativo-ia"
+title: "Uso educativo de la IA"
+subtitle: ""
+description: "Charla impartida en el II Encuentro STEAM en Fuerteventura sobre el uso educativo de la inteligencia artificial. La presentación original está alojada en Google Slides y se referencia aquí como entrada del catálogo."
+date: "2023-05"
+year: 2023
+event: "II Encuentro STEAM en Fuerteventura"
+location: "Fuerteventura"
+language: "es"
+type: "talk"
+status: "external"
+topics:
+  - "ai"
+  - "education"
+  - "steam"
+formats:
+  marp: null
+  pdf: null
+  html: null
+external:
+  canonical_url: null
+  source_url: "https://ernesto.es/"
+  pdf_url: "https://docs.google.com/presentation/export?format=pdf&id=11Y9dnJxFOHIBq5G396_ExFm4LTu4ADwhfYf1LYYHizU"
+  video_url: null
+  event_url: null
+license:
+  content: "unknown"

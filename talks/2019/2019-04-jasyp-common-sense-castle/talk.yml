@@ -1,0 +1,25 @@
+id: "2019-04-jasyp-common-sense-castle"
+title: "Sorry, but your common sense is in another castle"
+subtitle: ""
+description: "Charla impartida en JASYP 2019. La presentación original está alojada en Google Slides y se referencia aquí como entrada del catálogo."
+date: "2019-04"
+year: 2019
+event: "JASYP 2019"
+location: ""
+language: "es"
+type: "talk"
+status: "external"
+topics:
+  - "security"
+formats:
+  marp: null
+  pdf: null
+  html: null
+external:
+  canonical_url: null
+  source_url: "https://ernesto.es/"
+  pdf_url: "https://docs.google.com/presentation/export?format=pdf&id=1TmMi9RxhJqdYHD9Sq-I0S0b1JWQxjGiyKSCwS8vi6gc"
+  video_url: null
+  event_url: null
+license:
+  content: "unknown"

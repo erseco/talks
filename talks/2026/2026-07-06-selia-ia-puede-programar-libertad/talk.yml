@@ -1,0 +1,34 @@
+id: "2026-07-06-selia-ia-puede-programar-libertad"
+title: "La IA puede programar, pero la libertad hay que cuidarla"
+subtitle: "Implicaciones de la IA en el desarrollo de software libre, con eXeLearning como ejemplo"
+description: "Charla corta en la I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA): cómo interviene la IA en proyectos de software libre y qué libertades hay que cuidar, con eXeLearning como caso práctico."
+date: "2026-07-06"
+year: 2026
+event: "seLIA — I Jornada sobre Software Libre e IA Abierta"
+location: ""
+language: "es"
+type: "talk"
+status: "draft"
+duration_minutes: 20
+audience:
+  - "developers"
+  - "technical leads"
+  - "free software communities"
+topics:
+  - "ai"
+  - "free-software"
+  - "open-source"
+  - "licensing"
+  - "exelearning"
+formats:
+  marp: "slides.md"
+  pdf: null
+  html: null
+external:
+  canonical_url: null
+  source_url: "https://codeberg.org/seLIA/Contrib/src/branch/main/propuestas/27_Cristina_Valdera-La_IA_puede_programar.md"
+  video_url: null
+  event_url: "https://codeberg.org/seLIA"
+license:
+  content: "CC BY-SA 4.0"
+  code: "CC BY-SA 4.0"

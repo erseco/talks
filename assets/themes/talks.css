@@ -1,0 +1,166 @@
+/* @theme talks */
+
+/*
+ * Marp theme for the `talks` repository.
+ * Self-contained: extends Marp's built-in `default` theme and overrides
+ * typography, colour and the title / section / invert layouts.
+ */
+
+@import 'default';
+
+:root {
+  --talks-bg: #ffffff;
+  --talks-fg: #16202c;
+  --talks-muted: #5b6472;
+  --talks-accent: #2563eb;
+  --talks-accent-2: #0891b2;
+  --talks-rule: #e3e8ef;
+  --talks-code-bg: #0f172a;
+  --talks-code-fg: #e2e8f0;
+
+  font-family: 'Fira Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+section {
+  background: var(--talks-bg);
+  color: var(--talks-fg);
+  font-size: 28px;
+  line-height: 1.45;
+  padding: 64px 72px;
+}
+
+section h1,
+section h2,
+section h3 {
+  color: var(--talks-fg);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+section h2 {
+  border-left: 6px solid var(--talks-accent);
+  padding-left: 16px;
+  margin-bottom: 0.6em;
+}
+
+section h3 {
+  color: var(--talks-accent-2);
+}
+
+section a {
+  color: var(--talks-accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.35);
+}
+
+section strong {
+  color: var(--talks-accent);
+}
+
+section blockquote {
+  border-left: 4px solid var(--talks-accent-2);
+  color: var(--talks-muted);
+  font-style: italic;
+}
+
+section ul,
+section ol {
+  margin-left: 0.2em;
+}
+
+section li {
+  margin: 0.18em 0;
+}
+
+/* Inline + block code */
+section code {
+  font-family: 'Fira Code', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.82em;
+}
+
+section pre {
+  background: var(--talks-code-bg);
+  border-radius: 12px;
+  padding: 18px 22px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
+}
+
+section pre code {
+  color: var(--talks-code-fg);
+  background: transparent;
+}
+
+/* Pagination + footer */
+section::after {
+  color: var(--talks-muted);
+  font-size: 14px;
+}
+
+footer {
+  color: var(--talks-muted);
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+/* ---- Title / section divider: `<!-- _class: lead -->` ---- */
+section.lead {
+  justify-content: center;
+  text-align: center;
+}
+
+section.lead h1 {
+  font-size: 1.9em;
+  background: linear-gradient(120deg, var(--talks-accent), var(--talks-accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+section.lead h2 {
+  border: none;
+  padding: 0;
+  color: var(--talks-muted);
+  font-weight: 500;
+}
+
+section.lead blockquote {
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* ---- Dark contrast slide: `<!-- _class: invert -->` ---- */
+section.invert {
+  background: #0b1220;
+  color: #e8edf6;
+}
+
+section.invert h1,
+section.invert h2,
+section.invert h3 {
+  color: #ffffff;
+}
+
+section.invert h2 {
+  border-left-color: var(--talks-accent-2);
+}
+
+section.invert a,
+section.invert strong {
+  color: #67e8f9;
+}
+
+section.invert.lead h1 {
+  background: linear-gradient(120deg, #60a5fa, #67e8f9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* PDF export: keep backgrounds / gradients */
+@media print {
+  section {
+    print-color-adjust: exact !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+}

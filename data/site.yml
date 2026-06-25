@@ -1,0 +1,23 @@
+# Site-level configuration for the generated static site.
+#
+# This file holds ONLY presentation/site metadata. The catalogue of talks is
+# NOT listed here: each talk is described by its own `talk.yml` under
+# `talks/<year>/<id>/talk.yml`, which is the single source of truth. The site
+# generator (`scripts/generate-site.js`) discovers those files automatically.
+
+title: "Charlas y presentaciones"
+subtitle: "Presentaciones, materiales y recursos de charlas, talleres y sesiones formativas"
+author: "Ernesto Serrano"
+language: "es"
+
+# Canonical URLs.
+repo_url: "https://github.com/erseco/talks"
+site_url: "https://erseco.github.io/talks/"
+default_branch: "main"
+
+# Links shown in the site footer / header.
+links:
+  - label: "GitHub"
+    url: "https://github.com/erseco/talks"
+  - label: "Web personal"
+    url: "https://ernesto.es"
