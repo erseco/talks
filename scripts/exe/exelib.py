@@ -1,25 +1,23 @@
 """
 Build an eXeLearning .elp (legacy zip with content.xml) from a simple JSON spec.
 
-The spec is intentionally small and content-focused; this module turns it into a
-valid eXeLearning project that the eXeLearning CLI can export (see scripts/exe/README).
-
 Spec shape (JSON):
 {
-  "id": "2026-07-06-...", "title": "...", "subtitle": "...",
+  "id": "...", "title": "...", "subtitle": "...",
   "author": "...", "lang": "es", "theme": "base",
-  "license": "creative commons: cc by-sa 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "footer": "<p>...</p>",
+  "license": "...", "licenseUrl": "...", "footer": "<p>...</p>",
   "pages": [
-    {"title": "Inicio", "icon": "book", "blocks": [
-       {"title": "Bienvenida", "icon": "book", "md": "## ...\n\n- ..."}
-    ]}
+    { "title": "Inicio", "icon": "book", "blocks": [
+        { "title": "Texto", "icon": "info", "md": "## ...\n- ..." },
+        { "image": "/abs/path/slide-01.png", "caption": "", "icon": "gallery" },
+        { "md": "<notes>", "teacher": true, "title": "Notas del ponente", "icon": "info" }
+    ] }
   ]
 }
 
-Each block becomes a Markdown iDevice (markdown-text): the Markdown source is
-stored verbatim (editable in eXe) and pre-rendered to HTML (used on export).
+Blocks: `md` → a Markdown iDevice (markdown-text); `image` → a Text iDevice with
+an embedded image (copied into the unit's media library). `teacher: true` marks
+the block teacher-only (shown only in eXeLearning's teacher/docente mode).
 """
 
 import html as _html
@@ -32,39 +30,58 @@ import zipfile
 import markdown as _markdown
 
 
-def md_to_html(src: str) -> str:
-    """Render Markdown to HTML (close to eXe's Showdown output for our content)."""
-    return _markdown.markdown(
-        src or "",
-        extensions=["extra", "sane_lists", "nl2br"],
-        output_format="html5",
-    )
+def md_to_html(src):
+    return _markdown.markdown(src or "", extensions=["extra", "sane_lists", "nl2br"], output_format="html5")
 
 
-def xesc(s: str) -> str:
-    """XML-escape a value that will live inside an element (e.g. <htmlView>)."""
+def xesc(s):
     return _html.escape(s, quote=False)
 
 
 _counter = 0
+# ideviceId -> absolute source path of an image to copy into content/resources/.
+IMAGE_BINDINGS = {}
 
 
-def nid() -> str:
+def nid():
     global _counter
     _counter += 1
     return f"SP{_counter:08d}"
 
 
-def markdown_idevice(idv_id: str, md_source: str) -> str:
+def _component(idv_id, type_name, html_view, json_props, teacher_only=False):
+    json_str = xesc(json.dumps(json_props, ensure_ascii=False))
+    teacher_prop = (
+        "<odeComponentsProperty><key>teacherOnly</key><value>true</value></odeComponentsProperty>"
+        if teacher_only else ""
+    )
+    return (
+        "<odeComponent>"
+        "<odePageId>{page}</odePageId>"
+        "<odeBlockId>{block}</odeBlockId>"
+        f"<odeIdeviceId>{idv_id}</odeIdeviceId>"
+        f"<odeIdeviceTypeName>{type_name}</odeIdeviceTypeName>"
+        f"<htmlView>{xesc(html_view)}</htmlView>"
+        f"<jsonProperties>{json_str}</jsonProperties>"
+        "<odeComponentsOrder>1</odeComponentsOrder>"
+        "<odeComponentsProperties>"
+        "<odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty>"
+        "<odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty>"
+        "<odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty>"
+        f"{teacher_prop}"
+        "</odeComponentsProperties>"
+        "</odeComponent>"
+    )
+
+
+def markdown_idevice(idv_id, md_source, teacher_only=False):
     rendered = md_to_html(md_source)
     inner = (
-        '<div class="exe-markdown-template">'
-        '<div class="markdownTextIdeviceContent">'
-        '<div class="exe-markdown-activity">'
-        f'<div class="markdown-body">{rendered}</div>'
-        '</div></div></div>'
+        '<div class="exe-markdown-template"><div class="markdownTextIdeviceContent">'
+        f'<div class="exe-markdown-activity"><div class="markdown-body">{rendered}</div></div>'
+        '</div></div>'
     )
-    json_props = {
+    props = {
         "ideviceId": idv_id,
         "markdownTextarea": md_source,
         "markdownTextareaHtml": rendered,
@@ -76,26 +93,39 @@ def markdown_idevice(idv_id: str, md_source: str) -> str:
         "markdownFeedbackTextarea": "",
         "markdownFeedbackTextareaHtml": "",
     }
-    json_str = xesc(json.dumps(json_props, ensure_ascii=False))
-    return (
-        "<odeComponent>"
-        f"<odePageId>{{page}}</odePageId>"
-        f"<odeBlockId>{{block}}</odeBlockId>"
-        f"<odeIdeviceId>{idv_id}</odeIdeviceId>"
-        "<odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>"
-        f"<htmlView>{xesc(inner)}</htmlView>"
-        f"<jsonProperties>{json_str}</jsonProperties>"
-        "<odeComponentsOrder>1</odeComponentsOrder>"
-        "<odeComponentsProperties>"
-        "<odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty>"
-        "<odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty>"
-        "<odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty>"
-        "</odeComponentsProperties>"
-        "</odeComponent>"
+    return _component(idv_id, "markdown-text", inner, props, teacher_only)
+
+
+def image_idevice(idv_id, img_basename, caption="", teacher_only=False):
+    # eXeLearning registers the image in the media library when it lives under a
+    # folder named after the owning iDevice id and is referenced via context_path.
+    cap = xesc(caption)
+    img_html = (
+        f'<p style="text-align:center;margin:0;">'
+        f'<img src="{{{{context_path}}}}/{idv_id}/{img_basename}" alt="{cap}" '
+        f'style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p>'
     )
+    if caption:
+        img_html += f'<p style="text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;">{cap}</p>'
+    inner = (
+        '<div class="exe-text-template"><div class="textIdeviceContent">'
+        f'<div class="exe-text-activity"><div>{img_html}<p class="clearfix"> </p></div></div>'
+        '</div></div>'
+    )
+    props = {
+        "ideviceId": idv_id,
+        "textInfoDurationInput": "",
+        "textInfoDurationTextInput": "Duración:",
+        "textInfoParticipantsInput": "",
+        "textInfoParticipantsTextInput": "Agrupar:",
+        "textTextarea": img_html,
+        "textFeedbackInput": "Mostrar comentarios",
+        "textFeedbackTextarea": "",
+    }
+    return _component(idv_id, "text", inner, props, teacher_only)
 
 
-def block(page_id: str, block_id: str, order: int, component_xml: str, icon: str, block_name: str) -> str:
+def block(page_id, block_id, order, component_xml, icon, block_name):
     icon_tag = f"<iconName>{xesc(icon)}</iconName>" if icon else "<iconName/>"
     component_xml = component_xml.replace("{page}", page_id).replace("{block}", block_id)
     return (
@@ -117,11 +147,11 @@ def block(page_id: str, block_id: str, order: int, component_xml: str, icon: str
     )
 
 
-def nav_page(page_id: str, parent_id: str, name: str, order: int, blocks_xml: str) -> str:
+def nav_page(page_id, name, order, blocks_xml):
     return (
         "<odeNavStructure>"
         f"<odePageId>{page_id}</odePageId>"
-        f"<odeParentPageId>{parent_id}</odeParentPageId>"
+        "<odeParentPageId></odeParentPageId>"
         f"<pageName>{xesc(name)}</pageName>"
         f"<odeNavStructureOrder>{order}</odeNavStructureOrder>"
         "<odeNavStructureProperties>"
@@ -136,7 +166,7 @@ def nav_page(page_id: str, parent_id: str, name: str, order: int, blocks_xml: st
     )
 
 
-def build_content_xml(spec: dict) -> str:
+def build_content_xml(spec, spec_dir):
     theme = spec.get("theme", "base")
     pages_xml = []
     for p_order, page in enumerate(spec["pages"], start=1):
@@ -144,13 +174,23 @@ def build_content_xml(spec: dict) -> str:
         blocks_xml = []
         for b_order, blk in enumerate(page.get("blocks", []), start=1):
             bid = nid()
-            comp = markdown_idevice(nid(), blk["md"])
+            idv = nid()
+            teacher = bool(blk.get("teacher"))
+            if blk.get("image"):
+                src = blk["image"]
+                if not os.path.isabs(src):
+                    src = os.path.join(spec_dir, src)
+                base = os.path.basename(src)
+                IMAGE_BINDINGS[idv] = src
+                comp = image_idevice(idv, base, blk.get("caption", ""), teacher)
+            else:
+                comp = markdown_idevice(idv, blk.get("md", ""), teacher)
             blocks_xml.append(
                 block(pid, bid, b_order, comp,
                       icon=blk.get("icon", "info"),
                       block_name=blk.get("title", page["title"]))
             )
-        pages_xml.append(nav_page(pid, "", page["title"], p_order, "".join(blocks_xml)))
+        pages_xml.append(nav_page(pid, page["title"], p_order, "".join(blocks_xml)))
 
     footer = spec.get("footer", "")
     return f"""<?xml version="1.0" encoding="utf-8"?>
@@ -182,16 +222,27 @@ def build_content_xml(spec: dict) -> str:
 """
 
 
-def write_elp(spec: dict, out_path: str) -> str:
-    """Write a .elp (zip with content.xml) from the spec. Returns out_path."""
-    global _counter
+def write_elp(spec, out_path, spec_dir="."):
+    global _counter, IMAGE_BINDINGS
     _counter = 0
+    IMAGE_BINDINGS = {}
     src_dir = out_path + "-src"
     if os.path.isdir(src_dir):
         shutil.rmtree(src_dir)
     os.makedirs(src_dir)
+
+    content = build_content_xml(spec, spec_dir)
     with open(os.path.join(src_dir, "content.xml"), "w", encoding="utf-8") as f:
-        f.write(build_content_xml(spec))
+        f.write(content)
+
+    for idv, src in IMAGE_BINDINGS.items():
+        if not os.path.exists(src):
+            print(f"WARN: missing image {src}", file=sys.stderr)
+            continue
+        dst = os.path.join(src_dir, "content", "resources", idv)
+        os.makedirs(dst, exist_ok=True)
+        shutil.copy(src, os.path.join(dst, os.path.basename(src)))
+
     if os.path.exists(out_path):
         os.remove(out_path)
     with zipfile.ZipFile(out_path, "w", zipfile.ZIP_DEFLATED) as z:
@@ -209,5 +260,5 @@ if __name__ == "__main__":
         sys.exit(1)
     with open(sys.argv[1], encoding="utf-8") as f:
         spec = json.load(f)
-    write_elp(spec, sys.argv[2])
+    write_elp(spec, sys.argv[2], spec_dir=os.path.dirname(os.path.abspath(sys.argv[1])))
     print(f"Wrote {sys.argv[2]} ({len(spec['pages'])} pages)")
