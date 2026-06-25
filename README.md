@@ -137,7 +137,8 @@ because it updates an existing release in place (`allowUpdates`, `tag`,
 pre-release needs.
 
 - **Push to `main`** (or manual dispatch): the rolling **`pre-release`** tag is
-  refreshed with the latest PDFs, HTML, `site.zip` and `index.json`.
+  refreshed with the latest deck PDFs, the full site bundle (`site.zip`) and
+  `index.json`. The full HTML decks live inside `site.zip` (and on Pages).
 - **A published GitHub release**: the same artifacts are attached to it.
 - **Pull requests**: only build, never touch any release.
 

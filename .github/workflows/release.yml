@@ -53,8 +53,8 @@ jobs:
           body: "Automated build at ${{ steps.meta.outputs.timestamp }} (UTC). Latest slides (PDF/HTML), site bundle and catalogue."
           prerelease: true
           allowUpdates: true
-          removeArtifacts: false
-          artifacts: "output/talks/**/*.pdf,output/talks/**/*.html,output/site.zip,output/index.json"
+          removeArtifacts: true   # rolling tag: keep it clean (drop orphans of renamed/removed talks)
+          artifacts: "output/talks/**/*.pdf,output/site.zip,output/index.json"
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # Official release published in GitHub: attach the same artifacts to it.
@@ -65,5 +65,5 @@ jobs:
           tag: ${{ github.event.release.tag_name }}
           allowUpdates: true
           removeArtifacts: false
-          artifacts: "output/talks/**/*.pdf,output/talks/**/*.html,output/site.zip,output/index.json"
+          artifacts: "output/talks/**/*.pdf,output/site.zip,output/index.json"
           token: ${{ secrets.GITHUB_TOKEN }}
