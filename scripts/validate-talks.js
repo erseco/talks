@@ -10,7 +10,8 @@ const fs = require('fs');
 const path = require('path');
 const { loadAllTalks } = require('./lib/talks');
 
-const REQUIRED = ['id', 'title', 'date', 'year', 'event', 'language', 'type', 'status'];
+const REQUIRED = ['id', 'title', 'date', 'year', 'event', 'language', 'type', 'status', 'engine'];
+const ENGINES = ['slidev', 'marp', 'external'];
 const STATUSES = [
   'draft',
   'ready',
@@ -65,11 +66,14 @@ function validate() {
     if (d.type && !TYPES.includes(d.type)) {
       errors.push(`${where}: unknown type "${d.type}" (allowed: ${TYPES.join(', ')})`);
     }
+    if (d.engine && !ENGINES.includes(d.engine)) {
+      errors.push(`${where}: unknown engine "${d.engine}" (allowed: ${ENGINES.join(', ')})`);
+    }
 
-    if (d.formats && d.formats.marp) {
-      const slides = path.join(t.dir, d.formats.marp);
-      if (!fs.existsSync(slides)) {
-        errors.push(`${where}: formats.marp -> "${d.formats.marp}" does not exist`);
+    if (d.engine === 'slidev' || d.engine === 'marp') {
+      const source = (d.formats && d.formats.source) || 'slides.md';
+      if (!fs.existsSync(path.join(t.dir, source))) {
+        errors.push(`${where}: engine "${d.engine}" but source "${source}" does not exist`);
       }
     }
 

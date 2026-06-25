@@ -63,4 +63,28 @@ function sortKey(date) {
   return `${y}-${m.padStart(2, '0')}-${d.padStart(2, '0')}`;
 }
 
-module.exports = { ROOT, TALKS_DIR, findTalkFiles, loadTalk, loadAllTalks, sortKey };
+/** Parsed `data/site.yml`. */
+function siteConfig() {
+  try {
+    return yaml.load(fs.readFileSync(path.join(ROOT, 'data', 'site.yml'), 'utf8')) || {};
+  } catch {
+    return {};
+  }
+}
+
+/** Absolute URL path the site is served from (e.g. "/talks/"). Used as the Slidev base. */
+function siteBasePath() {
+  try {
+    return new URL(siteConfig().site_url).pathname.replace(/\/?$/, '/');
+  } catch {
+    return '/';
+  }
+}
+
+// Sub-directory of the generated site that holds per-talk pages and built decks.
+const DECKS_SUBDIR = 'charlas';
+
+module.exports = {
+  ROOT, TALKS_DIR, DECKS_SUBDIR,
+  findTalkFiles, loadTalk, loadAllTalks, sortKey, siteConfig, siteBasePath,
+};

@@ -4,7 +4,7 @@
 
 Charla para **3ipunt** — viernes 3 de julio de 2026 (~45 min).
 
-- Fuente Marp: [`slides.md`](slides.md)
+- Fuente Slidev: [`slides.md`](slides.md)
 - Notas del ponente: [`notes.md`](notes.md)
 - Recursos locales: [`assets/`](assets/)
 
@@ -13,5 +13,5 @@ Charla para **3ipunt** — viernes 3 de julio de 2026 (~45 min).
 ```bash
 make slides   # renderiza esta charla (y las demás) en output/talks/<id>/
 make build    # valida, renderiza y genera la web en output/site/
-make serve    # vista previa en vivo de las diapositivas
+make serve TALK=talks/2026/2026-07-03-3ipunt-dev-tools-ci-ai/slides.md   # vista previa en vivo
 ```

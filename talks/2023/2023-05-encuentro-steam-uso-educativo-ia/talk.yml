@@ -9,18 +9,20 @@ location: "Fuerteventura"
 language: "es"
 type: "talk"
 status: "external"
+engine: "external"
 topics:
   - "ai"
   - "education"
   - "steam"
 formats:
-  marp: null
+  source: null
   pdf: null
   html: null
 external:
   canonical_url: null
   source_url: "https://ernesto.es/"
   pdf_url: "https://docs.google.com/presentation/export?format=pdf&id=11Y9dnJxFOHIBq5G396_ExFm4LTu4ADwhfYf1LYYHizU"
+  pptx_url: "https://docs.google.com/presentation/export?format=pptx&id=11Y9dnJxFOHIBq5G396_ExFm4LTu4ADwhfYf1LYYHizU"
   video_url: null
   event_url: null
 license:

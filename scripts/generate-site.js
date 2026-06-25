@@ -4,29 +4,33 @@
 /**
  * Generate the static site into `output/site/`:
  *
- *   output/site/index.html          landing page (cards + client-side filters)
- *   output/site/index.json          normalised catalogue (also copied to output/)
- *   output/site/talks/<id>/         per-talk detail page + built slides/assets
- *   output/site/static/             style.css + app.js (copied verbatim)
+ *   output/site/index.html               landing page (cards + client filters)
+ *   output/site/index.json               normalised catalogue (also at output/)
+ *   output/site/charlas/<id>/            per-talk detail page + built deck/assets
+ *   output/site/static/                  style.css + app.js
  *
- * Talk metadata comes from each `talk.yml`; built artifacts (HTML/PDF) come
- * from `output/talks/<id>/` produced by build-talks.js. The site is fully
- * server-rendered (works without JS); app.js only adds filtering/search.
+ * Talk metadata comes from each `talk.yml`; built artifacts come from
+ * `output/talks/<id>/` (build-talks.js). Engines:
+ *   - slidev: a SPA under <id>/slides/ (index.html) + <id>.pdf
+ *   - marp:   a single <id>.html + <id>.pdf
+ *   - external: links to the talk.yml `external:` block
+ * The site is server-rendered (works without JS); app.js adds filtering/search.
  */
 
 const fs = require('fs');
 const path = require('path');
-const yaml = require('js-yaml');
-const { ROOT, loadAllTalks, sortKey } = require('./lib/talks');
+const { ROOT, DECKS_SUBDIR, loadAllTalks, sortKey, siteConfig } = require('./lib/talks');
 
 const OUTPUT = path.join(ROOT, 'output');
 const SITE = path.join(OUTPUT, 'site');
 const BUILT_TALKS = path.join(OUTPUT, 'talks');
 const STATIC_SRC = path.join(ROOT, 'site', 'static');
+const SITE_DECKS = path.join(SITE, DECKS_SUBDIR);
 
-const SITE_CFG = yaml.load(fs.readFileSync(path.join(ROOT, 'data', 'site.yml'), 'utf8')) || {};
+const SITE_CFG = siteConfig();
 const REPO_URL = (SITE_CFG.repo_url || 'https://github.com/erseco/talks').replace(/\/$/, '');
 const BRANCH = SITE_CFG.default_branch || 'main';
+const SITE_BASE = (SITE_CFG.site_url || '').replace(/\/$/, '');
 
 const MONTHS_ES = [
   'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
@@ -52,8 +56,6 @@ const esc = (v) => String(v == null ? '' : v)
 // Case- and diacritic-folded text for the client-side search index.
 const fold = (s) => String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '');
 
-const SITE_BASE = (SITE_CFG.site_url || '').replace(/\/$/, '');
-
 function formatDate(d) {
   const [y, m, day] = String(d || '').split('-');
   if (!y) return '';
@@ -78,11 +80,19 @@ function normalise(t) {
   const d = t.data;
   const id = d.id || path.basename(t.dir);
   const ext = d.external || {};
-  const builtHtml = fs.existsSync(path.join(BUILT_TALKS, id, `${id}.html`));
+  const engine = d.engine || (t.hasSlides ? 'slidev' : 'external');
+  const DD = DECKS_SUBDIR;
+
+  const builtSlidev = fs.existsSync(path.join(BUILT_TALKS, id, 'slides', 'index.html'));
+  const builtMarp = fs.existsSync(path.join(BUILT_TALKS, id, `${id}.html`));
   const builtPdf = fs.existsSync(path.join(BUILT_TALKS, id, `${id}.pdf`));
+
+  const online = builtSlidev ? `${DD}/${id}/slides/index.html`
+    : builtMarp ? `${DD}/${id}/${id}.html` : null;
 
   return {
     id,
+    engine,
     title: d.title || id,
     subtitle: d.subtitle || '',
     description: d.description || '',
@@ -103,10 +113,11 @@ function normalise(t) {
     repoPath: t.repoPath,
     hasNotes: t.hasNotes,
     links: {
-      detail: `talks/${id}/index.html`,
-      online: builtHtml ? `talks/${id}/${id}.html` : null,
-      pdf: builtPdf ? `talks/${id}/${id}.pdf` : (ext.pdf_url || null),
-      marp_source: t.hasSlides ? `${REPO_URL}/blob/${BRANCH}/${t.repoPath}/slides.md` : null,
+      detail: `${DD}/${id}/index.html`,
+      online,
+      pdf: builtPdf ? `${DD}/${id}/${id}.pdf` : (ext.pdf_url || null),
+      pptx: ext.pptx_url || null,
+      source: t.hasSlides ? `${REPO_URL}/blob/${BRANCH}/${t.repoPath}/slides.md` : null,
       github: `${REPO_URL}/tree/${BRANCH}/${t.repoPath}`,
       external_source: ext.canonical_url || ext.source_url || ext.event_url || null,
       video: ext.video_url || null,
@@ -126,7 +137,8 @@ function actionButtons(v, prefix = '') {
   return [
     btn(L.online, 'Ver online', 'primary'),
     btn(L.pdf, 'Descargar PDF', 'secondary'),
-    btn(L.marp_source, 'Fuente Marp', 'ghost'),
+    btn(L.pptx, 'PPTX (con notas)', 'ghost'),
+    btn(L.source, 'Fuente', 'ghost'),
     btn(L.external_source, 'Fuente externa', 'ghost'),
     btn(L.video, 'Vídeo', 'ghost'),
     btn(L.github, 'GitHub', 'ghost'),
@@ -242,7 +254,7 @@ function detailPage(v) {
   <meta property="og:type" content="article">
   <meta property="og:title" content="${esc(v.title)}">
   <meta property="og:description" content="${esc(v.description)}">
-  ${SITE_BASE ? `<meta property="og:url" content="${esc(`${SITE_BASE}/talks/${v.id}/`)}">` : ''}
+  ${SITE_BASE ? `<meta property="og:url" content="${esc(`${SITE_BASE}/${DECKS_SUBDIR}/${v.id}/`)}">` : ''}
   <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="../../static/style.css">
 </head>
@@ -283,32 +295,24 @@ ${meta}
 }
 
 function main() {
-  const talks = loadAllTalks();
-  const views = talks
+  const views = loadAllTalks()
     .map(normalise)
     .sort((a, b) => sortKey(b.date).localeCompare(sortKey(a.date)));
 
-  // Clean + recreate site dir.
   fs.rmSync(SITE, { recursive: true, force: true });
   fs.mkdirSync(SITE, { recursive: true });
 
-  // Static assets.
   copyDir(STATIC_SRC, path.join(SITE, 'static'));
+  copyDir(BUILT_TALKS, SITE_DECKS); // built decks (html/pdf/assets) into the site tree
 
-  // Built slide artifacts (html/pdf/assets) into the site tree.
-  copyDir(BUILT_TALKS, path.join(SITE, 'talks'));
-
-  // Landing page.
   fs.writeFileSync(path.join(SITE, 'index.html'), indexPage(views));
 
-  // Detail pages.
   for (const v of views) {
-    const dir = path.join(SITE, 'talks', v.id);
+    const dir = path.join(SITE_DECKS, v.id);
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, 'index.html'), detailPage(v));
   }
 
-  // Machine-readable catalogue (in the site + at output root for releases).
   const json = JSON.stringify(views, null, 2);
   fs.writeFileSync(path.join(SITE, 'index.json'), json);
   fs.writeFileSync(path.join(OUTPUT, 'index.json'), json);

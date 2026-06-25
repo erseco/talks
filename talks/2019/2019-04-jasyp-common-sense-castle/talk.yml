@@ -9,16 +9,18 @@ location: ""
 language: "es"
 type: "talk"
 status: "external"
+engine: "external"
 topics:
   - "security"
 formats:
-  marp: null
+  source: null
   pdf: null
   html: null
 external:
   canonical_url: null
   source_url: "https://ernesto.es/"
   pdf_url: "https://docs.google.com/presentation/export?format=pdf&id=1TmMi9RxhJqdYHD9Sq-I0S0b1JWQxjGiyKSCwS8vi6gc"
+  pptx_url: "https://docs.google.com/presentation/export?format=pptx&id=1TmMi9RxhJqdYHD9Sq-I0S0b1JWQxjGiyKSCwS8vi6gc"
   video_url: null
   event_url: null
 license:

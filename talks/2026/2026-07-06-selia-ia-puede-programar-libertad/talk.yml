@@ -20,8 +20,9 @@ topics:
   - "open-source"
   - "licensing"
   - "exelearning"
+engine: "slidev"
 formats:
-  marp: "slides.md"
+  source: "slides.md"
   pdf: null
   html: null
 external:

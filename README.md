@@ -4,7 +4,7 @@
 
 Public archive and browsable catalogue of Ernesto Serrano's talks. It keeps the
 metadata, sources and slides of every talk in one place, renders the modern
-ones with [Marp](https://marp.app/), and publishes a static website.
+ones with [Slidev](https://sli.dev/), and publishes a static website.
 
 - **Website:** https://erseco.github.io/talks/ *(after enabling GitHub Pages)*
 - **Pre-release artifacts:** https://github.com/erseco/talks/releases/tag/pre-release
@@ -14,11 +14,18 @@ The website is in Spanish; the code, comments and this document are in English.
 ## How it works
 
 Each talk lives in its own folder and is described by a `talk.yml` file, which
-is the **single source of truth**. A small Node toolchain (no heavyweight
-framework) discovers those files and:
+is the **single source of truth**. Every talk declares an `engine`:
+
+| engine | what it is | output |
+| --- | --- | --- |
+| `slidev` *(default)* | a [Slidev](https://sli.dev/) deck (`slides.md`) | SPA + PDF |
+| `marp` | a [Marp](https://marp.app/) deck (`slides.md`), kept for compatibility | HTML + PDF |
+| `external` | slides hosted elsewhere (Google Slides, PDF, video) | links only |
+
+A small Node toolchain (no app framework of its own) discovers those files and:
 
 1. validates the metadata (`scripts/validate-talks.js`),
-2. renders Marp decks to HTML + PDF (`scripts/build-talks.js`),
+2. renders each deck per its engine (`scripts/build-talks.js`),
 3. generates the static site with filters, search and a per-talk page
    (`scripts/generate-site.js`) plus a normalised `index.json`.
 
@@ -31,16 +38,16 @@ talks/
 ├── .github/workflows/      # ci.yml, pages.yml, release.yml
 ├── assets/
 │   ├── images/             # shared images
-│   └── themes/             # Marp themes (talks.css)
+│   └── themes/             # Marp themes (used only by engine: marp)
 ├── data/
 │   └── site.yml            # site-level config (title, author, links…)
-├── scripts/                # validate / build / generate-site / import-external
+├── scripts/                # validate / build-talks / generate-site / import-external
 ├── site/static/            # style.css + app.js for the generated site
 ├── talks/                  # one folder per talk, grouped by year
 │   └── <year>/<id>/
-│       ├── talk.yml        # metadata (required)
+│       ├── talk.yml        # metadata (required, includes `engine`)
 │       ├── README.md
-│       ├── slides.md       # Marp source (modern talks)
+│       ├── slides.md       # Slidev (or Marp) source
 │       ├── notes.md        # speaker notes
 │       ├── external.md     # source/links (external talks)
 │       └── assets/
@@ -52,10 +59,13 @@ talks/
 └── LICENSE-CONTENT.md
 ```
 
+The Slidev theme is installed from npm (`@slidev/theme-seriph`); the Slidev decks
+are served from the site under `charlas/<id>/slides/`.
+
 ## Local commands
 
-Requires Node.js ≥ 20 and `make`. Install dependencies once (this also pulls the
-Marp CLI):
+Requires Node.js ≥ 20 and `make`. Install dependencies once (Slidev, Marp CLI,
+Playwright and js-yaml — Playwright downloads a Chromium for PDF export):
 
 ```bash
 make install        # or: npm install
@@ -66,34 +76,54 @@ Then:
 ```bash
 make                # default: validate + slides + site (full build)
 make validate       # check every talk.yml against the schema
-make slides         # render Marp decks to output/talks/<id>/ (HTML + PDF)
+make slides         # render every deck to output/talks/<id>/ (HTML + PDF)
 make site           # build the static site in output/site/
-make serve          # live preview of the decks at http://localhost:8080
+make serve          # live preview a deck (TALK=path/slides.md to choose; default: the 3ipunt deck)
 make import-external # cache external PDF exports locally (best-effort)
 make clean          # remove generated artifacts
 ```
 
-PDF rendering needs a Chrome/Chromium browser. It is best-effort: if no browser
-is available the build still produces the HTML and the site (set `BUILD_PDF=0`
-to skip PDF explicitly).
+PDF rendering needs a Chrome/Chromium browser (via Playwright for Slidev). It is
+best-effort: if no browser is available the build still produces the HTML site
+(set `BUILD_PDF=0` to skip PDF explicitly).
 
 ## Adding a talk
 
-### A new Marp talk
+### A new Slidev talk (default)
 
 1. Create `talks/<year>/<YYYY-MM-DD-event-slug>/` (the folder name is the `id`).
-2. Add `talk.yml` with `status: draft` and `formats.marp: "slides.md"`.
-3. Write `slides.md` (front matter `marp: true`, `theme: talks`) and optionally
-   `notes.md`. Put images in the talk's `assets/` and reference them relatively.
-4. `make build` and open `output/site/index.html`.
+2. Add `talk.yml` with `status: draft`, `engine: slidev` and
+   `formats.source: "slides.md"`.
+3. Write `slides.md` with Slidev front matter:
+   ```yaml
+   ---
+   theme: seriph
+   layout: cover
+   title: "My talk"
+   author: "Ernesto Serrano"
+   ---
+   # My talk
+   ```
+   Use Slidev layouts (`cover`, `section`, `two-cols`, `center`…), put images in
+   the talk's `assets/`, and write presenter notes as the last HTML comment of a
+   slide. Optionally add a `notes.md`.
+4. `make build` and open `output/site/index.html`, or `make serve TALK=…` to
+   preview live.
+
+### A Marp talk (optional)
+
+Set `engine: marp` in `talk.yml`. The deck uses the Marp theme in
+`assets/themes/talks.css` and renders to a single HTML file + PDF.
 
 ### An external / legacy talk
 
 For talks whose slides live elsewhere (Google Slides, PDF, video):
 
-1. Create the folder and a `talk.yml` with `status: external` (or
-   `external-link-unverified` if the link does not resolve).
-2. Fill the `external:` block (`source_url`, `pdf_url`, `video_url`, …).
+1. Create the folder and a `talk.yml` with `engine: external` and
+   `status: external` (or `external-link-unverified` if the link does not resolve).
+2. Fill the `external:` block (`source_url`, `pdf_url`, `pptx_url`, `video_url`…).
+   Tip: Google Slides export supports `format=pptx` / `format=odp`, which keep the
+   speaker notes (PDF does not) — handy to recover the original `notes.md`.
 3. Add an `external.md` documenting the source and its verification state.
 
 Run `make validate` to confirm the metadata is well-formed.

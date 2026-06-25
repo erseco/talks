@@ -1,14 +1,16 @@
 ---
-marp: true
-theme: talks
-paginate: true
+theme: seriph
+layout: cover
+class: text-center
 title: "Herramientas de desarrollo, CI e IA"
-description: "Del editor al pipeline: cómo trabajar mejor sin delegar el criterio. Charla para 3ipunt sobre herramientas modernas de desarrollo, integración continua e IA aplicada al ciclo de vida del software."
+info: |
+  Del editor al pipeline: cómo trabajar mejor sin delegar el criterio.
+  Charla para 3ipunt sobre herramientas modernas de desarrollo, integración
+  continua e IA aplicada al ciclo de vida del software.
 author: "Ernesto Serrano"
-footer: "Herramientas de desarrollo, CI e IA · 3ipunt · 2026-07-03"
+transition: slide-left
+mdc: true
 ---
-
-<!-- _class: lead -->
 
 # Herramientas de desarrollo, CI e IA
 
@@ -17,7 +19,9 @@ footer: "Herramientas de desarrollo, CI e IA · 3ipunt · 2026-07-03"
 Ernesto Serrano · freelance software / DevOps
 3ipunt · 2026-07-03
 
-<!-- nota: Presentarme en 30 segundos. Agradecer a 3ipunt la invitación. Avisar de que no habrá hype de IA: charla práctica y honesta. -->
+<!--
+Presentarme en 30 segundos. Agradecer a 3ipunt la invitación. Avisar de que no habrá hype de IA: charla práctica y honesta.
+-->
 
 ---
 
@@ -28,7 +32,9 @@ Ernesto Serrano · freelance software / DevOps
 - Comunidad: **esLibre**, **JASYP**, software libre desde hace años.
 - No vengo a venderos una herramienta: vengo a hablar de **proceso**.
 
-<!-- nota: Vínculo con la audiencia: trabajo con Moodle y PHP como vosotros. Lo que cuento sale de proyectos reales, no de un blog de marketing. -->
+<!--
+Vínculo con la audiencia: trabajo con Moodle y PHP como vosotros. Lo que cuento sale de proyectos reales, no de un blog de marketing.
+-->
 
 ---
 
@@ -40,19 +46,21 @@ Ernesto Serrano · freelance software / DevOps
 - Si el proceso es malo, la IA **multiplica el desastre** más rápido todavía.
 
 ---
-
-<!-- _class: lead invert -->
+layout: section
+---
 
 # La idea principal
 
 ## La IA no reemplaza el proceso.
 ## **Amplifica lo bueno y lo malo** del proceso que ya tienes.
 
-<!-- nota: Esta es la frase que quiero que se lleven. Repetirla. Todo lo demás cuelga de aquí. -->
+<!--
+Esta es la frase que quiero que se lleven. Repetirla. Todo lo demás cuelga de aquí.
+-->
 
 ---
-
-<!-- _class: lead -->
+layout: section
+---
 
 # El problema real
 
@@ -65,8 +73,12 @@ Ernesto Serrano · freelance software / DevOps
 - Cuanto más tarde llega el feedback, más caro es el arreglo.
 - La pregunta no es "¿es correcto?", sino **"¿cuándo me entero de que no lo es?"**.
 
-<!-- nota: Ejemplo cercano: un fallo de phpcs que descubres en code review vs. en el pre-commit. Mismo bug, coste de arreglo muy distinto. -->
+<!--
+Ejemplo cercano: un fallo de phpcs que descubres en code review vs. en el pre-commit. Mismo bug, coste de arreglo muy distinto.
+-->
 
+---
+layout: two-cols
 ---
 
 ## Síntomas que todos reconocemos
@@ -74,13 +86,16 @@ Ernesto Serrano · freelance software / DevOps
 - **Context switching** constante: cada interrupción cuesta minutos.
 - **Builds lentos** que rompen la concentración.
 - **Entornos inconsistentes**: "en mi máquina funciona".
+
+::right::
+
 - **Revisiones superficiales** por prisa o por PRs gigantes.
 - **Documentación desactualizada** que miente.
 - **Pipelines que llegan tarde**: avisan cuando ya has cambiado de tarea.
 
 ---
-
-<!-- _class: lead -->
+layout: section
+---
 
 # Herramientas de desarrollo
 
@@ -98,7 +113,9 @@ Ernesto Serrano · freelance software / DevOps
 - **Tests** y **debugging** de verdad, no `var_dump` y rezar.
 - **pre-commit hooks**: el feedback más barato posible.
 
-<!-- nota: El Makefile como "puerta de entrada" del proyecto: el mismo comando en local y en CI. Reduce el "¿cómo se ejecutaba esto?". -->
+<!--
+El Makefile como "puerta de entrada" del proyecto: el mismo comando en local y en CI. Reduce el "¿cómo se ejecutaba esto?".
+-->
 
 ---
 
@@ -140,11 +157,13 @@ repos:
 - El hook corre **antes** del commit: el error no llega ni a la rama.
 - Mismo Docker, mismas versiones, mismo resultado para todo el equipo.
 
-<!-- nota: Insistir: estas barandillas locales son las que luego permiten que un agente de IA trabaje sin romper nada. Sin ellas, la IA va a ciegas. -->
+<!--
+Insistir: estas barandillas locales son las que luego permiten que un agente de IA trabaje sin romper nada. Sin ellas, la IA va a ciegas.
+-->
 
 ---
-
-<!-- _class: lead invert -->
+layout: section
+---
 
 # La CI como contrato de calidad
 
@@ -169,16 +188,20 @@ repos:
 6. **Seguridad básica**: dependencias y secretos.
 7. **Artefactos / releases / deploys controlados**.
 
-<!-- nota: No hace falta tenerlo todo el día 1. Pero sí decidir conscientemente qué entra y qué no. Cada paso es una promesa que el equipo se hace a sí mismo. -->
+<!--
+No hace falta tenerlo todo el día 1. Pero sí decidir conscientemente qué entra y qué no. Cada paso es una promesa que el equipo se hace a sí mismo.
+-->
 
 ---
-
-<!-- _class: lead -->
+layout: section
+---
 
 # La IA en el desarrollo
 
 ### Dónde ayuda de verdad y dónde no debe decidir sola
 
+---
+layout: two-cols
 ---
 
 ## Dónde la IA ayuda
@@ -187,6 +210,9 @@ repos:
 - **Borradores**: primer esqueleto de una función o un test.
 - **Tests** para código existente sin cobertura.
 - **Refactors pequeños** y mecánicos.
+
+::right::
+
 - **Explicar errores** y stack traces.
 - **Documentación** a partir del código real.
 - **Revisión inicial** (primer filtro, no el último).
@@ -203,11 +229,13 @@ repos:
 - **Dependencias críticas**: qué metes en producción.
 - **Producción**: el último paso siempre lo aprueba una persona.
 
-<!-- nota: Marco clave: la IA propone, el humano dispone. En e-learning esto es serio: hablamos de datos de menores y de evaluación académica. -->
+<!--
+Marco clave: la IA propone, el humano dispone. En e-learning esto es serio: hablamos de datos de menores y de evaluación académica.
+-->
 
 ---
-
-<!-- _class: lead invert -->
+layout: section
+---
 
 # IA agéntica
 
@@ -246,7 +274,9 @@ Potente... y exactamente por eso, peligroso sin barandillas.
 - **Secretos** expuestos en logs, commits o prompts.
 - **Falta de contexto**: no conoce la decisión de negocio detrás.
 
-<!-- nota: Anécdota corta: el agente que "arregla" el test borrando la aserción. Verde no es lo mismo que correcto. -->
+<!--
+Anécdota corta: el agente que "arregla" el test borrando la aserción. Verde no es lo mismo que correcto.
+-->
 
 ---
 
@@ -261,8 +291,8 @@ Potente... y exactamente por eso, peligroso sin barandillas.
 - **CI obligatoria** antes de aceptar nada.
 
 ---
-
-<!-- _class: lead -->
+layout: section
+---
 
 # Flujo recomendado
 
@@ -285,11 +315,13 @@ Humano define objetivo
 
 - La IA acelera el centro; el humano controla **los extremos**.
 
-<!-- nota: Señalar que el principio (objetivo/issue) y el final (revisión/merge/release) son humanos. La IA vive en el tramo automatizable del medio. -->
+<!--
+Señalar que el principio (objetivo/issue) y el final (revisión/merge/release) son humanos. La IA vive en el tramo automatizable del medio.
+-->
 
 ---
-
-<!-- _class: lead -->
+layout: section
+---
 
 # Ejemplo práctico
 
@@ -328,7 +360,9 @@ jobs:
 
 - Principio de **mínimo privilegio**: el workflow solo puede lo necesario.
 
-<!-- nota: Recalcar permisos mínimos. Un workflow no necesita 'contents: write' para construir slides. Cada permiso de más es superficie de ataque. -->
+<!--
+Recalcar permisos mínimos. Un workflow no necesita 'contents: write' para construir slides. Cada permiso de más es superficie de ataque.
+-->
 
 ---
 
@@ -360,11 +394,13 @@ make build      # genera HTML / PDF con Marp
 - **CI obligatoria** antes de aceptar un PR.
 - **Revisa siempre el diff**: lo verde no es lo correcto.
 
-<!-- nota: Aquí es donde haría la demo si hay tiempo y conexión: make validate, make build, y enseñar el HTML generado. Plan B en notas. -->
+<!--
+Aquí es donde haría la demo si hay tiempo y conexión: make validate, make build, y enseñar el HTML generado. Plan B en notas.
+-->
 
 ---
-
-<!-- _class: lead invert -->
+layout: section
+---
 
 # Cierre
 
@@ -377,7 +413,9 @@ make build      # genera HTML / PDF con Marp
 - El **pipeline es la memoria del equipo**: codifica lo aprendido.
 - El objetivo es **cerrar el ciclo de feedback**, no acumular herramientas.
 
-<!-- nota: Volver a la idea principal: la IA amplifica. Con buen proceso, amplifica calidad. Sin él, amplifica deuda técnica. -->
+<!--
+Volver a la idea principal: la IA amplifica. Con buen proceso, amplifica calidad. Sin él, amplifica deuda técnica.
+-->
 
 ---
 
@@ -390,8 +428,8 @@ make build      # genera HTML / PDF con Marp
 5. **Revisa siempre el diff.**
 
 ---
-
-<!-- _class: lead -->
+layout: center
+---
 
 ## Enlaces / Gracias
 
@@ -402,4 +440,6 @@ make build      # genera HTML / PDF con Marp
 
 ### ¡Gracias! ¿Preguntas?
 
-<!-- nota: Dejar la slide de enlaces abierta durante el turno de preguntas. Ofrecer enseñar el repo en vivo si alguien quiere ver el pipeline real. -->
+<!--
+Dejar la slide de enlaces abierta durante el turno de preguntas. Ofrecer enseñar el repo en vivo si alguien quiere ver el pipeline real.
+-->
