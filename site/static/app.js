@@ -3,7 +3,7 @@
 (function () {
   'use strict';
 
-  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.entry'));
   var q = document.getElementById('q');
   var selects = {
     year: document.getElementById('f-year'),

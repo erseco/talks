@@ -75,6 +75,35 @@ function copyDir(src, dest) {
   }
 }
 
+// Inline boot script: mark JS available + apply saved theme before paint
+// (default light, so the catalogue is never dark unless the visitor asks).
+const THEME_BOOT = `<script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('theme');d.dataset.theme=(t==='dark'||t==='light')?t:'light';}catch(e){d.dataset.theme='light';}})();</script>`;
+
+function topbar(pathLabel) {
+  return `<header class="topbar">
+    <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="path">${esc(pathLabel)}</span>
+    <span class="spacer"></span>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema claro/oscuro">tema</button>
+  </header>`;
+}
+
+function footer() {
+  const links = (SITE_CFG.links || [])
+    .map((l) => `<a href="${esc(l.url)}" rel="noopener">${esc(l.label)}</a>`)
+    .join('\n        ');
+  return `<footer class="site-footer">
+    <div class="wrap">
+      <p class="prompt"><b>$</b> whoami</p>
+      <p class="who">${esc(SITE_CFG.author)}</p>
+      <nav>
+        ${links}
+      </nav>
+      <p class="copy">© <span id="year"></span> ${esc(SITE_CFG.author)} · contenido CC BY-SA 4.0</p>
+    </div>
+  </footer>`;
+}
+
 /** Build the normalised view-model used by both the index and detail pages. */
 function normalise(t) {
   const d = t.data;
@@ -128,47 +157,45 @@ function normalise(t) {
 
 function actionButtons(v, prefix = '') {
   const L = v.links;
-  const btn = (href, label, cls) => {
+  const btn = (href, label, primary = false) => {
     if (!href) return '';
     const isAbs = /^([a-z][a-z0-9+.-]*:)?\/\//i.test(href);
     const url = isAbs ? href : prefix + href;
-    return `<a class="btn ${cls}" href="${esc(url)}"${isAbs ? ' rel="noopener"' : ''}>${label}</a>`;
+    return `<a class="cmd${primary ? ' primary' : ''}" href="${esc(url)}"${isAbs ? ' rel="noopener"' : ''}>${label}</a>`;
   };
   return [
-    btn(L.online, 'Ver online', 'primary'),
-    btn(L.pdf, 'Descargar PDF', 'secondary'),
-    btn(L.pptx, 'PPTX (con notas)', 'ghost'),
-    btn(L.source, 'Fuente', 'ghost'),
-    btn(L.external_source, 'Fuente externa', 'ghost'),
-    btn(L.video, 'Vídeo', 'ghost'),
-    btn(L.github, 'GitHub', 'ghost'),
-  ].filter(Boolean).join('\n        ');
+    btn(L.online, 'ver online ↗', true),
+    btn(L.pdf, 'pdf', false),
+    btn(L.pptx, 'pptx · notas', false),
+    btn(L.source, 'fuente', false),
+    btn(L.external_source, 'fuente externa ↗', false),
+    btn(L.video, 'vídeo ↗', false),
+    btn(L.github, 'github ↗', false),
+  ].filter(Boolean).join('\n          ');
 }
 
-function cardMarkup(v) {
-  const topics = v.topics.map((x) => `<li>${esc(x)}</li>`).join('');
+function entryMarkup(v) {
+  const tags = v.topics.map((x) => `<li>${esc(x)}</li>`).join('');
   const text = fold([v.title, v.subtitle, v.description, v.event, v.location, ...v.topics, ...v.audience].join(' '));
-  return `      <article class="card" data-year="${esc(v.year)}" data-event="${esc(v.event)}" data-language="${esc(v.language)}" data-status="${esc(v.status)}" data-topics="${esc(v.topics.join('|'))}" data-text="${esc(text)}">
-        <div class="card-top">
-          <span class="badge status-${esc(v.status)}">${esc(v.statusLabel)}</span>
-          <time>${esc(v.dateLabel)}</time>
-        </div>
+  return `      <li class="entry status-${esc(v.status)}" data-year="${esc(v.year)}" data-event="${esc(v.event)}" data-language="${esc(v.language)}" data-status="${esc(v.status)}" data-topics="${esc(v.topics.join('|'))}" data-text="${esc(text)}">
+        <p class="row">
+          <time>${esc(v.dateLabel || v.year)}</time>
+          ${v.event ? `<span class="ev">${esc(v.event)}</span>` : ''}
+          <span class="badge">${esc(v.statusLabel)}</span>
+        </p>
         <h2><a href="${esc(v.links.detail)}">${esc(v.title)}</a></h2>
         ${v.subtitle ? `<p class="subtitle">${esc(v.subtitle)}</p>` : ''}
-        <p class="event">${esc(v.event)}${v.location ? ` · ${esc(v.location)}` : ''}</p>
         <p class="desc">${esc(v.description)}</p>
-        <ul class="topics">${topics}</ul>
+        ${tags ? `<ul class="tags">${tags}</ul>` : ''}
         <div class="actions">
-        ${actionButtons(v)}
+          ${actionButtons(v)}
         </div>
-      </article>`;
+      </li>`;
 }
 
 function indexPage(views) {
-  const cards = views.map(cardMarkup).join('\n');
-  const links = (SITE_CFG.links || [])
-    .map((l) => `<a href="${esc(l.url)}" rel="noopener">${esc(l.label)}</a>`)
-    .join('\n      ');
+  const entries = views.map(entryMarkup).join('\n');
+  const n = views.length;
   return `<!DOCTYPE html>
 <html lang="${esc(SITE_CFG.language || 'es')}">
 <head>
@@ -183,47 +210,38 @@ function indexPage(views) {
   <meta property="og:url" content="${esc(SITE_CFG.site_url || '')}">
   <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="static/style.css">
-  <script>document.documentElement.classList.add('js')</script>
+  ${THEME_BOOT}
 </head>
 <body>
-  <header class="hero">
-    <div class="wrap">
-      <p class="kicker">${esc(SITE_CFG.author)}</p>
-      <h1>${esc(SITE_CFG.title)}</h1>
-      <p class="lead">${esc(SITE_CFG.subtitle)}</p>
-      <p class="hero-links">
-        <a href="${esc(REPO_URL)}" rel="noopener">Repositorio en GitHub</a>
-      </p>
-    </div>
+  ${topbar('erseco/talks')}
+  <header class="hero wrap">
+    <p class="prompt"><b>$</b> ls -t charlas/<span class="cursor" aria-hidden="true"></span></p>
+    <h1>${esc(SITE_CFG.title)}</h1>
+    <p class="lead">${esc(SITE_CFG.subtitle)}</p>
+    <p class="hero-meta"># ${n} ${n === 1 ? 'entrada' : 'entradas'} · <a href="${esc(REPO_URL)}" rel="noopener">github ↗</a></p>
   </header>
 
   <main class="wrap">
     <section class="controls" aria-label="Filtros">
-      <input type="search" id="q" placeholder="Buscar por título, evento, tema…" aria-label="Buscar">
-      <select id="f-year" aria-label="Año"><option value="">Todos los años</option></select>
-      <select id="f-event" aria-label="Evento"><option value="">Todos los eventos</option></select>
-      <select id="f-topic" aria-label="Tema"><option value="">Todos los temas</option></select>
-      <select id="f-language" aria-label="Idioma"><option value="">Todos los idiomas</option></select>
-      <select id="f-status" aria-label="Estado"><option value="">Todos los estados</option></select>
-      <button type="button" id="reset">Limpiar</button>
-      <p class="count" id="count" aria-live="polite"></p>
+      <span class="gt" aria-hidden="true">&gt;</span>
+      <input type="search" id="q" placeholder="grep charlas…  (título · evento · tema)" aria-label="Buscar">
+      <select id="f-year" aria-label="Año"><option value="">--año</option></select>
+      <select id="f-event" aria-label="Evento"><option value="">--evento</option></select>
+      <select id="f-topic" aria-label="Tema"><option value="">--tema</option></select>
+      <select id="f-language" aria-label="Idioma"><option value="">--idioma</option></select>
+      <select id="f-status" aria-label="Estado"><option value="">--estado</option></select>
+      <button type="button" id="reset">clear</button>
+      <span class="count" id="count" aria-live="polite"></span>
     </section>
 
-    <section class="grid" id="cards">
-${cards}
-    </section>
-    <p class="empty" id="empty" hidden>No hay charlas que coincidan con los filtros.</p>
+    <ul class="entries" id="cards">
+${entries}
+    </ul>
+    <p class="empty" id="empty" hidden># sin resultados</p>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <nav class="footer-links">
-      ${links}
-      </nav>
-      <p>© <span id="year"></span> ${esc(SITE_CFG.author)} · Contenido bajo CC BY-SA 4.0</p>
-    </div>
-  </footer>
-
+  ${footer()}
+  <script src="static/theme.js"></script>
   <script src="static/app.js"></script>
 </body>
 </html>`;
@@ -257,39 +275,33 @@ function detailPage(v) {
   ${SITE_BASE ? `<meta property="og:url" content="${esc(`${SITE_BASE}/${DECKS_SUBDIR}/${v.id}/`)}">` : ''}
   <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="../../static/style.css">
+  ${THEME_BOOT}
 </head>
 <body class="detail">
-  <header class="hero compact">
-    <div class="wrap">
-      <p class="kicker"><a href="../../index.html">← Todas las charlas</a></p>
-      <span class="badge status-${esc(v.status)}">${esc(v.statusLabel)}</span>
-      <h1>${esc(v.title)}</h1>
-      ${v.subtitle ? `<p class="lead">${esc(v.subtitle)}</p>` : ''}
-    </div>
-  </header>
+  ${topbar(`charlas/${v.id}`)}
+  <main class="wrap">
+    <a class="back" href="../../index.html">$ cd ..</a>
+    <h1>${esc(v.title)}</h1>
+    ${v.subtitle ? `<p class="lead">${esc(v.subtitle)}</p>` : ''}
+    <p class="metaline status-${esc(v.status)}"><time>${esc(v.dateLabel)}</time><span class="ev">${esc(v.event)}</span><span class="badge">${esc(v.statusLabel)}</span></p>
 
-  <main class="wrap detail-body">
     <p class="desc">${esc(v.description)}</p>
 
     <div class="actions">
-    ${actionButtons(v, '../../')}
+      ${actionButtons(v, '../../')}
     </div>
 
     <dl class="meta">
 ${meta}
     </dl>
 
-    ${topics ? `<section><h2>Temas</h2><ul class="topics">${topics}</ul></section>` : ''}
-    ${audience ? `<section><h2>Público</h2><ul class="topics">${audience}</ul></section>` : ''}
-    ${v.links.notes ? `<section><h2>Recursos</h2><ul><li><a href="${esc(v.links.notes)}" rel="noopener">Notas del ponente</a></li></ul></section>` : ''}
+    ${topics ? `<section><h2>Temas</h2><ul class="tags">${topics}</ul></section>` : ''}
+    ${audience ? `<section><h2>Público</h2><ul class="tags">${audience}</ul></section>` : ''}
+    ${v.links.notes ? `<section><h2>Recursos</h2><div class="actions"><a class="cmd" href="${esc(v.links.notes)}" rel="noopener">notas del ponente ↗</a></div></section>` : ''}
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>© <span id="year"></span> ${esc(SITE_CFG.author)} · Contenido bajo CC BY-SA 4.0</p>
-    </div>
-  </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  ${footer()}
+  <script src="../../static/theme.js"></script>
 </body>
 </html>`;
 }

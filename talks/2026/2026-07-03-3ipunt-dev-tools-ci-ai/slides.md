@@ -10,6 +10,8 @@ info: |
 author: "Ernesto Serrano"
 transition: slide-left
 mdc: true
+routerMode: hash
+colorSchema: light
 ---
 
 # Herramientas de desarrollo, CI e IA

@@ -9,6 +9,8 @@ info: |
 author: "Ernesto Serrano Collado"
 transition: slide-left
 mdc: true
+routerMode: hash
+colorSchema: light
 ---
 
 # La IA puede programar, pero la libertad hay que cuidarla
