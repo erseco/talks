@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>202606260620449OH6I6</value>
+    <value>202606260642209OC5YY</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260626062044KNTO60</value>
+    <value>20260626064220A7YKLH</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -52,7 +52,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-06-26T05:20:44.676Z</value>
+    <value>2026-06-26T05:42:20.633Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -161,12 +161,9 @@
           <odePageId>SP00000001</odePageId>
           <odeBlockId>SP00000002</odeBlockId>
           <odeIdeviceId>SP00000003</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>JASYP, Granada, Abril 2019</li>
-<li>Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0.</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","markdownTextarea":"- JASYP, Granada, Abril 2019\n- Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0.","markdownTextareaHtml":"<ul>\n<li>JASYP, Granada, Abril 2019</li>\n<li>Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000003/slide-01.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000003/slide-01.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -264,11 +261,9 @@
           <odePageId>SP00000004</odePageId>
           <odeBlockId>SP00000005</odeBlockId>
           <odeIdeviceId>SP00000006</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000006","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000006/slide-02.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000006","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000006/slide-02.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -420,15 +415,9 @@
           <odePageId>SP00000009</odePageId>
           <odeBlockId>SP00000010</odeBlockId>
           <odeIdeviceId>SP00000011</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Me llamo Ernesto Serrano</li>
-<li>DevOps Tech Lead en OpenExO</li>
-<li>Desarrollador principal del Stevie Wonder Simulator para Android</li>
-<li>Rompiendo cosas desde 1983</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000011","markdownTextarea":"- Me llamo Ernesto Serrano\n- DevOps Tech Lead en OpenExO\n- Desarrollador principal del Stevie Wonder Simulator para Android\n- Rompiendo cosas desde 1983\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Me llamo Ernesto Serrano</li>\n<li>DevOps Tech Lead en OpenExO</li>\n<li>Desarrollador principal del Stevie Wonder Simulator para Android</li>\n<li>Rompiendo cosas desde 1983</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000011/slide-03.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000011","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000011/slide-03.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -526,11 +515,9 @@
           <odePageId>SP00000012</odePageId>
           <odeBlockId>SP00000013</odeBlockId>
           <odeIdeviceId>SP00000014</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Algunos de los tipos de ataque más comunes</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000014","markdownTextarea":"- Algunos de los tipos de ataque más comunes","markdownTextareaHtml":"<ul>\n<li>Algunos de los tipos de ataque más comunes</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000014/slide-04.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000014","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000014/slide-04.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -628,23 +615,9 @@
           <odePageId>SP00000015</odePageId>
           <odeBlockId>SP00000016</odeBlockId>
           <odeIdeviceId>SP00000017</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Phishing</li>
-<li>El atacante intenta obtener información haciéndose pasar por alguien en quien confiamos: bancos, plataformas online, conocidos...</li>
-<li>Spoofing</li>
-<li>Suplantación de identidad. El atacante se hace pasar por nosotros, por ejemplo a la hora de enviar un e-mail o darse de alta en una plataforma.</li>
-<li>Grooming</li>
-<li>Acoso o acercamiento a un menor ejercido por un adulto con fines sexuales.</li>
-<li>Sexting</li>
-<li>Envío de mensajes sexuales (eróticos o pornográficos) por medios electrónicos. Esto puede desencadenar en sextorsión.</li>
-<li>Ciberbullying</li>
-<li>Uso de medios eletrónicos para ejercer acoso psicológico entre iguales.</li>
-<li>Sharenting</li>
-<li>Compartir detalles de los hijos en redes sociales sin su consentimiento. Esto comienza incluso antes del nacimiento compartiendo ecografías</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000017","markdownTextarea":"- Phishing\n- El atacante intenta obtener información haciéndose pasar por alguien en quien confiamos: bancos, plataformas online, conocidos...\n- Spoofing\n- Suplantación de identidad. El atacante se hace pasar por nosotros, por ejemplo a la hora de enviar un e-mail o darse de alta en una plataforma.\n- Grooming\n- Acoso o acercamiento a un menor ejercido por un adulto con fines sexuales.\n- Sexting\n- Envío de mensajes sexuales (eróticos o pornográficos) por medios electrónicos. Esto puede desencadenar en sextorsión.\n- Ciberbullying\n- Uso de medios eletrónicos para ejercer acoso psicológico entre iguales.\n- Sharenting\n- Compartir detalles de los hijos en redes sociales sin su consentimiento. Esto comienza incluso antes del nacimiento compartiendo ecografías\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Phishing</li>\n<li>El atacante intenta obtener información haciéndose pasar por alguien en quien confiamos: bancos, plataformas online, conocidos...</li>\n<li>Spoofing</li>\n<li>Suplantación de identidad. El atacante se hace pasar por nosotros, por ejemplo a la hora de enviar un e-mail o darse de alta en una plataforma.</li>\n<li>Grooming</li>\n<li>Acoso o acercamiento a un menor ejercido por un adulto con fines sexuales.</li>\n<li>Sexting</li>\n<li>Envío de mensajes sexuales (eróticos o pornográficos) por medios electrónicos. Esto puede desencadenar en sextorsión.</li>\n<li>Ciberbullying</li>\n<li>Uso de medios eletrónicos para ejercer acoso psicológico entre iguales.</li>\n<li>Sharenting</li>\n<li>Compartir detalles de los hijos en redes sociales sin su consentimiento. Esto comienza incluso antes del nacimiento compartiendo ecografías</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000017/slide-05.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000017","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000017/slide-05.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -796,17 +769,9 @@
           <odePageId>SP00000020</odePageId>
           <odeBlockId>SP00000021</odeBlockId>
           <odeIdeviceId>SP00000022</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Correos electrónicos</li>
-<li>Mensajes de WhatsApp</li>
-<li>Perfiles falsos en redes sociales</li>
-<li>Mensajes SMS</li>
-<li>Humanos</li>
-<li>¡Aprende a identificarlos!</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000022","markdownTextarea":"- Correos electrónicos\n- Mensajes de WhatsApp\n- Perfiles falsos en redes sociales\n- Mensajes SMS\n- Humanos\n- ¡Aprende a identificarlos!\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Correos electrónicos</li>\n<li>Mensajes de WhatsApp</li>\n<li>Perfiles falsos en redes sociales</li>\n<li>Mensajes SMS</li>\n<li>Humanos</li>\n<li>¡Aprende a identificarlos!</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000022/slide-06.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000022","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000022/slide-06.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -904,11 +869,9 @@
           <odePageId>SP00000023</odePageId>
           <odeBlockId>SP00000024</odeBlockId>
           <odeIdeviceId>SP00000025</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000025","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000025/slide-07.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000025","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000025/slide-07.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1006,11 +969,9 @@
           <odePageId>SP00000026</odePageId>
           <odeBlockId>SP00000027</odeBlockId>
           <odeIdeviceId>SP00000028</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000028","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000028/slide-08.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000028","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000028/slide-08.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1108,11 +1069,9 @@
           <odePageId>SP00000029</odePageId>
           <odeBlockId>SP00000030</odeBlockId>
           <odeIdeviceId>SP00000031</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000031","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000031/slide-09.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000031","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000031/slide-09.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1210,11 +1169,9 @@
           <odePageId>SP00000032</odePageId>
           <odeBlockId>SP00000033</odeBlockId>
           <odeIdeviceId>SP00000034</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000034","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000034/slide-10.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000034","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000034/slide-10.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1312,11 +1269,9 @@
           <odePageId>SP00000035</odePageId>
           <odeBlockId>SP00000036</odeBlockId>
           <odeIdeviceId>SP00000037</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000037","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000037/slide-11.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000037","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000037/slide-11.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1414,11 +1369,9 @@
           <odePageId>SP00000038</odePageId>
           <odeBlockId>SP00000039</odeBlockId>
           <odeIdeviceId>SP00000040</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000040","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000040/slide-12.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000040","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000040/slide-12.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1516,11 +1469,9 @@
           <odePageId>SP00000041</odePageId>
           <odeBlockId>SP00000042</odeBlockId>
           <odeIdeviceId>SP00000043</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000043","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000043/slide-13.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000043","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000043/slide-13.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1618,11 +1569,9 @@
           <odePageId>SP00000044</odePageId>
           <odeBlockId>SP00000045</odeBlockId>
           <odeIdeviceId>SP00000046</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000046","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000046/slide-14.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000046","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000046/slide-14.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1720,11 +1669,9 @@
           <odePageId>SP00000047</odePageId>
           <odeBlockId>SP00000048</odeBlockId>
           <odeIdeviceId>SP00000049</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000049","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000049/slide-15.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000049","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000049/slide-15.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1822,11 +1769,9 @@
           <odePageId>SP00000050</odePageId>
           <odeBlockId>SP00000051</odeBlockId>
           <odeIdeviceId>SP00000052</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000052","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000052/slide-16.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000052","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000052/slide-16.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1924,13 +1869,9 @@
           <odePageId>SP00000053</odePageId>
           <odeBlockId>SP00000054</odeBlockId>
           <odeIdeviceId>SP00000055</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Errar es humano, pero culpar al ordenador de nuestros propios errores es todavía más humano.</li>
-<li>Robert Orben</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000055","markdownTextarea":"- Errar es humano, pero culpar al ordenador de nuestros propios errores es todavía más humano.\n- Robert Orben\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Errar es humano, pero culpar al ordenador de nuestros propios errores es todavía más humano.</li>\n<li>Robert Orben</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000055/slide-17.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000055","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000055/slide-17.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2028,11 +1969,9 @@
           <odePageId>SP00000056</odePageId>
           <odeBlockId>SP00000057</odeBlockId>
           <odeIdeviceId>SP00000058</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Usando el aprendizaje significativo</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000058","markdownTextarea":"- Usando el aprendizaje significativo","markdownTextareaHtml":"<ul>\n<li>Usando el aprendizaje significativo</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000058/slide-18.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000058","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000058/slide-18.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2184,13 +2123,9 @@
           <odePageId>SP00000061</odePageId>
           <odeBlockId>SP00000062</odeBlockId>
           <odeIdeviceId>SP00000063</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>El efecto Streisand es un intento de censura o encubrimiento de cierta información que fracasa o es contraproducente, ya que ésta acaba siendo ampliamente divulgada, de modo que recibe mayor visibilidad.</li>
-<li>Mas información: https://es.wikipedia.org/wiki/Efecto_Streisand</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000063","markdownTextarea":"- El efecto Streisand es un intento de censura o encubrimiento de cierta información que fracasa o es contraproducente, ya que ésta acaba siendo ampliamente divulgada, de modo que recibe mayor visibilidad.\n- Mas información: https://es.wikipedia.org/wiki/Efecto_Streisand\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>El efecto Streisand es un intento de censura o encubrimiento de cierta información que fracasa o es contraproducente, ya que ésta acaba siendo ampliamente divulgada, de modo que recibe mayor visibilidad.</li>\n<li>Mas información: https://es.wikipedia.org/wiki/Efecto_Streisand</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000063/slide-19.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000063","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000063/slide-19.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2342,13 +2277,9 @@
           <odePageId>SP00000066</odePageId>
           <odeBlockId>SP00000067</odeBlockId>
           <odeIdeviceId>SP00000068</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Consiste en un enlace trampa disfrazado como algo de interés para que el usuario haga click sobre él, pero lo redirige hacia el vídeo musical de Rick Astley “Never Gonna Give You Up” (1987).</li>
-<li>Mas información: https://es.wikipedia.org/wiki/Rickroll</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000068","markdownTextarea":"- Consiste en un enlace trampa disfrazado como algo de interés para que el usuario haga click sobre él, pero lo redirige hacia el vídeo musical de Rick Astley “Never Gonna Give You Up” (1987).\n- Mas información: https://es.wikipedia.org/wiki/Rickroll\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Consiste en un enlace trampa disfrazado como algo de interés para que el usuario haga click sobre él, pero lo redirige hacia el vídeo musical de Rick Astley “Never Gonna Give You Up” (1987).</li>\n<li>Mas información: https://es.wikipedia.org/wiki/Rickroll</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000068/slide-20.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000068","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000068/slide-20.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2500,13 +2431,9 @@
           <odePageId>SP00000071</odePageId>
           <odeBlockId>SP00000072</odeBlockId>
           <odeIdeviceId>SP00000073</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Consiste en añadir una imagen al fondo de escritorio de David Hasselhoff con el motivo de concienciar al usuario del riesgo de no bloquear su ordenador.</li>
-<li>Mas información: https://es.wikipedia.org/wiki/Ataque_David_Hasselhoff</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000073","markdownTextarea":"- Consiste en añadir una imagen al fondo de escritorio de David Hasselhoff con el motivo de concienciar al usuario del riesgo de no bloquear su ordenador.\n- Mas información: https://es.wikipedia.org/wiki/Ataque_David_Hasselhoff\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Consiste en añadir una imagen al fondo de escritorio de David Hasselhoff con el motivo de concienciar al usuario del riesgo de no bloquear su ordenador.</li>\n<li>Mas información: https://es.wikipedia.org/wiki/Ataque_David_Hasselhoff</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000073/slide-21.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000073","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000073/slide-21.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2604,13 +2531,9 @@
           <odePageId>SP00000074</odePageId>
           <odeBlockId>SP00000075</odeBlockId>
           <odeIdeviceId>SP00000076</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Consiste en obtener información a través de la manipulación de usuarios legítimos. En cualquier sistema los usuarios son el eslabón más débil.</li>
-<li>Mas información: https://es.wikipedia.org/wiki/Ingeniería_social_(seguridad_informática)</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000076","markdownTextarea":"- Consiste en obtener información a través de la manipulación de usuarios legítimos. En cualquier sistema los usuarios son el eslabón más débil.\n- Mas información: https://es.wikipedia.org/wiki/Ingeniería_social_(seguridad_informática)\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Consiste en obtener información a través de la manipulación de usuarios legítimos. En cualquier sistema los usuarios son el eslabón más débil.</li>\n<li>Mas información: https://es.wikipedia.org/wiki/Ingeniería_social_(seguridad_informática)</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000076/slide-22.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000076","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000076/slide-22.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2708,12 +2631,9 @@
           <odePageId>SP00000077</odePageId>
           <odeBlockId>SP00000078</odeBlockId>
           <odeIdeviceId>SP00000079</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>El alumnado puede acceder desde otros sitios diferentes al centro educativo</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000079","markdownTextarea":"- El alumnado puede acceder desde otros sitios diferentes al centro educativo\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>El alumnado puede acceder desde otros sitios diferentes al centro educativo</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000079/slide-23.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000079","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000079/slide-23.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2811,18 +2731,9 @@
           <odePageId>SP00000080</odePageId>
           <odeBlockId>SP00000081</odeBlockId>
           <odeIdeviceId>SP00000082</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Wikipedia</li>
-<li>Cualquier persona puede editar la información contenida, teniendo sus ventajas e inconvenientes.</li>
-<li>https://es.wikipedia.org/wiki/Granada</li>
-<li>Blogs</li>
-<li>La información recogida en un blog siempre será subjetiva a la opinión de la persona que la escriba. No vas a creer lo que sucedió a continuación...</li>
-<li>Noticias falsas</li>
-<li>Aquí tienes un listado de las 10 páginas mas importantes de noticias falsas, la 7ª te sorprenderá: http://bit.ly/2EIDNSI</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000082","markdownTextarea":"- Wikipedia\n- Cualquier persona puede editar la información contenida, teniendo sus ventajas e inconvenientes.\n- https://es.wikipedia.org/wiki/Granada\n- Blogs\n- La información recogida en un blog siempre será subjetiva a la opinión de la persona que la escriba. No vas a creer lo que sucedió a continuación...\n- Noticias falsas\n- Aquí tienes un listado de las 10 páginas mas importantes de noticias falsas, la 7ª te sorprenderá: http://bit.ly/2EIDNSI\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Wikipedia</li>\n<li>Cualquier persona puede editar la información contenida, teniendo sus ventajas e inconvenientes.</li>\n<li>https://es.wikipedia.org/wiki/Granada</li>\n<li>Blogs</li>\n<li>La información recogida en un blog siempre será subjetiva a la opinión de la persona que la escriba. No vas a creer lo que sucedió a continuación...</li>\n<li>Noticias falsas</li>\n<li>Aquí tienes un listado de las 10 páginas mas importantes de noticias falsas, la 7ª te sorprenderá: http://bit.ly/2EIDNSI</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000082/slide-24.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000082","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000082/slide-24.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2920,13 +2831,9 @@
           <odePageId>SP00000083</odePageId>
           <odeBlockId>SP00000084</odeBlockId>
           <odeIdeviceId>SP00000085</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Si tu empresa gasta más en café que en seguridad informática, serás hackeado. Es más, merecerás ser hackeado.</li>
-<li>Richard Clarke</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000085","markdownTextarea":"- Si tu empresa gasta más en café que en seguridad informática, serás hackeado. Es más, merecerás ser hackeado.\n- Richard Clarke\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Si tu empresa gasta más en café que en seguridad informática, serás hackeado. Es más, merecerás ser hackeado.</li>\n<li>Richard Clarke</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000085/slide-25.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000085","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000085/slide-25.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3024,11 +2931,9 @@
           <odePageId>SP00000086</odePageId>
           <odeBlockId>SP00000087</odeBlockId>
           <odeIdeviceId>SP00000088</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Algunos consejos para mejorar nuestra seguridad</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000088","markdownTextarea":"- Algunos consejos para mejorar nuestra seguridad","markdownTextareaHtml":"<ul>\n<li>Algunos consejos para mejorar nuestra seguridad</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000088/slide-26.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000088","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000088/slide-26.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3126,14 +3031,9 @@
           <odePageId>SP00000089</odePageId>
           <odeBlockId>SP00000090</odeBlockId>
           <odeIdeviceId>SP00000091</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Aunque uses el ordenador con batamanta un video tuyo tiene valor.</li>
-<li>¿Sólo es vulnerable el ordenador?</li>
-<li>Mas información: https://www.readersdigest.ca/culture/cover-laptop-camera/</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000091","markdownTextarea":"- Aunque uses el ordenador con batamanta un video tuyo tiene valor.\n- ¿Sólo es vulnerable el ordenador?\n- Mas información: https://www.readersdigest.ca/culture/cover-laptop-camera/\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Aunque uses el ordenador con batamanta un video tuyo tiene valor.</li>\n<li>¿Sólo es vulnerable el ordenador?</li>\n<li>Mas información: https://www.readersdigest.ca/culture/cover-laptop-camera/</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000091/slide-27.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000091","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000091/slide-27.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3231,14 +3131,9 @@
           <odePageId>SP00000092</odePageId>
           <odeBlockId>SP00000093</odeBlockId>
           <odeIdeviceId>SP00000094</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>No todos los sitios son igual de seguros.</li>
-<li>Si se filtra la base de datos de un sitio poco seguro es posible que un atacante pueda usarla en otros sitios.</li>
-<li>Mas información: https://haveibeenpwned.com/</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000094","markdownTextarea":"- No todos los sitios son igual de seguros.\n- Si se filtra la base de datos de un sitio poco seguro es posible que un atacante pueda usarla en otros sitios.\n- Mas información: https://haveibeenpwned.com/\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>No todos los sitios son igual de seguros.</li>\n<li>Si se filtra la base de datos de un sitio poco seguro es posible que un atacante pueda usarla en otros sitios.</li>\n<li>Mas información: https://haveibeenpwned.com/</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000094/slide-28.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000094","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000094/slide-28.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3336,15 +3231,9 @@
           <odePageId>SP00000095</odePageId>
           <odeBlockId>SP00000096</odeBlockId>
           <odeIdeviceId>SP00000097</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Añade una capa de seguridad extra a servicios online</li>
-<li>Algo que conoces (contraseña) + algo que tienes (móvil)</li>
-<li>Hay opciones libres: FreeOTP...</li>
-<li>Mas información: https://es.wikipedia.org/wiki/Autenticación_de_múltiples_factores</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000097","markdownTextarea":"- Añade una capa de seguridad extra a servicios online\n- Algo que conoces (contraseña) + algo que tienes (móvil)\n- Hay opciones libres: FreeOTP...\n- Mas información: https://es.wikipedia.org/wiki/Autenticación_de_múltiples_factores\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Añade una capa de seguridad extra a servicios online</li>\n<li>Algo que conoces (contraseña) + algo que tienes (móvil)</li>\n<li>Hay opciones libres: FreeOTP...</li>\n<li>Mas información: https://es.wikipedia.org/wiki/Autenticación_de_múltiples_factores</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000097/slide-29.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000097","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000097/slide-29.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3442,15 +3331,9 @@
           <odePageId>SP00000098</odePageId>
           <odeBlockId>SP00000099</odeBlockId>
           <odeIdeviceId>SP00000100</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Mantén tus dispositivos controlados en todo momento ✈️</li>
-<li>Agrega una contraseña o un patrón de desbloqueo.</li>
-<li>El patrón se puede deducir al trasluz 🤷</li>
-<li>Mas información: https://es.wikipedia.org/wiki/Seguridad_en_telefonía_móvil</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000100","markdownTextarea":"- Mantén tus dispositivos controlados en todo momento ✈️\n- Agrega una contraseña o un patrón de desbloqueo.\n- El patrón se puede deducir al trasluz 🤷\n- Mas información: https://es.wikipedia.org/wiki/Seguridad_en_telefonía_móvil\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Mantén tus dispositivos controlados en todo momento ✈️</li>\n<li>Agrega una contraseña o un patrón de desbloqueo.</li>\n<li>El patrón se puede deducir al trasluz 🤷</li>\n<li>Mas información: https://es.wikipedia.org/wiki/Seguridad_en_telefonía_móvil</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000100/slide-30.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000100","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000100/slide-30.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3602,13 +3485,9 @@
           <odePageId>SP00000103</odePageId>
           <odeBlockId>SP00000104</odeBlockId>
           <odeIdeviceId>SP00000105</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Las contraseñas son como la ropa interior: no dejes que otros las vean, cámbialas con frecuencia y no las compartas con desconocidos.</li>
-<li>Chris Pirillo</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000105","markdownTextarea":"- Las contraseñas son como la ropa interior: no dejes que otros las vean, cámbialas con frecuencia y no las compartas con desconocidos.\n- Chris Pirillo\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Las contraseñas son como la ropa interior: no dejes que otros las vean, cámbialas con frecuencia y no las compartas con desconocidos.</li>\n<li>Chris Pirillo</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000105/slide-31.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000105","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000105/slide-31.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3706,14 +3585,9 @@
           <odePageId>SP00000106</odePageId>
           <odeBlockId>SP00000107</odeBlockId>
           <odeIdeviceId>SP00000108</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>¿Alguna pregunta?</li>
-<li>Podéis contactarme en</li>
-<li>http://www.ernesto.es</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000108","markdownTextarea":"- ¿Alguna pregunta?\n- Podéis contactarme en\n- http://www.ernesto.es\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>¿Alguna pregunta?</li>\n<li>Podéis contactarme en</li>\n<li>http://www.ernesto.es</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000108/slide-32.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000108","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000108/slide-32.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3811,11 +3685,9 @@
           <odePageId>SP00000109</odePageId>
           <odeBlockId>SP00000110</odeBlockId>
           <odeIdeviceId>SP00000111</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000111","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000111/slide-33.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000111","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000111/slide-33.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3913,11 +3785,9 @@
           <odePageId>SP00000112</odePageId>
           <odeBlockId>SP00000113</odeBlockId>
           <odeIdeviceId>SP00000114</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000114","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000114/slide-34.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000114","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000114/slide-34.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4015,21 +3885,9 @@
           <odePageId>SP00000115</odePageId>
           <odeBlockId>SP00000116</odeBlockId>
           <odeIdeviceId>SP00000117</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>CPU Broadcom BCM6358SKFBG a 300MHz</li>
-<li>64 MB RAM</li>
-<li>16MB Flash</li>
-<li>OpenWRT 18.06.2</li>
-<li>Nombre del wifi: JASYP_FR33_WIFI</li>
-<li>Podéis ver la configuración en:</li>
-<li>https://github.com/erseco/openwrt-wifi-honeypot</li>
-<li>‹#›</li>
-<li>Con la colaboración de:</li>
-<li>@chelunike</li>
-<li>@mati3</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000117","markdownTextarea":"- CPU Broadcom BCM6358SKFBG a 300MHz\n- 64 MB RAM\n- 16MB Flash\n- OpenWRT 18.06.2\n- Nombre del wifi: JASYP_FR33_WIFI\n- Podéis ver la configuración en:\n- https://github.com/erseco/openwrt-wifi-honeypot\n- ‹#›\n- Con la colaboración de:\n- @chelunike\n- @mati3","markdownTextareaHtml":"<ul>\n<li>CPU Broadcom BCM6358SKFBG a 300MHz</li>\n<li>64 MB RAM</li>\n<li>16MB Flash</li>\n<li>OpenWRT 18.06.2</li>\n<li>Nombre del wifi: JASYP_FR33_WIFI</li>\n<li>Podéis ver la configuración en:</li>\n<li>https://github.com/erseco/openwrt-wifi-honeypot</li>\n<li>‹#›</li>\n<li>Con la colaboración de:</li>\n<li>@chelunike</li>\n<li>@mati3</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000117/slide-35.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000117","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000117/slide-35.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4127,14 +3985,9 @@
           <odePageId>SP00000118</odePageId>
           <odeBlockId>SP00000119</odeBlockId>
           <odeIdeviceId>SP00000120</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>Hey, hemos sido un montón</li>
-<li>En unas Jornadas sobre Anonimato, Seguridad y Privacidad...</li>
-<li>¿En serio?</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000120","markdownTextarea":"- Hey, hemos sido un montón\n- En unas Jornadas sobre Anonimato, Seguridad y Privacidad...\n- ¿En serio?\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Hey, hemos sido un montón</li>\n<li>En unas Jornadas sobre Anonimato, Seguridad y Privacidad...</li>\n<li>¿En serio?</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000120/slide-36.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000120","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000120/slide-36.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4232,15 +4085,9 @@
           <odePageId>SP00000121</odePageId>
           <odeBlockId>SP00000122</odeBlockId>
           <odeIdeviceId>SP00000123</odeIdeviceId>
-          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
-<li>A los artífices de estas jornadas:</li>
-<li>Paula de la Hoz (@terceranexus6)</li>
-<li>German Martinez (@germaaan)</li>
-<li>Y a toda la gente que ha colaborado!</li>
-<li>‹#›</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000123","markdownTextarea":"- A los artífices de estas jornadas:\n- Paula de la Hoz (@terceranexus6)\n- German Martinez (@germaaan)\n- Y a toda la gente que ha colaborado!\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>A los artífices de estas jornadas:</li>\n<li>Paula de la Hoz (@terceranexus6)</li>\n<li>German Martinez (@germaaan)</li>\n<li>Y a toda la gente que ha colaborado!</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000123/slide-37.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000123","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000123/slide-37.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>

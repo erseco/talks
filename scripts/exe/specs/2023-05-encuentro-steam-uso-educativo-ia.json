@@ -16,7 +16,7 @@
         {
           "title": "Uso educativo de la IA",
           "icon": "slide",
-          "md": "- CEP Puerto del Rosario, mayo 2023\n- Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0."
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-01.png"
         }
       ]
     },
@@ -27,7 +27,7 @@
         {
           "title": "Diapositiva 2",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-02.png"
         },
         {
           "title": "Notas del ponente",
@@ -44,7 +44,7 @@
         {
           "title": "Diapositiva 3",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-03.png"
         },
         {
           "title": "Notas del ponente",
@@ -61,7 +61,7 @@
         {
           "title": "¡Hola!",
           "icon": "slide",
-          "md": "- Me llamo Ernesto Serrano\n- Asesor TIC en el CEP El Hierro\n- Desarrollador principal del Stevie Wonder Simulator para Android\n- Rompiendo cosas desde 1983\n- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-04.png"
         },
         {
           "title": "Notas del ponente",
@@ -78,7 +78,7 @@
         {
           "title": "Introducción",
           "icon": "slide",
-          "md": "- Breve explicación de qué es la Inteligencia Artificial."
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-05.png"
         },
         {
           "title": "Notas del ponente",
@@ -95,7 +95,7 @@
         {
           "title": "Diapositiva 6",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-06.png"
         }
       ]
     },
@@ -106,7 +106,7 @@
         {
           "title": "¿Qué tienen que ver con la IA?",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-07.png"
         },
         {
           "title": "Notas del ponente",
@@ -123,7 +123,7 @@
         {
           "title": "Breve historia de la IA",
           "icon": "slide",
-          "md": "- Desde los orígenes de la inteligencia artificial hasta la actualidad: un recorrido por los hitos más significativos."
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-08.png"
         },
         {
           "title": "Notas del ponente",
@@ -140,7 +140,7 @@
         {
           "title": "Diapositiva 9",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-09.png"
         }
       ]
     },
@@ -168,7 +168,7 @@
         {
           "title": "Algunos hitos de la IA",
           "icon": "slide",
-          "md": "- ‹#›\n- Stanford Cart, vehículo que evita obstáculos.\n- OpenAI lanza GPT-2\n- Test de Turing\n- 1997: Deep Blue derrota a\n- Garry Kasparov.\n- Una IA es capaz de pasarse el Super Mario\n- OpenAI presenta ChatGPT,"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-11.png"
         },
         {
           "title": "Notas del ponente",
@@ -185,7 +185,7 @@
         {
           "title": "Tipos de inteligencia artificial",
           "icon": "slide",
-          "md": "- Un análisis de las diferentes categorías y enfoques de la inteligencia artificial"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-12.png"
         },
         {
           "title": "Notas del ponente",
@@ -219,7 +219,7 @@
         {
           "title": "Diapositiva 14",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-14.png"
         }
       ]
     },
@@ -230,7 +230,7 @@
         {
           "title": "Diapositiva 15",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-15.png"
         },
         {
           "title": "Notas del ponente",
@@ -247,7 +247,7 @@
         {
           "title": "Diapositiva 16",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-16.png"
         },
         {
           "title": "Notas del ponente",
@@ -264,7 +264,7 @@
         {
           "title": "Diapositiva 17",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-17.png"
         },
         {
           "title": "Notas del ponente",
@@ -281,7 +281,7 @@
         {
           "title": "¿Qué es un PROMPT?",
           "icon": "slide",
-          "md": "- ‹#›\n- Entrada de texto que guía la respuesta de modelos de lenguaje, como GPT, en tareas de procesamiento del lenguaje natural.\n- Puede ser una pregunta, oración incompleta o palabras clave, proporcionando contexto y propósito a la tarea solicitada."
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-18.png"
         },
         {
           "title": "Notas del ponente",
@@ -298,7 +298,7 @@
         {
           "title": "Diapositiva 19",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-19.png"
         }
       ]
     },
@@ -309,7 +309,7 @@
         {
           "title": "¿Qué pinta aquí Roald Dahl?",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-20.png"
         },
         {
           "title": "Notas del ponente",
@@ -326,7 +326,7 @@
         {
           "title": "Diapositiva 21",
           "icon": "slide",
-          "md": "- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-21.png"
         },
         {
           "title": "Notas del ponente",
@@ -343,7 +343,7 @@
         {
           "title": "Impacto de la Inteligencia Artificial en la Educación",
           "icon": "slide",
-          "md": "- Explorando las aplicaciones y perspectivas futuras de la IA en la educación."
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-22.png"
         }
       ]
     },
@@ -354,7 +354,7 @@
         {
           "title": "Análisis DAFO",
           "icon": "slide",
-          "md": "- ‹#›\n- DEBILIDADES\n- Brecha digital\n- Falta de capacitación\n- AMENAZAS\n- Privacidad y seguridad\n- Uso indebido\n- Personalización\n- Innovación Educativa\n- FORTALEZAS\n- Educación inclusivaEficiencia\n- OPORTUNIDADES\n- D\n- A\n- F\n- O"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-23.png"
         },
         {
           "title": "Notas del ponente",
@@ -371,7 +371,7 @@
         {
           "title": "Diapositiva 24",
           "icon": "slide",
-          "md": "- \"La inteligencia artificial no es una amenaza, es una herramienta. La amenaza es la ignorancia de aquellos que la utilizan\"\n- Roger Schank\n- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-24.png"
         }
       ]
     },
@@ -382,7 +382,7 @@
         {
           "title": "Ejemplos para el bien 😇",
           "icon": "slide",
-          "md": "- La inteligencia artificial nos puede ayudar en nuestra labor docente"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-25.png"
         },
         {
           "title": "Notas del ponente",
@@ -450,7 +450,7 @@
         {
           "title": "Ejemplos para el mal 😈",
           "icon": "slide",
-          "md": "- La inteligencia artificial puede ser usada para hacer “trampa” en la evaluación"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-29.png"
         },
         {
           "title": "Notas del ponente",
@@ -484,7 +484,7 @@
         {
           "title": "Ejemplos para el WTF 🤷🏻‍♀️",
           "icon": "slide",
-          "md": "- Los modelos basados en Transformer a veces “alucinan” o dan información falsa."
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-31.png"
         },
         {
           "title": "Notas del ponente",
@@ -535,7 +535,7 @@
         {
           "title": "Cómo mejorar el uso de la IA en educación",
           "icon": "slide",
-          "md": "- Aprovechando los beneficios de la inteligencia artificial para mejorar la experiencia educativa."
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-34.png"
         },
         {
           "title": "Notas del ponente",
@@ -569,7 +569,7 @@
         {
           "title": "Conclusiones",
           "icon": "slide",
-          "md": "- Impacto y Potencial de la IA en la Educación"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-36.png"
         },
         {
           "title": "Notas del ponente",
@@ -603,7 +603,7 @@
         {
           "title": "¡Gracias!",
           "icon": "slide",
-          "md": "- ¿Alguna pregunta?\n- Podéis encontrarme en\n- ernesto.es\n- ‹#›"
+          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-38.png"
         }
       ]
     }
