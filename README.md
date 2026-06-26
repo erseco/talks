@@ -96,8 +96,12 @@ External / link-only talks use `engine: external` and the `external:` block.
 
 - **base** — eXeLearning's default theme (used for the recent talks).
 - **jacquenetta** (`assets/exe-themes/jacquenetta/`) — a minimalist **black &
-  white** theme inspired by the *Jacquenetta* SlidesCarnival template, built on
-  top of `base`. Used for the older talks.
+  white** theme built on `base`. Used by the older talks, whose pages are the
+  rendered slide captures (one page per slide).
+- **jeanette** (`assets/exe-themes/jeanette/`) — a faithful take on the
+  *Jacquenetta* SlidesCarnival template (Arial, black/white + teal `#158158`
+  accent, **black title box**), for HTML-text talks that should look like the
+  original slides without using captures. Set `"theme": "jeanette"` in a spec.
 
 ## Releases and pre-release
 
