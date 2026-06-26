@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260625233312NUDCY6</value>
+    <value>2026062606204782DRZV</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>202606252333120MWZFV</value>
+    <value>20260626062047HV3PI6</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -40,7 +40,11 @@
   </odeProperty>
   <odeProperty>
     <key>pp_license</key>
-    <value>creative commons: cc by-sa 4.0</value>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
   </odeProperty>
   <odeProperty>
     <key>pp_theme</key>
@@ -48,7 +52,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-06-25T22:33:12.473Z</value>
+    <value>2026-06-26T05:20:47.493Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -141,7 +145,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -200,7 +204,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -307,7 +311,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -366,7 +370,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -473,7 +477,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -534,7 +538,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -641,7 +645,7 @@ moodle-plugin-ci phplint && moodle-plugin-ci phpunit
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -699,7 +703,7 @@ moodle-plugin-ci phplint && moodle-plugin-ci phpunit
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -808,7 +812,7 @@ moodle-plugin-ci phplint && moodle-plugin-ci phpunit
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -870,7 +874,7 @@ moodle-plugin-ci phplint && moodle-plugin-ci phpunit
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -977,7 +981,7 @@ moodle-plugin-ci phplint && moodle-plugin-ci phpunit
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1039,7 +1043,7 @@ moodle-plugin-ci phplint && moodle-plugin-ci phpunit
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1147,7 +1151,7 @@ moodle-plugin-ci phplint && moodle-plugin-ci phpunit
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1205,7 +1209,7 @@ Revisión humana → Merge → Release
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1318,7 +1322,7 @@ Open a PR with a concise Markdown summary.
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1378,7 +1382,7 @@ Open a PR with a concise Markdown summary.
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>

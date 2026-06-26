@@ -11,177 +11,177 @@
   "pages": [
     {
       "title": "De Ballena a Gallopedro Optimizando Dockerfiles",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "De Ballena a Gallopedro Optimizando Dockerfiles",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-01.png"
+          "icon": "slide",
+          "md": "- esLibre, Granada, Junio 2019\n- Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0."
         }
       ]
     },
     {
       "title": "Hola!",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Hola!",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-02.png"
+          "icon": "slide",
+          "md": "- Me llamo Ernesto Serrano\n- Rompiendo cosas desde 1983\n- Desarrollador del Stevie Wonder Simulator para Android\n- DevOps Engineer en OpenExO"
         }
       ]
     },
     {
       "title": "El advenimiento del ExO Monster",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "El advenimiento del ExO Monster",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-03.png"
+          "icon": "slide",
+          "md": "- O la dockerización más estúpida de la historia"
         }
       ]
     },
     {
       "title": "Arquitectura previa",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Arquitectura previa",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-04.png"
+          "icon": "slide",
+          "md": "- FRONTEND\n- API\n- STORAGE\n- BACKEND\n- Tamaño: 8,5Gb\n- Tiempo: 20 min"
         }
       ]
     },
     {
       "title": "Hola Lenna!",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Hola Lenna!",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-05.png"
+          "icon": "slide",
+          "md": "- Ejemplo de código en python para desenfocar a Lenna"
         }
       ]
     },
     {
       "title": "Diapositiva 6",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 6",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-06.png"
+          "icon": "slide",
+          "md": "- #!/usr/bin/env python\n- # This code blurr the \"Lenna.png\" image file\n- import os\n- from PIL import Image, ImageFilter\n- # Pillow part\n- in_file = \"Lenna.png\"\n- out_file = \"Lenna-blurred.png\"\n- original = Image.open(in_file)\n- blurred = original.filter(ImageFilter.BLUR)\n- blurred.save(out_file)\n- print(\"Original image: %d\" % os.stat(in_file).st_size)\n- print(\"Blurred image: %d\" % os.stat(out_file).st_size)"
         }
       ]
     },
     {
       "title": "Dockerizemos hermanos",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Dockerizemos hermanos",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-07.png"
+          "icon": "slide",
+          "md": "- Diferentes formas de dockerizar nuestra aplicación"
         }
       ]
     },
     {
       "title": "Diapositiva 8",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 8",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-08.png"
+          "icon": "slide",
+          "md": "- FROM debian:stretch AS example\n- COPY . .\n- RUN apt-get update && \\\n- apt-get install -y \\\n- python3 \\\n- python3-pip\n- RUN pip3 install -r requirements.txt\n- RUN python3 test.py\n- Tamaño: 515MB\n- Tiempo: 57s"
         }
       ]
     },
     {
       "title": "Diapositiva 9",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 9",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-09.png"
+          "icon": "slide",
+          "md": "- FROM debian:stretch-slim AS example\n- RUN apt-get update && \\\n- apt-get install -y \\\n- python3 \\\n- python3-pip\n- COPY requirements.txt .\n- RUN pip3 install -r requirements.txt\n- COPY . .\n- RUN python3 test.py\n- Tamaño: 427MB\n- Tiempo: 51s"
         }
       ]
     },
     {
       "title": "Diapositiva 10",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 10",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-10.png"
+          "icon": "slide",
+          "md": "- FROM python:3.6-alpine AS example\n- RUN apk add --no-cache \\\n- build-base \\\n- zlib-dev \\\n- jpeg-dev \\\n- libpng-dev\n- COPY requirements.txt .\n- RUN pip3 install -r requirements.txt\n- COPY . .\n- RUN python3 test.py\n- Tamaño: 287MB\n- Tiempo: 40s"
         }
       ]
     },
     {
       "title": "Diapositiva 11",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 11",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-11.png"
+          "icon": "slide",
+          "md": "- FROM python:3.6-alpine AS example\n- COPY requirements.txt .\n- RUN apk add --no-cache jpeg libpng \\\n- && \\\n- apk add --no-cache --virtual .build-deps \\\n- build-base \\\n- zlib-dev \\\n- jpeg-dev \\\n- libpng-dev \\\n- && \\\n- pip3 install -r requirements.txt \\\n- && \\\n- apk del .build-deps --force-broken-world\n- COPY . .\n- RUN python3 test.py\n- Tamaño: 123MB\n- Tiempo: 34s"
         }
       ]
     },
     {
       "title": "Diapositiva 12",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 12",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-12.png"
+          "icon": "slide",
+          "md": "- FROM alpine:3.9 AS example\n- RUN apk add --no-cache \\\n- python3 \\\n- py3-pillow\n- COPY requirements.txt .\n- RUN pip3 install -r requirements.txt\n- COPY . .\n- RUN python3 test.py\n- Tamaño: 64.9MB\n- Tiempo: 6s"
         }
       ]
     },
     {
       "title": "Dockerrizando el rizo",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Dockerrizando el rizo",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-13.png"
+          "icon": "slide",
+          "md": "- Extrae lo importante y descarta el resto"
         }
       ]
     },
     {
       "title": "Diapositiva 14",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 14",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-14.png"
+          "icon": "slide",
+          "md": "- FROM alpine:3.9 AS example\n- RUN apk add --no-cache python3 py3-pillow\n- COPY requirements.txt .\n- RUN pip3 install -r requirements.txt\n- COPY . .\n- RUN python3 test.py\n- FROM scratch AS result\n- COPY --from=example Lenna-blurred.png .\n- Tamaño: 310kB\n- Tiempo: 26ms"
         }
       ]
     },
     {
       "title": "Conclusiones",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Conclusiones",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-15.png"
+          "icon": "slide",
+          "md": "- Utiliza Alpine Linux (apk add --no-cache)\n- Concatena para reducir el número de capas (&& \\)\n- Aprovecha la caché entre capas (COPY requirements.txt)\n- Extrae solo lo importante (COPY --from)"
         }
       ]
     },
     {
       "title": "Gracias!",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Gracias!",
-          "icon": "gallery",
-          "image": "../assets/2019-06-eslibre-optimizando-dockerfiles/slide-16.png"
+          "icon": "slide",
+          "md": "- ¿Alguna pregunta?\n- Código disponible en: https://github.com/erseco/dockerfile-optimization-examples"
         }
       ]
     }

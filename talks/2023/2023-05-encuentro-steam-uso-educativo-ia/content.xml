@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260625234847525TUL</value>
+    <value>202606260620461L4Q10</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260625234847WDL8LB</value>
+    <value>20260626062046AV0NWX</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -32,15 +32,11 @@
   </odeProperty>
   <odeProperty>
     <key>pp_description</key>
-    <value>Introducción a la inteligencia artificial para docentes — II Encuentro STEAM, 2023</value>
+    <value>Introducción a la IA para docentes — II Encuentro STEAM, 2023</value>
   </odeProperty>
   <odeProperty>
     <key>pp_lang</key>
     <value>es</value>
-  </odeProperty>
-  <odeProperty>
-    <key>pp_license</key>
-    <value>unknown</value>
   </odeProperty>
   <odeProperty>
     <key>pp_theme</key>
@@ -48,7 +44,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-06-25T22:48:47.793Z</value>
+    <value>2026-06-26T05:20:46.577Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -128,7 +124,7 @@
       <odePageId>SP00000001</odePageId>
       <odeBlockId>SP00000002</odeBlockId>
       <blockName>Uso educativo de la IA</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -141,7 +137,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -157,9 +153,12 @@
           <odePageId>SP00000001</odePageId>
           <odeBlockId>SP00000002</odeBlockId>
           <odeIdeviceId>SP00000003</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000003/slide-01.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000003/slide-01.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>CEP Puerto del Rosario, mayo 2023</li>
+<li>Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","markdownTextarea":"- CEP Puerto del Rosario, mayo 2023\n- Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0.","markdownTextareaHtml":"<ul>\n<li>CEP Puerto del Rosario, mayo 2023</li>\n<li>Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -228,7 +227,7 @@
       <odePageId>SP00000004</odePageId>
       <odeBlockId>SP00000005</odeBlockId>
       <blockName>Diapositiva 2</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -241,7 +240,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -257,9 +256,11 @@
           <odePageId>SP00000004</odePageId>
           <odeBlockId>SP00000005</odeBlockId>
           <odeIdeviceId>SP00000006</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000006/slide-02.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000006","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000006/slide-02.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000006","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -282,7 +283,7 @@
       <odePageId>SP00000004</odePageId>
       <odeBlockId>SP00000007</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -291,11 +292,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -322,7 +323,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -382,7 +383,7 @@
       <odePageId>SP00000009</odePageId>
       <odeBlockId>SP00000010</odeBlockId>
       <blockName>Diapositiva 3</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -395,7 +396,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -411,9 +412,11 @@
           <odePageId>SP00000009</odePageId>
           <odeBlockId>SP00000010</odeBlockId>
           <odeIdeviceId>SP00000011</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000011/slide-03.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000011","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000011/slide-03.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000011","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -436,7 +439,7 @@
       <odePageId>SP00000009</odePageId>
       <odeBlockId>SP00000012</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -445,11 +448,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -477,7 +480,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -537,7 +540,7 @@
       <odePageId>SP00000014</odePageId>
       <odeBlockId>SP00000015</odeBlockId>
       <blockName>¡Hola!</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -550,7 +553,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -566,9 +569,15 @@
           <odePageId>SP00000014</odePageId>
           <odeBlockId>SP00000015</odeBlockId>
           <odeIdeviceId>SP00000016</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000016/slide-04.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000016","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000016/slide-04.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Me llamo Ernesto Serrano</li>
+<li>Asesor TIC en el CEP El Hierro</li>
+<li>Desarrollador principal del Stevie Wonder Simulator para Android</li>
+<li>Rompiendo cosas desde 1983</li>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000016","markdownTextarea":"- Me llamo Ernesto Serrano\n- Asesor TIC en el CEP El Hierro\n- Desarrollador principal del Stevie Wonder Simulator para Android\n- Rompiendo cosas desde 1983\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>Me llamo Ernesto Serrano</li>\n<li>Asesor TIC en el CEP El Hierro</li>\n<li>Desarrollador principal del Stevie Wonder Simulator para Android</li>\n<li>Rompiendo cosas desde 1983</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -591,7 +600,7 @@
       <odePageId>SP00000014</odePageId>
       <odeBlockId>SP00000017</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -600,11 +609,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -631,7 +640,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -691,7 +700,7 @@
       <odePageId>SP00000019</odePageId>
       <odeBlockId>SP00000020</odeBlockId>
       <blockName>Introducción</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -704,7 +713,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -720,9 +729,11 @@
           <odePageId>SP00000019</odePageId>
           <odeBlockId>SP00000020</odeBlockId>
           <odeIdeviceId>SP00000021</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000021/slide-05.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000021","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000021/slide-05.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Breve explicación de qué es la Inteligencia Artificial.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000021","markdownTextarea":"- Breve explicación de qué es la Inteligencia Artificial.","markdownTextareaHtml":"<ul>\n<li>Breve explicación de qué es la Inteligencia Artificial.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -745,7 +756,7 @@
       <odePageId>SP00000019</odePageId>
       <odeBlockId>SP00000022</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -754,11 +765,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -786,7 +797,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -846,7 +857,7 @@
       <odePageId>SP00000024</odePageId>
       <odeBlockId>SP00000025</odeBlockId>
       <blockName>Diapositiva 6</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -859,7 +870,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -875,9 +886,11 @@
           <odePageId>SP00000024</odePageId>
           <odeBlockId>SP00000025</odeBlockId>
           <odeIdeviceId>SP00000026</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000026/slide-06.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000026","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000026/slide-06.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000026","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -946,7 +959,7 @@
       <odePageId>SP00000027</odePageId>
       <odeBlockId>SP00000028</odeBlockId>
       <blockName>¿Qué tienen que ver con la IA?</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -959,7 +972,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -975,9 +988,11 @@
           <odePageId>SP00000027</odePageId>
           <odeBlockId>SP00000028</odeBlockId>
           <odeIdeviceId>SP00000029</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000029/slide-07.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000029","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000029/slide-07.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000029","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1000,7 +1015,7 @@
       <odePageId>SP00000027</odePageId>
       <odeBlockId>SP00000030</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1009,11 +1024,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1044,7 +1059,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -1104,7 +1119,7 @@
       <odePageId>SP00000032</odePageId>
       <odeBlockId>SP00000033</odeBlockId>
       <blockName>Breve historia de la IA</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1117,7 +1132,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1133,9 +1148,11 @@
           <odePageId>SP00000032</odePageId>
           <odeBlockId>SP00000033</odeBlockId>
           <odeIdeviceId>SP00000034</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000034/slide-08.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000034","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000034/slide-08.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Desde los orígenes de la inteligencia artificial hasta la actualidad: un recorrido por los hitos más significativos.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000034","markdownTextarea":"- Desde los orígenes de la inteligencia artificial hasta la actualidad: un recorrido por los hitos más significativos.","markdownTextareaHtml":"<ul>\n<li>Desde los orígenes de la inteligencia artificial hasta la actualidad: un recorrido por los hitos más significativos.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1158,7 +1175,7 @@
       <odePageId>SP00000032</odePageId>
       <odeBlockId>SP00000035</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1167,11 +1184,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1198,7 +1215,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -1258,7 +1275,7 @@
       <odePageId>SP00000037</odePageId>
       <odeBlockId>SP00000038</odeBlockId>
       <blockName>Diapositiva 9</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1271,7 +1288,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1287,9 +1304,11 @@
           <odePageId>SP00000037</odePageId>
           <odeBlockId>SP00000038</odeBlockId>
           <odeIdeviceId>SP00000039</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000039/slide-09.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000039","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000039/slide-09.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000039","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1358,7 +1377,7 @@
       <odePageId>SP00000040</odePageId>
       <odeBlockId>SP00000041</odeBlockId>
       <blockName>Diapositiva 10</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1371,7 +1390,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1412,7 +1431,7 @@
       <odePageId>SP00000040</odePageId>
       <odeBlockId>SP00000043</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1421,11 +1440,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1455,7 +1474,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -1515,7 +1534,7 @@
       <odePageId>SP00000045</odePageId>
       <odeBlockId>SP00000046</odeBlockId>
       <blockName>Algunos hitos de la IA</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1528,7 +1547,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1544,9 +1563,18 @@
           <odePageId>SP00000045</odePageId>
           <odeBlockId>SP00000046</odeBlockId>
           <odeIdeviceId>SP00000047</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000047/slide-11.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000047","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000047/slide-11.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+<li>Stanford Cart, vehículo que evita obstáculos.</li>
+<li>OpenAI lanza GPT-2</li>
+<li>Test de Turing</li>
+<li>1997: Deep Blue derrota a</li>
+<li>Garry Kasparov.</li>
+<li>Una IA es capaz de pasarse el Super Mario</li>
+<li>OpenAI presenta ChatGPT,</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000047","markdownTextarea":"- ‹#›\n- Stanford Cart, vehículo que evita obstáculos.\n- OpenAI lanza GPT-2\n- Test de Turing\n- 1997: Deep Blue derrota a\n- Garry Kasparov.\n- Una IA es capaz de pasarse el Super Mario\n- OpenAI presenta ChatGPT,","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n<li>Stanford Cart, vehículo que evita obstáculos.</li>\n<li>OpenAI lanza GPT-2</li>\n<li>Test de Turing</li>\n<li>1997: Deep Blue derrota a</li>\n<li>Garry Kasparov.</li>\n<li>Una IA es capaz de pasarse el Super Mario</li>\n<li>OpenAI presenta ChatGPT,</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1569,7 +1597,7 @@
       <odePageId>SP00000045</odePageId>
       <odeBlockId>SP00000048</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1578,11 +1606,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1614,7 +1642,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -1674,7 +1702,7 @@
       <odePageId>SP00000050</odePageId>
       <odeBlockId>SP00000051</odeBlockId>
       <blockName>Tipos de inteligencia artificial</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1687,7 +1715,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1703,9 +1731,11 @@
           <odePageId>SP00000050</odePageId>
           <odeBlockId>SP00000051</odeBlockId>
           <odeIdeviceId>SP00000052</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000052/slide-12.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000052","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000052/slide-12.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Un análisis de las diferentes categorías y enfoques de la inteligencia artificial</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000052","markdownTextarea":"- Un análisis de las diferentes categorías y enfoques de la inteligencia artificial","markdownTextareaHtml":"<ul>\n<li>Un análisis de las diferentes categorías y enfoques de la inteligencia artificial</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1728,7 +1758,7 @@
       <odePageId>SP00000050</odePageId>
       <odeBlockId>SP00000053</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1737,11 +1767,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1768,7 +1798,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -1828,7 +1858,7 @@
       <odePageId>SP00000055</odePageId>
       <odeBlockId>SP00000056</odeBlockId>
       <blockName>IA basada en reglasIA basada en aprendizaje automáticoIA basada en redes neuronalesIA evolutivaIA de procesamiento del lenguaje naturalIA basada en Transformer</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1841,7 +1871,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1882,7 +1912,7 @@
       <odePageId>SP00000055</odePageId>
       <odeBlockId>SP00000058</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1891,11 +1921,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1928,7 +1958,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -1988,7 +2018,7 @@
       <odePageId>SP00000060</odePageId>
       <odeBlockId>SP00000061</odeBlockId>
       <blockName>Diapositiva 14</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2001,7 +2031,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2017,9 +2047,11 @@
           <odePageId>SP00000060</odePageId>
           <odeBlockId>SP00000061</odeBlockId>
           <odeIdeviceId>SP00000062</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000062/slide-14.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000062","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000062/slide-14.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000062","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2088,7 +2120,7 @@
       <odePageId>SP00000063</odePageId>
       <odeBlockId>SP00000064</odeBlockId>
       <blockName>Diapositiva 15</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2101,7 +2133,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2117,9 +2149,11 @@
           <odePageId>SP00000063</odePageId>
           <odeBlockId>SP00000064</odeBlockId>
           <odeIdeviceId>SP00000065</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000065/slide-15.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000065","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000065/slide-15.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000065","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2142,7 +2176,7 @@
       <odePageId>SP00000063</odePageId>
       <odeBlockId>SP00000066</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2151,11 +2185,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2184,7 +2218,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -2244,7 +2278,7 @@
       <odePageId>SP00000068</odePageId>
       <odeBlockId>SP00000069</odeBlockId>
       <blockName>Diapositiva 16</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2257,7 +2291,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2273,9 +2307,11 @@
           <odePageId>SP00000068</odePageId>
           <odeBlockId>SP00000069</odeBlockId>
           <odeIdeviceId>SP00000070</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000070/slide-16.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000070","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000070/slide-16.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000070","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2298,7 +2334,7 @@
       <odePageId>SP00000068</odePageId>
       <odeBlockId>SP00000071</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2307,11 +2343,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2338,7 +2374,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -2398,7 +2434,7 @@
       <odePageId>SP00000073</odePageId>
       <odeBlockId>SP00000074</odeBlockId>
       <blockName>Diapositiva 17</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2411,7 +2447,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2427,9 +2463,11 @@
           <odePageId>SP00000073</odePageId>
           <odeBlockId>SP00000074</odeBlockId>
           <odeIdeviceId>SP00000075</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000075/slide-17.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000075","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000075/slide-17.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000075","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2452,7 +2490,7 @@
       <odePageId>SP00000073</odePageId>
       <odeBlockId>SP00000076</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2461,11 +2499,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2497,7 +2535,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -2557,7 +2595,7 @@
       <odePageId>SP00000078</odePageId>
       <odeBlockId>SP00000079</odeBlockId>
       <blockName>¿Qué es un PROMPT?</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2570,7 +2608,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2586,9 +2624,13 @@
           <odePageId>SP00000078</odePageId>
           <odeBlockId>SP00000079</odeBlockId>
           <odeIdeviceId>SP00000080</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000080/slide-18.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000080","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000080/slide-18.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+<li>Entrada de texto que guía la respuesta de modelos de lenguaje, como GPT, en tareas de procesamiento del lenguaje natural.</li>
+<li>Puede ser una pregunta, oración incompleta o palabras clave, proporcionando contexto y propósito a la tarea solicitada.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000080","markdownTextarea":"- ‹#›\n- Entrada de texto que guía la respuesta de modelos de lenguaje, como GPT, en tareas de procesamiento del lenguaje natural.\n- Puede ser una pregunta, oración incompleta o palabras clave, proporcionando contexto y propósito a la tarea solicitada.","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n<li>Entrada de texto que guía la respuesta de modelos de lenguaje, como GPT, en tareas de procesamiento del lenguaje natural.</li>\n<li>Puede ser una pregunta, oración incompleta o palabras clave, proporcionando contexto y propósito a la tarea solicitada.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2611,7 +2653,7 @@
       <odePageId>SP00000078</odePageId>
       <odeBlockId>SP00000081</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2620,11 +2662,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2652,7 +2694,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -2712,7 +2754,7 @@
       <odePageId>SP00000083</odePageId>
       <odeBlockId>SP00000084</odeBlockId>
       <blockName>Diapositiva 19</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2725,7 +2767,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2741,9 +2783,11 @@
           <odePageId>SP00000083</odePageId>
           <odeBlockId>SP00000084</odeBlockId>
           <odeIdeviceId>SP00000085</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000085/slide-19.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000085","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000085/slide-19.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000085","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2812,7 +2856,7 @@
       <odePageId>SP00000086</odePageId>
       <odeBlockId>SP00000087</odeBlockId>
       <blockName>¿Qué pinta aquí Roald Dahl?</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2825,7 +2869,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2841,9 +2885,11 @@
           <odePageId>SP00000086</odePageId>
           <odeBlockId>SP00000087</odeBlockId>
           <odeIdeviceId>SP00000088</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000088/slide-20.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000088","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000088/slide-20.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000088","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2866,7 +2912,7 @@
       <odePageId>SP00000086</odePageId>
       <odeBlockId>SP00000089</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2875,11 +2921,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2910,7 +2956,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -2970,7 +3016,7 @@
       <odePageId>SP00000091</odePageId>
       <odeBlockId>SP00000092</odeBlockId>
       <blockName>Diapositiva 21</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -2983,7 +3029,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -2999,9 +3045,11 @@
           <odePageId>SP00000091</odePageId>
           <odeBlockId>SP00000092</odeBlockId>
           <odeIdeviceId>SP00000093</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000093/slide-21.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000093","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000093/slide-21.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000093","markdownTextarea":"- ‹#›","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3024,7 +3072,7 @@
       <odePageId>SP00000091</odePageId>
       <odeBlockId>SP00000094</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3033,11 +3081,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3064,7 +3112,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -3124,7 +3172,7 @@
       <odePageId>SP00000096</odePageId>
       <odeBlockId>SP00000097</odeBlockId>
       <blockName>Impacto de la Inteligencia Artificial en la Educación</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3137,7 +3185,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3153,9 +3201,11 @@
           <odePageId>SP00000096</odePageId>
           <odeBlockId>SP00000097</odeBlockId>
           <odeIdeviceId>SP00000098</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000098/slide-22.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000098","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000098/slide-22.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Explorando las aplicaciones y perspectivas futuras de la IA en la educación.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000098","markdownTextarea":"- Explorando las aplicaciones y perspectivas futuras de la IA en la educación.","markdownTextareaHtml":"<ul>\n<li>Explorando las aplicaciones y perspectivas futuras de la IA en la educación.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3224,7 +3274,7 @@
       <odePageId>SP00000099</odePageId>
       <odeBlockId>SP00000100</odeBlockId>
       <blockName>Análisis DAFO</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3237,7 +3287,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3253,9 +3303,26 @@
           <odePageId>SP00000099</odePageId>
           <odeBlockId>SP00000100</odeBlockId>
           <odeIdeviceId>SP00000101</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000101/slide-23.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000101","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000101/slide-23.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>‹#›</li>
+<li>DEBILIDADES</li>
+<li>Brecha digital</li>
+<li>Falta de capacitación</li>
+<li>AMENAZAS</li>
+<li>Privacidad y seguridad</li>
+<li>Uso indebido</li>
+<li>Personalización</li>
+<li>Innovación Educativa</li>
+<li>FORTALEZAS</li>
+<li>Educación inclusivaEficiencia</li>
+<li>OPORTUNIDADES</li>
+<li>D</li>
+<li>A</li>
+<li>F</li>
+<li>O</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000101","markdownTextarea":"- ‹#›\n- DEBILIDADES\n- Brecha digital\n- Falta de capacitación\n- AMENAZAS\n- Privacidad y seguridad\n- Uso indebido\n- Personalización\n- Innovación Educativa\n- FORTALEZAS\n- Educación inclusivaEficiencia\n- OPORTUNIDADES\n- D\n- A\n- F\n- O","markdownTextareaHtml":"<ul>\n<li>‹#›</li>\n<li>DEBILIDADES</li>\n<li>Brecha digital</li>\n<li>Falta de capacitación</li>\n<li>AMENAZAS</li>\n<li>Privacidad y seguridad</li>\n<li>Uso indebido</li>\n<li>Personalización</li>\n<li>Innovación Educativa</li>\n<li>FORTALEZAS</li>\n<li>Educación inclusivaEficiencia</li>\n<li>OPORTUNIDADES</li>\n<li>D</li>\n<li>A</li>\n<li>F</li>\n<li>O</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3278,7 +3345,7 @@
       <odePageId>SP00000099</odePageId>
       <odeBlockId>SP00000102</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3287,11 +3354,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3329,7 +3396,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -3389,7 +3456,7 @@
       <odePageId>SP00000104</odePageId>
       <odeBlockId>SP00000105</odeBlockId>
       <blockName>Diapositiva 24</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3402,7 +3469,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3418,9 +3485,13 @@
           <odePageId>SP00000104</odePageId>
           <odeBlockId>SP00000105</odeBlockId>
           <odeIdeviceId>SP00000106</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000106/slide-24.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000106","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000106/slide-24.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>"La inteligencia artificial no es una amenaza, es una herramienta. La amenaza es la ignorancia de aquellos que la utilizan"</li>
+<li>Roger Schank</li>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000106","markdownTextarea":"- \"La inteligencia artificial no es una amenaza, es una herramienta. La amenaza es la ignorancia de aquellos que la utilizan\"\n- Roger Schank\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>\"La inteligencia artificial no es una amenaza, es una herramienta. La amenaza es la ignorancia de aquellos que la utilizan\"</li>\n<li>Roger Schank</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3489,7 +3560,7 @@
       <odePageId>SP00000107</odePageId>
       <odeBlockId>SP00000108</odeBlockId>
       <blockName>Ejemplos para el bien 😇</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3502,7 +3573,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3518,9 +3589,11 @@
           <odePageId>SP00000107</odePageId>
           <odeBlockId>SP00000108</odeBlockId>
           <odeIdeviceId>SP00000109</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000109/slide-25.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000109","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000109/slide-25.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>La inteligencia artificial nos puede ayudar en nuestra labor docente</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000109","markdownTextarea":"- La inteligencia artificial nos puede ayudar en nuestra labor docente","markdownTextareaHtml":"<ul>\n<li>La inteligencia artificial nos puede ayudar en nuestra labor docente</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3543,7 +3616,7 @@
       <odePageId>SP00000107</odePageId>
       <odeBlockId>SP00000110</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3552,11 +3625,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3589,7 +3662,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -3649,7 +3722,7 @@
       <odePageId>SP00000112</odePageId>
       <odeBlockId>SP00000113</odeBlockId>
       <blockName>Diapositiva 26</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3662,7 +3735,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3703,7 +3776,7 @@
       <odePageId>SP00000112</odePageId>
       <odeBlockId>SP00000115</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3712,11 +3785,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3754,7 +3827,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -3814,7 +3887,7 @@
       <odePageId>SP00000117</odePageId>
       <odeBlockId>SP00000118</odeBlockId>
       <blockName>Diapositiva 27</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3827,7 +3900,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3868,7 +3941,7 @@
       <odePageId>SP00000117</odePageId>
       <odeBlockId>SP00000120</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3877,11 +3950,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -3908,7 +3981,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -3968,7 +4041,7 @@
       <odePageId>SP00000122</odePageId>
       <odeBlockId>SP00000123</odeBlockId>
       <blockName>Diapositiva 28</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -3981,7 +4054,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4022,7 +4095,7 @@
       <odePageId>SP00000122</odePageId>
       <odeBlockId>SP00000125</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4031,11 +4104,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4065,7 +4138,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -4125,7 +4198,7 @@
       <odePageId>SP00000127</odePageId>
       <odeBlockId>SP00000128</odeBlockId>
       <blockName>Ejemplos para el mal 😈</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4138,7 +4211,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4154,9 +4227,11 @@
           <odePageId>SP00000127</odePageId>
           <odeBlockId>SP00000128</odeBlockId>
           <odeIdeviceId>SP00000129</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000129/slide-29.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000129","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000129/slide-29.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>La inteligencia artificial puede ser usada para hacer “trampa” en la evaluación</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000129","markdownTextarea":"- La inteligencia artificial puede ser usada para hacer “trampa” en la evaluación","markdownTextareaHtml":"<ul>\n<li>La inteligencia artificial puede ser usada para hacer “trampa” en la evaluación</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4179,7 +4254,7 @@
       <odePageId>SP00000127</odePageId>
       <odeBlockId>SP00000130</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4188,11 +4263,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4225,7 +4300,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -4285,7 +4360,7 @@
       <odePageId>SP00000132</odePageId>
       <odeBlockId>SP00000133</odeBlockId>
       <blockName>Diapositiva 30</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4298,7 +4373,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4339,7 +4414,7 @@
       <odePageId>SP00000132</odePageId>
       <odeBlockId>SP00000135</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4348,11 +4423,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4379,7 +4454,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -4439,7 +4514,7 @@
       <odePageId>SP00000137</odePageId>
       <odeBlockId>SP00000138</odeBlockId>
       <blockName>Ejemplos para el WTF 🤷🏻‍♀️</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4452,7 +4527,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4468,9 +4543,11 @@
           <odePageId>SP00000137</odePageId>
           <odeBlockId>SP00000138</odeBlockId>
           <odeIdeviceId>SP00000139</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000139/slide-31.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000139","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000139/slide-31.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Los modelos basados en Transformer a veces “alucinan” o dan información falsa.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000139","markdownTextarea":"- Los modelos basados en Transformer a veces “alucinan” o dan información falsa.","markdownTextareaHtml":"<ul>\n<li>Los modelos basados en Transformer a veces “alucinan” o dan información falsa.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4493,7 +4570,7 @@
       <odePageId>SP00000137</odePageId>
       <odeBlockId>SP00000140</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4502,11 +4579,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4533,7 +4610,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -4593,7 +4670,7 @@
       <odePageId>SP00000142</odePageId>
       <odeBlockId>SP00000143</odeBlockId>
       <blockName>Diapositiva 32</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4606,7 +4683,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4647,7 +4724,7 @@
       <odePageId>SP00000142</odePageId>
       <odeBlockId>SP00000145</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4656,11 +4733,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4687,7 +4764,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -4747,7 +4824,7 @@
       <odePageId>SP00000147</odePageId>
       <odeBlockId>SP00000148</odeBlockId>
       <blockName>Diapositiva 33</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4760,7 +4837,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4801,7 +4878,7 @@
       <odePageId>SP00000147</odePageId>
       <odeBlockId>SP00000150</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4810,11 +4887,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4841,7 +4918,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -4901,7 +4978,7 @@
       <odePageId>SP00000152</odePageId>
       <odeBlockId>SP00000153</odeBlockId>
       <blockName>Cómo mejorar el uso de la IA en educación</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4914,7 +4991,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4930,9 +5007,11 @@
           <odePageId>SP00000152</odePageId>
           <odeBlockId>SP00000153</odeBlockId>
           <odeIdeviceId>SP00000154</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000154/slide-34.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000154","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000154/slide-34.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Aprovechando los beneficios de la inteligencia artificial para mejorar la experiencia educativa.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000154","markdownTextarea":"- Aprovechando los beneficios de la inteligencia artificial para mejorar la experiencia educativa.","markdownTextareaHtml":"<ul>\n<li>Aprovechando los beneficios de la inteligencia artificial para mejorar la experiencia educativa.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4955,7 +5034,7 @@
       <odePageId>SP00000152</odePageId>
       <odeBlockId>SP00000155</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -4964,11 +5043,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -4995,7 +5074,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -5055,7 +5134,7 @@
       <odePageId>SP00000157</odePageId>
       <odeBlockId>SP00000158</odeBlockId>
       <blockName>Establecer políticas clarasFomentar la creatividadExposiciones oralesCuestionarios en clase (incluso en papel)Trabajo en grupo y colaborativoFomentar la reflexión personalMonitoreo y seguimiento</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -5068,7 +5147,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -5109,7 +5188,7 @@
       <odePageId>SP00000157</odePageId>
       <odeBlockId>SP00000160</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -5118,11 +5197,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -5158,7 +5237,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -5218,7 +5297,7 @@
       <odePageId>SP00000162</odePageId>
       <odeBlockId>SP00000163</odeBlockId>
       <blockName>Conclusiones</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -5231,7 +5310,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -5247,9 +5326,11 @@
           <odePageId>SP00000162</odePageId>
           <odeBlockId>SP00000163</odeBlockId>
           <odeIdeviceId>SP00000164</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000164/slide-36.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000164","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000164/slide-36.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Impacto y Potencial de la IA en la Educación</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000164","markdownTextarea":"- Impacto y Potencial de la IA en la Educación","markdownTextareaHtml":"<ul>\n<li>Impacto y Potencial de la IA en la Educación</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -5272,7 +5353,7 @@
       <odePageId>SP00000162</odePageId>
       <odeBlockId>SP00000165</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -5281,11 +5362,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -5314,7 +5395,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -5374,7 +5455,7 @@
       <odePageId>SP00000167</odePageId>
       <odeBlockId>SP00000168</odeBlockId>
       <blockName>One more thing… 🍆</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -5387,7 +5468,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -5428,7 +5509,7 @@
       <odePageId>SP00000167</odePageId>
       <odeBlockId>SP00000170</odeBlockId>
       <blockName>Notas del ponente</blockName>
-      <iconName>info</iconName>
+      <iconName>note</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -5437,11 +5518,11 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>teacherOnly</key>
-          <value>false</value>
+          <value>true</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -5468,7 +5549,7 @@
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>teacherOnly</key>
-              <value>true</value>
+              <value>false</value>
             </odeComponentsProperty>
             <odeComponentsProperty>
               <key>cssClass</key>
@@ -5528,7 +5609,7 @@
       <odePageId>SP00000172</odePageId>
       <odeBlockId>SP00000173</odeBlockId>
       <blockName>¡Gracias!</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -5541,7 +5622,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -5557,9 +5638,14 @@
           <odePageId>SP00000172</odePageId>
           <odeBlockId>SP00000173</odeBlockId>
           <odeIdeviceId>SP00000174</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000174/slide-38.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000174","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000174/slide-38.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>¿Alguna pregunta?</li>
+<li>Podéis encontrarme en</li>
+<li>ernesto.es</li>
+<li>‹#›</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000174","markdownTextarea":"- ¿Alguna pregunta?\n- Podéis encontrarme en\n- ernesto.es\n- ‹#›","markdownTextareaHtml":"<ul>\n<li>¿Alguna pregunta?</li>\n<li>Podéis encontrarme en</li>\n<li>ernesto.es</li>\n<li>‹#›</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>

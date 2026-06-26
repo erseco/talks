@@ -1,7 +1,7 @@
 {
   "id": "2023-05-encuentro-steam-uso-educativo-ia",
   "title": "Uso educativo de la IA",
-  "subtitle": "Introducción a la inteligencia artificial para docentes — II Encuentro STEAM, 2023",
+  "subtitle": "Introducción a la IA para docentes — II Encuentro STEAM, 2023",
   "author": "Ernesto Serrano",
   "lang": "es",
   "theme": "jacquenetta",
@@ -11,27 +11,27 @@
   "pages": [
     {
       "title": "Uso educativo de la IA",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Uso educativo de la IA",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-01.png"
+          "icon": "slide",
+          "md": "- CEP Puerto del Rosario, mayo 2023\n- Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0."
         }
       ]
     },
     {
       "title": "Diapositiva 2",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 2",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-02.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Durante nuestra charla, estaremos introduciendo momentos interactivos para involucrar a todos los participantes. Cada vez que vean la frase \"play time\" en la presentación, prepárense para una pregunta que les permitirá aplicar y reflexionar sobre el contenido que estamos discutiendo. ¡Aprovechen estas oportunidades para participar activamente y compartir sus ideas!",
           "teacher": true
         }
@@ -39,16 +39,16 @@
     },
     {
       "title": "Diapositiva 3",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 3",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-03.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "¿Alguien podría decirme el título de esta película? ¿Si? Ok, entonces esta charla no os dirá nada nuevo pero siempre viene bien repasar conceptos\n\nEn la película \"Juegos de Guerra\" (1983), un joven hacker se comunica inadvertidamente con una inteligencia artificial militar llamada WOPR (War Operation Plan Response), que controla las defensas nucleares de Estados Unidos y confunde la realidad con una simulación de juego, lo que lleva al borde de una guerra nuclear.",
           "teacher": true
         }
@@ -56,16 +56,16 @@
     },
     {
       "title": "¡Hola!",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "¡Hola!",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-04.png"
+          "icon": "slide",
+          "md": "- Me llamo Ernesto Serrano\n- Asesor TIC en el CEP El Hierro\n- Desarrollador principal del Stevie Wonder Simulator para Android\n- Rompiendo cosas desde 1983\n- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Buenas tardes a todos, mi nombre es Ernesto Serrano y es un placer estar aquí hoy. Soy Asesor TIC en el CEP El Hierro, donde me dedico a ofrecer apoyo y capacitación en tecnologías de la información y la comunicación a docentes y profesionales de la educación. Además, me enorgullece ser el desarrollador principal del Stevie Wonder Simulator para Android, un proyecto que demuestra mi pasión por la tecnología y la innovación. Siempre me ha gustado explorar y aprender, lo que me ha llevado a \"romper cosas\" desde 1983. Espero compartir con ustedes mis experiencias y conocimientos en esta charla. ¡Empecemos!",
           "teacher": true
         }
@@ -73,16 +73,16 @@
     },
     {
       "title": "Introducción",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Introducción",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-05.png"
+          "icon": "slide",
+          "md": "- Breve explicación de qué es la Inteligencia Artificial."
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "La Inteligencia Artificial, o IA, es básicamente la forma en que enseñamos a las computadoras a pensar y actuar como humanos, ¡sin los descansos para tomar café y las distracciones de las redes sociales! Es una rama de la informática que trabaja en crear máquinas y programas de computadora que pueden aprender, razonar y resolver problemas por sí mismos.\n\nImagina una máquina que puede reconocer tu voz, saber si estás triste o feliz, e incluso predecir lo que harás a continuación, ¡casi como si pudiera leer tu mente! La IA utiliza métodos ingeniosos como el aprendizaje automático, que permite a las computadoras aprender de sus errores y mejorar, y las redes neuronales, que se inspiran en cómo funciona nuestro propio cerebro.",
           "teacher": true
         }
@@ -90,27 +90,27 @@
     },
     {
       "title": "Diapositiva 6",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 6",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-06.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "¿Qué tienen que ver con la IA?",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "¿Qué tienen que ver con la IA?",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-07.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Durante nuestra charla, estaremos introduciendo momentos interactivos para involucrar a todos los participantes. Cada vez que vean la frase \"play time\" en la presentación, prepárense para una pregunta que les permitirá aplicar y reflexionar sobre el contenido que estamos discutiendo. ¡Aprovechen estas oportunidades para participar activamente y compartir sus ideas!\n\nBoomer. Persona anticuada que no “controla” de tecnología, persona nacida antes de los 90\n\nLa cámara del móvil, usa la IA para proporcionar imágenes de mayor calidad y efectos personalizados para que salgamos más guapos.\n\nLas aspiradoras autónomas, mantienen nuestras casas limpias de manera eficiente, trazando rutas y evitando obstáculos sin nuestra intervención.\n\nServicios como Netflix analizan nuestros hábitos de visualización y aprenden nuestras preferencias para ofrecernos recomendaciones precisas y personalizadas.",
           "teacher": true
         }
@@ -118,16 +118,16 @@
     },
     {
       "title": "Breve historia de la IA",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Breve historia de la IA",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-08.png"
+          "icon": "slide",
+          "md": "- Desde los orígenes de la inteligencia artificial hasta la actualidad: un recorrido por los hitos más significativos."
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "En la actualidad, la IA se ha convertido en una disciplina que abarca la informática, la matemática, la filosofía y otras áreas del conocimiento, y que tiene importantes aplicaciones en campos como la medicina, la robótica y la inteligencia empresarial. ¿Pero, cuándo empezó?",
           "teacher": true
         }
@@ -135,27 +135,27 @@
     },
     {
       "title": "Diapositiva 9",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 9",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-09.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 10",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 10",
-          "icon": "gallery",
+          "icon": "slide",
           "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-10.png"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "El desarrollo de la inteligencia artificial comenzó en la década de 1950. El concepto fue presentado por primera vez por Alan Turing en 1950, en su artículo \"Computing Machinery and Intelligence\". A partir de ahí, la investigación y el desarrollo en el campo de la IA crecieron rápidamente, con avances notables como el programa de ajedrez de Claude Shannon en 1950 y el primer programa de IA, el \"Logic Theorist\", creado por Allen Newell y Herbert A. Simon en 1955. Un evento clave fue la Conferencia de Dartmouth en 1956, organizada por John McCarthy, Marvin Minsky, Nathaniel Rochester y Claude Shannon. Durante esta conferencia, los expertos se reunieron para discutir y explorar las posibilidades de enseñar a las máquinas a imitar la inteligencia humana. A partir de ese momento, la investigación en inteligencia artificial comenzó a desarrollarse en serio y evolucionar a lo largo de las décadas siguientes.\n\nEn 1914 se publicó la novela El Golem que narra la historia de un hombre en el gueto judío de Praga que se ve envuelto en la leyenda del Golem, una criatura de arcilla animada creada mediante magia cabalística.\n\nEn 1995 se publicó Windows 95 el sistema operativo de Microsoft que revolucionó la informática personal y marcó un antes y un después en la industria del software.\n\n\"2001: Una odisea del espacio\" es una película de ciencia ficción dirigida por Stanley Kubrick en 1968, que explora la evolución humana, la inteligencia artificial y los misterios del cosmos a través de un viaje espacial enigmático.",
           "teacher": true
         }
@@ -163,16 +163,16 @@
     },
     {
       "title": "Algunos hitos de la IA",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Algunos hitos de la IA",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-11.png"
+          "icon": "slide",
+          "md": "- ‹#›\n- Stanford Cart, vehículo que evita obstáculos.\n- OpenAI lanza GPT-2\n- Test de Turing\n- 1997: Deep Blue derrota a\n- Garry Kasparov.\n- Una IA es capaz de pasarse el Super Mario\n- OpenAI presenta ChatGPT,"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "1950: Test de Turing propuesto por Alan Turing.\n\n1979: Stanford Cart, vehículo autónomo que navega evitando obstáculos.\n\n1997: Deep Blue de IBM derrota al campeón mundial de ajedrez Garry Kasparov.\n\n2016: Una IA es capaz de aprender a jugar y ganar al Super Mario usando Deep Learning.\n\n2018: OpenAI lanza GPT-2, generador de texto avanzado.\n\n2022: OpenAI presenta ChatGPT, modelo de IA para conversaciones coherentes y contextuales.",
           "teacher": true
         }
@@ -180,16 +180,16 @@
     },
     {
       "title": "Tipos de inteligencia artificial",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Tipos de inteligencia artificial",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-12.png"
+          "icon": "slide",
+          "md": "- Un análisis de las diferentes categorías y enfoques de la inteligencia artificial"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Existen varios tipos de inteligencia artificial",
           "teacher": true
         }
@@ -197,16 +197,16 @@
     },
     {
       "title": "IA basada en reglasIA basada en aprendizaje automáticoIA basada en redes neuronalesIA evolutivaIA de procesamiento del lenguaje naturalIA basada en Transformer",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "IA basada en reglasIA basada en aprendizaje automáticoIA basada en redes neuronalesIA evolutivaIA de procesamiento del lenguaje naturalIA basada en Transformer",
-          "icon": "gallery",
+          "icon": "slide",
           "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-13.png"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Existen varios tipos de inteligencia artificial, algunos de los cuales son:\n\nIA basada en reglas: utiliza un conjunto de reglas explícitas definidas por los programadores para tomar decisiones y realizar tareas específicas.\n\nIA basada en aprendizaje automático: se basa en algoritmos que pueden aprender a través de la experiencia y mejorar su desempeño a medida que procesan más datos.\n\nIA basada en redes neuronales: imita la estructura y función de las redes neuronales biológicas y se utiliza en aplicaciones como el reconocimiento de imágenes y voz.\n\nIA evolutiva: se basa en algoritmos genéticos y evolutivos para crear programas y sistemas que puedan adaptarse y mejorar continuamente.\n\nIA de procesamiento del lenguaje natural: se utiliza en aplicaciones de procesamiento de texto y habla, como chatbots y asistentes virtuales.\n\nIA basada en Transformer: utiliza modelos basados en la arquitectura Transformer, que se caracterizan por su capacidad para procesar secuencias de texto y lenguaje natural de manera altamente eficiente. Estos modelos son ampliamente utilizados en tareas como la traducción automática, la generación de texto y el análisis de sentimientos. Hablar del PROMPT",
           "teacher": true
         }
@@ -214,27 +214,27 @@
     },
     {
       "title": "Diapositiva 14",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 14",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-14.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 15",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 15",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-15.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Redes neuronales: El juego \"Guess Who?\" (¿Quién es quién?) sirve como ejemplo para explicar cómo funcionan las redes neuronales. En este juego, los jugadores hacen preguntas para descartar personajes en función de sus atributos. Las redes neuronales usan capas de nodos interconectados para procesar y filtrar datos de entrada y reconocer patrones o tomar decisiones.\n\nAlgoritmos genéticos: El videojuego \"Tetris\" puede usarse para explicar algoritmos genéticos. En Tetris, los jugadores deben encajar formas geométricas que caen en una cuadrícula sin dejar espacios. Los algoritmos genéticos son técnicas de optimización que utilizan principios de selección natural, mutación y cruce para evolucionar soluciones a lo largo de varias generaciones, como encontrar estrategias óptimas para jugar a Tetris.\n\nLos juegos son un entorno estupendo para entrenar IAs, porque tienen unas reglas definidas y puedes asignar “pesos” a los eventos que suceden para hacer que el juego aprenda por si misma",
           "teacher": true
         }
@@ -242,16 +242,16 @@
     },
     {
       "title": "Diapositiva 16",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 16",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-16.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "¿Sabemos identificar cada uno de los tipos?",
           "teacher": true
         }
@@ -259,16 +259,16 @@
     },
     {
       "title": "Diapositiva 17",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 17",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-17.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "IA basada en reglas: un ejemplo de esto podría ser un sistema de detección de fraude en tarjetas de crédito, que utiliza un conjunto de reglas explícitas para detectar y prevenir transacciones sospechosas.\n\nIA basada en aprendizaje automático: un ejemplo de esto es el motor de recomendaciones de Amazon, que utiliza algoritmos de aprendizaje automático para analizar los hábitos de visualización de los usuarios y recomendarles contenido relevante.\n\nIA basada en redes neuronales: un ejemplo de esto es la tecnología de reconocimiento de caras usado en Google Photos.\n\nIA evolutiva: un ejemplo de esto podría ser un sistema de optimización de rutas en Google Maps\n\nIA de procesamiento del lenguaje natural: un ejemplo de esto es Google Translate, que utiliza técnicas de procesamiento del lenguaje natural para traducir texto de un idioma a otro en tiempo real.\n\nIA basada en Transformer: un ejemplo de esto es GPT-3 de OpenAI, un modelo de lenguaje natural basado en la arquitectura Transformer que se utiliza en una variedad de aplicaciones, desde la generación de texto hasta la traducción automática y el análisis de sentimientos.",
           "teacher": true
         }
@@ -276,16 +276,16 @@
     },
     {
       "title": "¿Qué es un PROMPT?",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "¿Qué es un PROMPT?",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-18.png"
+          "icon": "slide",
+          "md": "- ‹#›\n- Entrada de texto que guía la respuesta de modelos de lenguaje, como GPT, en tareas de procesamiento del lenguaje natural.\n- Puede ser una pregunta, oración incompleta o palabras clave, proporcionando contexto y propósito a la tarea solicitada."
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Un \"prompt\" en inteligencia artificial, específicamente en el contexto del procesamiento del lenguaje natural (NLP) y modelos de lenguaje como GPT, se refiere a la entrada de texto proporcionada al modelo para generar una respuesta. Esencialmente, un prompt actúa como una señal o indicación para el modelo, indicándole qué tipo de respuesta o información se espera de él.\n\nEn el caso de los modelos de lenguaje, un prompt puede ser una pregunta, una oración incompleta, una serie de palabras clave o cualquier otra forma de texto que el modelo puede utilizar para generar una respuesta coherente y relevante. Los prompts son fundamentales en el entrenamiento y la interacción con los modelos de lenguaje, ya que proporcionan información sobre el contexto y el propósito de la tarea que se les pide realizar.",
           "teacher": true
         }
@@ -293,27 +293,27 @@
     },
     {
       "title": "Diapositiva 19",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 19",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-19.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "¿Qué pinta aquí Roald Dahl?",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "¿Qué pinta aquí Roald Dahl?",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-20.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Los tres libros más conocidos de Roald Dahl son:\n\n\"Charlie y la fábrica de chocolate\" (1964): Este es uno de los libros más populares de Dahl, en el que un niño pobre llamado Charlie Bucket gana un concurso para visitar la misteriosa fábrica de chocolate del excéntrico Willy Wonka.\n\n\"Matilda\" (1988): Este libro cuenta la historia de una niña superdotada llamada Matilda, que debe enfrentarse a su familia abusiva y a la cruel directora de su escuela.\n\n\"Las brujas\" (1983): Esta novela de terror infantil sigue a un niño y su abuela mientras tratan de frustrar los malvados planes de un grupo de brujas que intentan exterminar a todos los niños del mundo.\n\nEstos libros son algunos de los más icónicos de Dahl, y han sido adaptados a películas, obras de teatro y otros medios.",
           "teacher": true
         }
@@ -321,16 +321,16 @@
     },
     {
       "title": "Diapositiva 21",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 21",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-21.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "\"El gran gramatizador automático\" de Roald Dahl es un cuento corto escrito en 1954 que cuenta la historia de un inventor excéntrico llamado Adolfo Knipe que crea una máquina capaz de corregir y mejorar la gramática de cualquier texto. Knipe intenta vender su invento a una editorial, pero los editores son escépticos y lo rechazan. Desesperado, Knipe decide probar su máquina por sí mismo, pero pronto se da cuenta de que la máquina tiene una falla: en lugar de corregir los errores, la máquina los amplifica y los convierte en una mezcla absurda de palabras y frases. Finalmente, Knipe se da cuenta de que la gramática perfecta no es la clave para la buena escritura, sino la imaginación y la creatividad. El cuento es una crítica a la idea de que la perfección gramatical es el único criterio para evaluar la calidad de la escritura, y destaca la importancia de la originalidad y la innovación en la literatura.",
           "teacher": true
         }
@@ -338,27 +338,27 @@
     },
     {
       "title": "Impacto de la Inteligencia Artificial en la Educación",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Impacto de la Inteligencia Artificial en la Educación",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-22.png"
+          "icon": "slide",
+          "md": "- Explorando las aplicaciones y perspectivas futuras de la IA en la educación."
         }
       ]
     },
     {
       "title": "Análisis DAFO",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Análisis DAFO",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-23.png"
+          "icon": "slide",
+          "md": "- ‹#›\n- DEBILIDADES\n- Brecha digital\n- Falta de capacitación\n- AMENAZAS\n- Privacidad y seguridad\n- Uso indebido\n- Personalización\n- Innovación Educativa\n- FORTALEZAS\n- Educación inclusivaEficiencia\n- OPORTUNIDADES\n- D\n- A\n- F\n- O"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Debilidades\n\nBrecha digital: La IA puede aumentar la desigualdad educativa en áreas menos desarrolladas.\n\nFalta de capacitación: Los docentes pueden necesitar más habilidades para usar eficazmente las herramientas de IA.\n\nAmenazas\n\nPrivacidad y seguridad: La IA puede generar preocupaciones sobre la protección de datos de estudiantes y docentes.\n\nUso indebido: Los alumnos ya están usando la IA.\n\nFortalezas\n\nPersonalización: La IA permite adaptar la enseñanza a cada estudiante.\n\nInnovación educativa: La IA puede impulsar nuevas herramientas y métodos de enseñanza.\n\nOportunidades\n\nEducación inclusiva: La IA puede facilitar la inclusión de estudiantes con necesidades especiales.\n\nEficiencia: La IA puede ahorrar tiempo y esfuerzo a los docentes en tareas administrativas y de evaluación.",
           "teacher": true
         }
@@ -366,27 +366,27 @@
     },
     {
       "title": "Diapositiva 24",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 24",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-24.png"
+          "icon": "slide",
+          "md": "- \"La inteligencia artificial no es una amenaza, es una herramienta. La amenaza es la ignorancia de aquellos que la utilizan\"\n- Roger Schank\n- ‹#›"
         }
       ]
     },
     {
       "title": "Ejemplos para el bien 😇",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Ejemplos para el bien 😇",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-25.png"
+          "icon": "slide",
+          "md": "- La inteligencia artificial nos puede ayudar en nuestra labor docente"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Algunos ejemplos de IA basadas en transformer son:\n\nGPT (Generative Pre-trained Transformer): un modelo de lenguaje que ha sido pre-entrenado en una gran cantidad de datos para generar texto coherente y relevante.\n\nBERT (Bidirectional Encoder Representations from Transformers): un modelo de lenguaje pre-entrenado que se ha utilizado en aplicaciones de NLP como el análisis de sentimientos y la clasificación de texto.\n\nT5 (Text-to-Text Transfer Transformer): un modelo de lenguaje que se ha pre-entrenado en una variedad de tareas de NLP y puede realizar una amplia gama de tareas de procesamiento de lenguaje natural.\n\nRoBERTa (Robustly Optimized BERT Pretraining Approach): una versión mejorada del modelo BERT que utiliza técnicas de pre-entrenamiento adicionales para mejorar su rendimiento.\n\nXLNet (eXtreme Language understanding NETwork): un modelo de lenguaje que utiliza un enfoque de pre-entrenamiento sin supervisión que permite que la red considere todas las posibles permutaciones de las palabras en el texto de entrada.\n\nEstos son solo algunos ejemplos de las numerosas IA basadas en transformer que existen actualmente en el campo de la inteligencia artificial y el procesamiento del lenguaje natural.",
           "teacher": true
         }
@@ -394,16 +394,16 @@
     },
     {
       "title": "Diapositiva 26",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 26",
-          "icon": "gallery",
+          "icon": "slide",
           "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-26.png"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Crea un examen de historia de Canarias para 3º de ESO\n\nEntiendo que quieres que responda a las preguntas del examen de Historia de Canarias que propuse anteriormente. A continuación, te proporciono las respuestas:\n\nLos guanches eran los aborígenes que habitaban en las islas Canarias antes de la llegada de los conquistadores españoles en el siglo XV. Vivieron en Canarias desde el siglo V a.C. hasta el siglo XV d.C.\n\nLos guanches no tuvieron contacto directo con los romanos ni los fenicios, ya que estos últimos comerciaban principalmente con las costas del norte de África.\n\nLa conquista de Canarias por parte de los Reyes Católicos tuvo como consecuencias la imposición del cristianismo, la esclavitud de los guanches, la disminución de la población aborigen y la colonización de las islas por los castellanos.\n\nLa Casa de la Real Hacienda fue una institución colonial que tenía como función principal la administración de los impuestos y las finanzas en Canarias.\n\nAntonio Ruiz de Padrón fue un escritor y poeta canario que se destacó por su contribución a la literatura en lengua canaria.\n\nLa Ley de Cabildos de 1812 fue una ley promulgada durante el periodo de las Cortes de Cádiz que estableció la creación de ayuntamientos y cabildos en todas las provincias españolas, incluyendo Canarias. Tuvo una gran importancia en la organización político-administrativa de Canarias.\n\nDurante la Segunda República, los principales líderes políticos de Canarias fueron Matías Vega Guerra, Juan Bosch Millares y Santiago Pérez García.\n\nEl Régimen Económico y Fiscal de Canarias (REF) fue creado en 1972 y estableció un régimen especial para la economía y las finanzas en las islas, con el objetivo de fomentar el desarrollo económico y social de la región.\n\nLa inauguración del Puerto de la Luz en Gran Canaria tuvo como consecuencia el desarrollo del comercio y la actividad portuaria en la isla, lo que contribuyó al crecimiento económico y social de la región.\n\nLa celebración del V Congreso de la UGT en Tenerife en 1932 tuvo una gran importancia en la lucha obrera y sindical en Canarias, ya que permitió la unión de los trabajadores y la creación de nuevas estrategias para la defensa de sus derechos laborales.",
           "teacher": true
         }
@@ -411,16 +411,16 @@
     },
     {
       "title": "Diapositiva 27",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 27",
-          "icon": "gallery",
+          "icon": "slide",
           "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-27.png"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "¿Cuál es la fruta típica de Canarias?",
           "teacher": true
         }
@@ -428,16 +428,16 @@
     },
     {
       "title": "Diapositiva 28",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 28",
-          "icon": "gallery",
+          "icon": "slide",
           "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-28.png"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Eres el profesor de la asignatura de Biología, te llamas Ernesto, no es necesario que te presentes. Crea un muy breve mensaje de retroalimentación de una tarea entregada. Se formal constructivo e inspirador.\n\nNombre alumno: Ana\n\nCalificación: APTA\n\nTarea: Infografía sobre la mitosisMotivo: Tu tarea está impecable y es muy visual, enhorabuena",
           "teacher": true
         }
@@ -445,16 +445,16 @@
     },
     {
       "title": "Ejemplos para el mal 😈",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Ejemplos para el mal 😈",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-29.png"
+          "icon": "slide",
+          "md": "- La inteligencia artificial puede ser usada para hacer “trampa” en la evaluación"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Algunos ejemplos de IA basadas en transformer son:\n\nGPT (Generative Pre-trained Transformer): un modelo de lenguaje que ha sido pre-entrenado en una gran cantidad de datos para generar texto coherente y relevante.\n\nBERT (Bidirectional Encoder Representations from Transformers): un modelo de lenguaje pre-entrenado que se ha utilizado en aplicaciones de NLP como el análisis de sentimientos y la clasificación de texto.\n\nT5 (Text-to-Text Transfer Transformer): un modelo de lenguaje que se ha pre-entrenado en una variedad de tareas de NLP y puede realizar una amplia gama de tareas de procesamiento de lenguaje natural.\n\nRoBERTa (Robustly Optimized BERT Pretraining Approach): una versión mejorada del modelo BERT que utiliza técnicas de pre-entrenamiento adicionales para mejorar su rendimiento.\n\nXLNet (eXtreme Language understanding NETwork): un modelo de lenguaje que utiliza un enfoque de pre-entrenamiento sin supervisión que permite que la red considere todas las posibles permutaciones de las palabras en el texto de entrada.\n\nEstos son solo algunos ejemplos de las numerosas IA basadas en transformer que existen actualmente en el campo de la inteligencia artificial y el procesamiento del lenguaje natural.",
           "teacher": true
         }
@@ -462,16 +462,16 @@
     },
     {
       "title": "Diapositiva 30",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 30",
-          "icon": "gallery",
+          "icon": "slide",
           "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-30.png"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "https://www3.gobiernodecanarias.org/medusa/evagd/occidental/mod/quiz/view.php?id=439946",
           "teacher": true
         }
@@ -479,16 +479,16 @@
     },
     {
       "title": "Ejemplos para el WTF 🤷🏻‍♀️",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Ejemplos para el WTF 🤷🏻‍♀️",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-31.png"
+          "icon": "slide",
+          "md": "- Los modelos basados en Transformer a veces “alucinan” o dan información falsa."
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "A pesar de que los modelos de lenguaje como GPT pueden producir resultados asombrosos, también pueden alucinar o proporcionar información incorrecta debido a errores, sesgos o información engañosa en los datos de entrenamiento. Además, como utilizan técnicas estadísticas, sus resultados pueden no ser siempre precisos o confiables. Es importante tomar los resultados con precaución y verificar la información con fuentes adicionales o expertos antes de tomar decisiones importantes.",
           "teacher": true
         }
@@ -496,16 +496,16 @@
     },
     {
       "title": "Diapositiva 32",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 32",
-          "icon": "gallery",
+          "icon": "slide",
           "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-32.png"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Da una respuesta verdadera y tres falsas sobre la pregunta: ¿Cuál es el queso originario de Fuerteventura?",
           "teacher": true
         }
@@ -513,16 +513,16 @@
     },
     {
       "title": "Diapositiva 33",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 33",
-          "icon": "gallery",
+          "icon": "slide",
           "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-33.png"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "¿Cómo se llamaba el panadero de barrio sésamo?",
           "teacher": true
         }
@@ -530,16 +530,16 @@
     },
     {
       "title": "Cómo mejorar el uso de la IA en educación",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Cómo mejorar el uso de la IA en educación",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-34.png"
+          "icon": "slide",
+          "md": "- Aprovechando los beneficios de la inteligencia artificial para mejorar la experiencia educativa."
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Está en nuestra mano concienciar a los usuarios",
           "teacher": true
         }
@@ -547,16 +547,16 @@
     },
     {
       "title": "Establecer políticas clarasFomentar la creatividadExposiciones oralesCuestionarios en clase (incluso en papel)Trabajo en grupo y colaborativoFomentar la reflexión personalMonitoreo y seguimiento",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Establecer políticas clarasFomentar la creatividadExposiciones oralesCuestionarios en clase (incluso en papel)Trabajo en grupo y colaborativoFomentar la reflexión personalMonitoreo y seguimiento",
-          "icon": "gallery",
+          "icon": "slide",
           "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-35.png"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Aquí tienes un listado de estrategias para evitar el uso indebido de ChatGPT en la educación y fomentar un aprendizaje más auténtico y comprometido:\n\nEstablecer políticas claras: Informar a los estudiantes sobre las reglas y expectativas en cuanto al uso de ChatGPT y otras herramientas similares en el ámbito académico.\n\nFomentar la creatividad: Diseñar tareas y actividades que promuevan la creatividad y el pensamiento crítico, lo que dificulta el uso de herramientas automáticas para completarlas.\n\nExposiciones orales: Valorar las exposiciones orales como una parte importante del proceso de aprendizaje y evaluación, ya que es más difícil hacer uso de ChatGPT en este tipo de actividades.\n\nCuestionarios en clase: Realizar cuestionarios y exámenes solo en clase y a una hora determinada, para asegurar que los estudiantes no puedan hacer uso de ChatGPT u otras herramientas similares para responder a las preguntas.\n\nExámenes en papel: Optar por cuestionarios escritos en papel en lugar de en línea, ya que esto dificulta el acceso a ChatGPT y otras herramientas similares durante la prueba. Automatizar la corrección usando plantillas.\n\nTrabajo en grupo y colaborativo: Fomentar el trabajo en grupo y la colaboración entre los estudiantes, ya que esto promueve la discusión y el aprendizaje conjunto, dificultando el uso de ChatGPT.\n\nFomentar la reflexión personal: Animar a los estudiantes a reflexionar sobre su propio proceso de aprendizaje y su comprensión del contenido, lo que les ayuda a desarrollar habilidades de autorregulación y a reducir la dependencia de herramientas como ChatGPT.\n\nMonitoreo y seguimiento: Realizar un seguimiento constante del progreso de los estudiantes y estar atento a posibles señales de uso indebido de ChatGPT u otras herramientas similares.\n\nEn resumen, el objetivo principal debe ser fomentar un entorno de aprendizaje donde los estudiantes se sientan motivados para aprender y aplicar sus conocimientos de manera autónoma, reduciendo así la dependencia de herramientas como ChatGPT en el proceso educativo.",
           "teacher": true
         }
@@ -564,16 +564,16 @@
     },
     {
       "title": "Conclusiones",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Conclusiones",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-36.png"
+          "icon": "slide",
+          "md": "- Impacto y Potencial de la IA en la Educación"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "La IA puede mejorar la educación al personalizar la enseñanza y adaptarse a las necesidades de cada estudiante.\n\nDesafíos como la brecha digital, la capacitación y la privacidad deben abordarse para un uso responsable de la IA en educación.\n\nLa IA puede impulsar la inclusión y eficiencia en la educación, beneficiando tanto a estudiantes como a docentes.",
           "teacher": true
         }
@@ -581,16 +581,16 @@
     },
     {
       "title": "One more thing… 🍆",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "One more thing… 🍆",
-          "icon": "gallery",
+          "icon": "slide",
           "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-37.png"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Opciones entre: Uso educativo de la IA y La inteligencia artificial, que berenjenal",
           "teacher": true
         }
@@ -598,12 +598,12 @@
     },
     {
       "title": "¡Gracias!",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "¡Gracias!",
-          "icon": "gallery",
-          "image": "../assets/2023-05-encuentro-steam-uso-educativo-ia/slide-38.png"
+          "icon": "slide",
+          "md": "- ¿Alguna pregunta?\n- Podéis encontrarme en\n- ernesto.es\n- ‹#›"
         }
       ]
     }

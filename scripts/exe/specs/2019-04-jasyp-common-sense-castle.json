@@ -11,27 +11,27 @@
   "pages": [
     {
       "title": "Sorry, but your common sense is in another castle.",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Sorry, but your common sense is in another castle.",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-01.png"
+          "icon": "slide",
+          "md": "- JASYP, Granada, Abril 2019\n- Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0."
         }
       ]
     },
     {
       "title": "Diapositiva 2",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 2",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-02.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "¿Alguien podria decirme el título de esta película? ¿Si? Ok, entonces esta charla no os dirá nada nuevo pero siempre viene bien repasar conceptos",
           "teacher": true
         }
@@ -39,38 +39,38 @@
     },
     {
       "title": "Hola!",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Hola!",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-03.png"
+          "icon": "slide",
+          "md": "- Me llamo Ernesto Serrano\n- DevOps Tech Lead en OpenExO\n- Desarrollador principal del Stevie Wonder Simulator para Android\n- Rompiendo cosas desde 1983\n- ‹#›"
         }
       ]
     },
     {
       "title": "Los peligros de internet",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Los peligros de internet",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-04.png"
+          "icon": "slide",
+          "md": "- Algunos de los tipos de ataque más comunes"
         }
       ]
     },
     {
       "title": "Vamos a conocer algunos conceptos",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Vamos a conocer algunos conceptos",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-05.png"
+          "icon": "slide",
+          "md": "- Phishing\n- El atacante intenta obtener información haciéndose pasar por alguien en quien confiamos: bancos, plataformas online, conocidos...\n- Spoofing\n- Suplantación de identidad. El atacante se hace pasar por nosotros, por ejemplo a la hora de enviar un e-mail o darse de alta en una plataforma.\n- Grooming\n- Acoso o acercamiento a un menor ejercido por un adulto con fines sexuales.\n- Sexting\n- Envío de mensajes sexuales (eróticos o pornográficos) por medios electrónicos. Esto puede desencadenar en sextorsión.\n- Ciberbullying\n- Uso de medios eletrónicos para ejercer acoso psicológico entre iguales.\n- Sharenting\n- Compartir detalles de los hijos en redes sociales sin su consentimiento. Esto comienza incluso antes del nacimiento compartiendo ecografías\n- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "El que le pone el nombre a estos ataques se lo curra muy poco, deberian contratara al que pone los nombres de las operaciones policiales",
           "teacher": true
         }
@@ -78,148 +78,148 @@
     },
     {
       "title": "Algunos ejemplos",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Algunos ejemplos",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-06.png"
+          "icon": "slide",
+          "md": "- Correos electrónicos\n- Mensajes de WhatsApp\n- Perfiles falsos en redes sociales\n- Mensajes SMS\n- Humanos\n- ¡Aprende a identificarlos!\n- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 7",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 7",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-07.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 8",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 8",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-08.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 9",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 9",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-09.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 10",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 10",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-10.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 11",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 11",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-11.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 12",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 12",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-12.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 13",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 13",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-13.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "¿Un problema del siglo XXI?",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "¿Un problema del siglo XXI?",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-14.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 15",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 15",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-15.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 16",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 16",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-16.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 17",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 17",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-17.png"
+          "icon": "slide",
+          "md": "- Errar es humano, pero culpar al ordenador de nuestros propios errores es todavía más humano.\n- Robert Orben\n- ‹#›"
         }
       ]
     },
     {
       "title": "Uso responsable de internet",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Uso responsable de internet",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-18.png"
+          "icon": "slide",
+          "md": "- Usando el aprendizaje significativo"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Está en nuestra mano concienciar a los usuarios",
           "teacher": true
         }
@@ -227,16 +227,16 @@
     },
     {
       "title": "Efecto Streisand",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Efecto Streisand",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-19.png"
+          "icon": "slide",
+          "md": "- El efecto Streisand es un intento de censura o encubrimiento de cierta información que fracasa o es contraproducente, ya que ésta acaba siendo ampliamente divulgada, de modo que recibe mayor visibilidad.\n- Mas información: https://es.wikipedia.org/wiki/Efecto_Streisand\n- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Si alguien te deja una mala valoración en tripadvisor tómatelo con calma",
           "teacher": true
         }
@@ -244,16 +244,16 @@
     },
     {
       "title": "Ataque Rickroll",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Ataque Rickroll",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-20.png"
+          "icon": "slide",
+          "md": "- Consiste en un enlace trampa disfrazado como algo de interés para que el usuario haga click sobre él, pero lo redirige hacia el vídeo musical de Rick Astley “Never Gonna Give You Up” (1987).\n- Mas información: https://es.wikipedia.org/wiki/Rickroll\n- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Revisa los links, hoy es Rick Astley, mañana quien sabe",
           "teacher": true
         }
@@ -261,115 +261,115 @@
     },
     {
       "title": "Ataque David Hasselhoff",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Ataque David Hasselhoff",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-21.png"
+          "icon": "slide",
+          "md": "- Consiste en añadir una imagen al fondo de escritorio de David Hasselhoff con el motivo de concienciar al usuario del riesgo de no bloquear su ordenador.\n- Mas información: https://es.wikipedia.org/wiki/Ataque_David_Hasselhoff\n- ‹#›"
         }
       ]
     },
     {
       "title": "Ingeniería social",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Ingeniería social",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-22.png"
+          "icon": "slide",
+          "md": "- Consiste en obtener información a través de la manipulación de usuarios legítimos. En cualquier sistema los usuarios son el eslabón más débil.\n- Mas información: https://es.wikipedia.org/wiki/Ingeniería_social_(seguridad_informática)\n- ‹#›"
         }
       ]
     },
     {
       "title": "¿Bloquear el acceso?",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "¿Bloquear el acceso?",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-23.png"
+          "icon": "slide",
+          "md": "- El alumnado puede acceder desde otros sitios diferentes al centro educativo\n- ‹#›"
         }
       ]
     },
     {
       "title": "Fuentes de Información en internet",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Fuentes de Información en internet",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-24.png"
+          "icon": "slide",
+          "md": "- Wikipedia\n- Cualquier persona puede editar la información contenida, teniendo sus ventajas e inconvenientes.\n- https://es.wikipedia.org/wiki/Granada\n- Blogs\n- La información recogida en un blog siempre será subjetiva a la opinión de la persona que la escriba. No vas a creer lo que sucedió a continuación...\n- Noticias falsas\n- Aquí tienes un listado de las 10 páginas mas importantes de noticias falsas, la 7ª te sorprenderá: http://bit.ly/2EIDNSI\n- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 25",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 25",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-25.png"
+          "icon": "slide",
+          "md": "- Si tu empresa gasta más en café que en seguridad informática, serás hackeado. Es más, merecerás ser hackeado.\n- Richard Clarke\n- ‹#›"
         }
       ]
     },
     {
       "title": "Medidas básicas de seguridad",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Medidas básicas de seguridad",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-26.png"
+          "icon": "slide",
+          "md": "- Algunos consejos para mejorar nuestra seguridad"
         }
       ]
     },
     {
       "title": "La cámara siempre tapada",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "La cámara siempre tapada",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-27.png"
+          "icon": "slide",
+          "md": "- Aunque uses el ordenador con batamanta un video tuyo tiene valor.\n- ¿Sólo es vulnerable el ordenador?\n- Mas información: https://www.readersdigest.ca/culture/cover-laptop-camera/\n- ‹#›"
         }
       ]
     },
     {
       "title": "Intenta no reutilizar contraseñas",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Intenta no reutilizar contraseñas",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-28.png"
+          "icon": "slide",
+          "md": "- No todos los sitios son igual de seguros.\n- Si se filtra la base de datos de un sitio poco seguro es posible que un atacante pueda usarla en otros sitios.\n- Mas información: https://haveibeenpwned.com/\n- ‹#›"
         }
       ]
     },
     {
       "title": "Segundo factor de autenticación",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Segundo factor de autenticación",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-29.png"
+          "icon": "slide",
+          "md": "- Añade una capa de seguridad extra a servicios online\n- Algo que conoces (contraseña) + algo que tienes (móvil)\n- Hay opciones libres: FreeOTP...\n- Mas información: https://es.wikipedia.org/wiki/Autenticación_de_múltiples_factores\n- ‹#›"
         }
       ]
     },
     {
       "title": "El móvil siempre bloqueado",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "El móvil siempre bloqueado",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-30.png"
+          "icon": "slide",
+          "md": "- Mantén tus dispositivos controlados en todo momento ✈️\n- Agrega una contraseña o un patrón de desbloqueo.\n- El patrón se puede deducir al trasluz 🤷\n- Mas información: https://es.wikipedia.org/wiki/Seguridad_en_telefonía_móvil\n- ‹#›"
         },
         {
           "title": "Notas del ponente",
-          "icon": "info",
+          "icon": "note",
           "md": "Esta frase me recuerda a la de los aeropuertos: Les rogamos que mantengan sus pertenencias controladas en todo momento",
           "teacher": true
         }
@@ -377,78 +377,78 @@
     },
     {
       "title": "Diapositiva 31",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 31",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-31.png"
+          "icon": "slide",
+          "md": "- Las contraseñas son como la ropa interior: no dejes que otros las vean, cámbialas con frecuencia y no las compartas con desconocidos.\n- Chris Pirillo\n- ‹#›"
         }
       ]
     },
     {
       "title": "Gracias!",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Gracias!",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-32.png"
+          "icon": "slide",
+          "md": "- ¿Alguna pregunta?\n- Podéis contactarme en\n- http://www.ernesto.es\n- ‹#›"
         }
       ]
     },
     {
       "title": "One more thing...",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "One more thing...",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-33.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Diapositiva 34",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Diapositiva 34",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-34.png"
+          "icon": "slide",
+          "md": "- ‹#›"
         }
       ]
     },
     {
       "title": "Honeypot Huawei HG556a",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Honeypot Huawei HG556a",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-35.png"
+          "icon": "slide",
+          "md": "- CPU Broadcom BCM6358SKFBG a 300MHz\n- 64 MB RAM\n- 16MB Flash\n- OpenWRT 18.06.2\n- Nombre del wifi: JASYP_FR33_WIFI\n- Podéis ver la configuración en:\n- https://github.com/erseco/openwrt-wifi-honeypot\n- ‹#›\n- Con la colaboración de:\n- @chelunike\n- @mati3"
         }
       ]
     },
     {
       "title": "50 asistentes!",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "50 asistentes!",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-36.png"
+          "icon": "slide",
+          "md": "- Hey, hemos sido un montón\n- En unas Jornadas sobre Anonimato, Seguridad y Privacidad...\n- ¿En serio?\n- ‹#›"
         }
       ]
     },
     {
       "title": "Agradecimientos",
-      "icon": "gallery",
+      "icon": "slide",
       "blocks": [
         {
           "title": "Agradecimientos",
-          "icon": "gallery",
-          "image": "../assets/2019-04-jasyp-common-sense-castle/slide-37.png"
+          "icon": "slide",
+          "md": "- A los artífices de estas jornadas:\n- Paula de la Hoz (@terceranexus6)\n- German Martinez (@germaaan)\n- Y a toda la gente que ha colaborado!\n- ‹#›"
         }
       ]
     }

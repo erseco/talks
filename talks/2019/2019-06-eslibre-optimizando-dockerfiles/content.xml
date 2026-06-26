@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>202606252348464ZTZ6W</value>
+    <value>20260626062045SKMCJG</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260625234846G32E3A</value>
+    <value>202606260620454NN22G</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -40,7 +40,11 @@
   </odeProperty>
   <odeProperty>
     <key>pp_license</key>
-    <value>CC BY-SA 4.0</value>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
   </odeProperty>
   <odeProperty>
     <key>pp_theme</key>
@@ -48,7 +52,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-06-25T22:48:46.629Z</value>
+    <value>2026-06-26T05:20:45.618Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -128,7 +132,7 @@
       <odePageId>SP00000001</odePageId>
       <odeBlockId>SP00000002</odeBlockId>
       <blockName>De Ballena a Gallopedro Optimizando Dockerfiles</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -141,7 +145,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -157,9 +161,12 @@
           <odePageId>SP00000001</odePageId>
           <odeBlockId>SP00000002</odeBlockId>
           <odeIdeviceId>SP00000003</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000003/slide-01.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000003/slide-01.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>esLibre, Granada, Junio 2019</li>
+<li>Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","markdownTextarea":"- esLibre, Granada, Junio 2019\n- Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0.","markdownTextareaHtml":"<ul>\n<li>esLibre, Granada, Junio 2019</li>\n<li>Esta presentación se puede distribuir bajo la licencia Creative Commons Reconocimiento-CompartirIgual 4.0.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -228,7 +235,7 @@
       <odePageId>SP00000004</odePageId>
       <odeBlockId>SP00000005</odeBlockId>
       <blockName>Hola!</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -241,7 +248,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -257,9 +264,14 @@
           <odePageId>SP00000004</odePageId>
           <odeBlockId>SP00000005</odeBlockId>
           <odeIdeviceId>SP00000006</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000006/slide-02.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000006","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000006/slide-02.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Me llamo Ernesto Serrano</li>
+<li>Rompiendo cosas desde 1983</li>
+<li>Desarrollador del Stevie Wonder Simulator para Android</li>
+<li>DevOps Engineer en OpenExO</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000006","markdownTextarea":"- Me llamo Ernesto Serrano\n- Rompiendo cosas desde 1983\n- Desarrollador del Stevie Wonder Simulator para Android\n- DevOps Engineer en OpenExO","markdownTextareaHtml":"<ul>\n<li>Me llamo Ernesto Serrano</li>\n<li>Rompiendo cosas desde 1983</li>\n<li>Desarrollador del Stevie Wonder Simulator para Android</li>\n<li>DevOps Engineer en OpenExO</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -328,7 +340,7 @@
       <odePageId>SP00000007</odePageId>
       <odeBlockId>SP00000008</odeBlockId>
       <blockName>El advenimiento del ExO Monster</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -341,7 +353,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -357,9 +369,11 @@
           <odePageId>SP00000007</odePageId>
           <odeBlockId>SP00000008</odeBlockId>
           <odeIdeviceId>SP00000009</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000009/slide-03.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000009","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000009/slide-03.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>O la dockerización más estúpida de la historia</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000009","markdownTextarea":"- O la dockerización más estúpida de la historia","markdownTextareaHtml":"<ul>\n<li>O la dockerización más estúpida de la historia</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -428,7 +442,7 @@
       <odePageId>SP00000010</odePageId>
       <odeBlockId>SP00000011</odeBlockId>
       <blockName>Arquitectura previa</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -441,7 +455,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -457,9 +471,16 @@
           <odePageId>SP00000010</odePageId>
           <odeBlockId>SP00000011</odeBlockId>
           <odeIdeviceId>SP00000012</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000012/slide-04.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000012","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000012/slide-04.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>FRONTEND</li>
+<li>API</li>
+<li>STORAGE</li>
+<li>BACKEND</li>
+<li>Tamaño: 8,5Gb</li>
+<li>Tiempo: 20 min</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000012","markdownTextarea":"- FRONTEND\n- API\n- STORAGE\n- BACKEND\n- Tamaño: 8,5Gb\n- Tiempo: 20 min","markdownTextareaHtml":"<ul>\n<li>FRONTEND</li>\n<li>API</li>\n<li>STORAGE</li>\n<li>BACKEND</li>\n<li>Tamaño: 8,5Gb</li>\n<li>Tiempo: 20 min</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -528,7 +549,7 @@
       <odePageId>SP00000013</odePageId>
       <odeBlockId>SP00000014</odeBlockId>
       <blockName>Hola Lenna!</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -541,7 +562,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -557,9 +578,11 @@
           <odePageId>SP00000013</odePageId>
           <odeBlockId>SP00000014</odeBlockId>
           <odeIdeviceId>SP00000015</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000015/slide-05.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000015","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000015/slide-05.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Ejemplo de código en python para desenfocar a Lenna</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000015","markdownTextarea":"- Ejemplo de código en python para desenfocar a Lenna","markdownTextareaHtml":"<ul>\n<li>Ejemplo de código en python para desenfocar a Lenna</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -628,7 +651,7 @@
       <odePageId>SP00000016</odePageId>
       <odeBlockId>SP00000017</odeBlockId>
       <blockName>Diapositiva 6</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -641,7 +664,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -657,9 +680,28 @@
           <odePageId>SP00000016</odePageId>
           <odeBlockId>SP00000017</odeBlockId>
           <odeIdeviceId>SP00000018</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000018/slide-06.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000018","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000018/slide-06.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>
+<h1>!/usr/bin/env python</h1>
+</li>
+<li>
+<h1>This code blurr the "Lenna.png" image file</h1>
+</li>
+<li>import os</li>
+<li>from PIL import Image, ImageFilter</li>
+<li>
+<h1>Pillow part</h1>
+</li>
+<li>in_file = "Lenna.png"</li>
+<li>out_file = "Lenna-blurred.png"</li>
+<li>original = Image.open(in_file)</li>
+<li>blurred = original.filter(ImageFilter.BLUR)</li>
+<li>blurred.save(out_file)</li>
+<li>print("Original image: %d" % os.stat(in_file).st_size)</li>
+<li>print("Blurred image: %d" % os.stat(out_file).st_size)</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000018","markdownTextarea":"- #!/usr/bin/env python\n- # This code blurr the \"Lenna.png\" image file\n- import os\n- from PIL import Image, ImageFilter\n- # Pillow part\n- in_file = \"Lenna.png\"\n- out_file = \"Lenna-blurred.png\"\n- original = Image.open(in_file)\n- blurred = original.filter(ImageFilter.BLUR)\n- blurred.save(out_file)\n- print(\"Original image: %d\" % os.stat(in_file).st_size)\n- print(\"Blurred image: %d\" % os.stat(out_file).st_size)","markdownTextareaHtml":"<ul>\n<li>\n<h1>!/usr/bin/env python</h1>\n</li>\n<li>\n<h1>This code blurr the \"Lenna.png\" image file</h1>\n</li>\n<li>import os</li>\n<li>from PIL import Image, ImageFilter</li>\n<li>\n<h1>Pillow part</h1>\n</li>\n<li>in_file = \"Lenna.png\"</li>\n<li>out_file = \"Lenna-blurred.png\"</li>\n<li>original = Image.open(in_file)</li>\n<li>blurred = original.filter(ImageFilter.BLUR)</li>\n<li>blurred.save(out_file)</li>\n<li>print(\"Original image: %d\" % os.stat(in_file).st_size)</li>\n<li>print(\"Blurred image: %d\" % os.stat(out_file).st_size)</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -728,7 +770,7 @@
       <odePageId>SP00000019</odePageId>
       <odeBlockId>SP00000020</odeBlockId>
       <blockName>Dockerizemos hermanos</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -741,7 +783,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -757,9 +799,11 @@
           <odePageId>SP00000019</odePageId>
           <odeBlockId>SP00000020</odeBlockId>
           <odeIdeviceId>SP00000021</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000021/slide-07.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000021","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000021/slide-07.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Diferentes formas de dockerizar nuestra aplicación</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000021","markdownTextarea":"- Diferentes formas de dockerizar nuestra aplicación","markdownTextareaHtml":"<ul>\n<li>Diferentes formas de dockerizar nuestra aplicación</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -828,7 +872,7 @@
       <odePageId>SP00000022</odePageId>
       <odeBlockId>SP00000023</odeBlockId>
       <blockName>Diapositiva 8</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -841,7 +885,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -857,9 +901,20 @@
           <odePageId>SP00000022</odePageId>
           <odeBlockId>SP00000023</odeBlockId>
           <odeIdeviceId>SP00000024</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000024/slide-08.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000024","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000024/slide-08.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>FROM debian:stretch AS example</li>
+<li>COPY . .</li>
+<li>RUN apt-get update && \</li>
+<li>apt-get install -y \</li>
+<li>python3 \</li>
+<li>python3-pip</li>
+<li>RUN pip3 install -r requirements.txt</li>
+<li>RUN python3 test.py</li>
+<li>Tamaño: 515MB</li>
+<li>Tiempo: 57s</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000024","markdownTextarea":"- FROM debian:stretch AS example\n- COPY . .\n- RUN apt-get update && \\\n- apt-get install -y \\\n- python3 \\\n- python3-pip\n- RUN pip3 install -r requirements.txt\n- RUN python3 test.py\n- Tamaño: 515MB\n- Tiempo: 57s","markdownTextareaHtml":"<ul>\n<li>FROM debian:stretch AS example</li>\n<li>COPY . .</li>\n<li>RUN apt-get update &amp;&amp; \\</li>\n<li>apt-get install -y \\</li>\n<li>python3 \\</li>\n<li>python3-pip</li>\n<li>RUN pip3 install -r requirements.txt</li>\n<li>RUN python3 test.py</li>\n<li>Tamaño: 515MB</li>\n<li>Tiempo: 57s</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -928,7 +983,7 @@
       <odePageId>SP00000025</odePageId>
       <odeBlockId>SP00000026</odeBlockId>
       <blockName>Diapositiva 9</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -941,7 +996,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -957,9 +1012,21 @@
           <odePageId>SP00000025</odePageId>
           <odeBlockId>SP00000026</odeBlockId>
           <odeIdeviceId>SP00000027</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000027/slide-09.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000027","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000027/slide-09.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>FROM debian:stretch-slim AS example</li>
+<li>RUN apt-get update && \</li>
+<li>apt-get install -y \</li>
+<li>python3 \</li>
+<li>python3-pip</li>
+<li>COPY requirements.txt .</li>
+<li>RUN pip3 install -r requirements.txt</li>
+<li>COPY . .</li>
+<li>RUN python3 test.py</li>
+<li>Tamaño: 427MB</li>
+<li>Tiempo: 51s</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000027","markdownTextarea":"- FROM debian:stretch-slim AS example\n- RUN apt-get update && \\\n- apt-get install -y \\\n- python3 \\\n- python3-pip\n- COPY requirements.txt .\n- RUN pip3 install -r requirements.txt\n- COPY . .\n- RUN python3 test.py\n- Tamaño: 427MB\n- Tiempo: 51s","markdownTextareaHtml":"<ul>\n<li>FROM debian:stretch-slim AS example</li>\n<li>RUN apt-get update &amp;&amp; \\</li>\n<li>apt-get install -y \\</li>\n<li>python3 \\</li>\n<li>python3-pip</li>\n<li>COPY requirements.txt .</li>\n<li>RUN pip3 install -r requirements.txt</li>\n<li>COPY . .</li>\n<li>RUN python3 test.py</li>\n<li>Tamaño: 427MB</li>\n<li>Tiempo: 51s</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1028,7 +1095,7 @@
       <odePageId>SP00000028</odePageId>
       <odeBlockId>SP00000029</odeBlockId>
       <blockName>Diapositiva 10</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1041,7 +1108,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1057,9 +1124,22 @@
           <odePageId>SP00000028</odePageId>
           <odeBlockId>SP00000029</odeBlockId>
           <odeIdeviceId>SP00000030</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000030/slide-10.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000030","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000030/slide-10.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>FROM python:3.6-alpine AS example</li>
+<li>RUN apk add --no-cache \</li>
+<li>build-base \</li>
+<li>zlib-dev \</li>
+<li>jpeg-dev \</li>
+<li>libpng-dev</li>
+<li>COPY requirements.txt .</li>
+<li>RUN pip3 install -r requirements.txt</li>
+<li>COPY . .</li>
+<li>RUN python3 test.py</li>
+<li>Tamaño: 287MB</li>
+<li>Tiempo: 40s</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000030","markdownTextarea":"- FROM python:3.6-alpine AS example\n- RUN apk add --no-cache \\\n- build-base \\\n- zlib-dev \\\n- jpeg-dev \\\n- libpng-dev\n- COPY requirements.txt .\n- RUN pip3 install -r requirements.txt\n- COPY . .\n- RUN python3 test.py\n- Tamaño: 287MB\n- Tiempo: 40s","markdownTextareaHtml":"<ul>\n<li>FROM python:3.6-alpine AS example</li>\n<li>RUN apk add --no-cache \\</li>\n<li>build-base \\</li>\n<li>zlib-dev \\</li>\n<li>jpeg-dev \\</li>\n<li>libpng-dev</li>\n<li>COPY requirements.txt .</li>\n<li>RUN pip3 install -r requirements.txt</li>\n<li>COPY . .</li>\n<li>RUN python3 test.py</li>\n<li>Tamaño: 287MB</li>\n<li>Tiempo: 40s</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1128,7 +1208,7 @@
       <odePageId>SP00000031</odePageId>
       <odeBlockId>SP00000032</odeBlockId>
       <blockName>Diapositiva 11</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1141,7 +1221,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1157,9 +1237,27 @@
           <odePageId>SP00000031</odePageId>
           <odeBlockId>SP00000032</odeBlockId>
           <odeIdeviceId>SP00000033</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000033/slide-11.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000033","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000033/slide-11.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>FROM python:3.6-alpine AS example</li>
+<li>COPY requirements.txt .</li>
+<li>RUN apk add --no-cache jpeg libpng \</li>
+<li>&& \</li>
+<li>apk add --no-cache --virtual .build-deps \</li>
+<li>build-base \</li>
+<li>zlib-dev \</li>
+<li>jpeg-dev \</li>
+<li>libpng-dev \</li>
+<li>&& \</li>
+<li>pip3 install -r requirements.txt \</li>
+<li>&& \</li>
+<li>apk del .build-deps --force-broken-world</li>
+<li>COPY . .</li>
+<li>RUN python3 test.py</li>
+<li>Tamaño: 123MB</li>
+<li>Tiempo: 34s</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000033","markdownTextarea":"- FROM python:3.6-alpine AS example\n- COPY requirements.txt .\n- RUN apk add --no-cache jpeg libpng \\\n- && \\\n- apk add --no-cache --virtual .build-deps \\\n- build-base \\\n- zlib-dev \\\n- jpeg-dev \\\n- libpng-dev \\\n- && \\\n- pip3 install -r requirements.txt \\\n- && \\\n- apk del .build-deps --force-broken-world\n- COPY . .\n- RUN python3 test.py\n- Tamaño: 123MB\n- Tiempo: 34s","markdownTextareaHtml":"<ul>\n<li>FROM python:3.6-alpine AS example</li>\n<li>COPY requirements.txt .</li>\n<li>RUN apk add --no-cache jpeg libpng \\</li>\n<li>&amp;&amp; \\</li>\n<li>apk add --no-cache --virtual .build-deps \\</li>\n<li>build-base \\</li>\n<li>zlib-dev \\</li>\n<li>jpeg-dev \\</li>\n<li>libpng-dev \\</li>\n<li>&amp;&amp; \\</li>\n<li>pip3 install -r requirements.txt \\</li>\n<li>&amp;&amp; \\</li>\n<li>apk del .build-deps --force-broken-world</li>\n<li>COPY . .</li>\n<li>RUN python3 test.py</li>\n<li>Tamaño: 123MB</li>\n<li>Tiempo: 34s</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1228,7 +1326,7 @@
       <odePageId>SP00000034</odePageId>
       <odeBlockId>SP00000035</odeBlockId>
       <blockName>Diapositiva 12</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1241,7 +1339,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1257,9 +1355,20 @@
           <odePageId>SP00000034</odePageId>
           <odeBlockId>SP00000035</odeBlockId>
           <odeIdeviceId>SP00000036</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000036/slide-12.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000036","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000036/slide-12.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>FROM alpine:3.9 AS example</li>
+<li>RUN apk add --no-cache \</li>
+<li>python3 \</li>
+<li>py3-pillow</li>
+<li>COPY requirements.txt .</li>
+<li>RUN pip3 install -r requirements.txt</li>
+<li>COPY . .</li>
+<li>RUN python3 test.py</li>
+<li>Tamaño: 64.9MB</li>
+<li>Tiempo: 6s</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000036","markdownTextarea":"- FROM alpine:3.9 AS example\n- RUN apk add --no-cache \\\n- python3 \\\n- py3-pillow\n- COPY requirements.txt .\n- RUN pip3 install -r requirements.txt\n- COPY . .\n- RUN python3 test.py\n- Tamaño: 64.9MB\n- Tiempo: 6s","markdownTextareaHtml":"<ul>\n<li>FROM alpine:3.9 AS example</li>\n<li>RUN apk add --no-cache \\</li>\n<li>python3 \\</li>\n<li>py3-pillow</li>\n<li>COPY requirements.txt .</li>\n<li>RUN pip3 install -r requirements.txt</li>\n<li>COPY . .</li>\n<li>RUN python3 test.py</li>\n<li>Tamaño: 64.9MB</li>\n<li>Tiempo: 6s</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1328,7 +1437,7 @@
       <odePageId>SP00000037</odePageId>
       <odeBlockId>SP00000038</odeBlockId>
       <blockName>Dockerrizando el rizo</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1341,7 +1450,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1357,9 +1466,11 @@
           <odePageId>SP00000037</odePageId>
           <odeBlockId>SP00000038</odeBlockId>
           <odeIdeviceId>SP00000039</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000039/slide-13.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000039","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000039/slide-13.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Extrae lo importante y descarta el resto</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000039","markdownTextarea":"- Extrae lo importante y descarta el resto","markdownTextareaHtml":"<ul>\n<li>Extrae lo importante y descarta el resto</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1428,7 +1539,7 @@
       <odePageId>SP00000040</odePageId>
       <odeBlockId>SP00000041</odeBlockId>
       <blockName>Diapositiva 14</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1441,7 +1552,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1457,9 +1568,20 @@
           <odePageId>SP00000040</odePageId>
           <odeBlockId>SP00000041</odeBlockId>
           <odeIdeviceId>SP00000042</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000042/slide-14.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000042","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000042/slide-14.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>FROM alpine:3.9 AS example</li>
+<li>RUN apk add --no-cache python3 py3-pillow</li>
+<li>COPY requirements.txt .</li>
+<li>RUN pip3 install -r requirements.txt</li>
+<li>COPY . .</li>
+<li>RUN python3 test.py</li>
+<li>FROM scratch AS result</li>
+<li>COPY --from=example Lenna-blurred.png .</li>
+<li>Tamaño: 310kB</li>
+<li>Tiempo: 26ms</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000042","markdownTextarea":"- FROM alpine:3.9 AS example\n- RUN apk add --no-cache python3 py3-pillow\n- COPY requirements.txt .\n- RUN pip3 install -r requirements.txt\n- COPY . .\n- RUN python3 test.py\n- FROM scratch AS result\n- COPY --from=example Lenna-blurred.png .\n- Tamaño: 310kB\n- Tiempo: 26ms","markdownTextareaHtml":"<ul>\n<li>FROM alpine:3.9 AS example</li>\n<li>RUN apk add --no-cache python3 py3-pillow</li>\n<li>COPY requirements.txt .</li>\n<li>RUN pip3 install -r requirements.txt</li>\n<li>COPY . .</li>\n<li>RUN python3 test.py</li>\n<li>FROM scratch AS result</li>\n<li>COPY --from=example Lenna-blurred.png .</li>\n<li>Tamaño: 310kB</li>\n<li>Tiempo: 26ms</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1528,7 +1650,7 @@
       <odePageId>SP00000043</odePageId>
       <odeBlockId>SP00000044</odeBlockId>
       <blockName>Conclusiones</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1541,7 +1663,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1557,9 +1679,14 @@
           <odePageId>SP00000043</odePageId>
           <odeBlockId>SP00000044</odeBlockId>
           <odeIdeviceId>SP00000045</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000045/slide-15.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000045","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000045/slide-15.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>Utiliza Alpine Linux (apk add --no-cache)</li>
+<li>Concatena para reducir el número de capas (&& )</li>
+<li>Aprovecha la caché entre capas (COPY requirements.txt)</li>
+<li>Extrae solo lo importante (COPY --from)</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000045","markdownTextarea":"- Utiliza Alpine Linux (apk add --no-cache)\n- Concatena para reducir el número de capas (&& \\)\n- Aprovecha la caché entre capas (COPY requirements.txt)\n- Extrae solo lo importante (COPY --from)","markdownTextareaHtml":"<ul>\n<li>Utiliza Alpine Linux (apk add --no-cache)</li>\n<li>Concatena para reducir el número de capas (&amp;&amp; )</li>\n<li>Aprovecha la caché entre capas (COPY requirements.txt)</li>\n<li>Extrae solo lo importante (COPY --from)</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1628,7 +1755,7 @@
       <odePageId>SP00000046</odePageId>
       <odeBlockId>SP00000047</odeBlockId>
       <blockName>Gracias!</blockName>
-      <iconName>gallery</iconName>
+      <iconName>slide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1641,7 +1768,7 @@
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>allowToggle</key>
-          <value>true</value>
+          <value>false</value>
         </odePagStructureProperty>
         <odePagStructureProperty>
           <key>minimized</key>
@@ -1657,9 +1784,12 @@
           <odePageId>SP00000046</odePageId>
           <odeBlockId>SP00000047</odeBlockId>
           <odeIdeviceId>SP00000048</odeIdeviceId>
-          <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000048/slide-16.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000048","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000048/slide-16.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li>¿Alguna pregunta?</li>
+<li>Código disponible en: https://github.com/erseco/dockerfile-optimization-examples</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000048","markdownTextarea":"- ¿Alguna pregunta?\n- Código disponible en: https://github.com/erseco/dockerfile-optimization-examples","markdownTextareaHtml":"<ul>\n<li>¿Alguna pregunta?</li>\n<li>Código disponible en: https://github.com/erseco/dockerfile-optimization-examples</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>

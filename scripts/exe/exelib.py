@@ -49,12 +49,19 @@ def nid():
     return f"SP{_counter:08d}"
 
 
-def _component(idv_id, type_name, html_view, json_props, teacher_only=False):
+# Map our human license tags to the exact strings eXeLearning's license picker
+# recognises (so pp_license comes out "selected" in the export).
+LICENSE_MAP = {
+    "CC BY-SA 4.0": "creative commons: attribution - share alike 4.0",
+    "creative commons: cc by-sa 4.0": "creative commons: attribution - share alike 4.0",
+    "CC BY 4.0": "creative commons: attribution 4.0",
+    "CC0 1.0": "creative commons: cc0 1.0",
+    "unknown": "",
+}
+
+
+def _component(idv_id, type_name, html_view, json_props):
     json_str = xesc(json.dumps(json_props, ensure_ascii=False))
-    teacher_prop = (
-        "<odeComponentsProperty><key>teacherOnly</key><value>true</value></odeComponentsProperty>"
-        if teacher_only else ""
-    )
     return (
         "<odeComponent>"
         "<odePageId>{page}</odePageId>"
@@ -68,13 +75,12 @@ def _component(idv_id, type_name, html_view, json_props, teacher_only=False):
         "<odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty>"
         "<odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty>"
         "<odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty>"
-        f"{teacher_prop}"
         "</odeComponentsProperties>"
         "</odeComponent>"
     )
 
 
-def markdown_idevice(idv_id, md_source, teacher_only=False):
+def markdown_idevice(idv_id, md_source):
     rendered = md_to_html(md_source)
     inner = (
         '<div class="exe-markdown-template"><div class="markdownTextIdeviceContent">'
@@ -93,10 +99,10 @@ def markdown_idevice(idv_id, md_source, teacher_only=False):
         "markdownFeedbackTextarea": "",
         "markdownFeedbackTextareaHtml": "",
     }
-    return _component(idv_id, "markdown-text", inner, props, teacher_only)
+    return _component(idv_id, "markdown-text", inner, props)
 
 
-def image_idevice(idv_id, img_basename, caption="", teacher_only=False):
+def image_idevice(idv_id, img_basename, caption=""):
     # eXeLearning registers the image in the media library when it lives under a
     # folder named after the owning iDevice id and is referenced via context_path.
     cap = xesc(caption)
@@ -122,12 +128,17 @@ def image_idevice(idv_id, img_basename, caption="", teacher_only=False):
         "textFeedbackInput": "Mostrar comentarios",
         "textFeedbackTextarea": "",
     }
-    return _component(idv_id, "text", inner, props, teacher_only)
+    return _component(idv_id, "text", inner, props)
 
 
-def block(page_id, block_id, order, component_xml, icon, block_name):
+def block(page_id, block_id, order, component_xml, icon, block_name, teacher_only=False):
     icon_tag = f"<iconName>{xesc(icon)}</iconName>" if icon else "<iconName/>"
     component_xml = component_xml.replace("{page}", page_id).replace("{block}", block_id)
+    # teacherOnly lives on the box (structure), not the inner iDevice.
+    teacher_prop = (
+        "<odePagStructureProperty><key>teacherOnly</key><value>true</value></odePagStructureProperty>"
+        if teacher_only else ""
+    )
     return (
         "<odePagStructure>"
         f"<odePageId>{page_id}</odePageId>"
@@ -138,9 +149,10 @@ def block(page_id, block_id, order, component_xml, icon, block_name):
         "<odePagStructureProperties>"
         "<odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty>"
         "<odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>"
-        "<odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>"
+        "<odePagStructureProperty><key>allowToggle</key><value>false</value></odePagStructureProperty>"
         "<odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>"
         "<odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty>"
+        f"{teacher_prop}"
         "</odePagStructureProperties>"
         f"<odeComponents>{component_xml}</odeComponents>"
         "</odePagStructure>"
@@ -182,17 +194,19 @@ def build_content_xml(spec, spec_dir):
                     src = os.path.join(spec_dir, src)
                 base = os.path.basename(src)
                 IMAGE_BINDINGS[idv] = src
-                comp = image_idevice(idv, base, blk.get("caption", ""), teacher)
+                comp = image_idevice(idv, base, blk.get("caption", ""))
             else:
-                comp = markdown_idevice(idv, blk.get("md", ""), teacher)
+                comp = markdown_idevice(idv, blk.get("md", ""))
             blocks_xml.append(
                 block(pid, bid, b_order, comp,
                       icon=blk.get("icon", "info"),
-                      block_name=blk.get("title", page["title"]))
+                      block_name=blk.get("title", page["title"]),
+                      teacher_only=teacher)
             )
         pages_xml.append(nav_page(pid, page["title"], p_order, "".join(blocks_xml)))
 
     footer = spec.get("footer", "")
+    pp_license = LICENSE_MAP.get(spec.get("license", ""), spec.get("license", ""))
     return f"""<?xml version="1.0" encoding="utf-8"?>
 <ode>
 <userPreferences><userPreference><key>theme</key><value>{xesc(theme)}</value></userPreference></userPreferences>
@@ -205,7 +219,7 @@ def build_content_xml(spec, spec_dir):
   <odeProperty><key>pp_lang</key><value>{xesc(spec.get("lang", "es"))}</value></odeProperty>
   <odeProperty><key>pp_author</key><value>{xesc(spec.get("author", ""))}</value></odeProperty>
   <odeProperty><key>pp_description</key><value>{xesc(spec.get("subtitle", ""))}</value></odeProperty>
-  <odeProperty><key>pp_license</key><value>{xesc(spec.get("license", ""))}</value></odeProperty>
+  <odeProperty><key>pp_license</key><value>{xesc(pp_license)}</value></odeProperty>
   <odeProperty><key>pp_licenseUrl</key><value>{xesc(spec.get("licenseUrl", ""))}</value></odeProperty>
   <odeProperty><key>pp_theme</key><value>{xesc(theme)}</value></odeProperty>
   <odeProperty><key>pp_addExeLink</key><value>true</value></odeProperty>
