@@ -129,9 +129,3 @@ $.fn.isInViewport = function () {
     var viewportBottom = viewportTop + $(window).height();
     return elementBottom > viewportTop && elementTop < viewportBottom;
 };
-
-/* Jacquenetta: start with the side navigation collapsed, so each page reads like
-   a slide (flip with the prev/next buttons). The toggler still opens the nav. */
-if (window.jQuery) {
-  jQuery(function () { jQuery('body').addClass('siteNav-off'); });
-}

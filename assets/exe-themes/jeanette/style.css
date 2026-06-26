@@ -781,24 +781,36 @@ label[for="teacher-mode-toggler"] {
         padding-top: 1em;
     }
 }
-/* ===== Jeanette — based on the Jacquenetta SlidesCarnival template =====
-   Arial · black & white + teal-green (#158158) accent · black title box. */
-body.exe-web-site, .exe-content, .exe-content p, .exe-content li { font-family: Arial, Helvetica, sans-serif; }
-.exe-content .page-title { color: #000; font-family: Arial, sans-serif; font-weight: 700; }
-.exe-content a { color: #158158; }
-.exe-content a:hover, .exe-content a:focus { color: #0f6a48; }
+/* =========================================================================
+   Jacquenetta — black & white minimalist overrides (appended to base theme).
+   Inspired by the Jacquenetta SlidesCarnival template: clean, B&W, minimal.
+   ========================================================================= */
+body.exe-web-site { background: #ffffff; }
+.exe-content .page-title { color: #111; font-family: Georgia, 'Times New Roman', serif; font-weight: 700; letter-spacing: .2px; }
+.exe-content .box-title { color: #111; }
+.exe-content h1, .exe-content h2, .exe-content h3 { color: #111; }
+.exe-content a { color: #111; text-decoration: underline; text-underline-offset: 2px; }
+.exe-content a:hover, .exe-content a:focus { color: #000; }
 #siteNav a.active, #siteNav a.highlighted-link { color: #000; }
-#siteNav a.active { background: #f3f3f3; border-left: 3px solid #158158; }
+#siteNav a.active { background: #f1f1f1; border-left: 3px solid #000; }
 button.toggler, button.toggler:focus,
-#exe-client-search-submit, #exe-client-search-submit:focus { background-color: #000; }
-.nav-buttons .nav-button, .nav-button { background-color: #000 !important; border-color: #000 !important; }
-.exe-content .btn-primary, .exe-content .btn-primary:focus { background-color: #158158; border-color: #158158; }
-/* The Jacquenetta "cuadro negro": box header is a solid black bar, white title + white icon. */
-.exe-content .box { border: 2px solid #000; box-shadow: none; background: #fff; }
-.exe-content .box-head { background: #000; padding: 10px 14px; border: none; }
-.exe-content .box-title { color: #fff; font-family: Arial, sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
-.exe-content .box-icon img { filter: brightness(0) invert(1); max-width: 26px; max-height: 26px; }
-.exe-content .box-content { background: #fff; padding: 16px 18px; }
-.exe-content .teacher-only { background: #f3f3f3; border-left: 4px solid #158158; padding-left: 12px; }
-#siteFooter, #siteFooterContent { background: #000; color: #fff; }
-#siteFooter a { color: #2ecf94; }
+#exe-client-search-submit, #exe-client-search-submit:focus { background-color: #111; }
+.nav-buttons .nav-button, .nav-button { background-color: #111 !important; border-color: #111 !important; }
+.exe-content .btn-primary, .exe-content .btn-primary:focus { background-color: #111; border-color: #111; }
+#teacher-mode-toggler.form-check-input:checked { background-color: #111; border-color: #111; }
+.box-icon.exe-icon { filter: grayscale(1) contrast(1.05); }
+.exe-content .box { border: 1px solid #e8e8e8; }
+.exe-content .box-content { background: #fff; }
+
+/* ===== Jacquenetta · slide-capture pages ===== */
+/* hidePageTitle — the slide image carries its own title. */
+.exe-content .page-title { display: none; }
+.exe-content .page-header { margin: 0; padding-top: 0; }
+/* Boxes keep their title + selected icon; the slide capture is the content. */
+.exe-content .box { border: none; box-shadow: none; background: #fff; }
+.exe-content .box-content img { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+.exe-content .box-head { border-bottom: 2px solid #111; }
+.exe-content .box-title { color: #111; font-family: Georgia, 'Times New Roman', serif; font-weight: 700; }
+.exe-content .box-icon img { filter: none; max-width: 28px; max-height: 28px; }
+/* Teacher-only box (speaker notes) — subtle look when shown in teacher mode. */
+.exe-content .teacher-only { background: #f6f6f6; border-left: 3px solid #111; padding-left: 12px; }

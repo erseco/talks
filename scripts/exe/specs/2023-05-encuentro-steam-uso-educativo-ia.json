@@ -4,10 +4,10 @@
   "subtitle": "Introducción a la IA para docentes — II Encuentro STEAM, 2023",
   "author": "Ernesto Serrano",
   "lang": "es",
-  "theme": "jacquenetta",
-  "license": "unknown",
-  "licenseUrl": "",
-  "footer": "<p>Ernesto Serrano · II Encuentro STEAM en Fuerteventura, 2023</p>",
+  "theme": "jeanette",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "footer": "<p>Ernesto Serrano · II Encuentro STEAM en Fuerteventura, 2023 · Licencia <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license noopener\" target=\"_blank\">CC BY-SA 4.0</a></p>",
   "pages": [
     {
       "title": "Uso educativo de la IA",

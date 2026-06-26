@@ -54,7 +54,7 @@ talks/
 │   ├── index.html, html/, libs/, content/, theme/, content.xml …  ← the unit
 │   └── external.md         #   provenance (for talks adapted from elsewhere)
 ├── output/                 # generated site (gitignored, .gitkeep only)
-├── Makefile · package.json · LICENSE · LICENSE-CONTENT.md
+├── Makefile · package.json · LICENSE
 ```
 
 ## Local commands
@@ -95,13 +95,13 @@ External / link-only talks use `engine: external` and the `external:` block.
 ## Themes
 
 - **base** — eXeLearning's default theme (used for the recent talks).
-- **jacquenetta** (`assets/exe-themes/jacquenetta/`) — a minimalist **black &
-  white** theme built on `base`. Used by the older talks, whose pages are the
-  rendered slide captures (one page per slide).
-- **jeanette** (`assets/exe-themes/jeanette/`) — a faithful take on the
+- **jeanette** (`assets/exe-themes/jeanette/`) — a minimalist **black & white**
+  theme built on `base`; the working theme for our talks. Used by the older
+  talks, whose pages are the rendered slide captures (one page per slide).
+- **jacquenetta** (`assets/exe-themes/jacquenetta/`) — a faithful take on the
   *Jacquenetta* SlidesCarnival template (Arial, black/white + teal `#158158`
   accent, **black title box**), for HTML-text talks that should look like the
-  original slides without using captures. Set `"theme": "jeanette"` in a spec.
+  original slides without captures. Set `"theme": "jacquenetta"` in a spec.
 
 ## Releases and pre-release
 
@@ -117,11 +117,9 @@ on every push to `main` (minimal permissions). One-time setup: **Settings → Pa
 
 ## Licensing
 
-This repository is licensed under **CC BY-SA 4.0** — see [`LICENSE`](LICENSE) and
-[`LICENSE-CONTENT.md`](LICENSE-CONTENT.md), covering both the code and the
-original presentation content. Bundled eXeLearning runtime files and themes keep
-their own licenses; older talks adapted from earlier material keep the license
-recorded in their `talk.yml`.
+This repository — code and original presentation content — is licensed under
+**CC BY-SA 4.0** (see [`LICENSE`](LICENSE)). Every talk is CC BY-SA 4.0. Bundled
+eXeLearning runtime files and third-party themes keep their own licenses.
 
 ## Author
 

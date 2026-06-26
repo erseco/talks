@@ -4,17 +4,17 @@
 <userPreferences>
   <userPreference>
     <key>theme</key>
-    <value>jacquenetta</value>
+    <value>jeanette</value>
   </userPreference>
 </userPreferences>
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260626064223QJ7VXL</value>
+    <value>20260626082025OW3MM3</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260626064223B2QVB8</value>
+    <value>20260626082025Y6I4UK</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -39,12 +39,20 @@
     <value>es</value>
   </odeProperty>
   <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
     <key>pp_theme</key>
-    <value>jacquenetta</value>
+    <value>jeanette</value>
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-06-26T05:42:22.893Z</value>
+    <value>2026-06-26T07:20:25.011Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
