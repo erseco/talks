@@ -218,27 +218,13 @@ function indexPage(views) {
   </header>
 
   <main class="wrap">
-    <section class="controls" aria-label="Filtros">
-      <span class="gt" aria-hidden="true">&gt;</span>
-      <input type="search" id="q" placeholder="grep charlas…  (título · evento · tema)" aria-label="Buscar">
-      <select id="f-year" aria-label="Año"><option value="">--año</option></select>
-      <select id="f-event" aria-label="Evento"><option value="">--evento</option></select>
-      <select id="f-topic" aria-label="Tema"><option value="">--tema</option></select>
-      <select id="f-language" aria-label="Idioma"><option value="">--idioma</option></select>
-      <select id="f-status" aria-label="Estado"><option value="">--estado</option></select>
-      <button type="button" id="reset">clear</button>
-      <span class="count" id="count" aria-live="polite"></span>
-    </section>
-
     <ul class="entries" id="cards">
 ${entries}
     </ul>
-    <p class="empty" id="empty" hidden># sin resultados</p>
   </main>
 
   ${footer()}
   <script src="static/theme.js"></script>
-  <script src="static/app.js"></script>
 </body>
 </html>`;
 }
