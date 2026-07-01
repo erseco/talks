@@ -1,99 +1,111 @@
-# Notas del ponente — La IA puede programar, pero la libertad hay que cuidarla
+# Notas del ponente — Inteligencia artificial: programar, documentar y no acabar en un berenjenal
 
 **Evento:** I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)
-**Fecha:** lunes 2026-07-06, franja 15:20–15:40 (charla corta, 20 min)
-**Idioma:** español · **Tono:** honesto, técnico, reflexivo, sin hype de IA
+**Fecha:** lunes 2026-07-06 · charla corta (~15–20 min) + stand
+**Idioma:** español · **Tono:** ameno, honesto, sin hype de IA
+
+Navegación en árbol: **Inicio → 3 nodos (La IA hoy / ADRs / Agnóstica y libre) con subnodos → Cierre.**
 
 ---
 
 ## Objetivo
 
-Mostrar que la IA es hoy una ayuda real para programar, pero que su uso en proyectos de **software libre** introduce cuestiones específicas que hay que cuidar de forma activa (licencias, procedencia, apertura real de los modelos, privacidad y dependencia). Usar **eXeLearning** como ejemplo concreto de proyecto libre que integra IA sin renunciar a su carácter libre, y cerrar con una checklist de buenas prácticas accionables.
+La IA ya programa y documenta; lo difícil es **no acabar en un berenjenal**: ir rápido sin
+perder el **porqué** de cada decisión. La tesis: **documenta las decisiones (ADRs), no solo el
+código**, y hazlo **trazable, agnóstico de motor y sobre software libre**. Caso real:
+**mod_exelearning**. Es la "parte de IA" de la charla de 3ipunt, enfocada a software libre.
 
-Que el público salga con una idea: **la IA escribe código; la libertad la defiende el equipo humano.**
+Que el público salga con una idea accionable: **la IA propone y redacta; tú decides, y lo dejas
+por escrito de forma que cualquier IA (o persona) pueda retomarlo.**
 
 ---
 
 ## Audiencia
 
-Desarrolladores, líderes técnicos y equipos que trabajan en proyectos de software libre. Saben programar; muchos ya usan asistentes de IA. No hay que explicarles qué es la GPL, sino hacerles pensar en las implicaciones de meter IA en un proyecto copyleft. Asumir nivel técnico medio-alto; evitar el tono divulgativo y el hype.
+Comunidad de software libre: desarrolladores, responsables técnicos y equipos. Ya usan (o
+evalúan) asistentes de IA. No hay que venderles la IA ni explicarles la GPL; hay que darles un
+**método** para usarla con criterio y sin lock-in. Nivel medio-alto; evitar el hype.
 
 ---
 
-## Duración por bloque (~20 min)
+## Tiempos (~20 min)
 
-| Bloque | Contenido | Tiempo |
-|---|---|---|
-| Apertura | Título + quién soy (slides 1–2) | 2 min |
-| La IA puede programar | Lo que facilita de verdad (slide 3) | 2 min |
-| El giro | Pregunta central + las 4 libertades (slides 4–5) | 2 min |
-| Cinco cuestiones | Licencias, open washing, procedencia, privacidad, lock-in (slides 6–10) | 6 min |
-| eXeLearning | Cómo interviene la IA manteniendo lo libre (slides 11–13) | 4 min |
-| Cierre | Checklist + takeaways + enlaces (slides 14–16) | 3 min |
-| Reserva / preguntas | Colchón | 1 min |
+- Inicio (título, bio, idea central) → **2 min**
+- La IA hoy… y el berenjenal → **4 min**
+- ADRs: la IA apoya la decisión (núcleo) → **7 min**
+- Agnóstica, transparente y libre → **5 min**
+- Cierre (takeaways + moraleja) → **2 min**
 
-Total objetivo: ~19 min de charla + paso a preguntas. Si voy justo, recortar el bloque de las cinco cuestiones (≈1 min por slide) y no la parte de eXeLearning ni la checklist.
+Si voy justo: comprimo "La IA hoy" y voy directo a los ADRs. El bloque que **no** se recorta es
+"ADRs" + "agnóstica/libre": son el corazón para esta jornada.
 
 ---
 
-## Guion breve
+## Guion (hilo conductor)
 
-1. **Abrir sin hype.** "La IA ya escribe código. Eso no se discute. Lo que vengo a discutir es quién cuida las libertades del que recibe ese código."
-2. **Quién soy** (rápido). Rompiendo cosas desde 1983; DevOps en eXeLearning; ese será mi ejemplo.
-3. **Reconocer lo bueno.** Generación de código, detección de errores, tests, documentación. Es un acelerador útil y falible. Si niego esto, pierdo credibilidad para lo siguiente.
-4. **El giro.** En software libre nada de esto es neutro. ¿Qué libertad hay que cuidar? Anclar en las 4 libertades: usar, estudiar, modificar, compartir.
-5. **Cinco cuestiones** (una idea por slide, ejemplos concretos):
-   - **Licencias y procedencia:** ¿quién es el autor de la salida?, ¿compatible con la GPL?, copyright incierto.
-   - **Open washing:** pesos abiertos ≠ código abierto ≠ datos abiertos. Sin datos no puedes estudiar ni reproducir.
-   - **Procedencia de contribuciones:** DCO/CLA, aceptar PRs asistidas sin contaminar la base, cadena de custodia.
-   - **Privacidad y soberanía:** nube propietaria vs. local (llama.cpp, Ollama, pesos abiertos).
-   - **Dependencia y lock-in:** no cambiar una dependencia libre por un SaaS imprescindible; sostenibilidad del procomún.
-6. **eXeLearning.** Cómo entra la IA (asistencia de código, tests, documentación, CI) manteniendo lo libre: revisión humana, licencias limpias, herramientas auditables, política de contribución. Hablar de **buenas prácticas**, no inventar datos internos.
-7. **Cerrar con la checklist** y los takeaways. Última frase fuerte: "La IA programa; tú defiendes las libertades."
+- **Gancho:** la IA te lleva a producción a toda velocidad; el problema es acordarte de **por
+  qué** tomaste cada curva. El código queda; el porqué se evapora → berenjenal.
+- **Salida:** capturar la **decisión**, no solo el resultado → **ADR** (`DEC-NNNN`): Contexto,
+  Problema, **Opciones + Evidencia + Decisión**, Consecuencias…
+- **Reparto de papeles:** la IA redacta opciones y evidencia; el humano fija el `estado`
+  (Propuesta→Aceptada/Rechazada). "Sin fuente no hay afirmación." Auditorías multi-agente → el
+  humano tría (DEC-0016: 21 hallazgos, 18 fix / 3 difiere).
+- **Agnóstico:** el frontmatter registra `interfaz`+`modelo`. DEC-0043 lo hizo **codex+gpt-5**;
+  DEC-0044, **claude-code+claude-fable-5**. La decisión sobrevive al motor → **cero lock-in**.
+- **Libre:** el repo público (GPLv3) **es el contexto**: cualquier IA lo lee y retoma el hilo;
+  transparencia y auditoría. Pesos abiertos ≠ software libre; prefiere abierto/local.
+- **Cierre:** 5 takeaways + moraleja de humor del berenjenal.
 
 ---
 
 ## Mensajes clave
 
-- La IA es una **herramienta real**, no magia ni amenaza: hay que tratarla como un acelerador falible.
-- En software libre, el **cómo** importa tanto como el **qué**: el flujo de trabajo debe proteger las 4 libertades.
-- **Pesos abiertos no es software libre.** Cuidado con el *open washing*.
-- **Procedencia y licencias** son la garantía de las libertades, no papeleo.
-- **Control humano + revisión del diff** son innegociables.
-- Lo que la IA te ayuda a construir, **devuélvelo al procomún**.
+- **La IA no te saca del berenjenal; un buen ADR, sí.** (frase de cierre)
+- Documenta la **decisión** (el porqué), no solo el código.
+- **La IA propone, el humano dispone.** El `estado` del ADR es del humano.
+- **Agnóstico de motor:** registra qué IA/modelo; cambia de proveedor sin perder el hilo.
+- **Sin fuente no hay afirmación** (repo+ruta+commit, docs oficiales o experimento).
+- El **repo libre** da contexto y transparencia; un repo cerrado no puede.
 
 ---
 
-## Preguntas posibles (con respuestas cortas)
+## Datos reales para citar (mod_exelearning, GPLv3 · github.com/exelearning/mod_exelearning)
 
-**¿De quién es el copyright del código que genera la IA?**
-Jurídicamente incierto y depende de la jurisdicción; en muchas, la salida puramente automática puede no tener autoría clara. Por eso lo seguro es: revisión humana, no fusionar fragmentos de procedencia dudosa y mantener trazabilidad. La cautela protege al proyecto.
-
-**Si reviso y reescribo lo que sugiere la IA, ¿ya está limpio?**
-La revisión humana sustancial ayuda mucho, pero no elimina el riesgo si el modelo "regurgitó" código con licencia incompatible. La defensa real es procedencia + revisión + no copiar verbatim fragmentos reconocibles.
-
-**¿No es paranoia? Todo el mundo usa estos asistentes.**
-Que sea común no lo hace inocuo. En software propietario el riesgo lo asume la empresa; en software libre afecta a toda la comunidad que hereda el código. El listón de cuidado es más alto, no más bajo.
-
-**¿Qué modelo "abierto" recomiendas?**
-Más que recomendar uno, propongo un criterio: cuanto más abierto (pesos + datos + licencia clara + posibilidad de ejecutarlo localmente), mejor encaja con el espíritu del software libre. Desconfía del "open" que solo libera pesos.
-
-**Los modelos locales son peores que los de la nube.**
-A veces sí en calidad bruta, pero ganas control, privacidad y soberanía de datos. Es un equilibrio consciente: para código sensible o de terceros, el control pesa más que el último punto de rendimiento.
-
-**¿Esto frena la productividad del proyecto?**
-No: revisar el diff y cuidar licencias es parte de hacer ingeniería seria, con o sin IA. La IA acelera; el proceso de revisión es el mismo que ya deberíamos tener.
-
-**¿Cómo gestionáis las PRs asistidas por IA en eXeLearning?**
-En términos de buenas prácticas: revisión humana, atención a la procedencia y a las licencias, preferencia por herramientas auditables y una política de contribución clara. La IA propone, el equipo y la CI deciden.
+- **60 ADRs** — 53 aceptadas, 4 propuestas, 3 superseded.
+- Ejemplos de agnosticismo: **DEC-0043** (codex + gpt-5), **DEC-0044** (claude-code + claude-fable-5).
+- Auditorías multi-agente: **DEC-0016** (21 hallazgos → 18 fix / 3 difiere), **DEC-0044**
+  (9 confirmados / 2 rechazados; el humano prioriza el crítico antes de la beta).
+- Regla: **"Evidencia antes que preferencia — sin fuente no hay afirmación."** (research/AGENTS.md)
 
 ---
 
-## Riesgos / plan B
+## Preguntas posibles (y respuestas cortas)
 
-- **Charla corta, sin demo:** no dependo de ejecutar nada en vivo, así que el riesgo técnico es bajo. Ventaja: si algo falla, sigo hablando.
-- **Si falla el proyector:** la charla funciona como discurso. Llevar las **5 cuestiones** y los **5 takeaways** memorizados; se pueden contar sin slides. Estructura: lo bueno de la IA → el giro → 5 cuestiones → eXeLearning → checklist.
-- **Si voy corto de tiempo:** comprimir las 5 cuestiones a un titular cada una (≈30 s) y conservar eXeLearning + checklist + takeaways.
-- **Si voy largo:** saltar la slide de las 4 libertades (slide 5) y fusionar las cuestiones 4 y 5 en la exposición.
-- **Si me preguntan por detalles internos de eXeLearning que no puedo confirmar:** responder en clave de buenas prácticas y ofrecer seguir la conversación después; no inventar datos.
-- **Enlaces de respaldo** (por si alguien los pide): exelearning.net · codeberg.org/seLIA · github.com/erseco · ernesto.es
+- **"¿Esto no es mucha burocracia para ir rápido?"**
+  El ADR lo redacta la propia IA como parte de la tarea; el coste marginal es bajo y te ahorra
+  el berenjenal de dentro de tres semanas. Documentas la decisión, no cada línea.
+
+- **"¿Y si mañana cambio de IA/proveedor?"**
+  Justo por eso funciona: el frontmatter registra interfaz+modelo y la evidencia se cita. La
+  decisión es del repo, no de la herramienta. Cambias de motor sin perder nada.
+
+- **"¿Sirve con modelos locales / pesos abiertos?"**
+  Sí, el proceso es idéntico (Ollama, llama.cpp…). De hecho encaja mejor con la filosofía libre:
+  auditable y sin enviar tu código a terceros.
+
+- **"¿La IA decide por ti?"**
+  No. Redacta opciones y evidencia; el `estado` (Aceptada/Rechazada) lo pones tú. Revisa el diff.
+
+- **"¿Y si el repo es privado?"**
+  Pierde casi toda la gracia: sin repo libre y público no hay contexto compartido ni auditoría
+  externa. La transparencia es la que sostiene la confianza.
+
+---
+
+## Demo (si hay pantalla)
+
+1. Abrir `github.com/exelearning/mod_exelearning` → `research/decisiones/adr/`.
+2. Enseñar un ADR real (p. ej. DEC-0043): frontmatter (`estado`, `agentes`, `herramienta_ia`) +
+   secciones (Opciones/Evidencia/Decisión).
+3. Enseñar `research/AGENTS.md` y la regla "sin fuente no hay afirmación".
+4. Si no hay red: llevar capturas del ADR y del AGENTS.md.

@@ -1,10 +1,10 @@
 {
-  "id": "2026-07-06-selia-ia-puede-programar-libertad",
-  "title": "La IA puede programar, pero la libertad hay que cuidarla",
-  "subtitle": "Implicaciones de la IA en el desarrollo de software libre, con eXeLearning como ejemplo",
+  "id": "2026-07-06-selia-ia-programar-documentar",
+  "title": "Inteligencia artificial: programar, documentar y no acabar en un berenjenal",
+  "subtitle": "Decisiones trazables (ADRs), IA agnóstica y software libre — con mod_exelearning como caso real",
   "author": "Ernesto Serrano Collado",
   "lang": "es",
-  "theme": "base",
+  "theme": "nova",
   "license": "creative commons: cc by-sa 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "footer": "<p>Ernesto Serrano Collado · seLIA 2026 · Licencia <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license noopener\" target=\"_blank\">CC BY-SA 4.0</a></p>",
@@ -14,90 +14,154 @@
       "icon": "book",
       "blocks": [
         {
-          "title": "La IA puede programar, pero la libertad hay que cuidarla",
+          "title": "Programar, documentar y no acabar en un berenjenal",
           "icon": "book",
-          "md": "**La IA ya escribe código. La pregunta es quién protege las libertades de quien lo recibe.**\n\nCharla corta en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n- Ponente: **Ernesto Serrano Collado** — *Rompiendo cosas desde 1983*. DevOps Engineer en eXeLearning.\n- Idea central: la IA facilita el desarrollo, pero en software libre aparecen cuestiones que hay que **cuidar especialmente**."
+          "md": "**La IA ya programa. El reto es no acabar en un berenjenal.**\n\nCharla en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n**Ernesto Serrano Collado** — *Rompiendo cosas desde 1983*.\n\n- Coordinador del **Área de Tecnología Educativa** — Consejería de Educación, Gobierno de Canarias.\n- **DevOps** en eXeLearning · desarrollador del *Stevie Wonder Simulator* para Android."
+        },
+        {
+          "title": "La idea central",
+          "icon": "objectives",
+          "md": "La IA te lleva a producción a toda velocidad. El problema no es llegar rápido: es **acordarte de por qué tomaste cada curva**.\n\n> El código queda; el **\"por qué\"** se evapora. Ahí empieza el berenjenal.\n\nLa salida: **documentar las decisiones** (no solo el código), y hacerlo **trazable, agnóstico y libre**. Lo cuento con un proyecto real: **mod_exelearning**."
+        },
+        {
+          "title": "Notas del ponente",
+          "icon": "info",
+          "teacher": true,
+          "md": "**Duración: ~15–20 min** + stand. Tono ameno y honesto, **sin hype**. Audiencia de software libre (devs, responsables técnicos, comunidades).\n\nHilo: la IA (programar/documentar) → el **berenjenal** (velocidad sin rastro) → **ADRs** (la IA apoya, el humano decide) → **agnóstico + libre** (transparencia). Cierro con humor.\n\nEs la 'parte de IA' de mi charla de 3ipunt, enfocada a mod_exelearning y al software libre. Si voy justo de tiempo: acorto 'La IA hoy' y voy directo a los ADRs. Cambia a la pantalla y enseña un ADR real si puedes."
         }
       ]
     },
     {
-      "title": "La IA puede programar",
+      "title": "La IA hoy… y el berenjenal",
       "icon": "info",
       "blocks": [
         {
-          "title": "Qué facilita hoy de verdad",
+          "title": "Qué facilita de verdad",
           "icon": "info",
-          "md": "Sin hype: hoy la IA ayuda de forma real en tareas concretas.\n\n- **Generación de código**: borradores, funciones repetitivas, *boilerplate*.\n- **Detección de errores**: explicar trazas, sugerir causas.\n- **Pruebas**: tests para código existente sin cobertura.\n- **Documentación**: a partir del código real.\n\nNada de esto sustituye el criterio: **propone, no decide**."
+          "md": "Sin hype: hoy la IA ayuda de verdad en tareas concretas.\n\n- **Generar código**: borradores, funciones repetitivas, *boilerplate*.\n- **Detectar errores**: explicar trazas, sugerir causas.\n- **Pruebas**: tests para código sin cobertura.\n- **Documentación**: a partir del código real.\n\nPero **propone, no decide**. Y va tan rápido que es fácil **perder el rastro**."
+        },
+        {
+          "title": "Notas del ponente",
+          "icon": "info",
+          "teacher": true,
+          "md": "Lista breve y reconocible; no te detengas. El objetivo es llegar rápido al giro: todo esto es genial… hasta que pierdes el porqué. Ejemplo cercano: un PR asistido por IA que funciona y pasa los tests, y a las tres semanas nadie recuerda por qué se eligió ese enfoque."
+        }
+      ],
+      "children": [
+        {
+          "title": "El berenjenal",
+          "icon": "ask",
+          "blocks": [
+            {
+              "title": "Velocidad sin rastro = caos",
+              "icon": "ask",
+              "md": "En unas semanas, el proyecto que iba rapidísimo se convierte en un berenjenal:\n\n- El **código** está; el **\"por qué\"** no.\n- Nadie recuerda qué alternativas se descartaron ni con qué evidencia.\n- Y en **software libre**, encima: *¿de dónde viene ese código? ¿la licencia y la procedencia están limpias?*\n\n> Programar rápido es fácil. **No acabar en un berenjenal** es el trabajo de verdad."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Este es el gancho de la charla — dale gracia. El berenjenal no es culpa de la IA, es de **proceso**: la IA solo hace que el caos llegue antes. La pregunta que abre la siguiente sección: ¿y si capturamos la **decisión**, no solo el resultado?"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "El giro: software libre",
+      "title": "ADRs: la IA apoya la decisión",
       "icon": "objectives",
       "blocks": [
         {
-          "title": "¿Qué libertad hay que cuidar?",
+          "title": "Un ADR captura el porqué",
           "icon": "objectives",
-          "md": "Cuando ese desarrollo ocurre en el **ámbito del software libre**, aparecen preguntas específicas.\n\nLas **cuatro libertades** (usar, estudiar, modificar, distribuir) dependen de que el código tenga una **procedencia y una licencia limpias**.\n\n> Si no sabemos de dónde viene el código que genera la IA, no sabemos si podemos ejercer esas libertades."
-        }
-      ]
-    },
-    {
-      "title": "Cuestiones específicas",
-      "icon": "ask",
-      "blocks": [
-        {
-          "title": "Licencias y procedencia del código generado",
-          "icon": "ask",
-          "md": "- ¿Quién es el **autor** de la salida de la IA? ¿Tiene copyright?\n- ¿Es **compatible** con la licencia (GPL / copyleft) del proyecto?\n- Aceptar PRs asistidos por IA sin **contaminar** la base de código: DCO / CLA, trazabilidad."
+          "md": "Un **ADR** (Architecture Decision Record) documenta **una decisión**: no el código, el **porqué**.\n\nCada uno es un `DEC-NNNN` con secciones fijas: *Contexto · Problema · **Opciones · Evidencia · Decisión** · Consecuencias · Riesgos · Validación*.\n\nEn **mod_exelearning** (plugin de Moodle, **GPLv3**): **60 ADRs** — 53 aceptadas, 4 propuestas, 3 superseded. En el código, cada función **cita su decisión**: `// (DEC-0008)`."
         },
         {
-          "title": "Open washing: pesos abiertos ≠ software libre",
+          "title": "El frontmatter deja rastro",
+          "icon": "guide",
+          "md": "```yaml\nid: DEC-0043\ntitulo: \"Detección de GeoGebra calificable\"\nestado: Aceptada        # Propuesta | Aceptada | Rechazada | Superseded\nfecha: 2026-06-22\nagentes: [erseco, codex]\nherramienta_ia:\n  interfaz: codex\n  modelo: gpt-5\nfuentes: [REPO-071, EXP-014]\n```\n\n- El ADR **declara quién decidió** (persona o agente) y **con qué IA y modelo**.\n- **\"Sin fuente no hay afirmación\":** cada dato cita `repo + ruta + commit`, doc oficial o experimento reproducible."
+        },
+        {
+          "title": "Notas del ponente",
           "icon": "info",
-          "md": "No es lo mismo:\n\n- **Pesos abiertos** (puedes descargar el modelo).\n- **Código abierto** (puedes ver y modificar el software).\n- **Datos abiertos** (sabes con qué se entrenó).\n\nMuchos modelos *\"open\"* no lo son del todo. Conviene mirar la **licencia real**."
-        },
+          "teacher": true,
+          "md": "Núcleo de la charla. Enseña, si puedes, un ADR real en `github.com/exelearning/mod_exelearning`. Elegí **DEC-0043** a propósito para el ejemplo del frontmatter porque lo hizo **codex + gpt-5** (no Claude): así ya planto la semilla del agnosticismo antes de llegar a esa sección."
+        }
+      ],
+      "children": [
         {
-          "title": "Privacidad, soberanía y lock-in",
-          "icon": "case",
-          "md": "- **Privacidad / soberanía**: ¿a dónde va tu código? Servicios propietarios en la nube *vs.* ejecutar modelos **en local** (llama.cpp, Ollama, pesos abiertos).\n- **Dependencia / lock-in**: no cambiar una dependencia libre por un **SaaS propietario imprescindible**.\n- **Sostenibilidad del procomún**: devolver al común lo que tomamos de él."
+          "title": "Propone la IA, dispone el humano",
+          "icon": "pieces",
+          "blocks": [
+            {
+              "title": "Los papeles quedan claros",
+              "icon": "pieces",
+              "md": "El ADR reparte los papeles:\n\n- La **IA redacta** las *Opciones* y la *Evidencia* (con fuentes).\n- El **humano decide**: fija el `estado` (Propuesta → **Aceptada / Rechazada**).\n\nEjemplo real: **auditorías multi-agente**. En **DEC-0016**, decenas de agentes revisan en 12 dimensiones → **21 hallazgos**; el humano **corrige 18 y difiere 3** con justificación.\n\n> La IA **propone**; el humano **dispone**. Y siempre: **revisa el diff**."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "El mensaje para seLIA: la IA no toma la decisión, la **prepara**. El `estado` (Propuesta/Aceptada/Rechazada) es del humano. Las auditorías multi-agente dan buen 'wow', pero recalca: el valor no es el número de agentes, es que **queda por escrito quién decidió y por qué**."
+            }
+          ]
         }
       ]
     },
     {
-      "title": "eXeLearning como ejemplo",
+      "title": "Agnóstica, transparente y libre",
       "icon": "guide",
       "blocks": [
         {
-          "title": "IA en un proyecto de software libre real",
+          "title": "IA agnóstica: sin atarte a ninguna",
           "icon": "guide",
-          "md": "**eXeLearning** es un editor libre (GPL) para crear recursos educativos. ¿Cómo interviene la IA en su desarrollo **manteniendo** su carácter libre?\n\n- Asistencia de código, tests y documentación — siempre con **revisión humana**.\n- Preferencia por herramientas **auditables y abiertas**.\n- Licencias **limpias** y política de contribución clara.\n- La IA acelera el trabajo; las **libertades** las defienden las personas."
-        }
-      ]
-    },
-    {
-      "title": "Cómo cuidar la libertad",
-      "icon": "reflection",
-      "blocks": [
-        {
-          "title": "Buenas prácticas",
-          "icon": "reflection",
-          "md": "- **Revisa siempre el diff.**\n- Mantén **procedencia y licencias** limpias.\n- Prefiere modelos **abiertos y locales** cuando sea posible.\n- **No subas datos sensibles** a servicios de terceros.\n- Mantén el **control humano**.\n- **Devuelve al procomún.**"
+          "md": "El frontmatter registra `interfaz` y `modelo`, así el proceso **no se ata a ninguna IA**:\n\n- **DEC-0043** se decidió con **`codex` + `gpt-5`**.\n- **DEC-0044** (auditoría de bugs) con **`claude-code` + `claude-fable-5`**.\n- Otros, con `claude-opus`… **da igual el motor**.\n\n> La **decisión** y su **evidencia** sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: **cero lock-in**."
         },
         {
-          "title": "Takeaways",
-          "icon": "objectives",
-          "md": "1. **La IA programa; tú defiendes las libertades.**\n2. **Pesos abiertos no es lo mismo que software libre.**\n3. **Cuida la procedencia y las licencias.**\n4. **Prefiere lo auditable y local.**\n5. **Revisa siempre el diff.**"
+          "title": "Notas del ponente",
+          "icon": "info",
+          "teacher": true,
+          "md": "Mensaje diferencial para una jornada de IA **abierta**: no dependemos de un proveedor. Como la evidencia se cita (`repo+ruta+commit`), cualquier IA —o persona— reproduce la verificación. Si preguntan por modelos locales: encaja perfecto, el proceso es el mismo con Ollama / pesos abiertos."
+        }
+      ],
+      "children": [
+        {
+          "title": "Software libre = transparencia + contexto",
+          "icon": "reflection",
+          "blocks": [
+            {
+              "title": "El repo libre es lo que lo hace posible",
+              "icon": "reflection",
+              "md": "Que el repo sea **libre y público** (mod_exelearning, **GPLv3**) no es un detalle: es lo que hace todo esto posible.\n\n- **Contexto**: cualquier IA (o persona) lee el repo y **retoma el hilo** — issues, PRs, ADRs, evidencia.\n- **Transparencia**: todo es **append-only** y citable; se puede auditar.\n- **Coherencia libre**: *pesos abiertos ≠ software libre*; prefiere modelos **abiertos/locales**, no subas datos sensibles y **devuelve al procomún**."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Cierre conceptual: el software libre es el **sustrato** que da CONTEXTO a la IA y TRANSPARENCIA al proceso; un repo cerrado no puede ofrecer esto. Coletilla clásica de la jornada: *pesos abiertos no es lo mismo que libre* — mira la licencia real. En un repo privado, este sistema pierde casi toda su gracia."
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Enlaces y gracias",
+      "title": "Cierre",
       "icon": "download",
       "blocks": [
         {
-          "title": "Para seguir",
+          "title": "Takeaways",
+          "icon": "objectives",
+          "md": "1. La IA **programa y documenta**; **tú decides**.\n2. Documenta la **decisión** (ADRs), no solo el código.\n3. Registra **qué IA y modelo** → **agnóstico**, sin lock-in.\n4. **Repo libre = transparencia + contexto** para cualquier IA.\n5. **Sin fuente no hay afirmación**, y **revisa el diff**."
+        },
+        {
+          "title": "Moraleja",
+          "icon": "reflection",
+          "md": "> La IA no te saca del berenjenal. **Un buen ADR, sí.**\n\nProgramar rápido está al alcance de cualquiera. **Documentar la decisión** —de forma trazable, agnóstica y libre— es lo que te deja dormir tranquilo. Y si el repo es libre, el berenjenal lo desenredamos entre todos."
+        },
+        {
+          "title": "Enlaces y gracias",
           "icon": "download",
-          "md": "Gracias. ¿Preguntas?\n\n- eXeLearning — <https://exelearning.net>\n- seLIA (jornada) — <https://codeberg.org/seLIA>\n- GitHub de Ernesto — <https://github.com/erseco>\n- Web personal — <https://ernesto.es>"
+          "md": "Gracias. ¿Preguntas? (y pásate por el stand)\n\n- mod_exelearning — <https://github.com/exelearning/mod_exelearning>\n- eXeLearning — <https://exelearning.net>\n- seLIA (jornada) — <https://codeberg.org/seLIA>\n- GitHub de Ernesto — <https://github.com/erseco>\n- Web personal — <https://ernesto.es>"
         }
       ]
     }

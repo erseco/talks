@@ -5,10 +5,10 @@
 <meta name="generator" content="eXeLearning">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
-<title>La IA puede programar, pero la libertad hay que cuidarla</title>
+<title>Inteligencia artificial: programar, documentar y no acabar en un berenjenal</title>
 <link rel="icon" type="image/x-icon" href="libs/favicon.ico">
-<meta name="description" content="Implicaciones de la IA en el desarrollo de software libre, con eXeLearning como ejemplo">
-<script>document.querySelector("html").classList.add("js");</script><script src="libs/jquery/jquery.min.js"> </script><script src="libs/common_i18n.js"> </script><script src="libs/common.js"> </script><script src="libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"","packageTitle":"La IA puede programar, pero la libertad hay que cuidarla","language":"es"};</script><script src="libs/xapi/exe_xapi.js"> </script><script src="search_index.js"> </script><script src="libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+<meta name="description" content="Decisiones trazables (ADRs), IA agnóstica y software libre — con mod_exelearning como caso real">
+<script>document.querySelector("html").classList.add("js");</script><script src="libs/jquery/jquery.min.js"> </script><script src="libs/common_i18n.js"> </script><script src="libs/common.js"> </script><script src="libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"","packageTitle":"Inteligencia artificial: programar, documentar y no acabar en un berenjenal","language":"es"};</script><script src="libs/xapi/exe_xapi.js"> </script><script src="search_index.js"> </script><script src="libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
 <script src="idevices/markdown-text/markdown-text.js"></script><link rel="stylesheet" href="idevices/markdown-text/markdown-text.css">
 <link rel="stylesheet" href="content/css/base.css"><script src="theme/style.js"> </script><link rel="stylesheet" href="theme/style.css">
 </head>
@@ -18,47 +18,86 @@
 <ul>
 <li class="active"> <a href="index.html" class="active main-node no-ch">Inicio</a>
 </li>
-<li> <a href="html/la-ia-puede-programar.html" class="no-ch">La IA puede programar</a>
+<li> <a href="html/la-ia-hoy-y-el-berenjenal.html" class="daddy">La IA hoy… y el berenjenal</a>
+<ul class="other-section">
+<li> <a href="html/el-berenjenal.html" class="no-ch">El berenjenal</a>
 </li>
-<li> <a href="html/el-giro-software-libre.html" class="no-ch">El giro: software libre</a>
+</ul>
 </li>
-<li> <a href="html/cuestiones-especificas.html" class="no-ch">Cuestiones específicas</a>
+<li> <a href="html/adrs-la-ia-apoya-la-decision.html" class="daddy">ADRs: la IA apoya la decisión</a>
+<ul class="other-section">
+<li> <a href="html/propone-la-ia-dispone-el-humano.html" class="no-ch">Propone la IA, dispone el humano</a>
 </li>
-<li> <a href="html/exelearning-como-ejemplo.html" class="no-ch">eXeLearning como ejemplo</a>
+</ul>
 </li>
-<li> <a href="html/como-cuidar-la-libertad.html" class="no-ch">Cómo cuidar la libertad</a>
+<li> <a href="html/agnostica-transparente-y-libre.html" class="daddy">Agnóstica, transparente y libre</a>
+<ul class="other-section">
+<li> <a href="html/software-libre-transparencia-contexto.html" class="no-ch">Software libre = transparencia + contexto</a>
 </li>
-<li> <a href="html/enlaces-y-gracias.html" class="no-ch">Enlaces y gracias</a>
+</ul>
+</li>
+<li> <a href="html/cierre.html" class="no-ch">Cierre</a>
 </li>
 </ul>
 </nav><main id="SP00000001" class="page"> <div id="exe-client-search" data-block-order-string="Caja %e" data-no-results-string="Sin resultados.">
 </div>
-<header class="main-header"> <p class="page-counter"> <span class="page-counter-label">Página </span><span class="page-counter-content"> <strong class="page-counter-current-page">1</strong><span class="page-counter-sep">/</span><strong class="page-counter-total">7</strong></span></p>
+<header class="main-header"> <p class="page-counter"> <span class="page-counter-label">Página </span><span class="page-counter-content"> <strong class="page-counter-current-page">1</strong><span class="page-counter-sep">/</span><strong class="page-counter-total">8</strong></span></p>
 
-<div class="package-header"><p class="package-title">La IA puede programar, pero la libertad hay que cuidarla</p></div>
+<div class="package-header"><p class="package-title">Inteligencia artificial: programar, documentar y no acabar en un berenjenal</p></div>
 <div class="page-header"><h1 class="page-title">Inicio</h1></div>
 </header><div id="page-content-SP00000001" class="page-content">
 <article id="SP00000002" class="box">
 <header class="box-head">
 <div class="box-icon exe-icon">
-<img src="theme/icons/book.png" alt="">
+<img src="theme/icons/book.svg" alt="">
 </div>
-<h1 class="box-title">La IA puede programar, pero la libertad hay que cuidarla</h1>
+<h1 class="box-title">Programar, documentar y no acabar en un berenjenal</h1>
 </header>
 <div class="box-content">
-<div id="SP00000003" class="idevice_node markdown-text" data-idevice-path="idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000003&quot;,&quot;markdownTextarea&quot;:&quot;**La IA ya escribe código. La pregunta es quién protege las libertades de quien lo recibe.**\n\nCharla corta en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n- Ponente: **Ernesto Serrano Collado** — *Rompiendo cosas desde 1983*. DevOps Engineer en eXeLearning.\n- Idea central: la IA facilita el desarrollo, pero en software libre aparecen cuestiones que hay que **cuidar especialmente**.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;&lt;strong&gt;La IA ya escribe código. La pregunta es quién protege las libertades de quien lo recibe.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Charla corta en la &lt;strong&gt;I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)&lt;/strong&gt;.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ponente: &lt;strong&gt;Ernesto Serrano Collado&lt;/strong&gt; — &lt;em&gt;Rompiendo cosas desde 1983&lt;/em&gt;. DevOps Engineer en eXeLearning.&lt;/li&gt;\n&lt;li&gt;Idea central: la IA facilita el desarrollo, pero en software libre aparecen cuestiones que hay que &lt;strong&gt;cuidar especialmente&lt;/strong&gt;.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
-<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p><strong>La IA ya escribe código. La pregunta es quién protege las libertades de quien lo recibe.</strong></p>
-<p>Charla corta en la <strong>I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)</strong>.</p>
+<div id="SP00000003" class="idevice_node markdown-text" data-idevice-path="idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000003&quot;,&quot;markdownTextarea&quot;:&quot;**La IA ya programa. El reto es no acabar en un berenjenal.**\n\nCharla en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n**Ernesto Serrano Collado** — *Rompiendo cosas desde 1983*.\n\n- Coordinador del **Área de Tecnología Educativa** — Consejería de Educación, Gobierno de Canarias.\n- **DevOps** en eXeLearning · desarrollador del *Stevie Wonder Simulator* para Android.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;&lt;strong&gt;La IA ya programa. El reto es no acabar en un berenjenal.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Charla en la &lt;strong&gt;I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)&lt;/strong&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Ernesto Serrano Collado&lt;/strong&gt; — &lt;em&gt;Rompiendo cosas desde 1983&lt;/em&gt;.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Coordinador del &lt;strong&gt;Área de Tecnología Educativa&lt;/strong&gt; — Consejería de Educación, Gobierno de Canarias.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;DevOps&lt;/strong&gt; en eXeLearning · desarrollador del &lt;em&gt;Stevie Wonder Simulator&lt;/em&gt; para Android.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p><strong>La IA ya programa. El reto es no acabar en un berenjenal.</strong></p>
+<p>Charla en la <strong>I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)</strong>.</p>
+<p><strong>Ernesto Serrano Collado</strong> — <em>Rompiendo cosas desde 1983</em>.</p>
 <ul>
-<li>Ponente: <strong>Ernesto Serrano Collado</strong> — <em>Rompiendo cosas desde 1983</em>. DevOps Engineer en eXeLearning.</li>
-<li>Idea central: la IA facilita el desarrollo, pero en software libre aparecen cuestiones que hay que <strong>cuidar especialmente</strong>.</li>
+<li>Coordinador del <strong>Área de Tecnología Educativa</strong> — Consejería de Educación, Gobierno de Canarias.</li>
+<li><strong>DevOps</strong> en eXeLearning · desarrollador del <em>Stevie Wonder Simulator</em> para Android.</li>
 </ul></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000004" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="theme/icons/objectives.svg" alt="">
+</div>
+<h1 class="box-title">La idea central</h1>
+</header>
+<div class="box-content">
+<div id="SP00000005" class="idevice_node markdown-text" data-idevice-path="idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000005&quot;,&quot;markdownTextarea&quot;:&quot;La IA te lleva a producción a toda velocidad. El problema no es llegar rápido: es **acordarte de por qué tomaste cada curva**.\n\n&gt; El código queda; el **\&quot;por qué\&quot;** se evapora. Ahí empieza el berenjenal.\n\nLa salida: **documentar las decisiones** (no solo el código), y hacerlo **trazable, agnóstico y libre**. Lo cuento con un proyecto real: **mod_exelearning**.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;La IA te lleva a producción a toda velocidad. El problema no es llegar rápido: es &lt;strong&gt;acordarte de por qué tomaste cada curva&lt;/strong&gt;.&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;p&gt;El código queda; el &lt;strong&gt;\&quot;por qué\&quot;&lt;/strong&gt; se evapora. Ahí empieza el berenjenal.&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;La salida: &lt;strong&gt;documentar las decisiones&lt;/strong&gt; (no solo el código), y hacerlo &lt;strong&gt;trazable, agnóstico y libre&lt;/strong&gt;. Lo cuento con un proyecto real: &lt;strong&gt;mod_exelearning&lt;/strong&gt;.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>La IA te lleva a producción a toda velocidad. El problema no es llegar rápido: es <strong>acordarte de por qué tomaste cada curva</strong>.</p>
+<blockquote>
+<p>El código queda; el <strong>"por qué"</strong> se evapora. Ahí empieza el berenjenal.</p>
+</blockquote>
+<p>La salida: <strong>documentar las decisiones</strong> (no solo el código), y hacerlo <strong>trazable, agnóstico y libre</strong>. Lo cuento con un proyecto real: <strong>mod_exelearning</strong>.</p></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000006" class="box teacher-only">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="theme/icons/info.svg" alt="">
+</div>
+<h1 class="box-title">Notas del ponente</h1>
+</header>
+<div class="box-content">
+<div id="SP00000007" class="idevice_node markdown-text" data-idevice-path="idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000007&quot;,&quot;markdownTextarea&quot;:&quot;**Duración: ~15–20 min** + stand. Tono ameno y honesto, **sin hype**. Audiencia de software libre (devs, responsables técnicos, comunidades).\n\nHilo: la IA (programar/documentar) → el **berenjenal** (velocidad sin rastro) → **ADRs** (la IA apoya, el humano decide) → **agnóstico + libre** (transparencia). Cierro con humor.\n\nEs la 'parte de IA' de mi charla de 3ipunt, enfocada a mod_exelearning y al software libre. Si voy justo de tiempo: acorto 'La IA hoy' y voy directo a los ADRs. Cambia a la pantalla y enseña un ADR real si puedes.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;&lt;strong&gt;Duración: ~15–20 min&lt;/strong&gt; + stand. Tono ameno y honesto, &lt;strong&gt;sin hype&lt;/strong&gt;. Audiencia de software libre (devs, responsables técnicos, comunidades).&lt;/p&gt;\n&lt;p&gt;Hilo: la IA (programar/documentar) → el &lt;strong&gt;berenjenal&lt;/strong&gt; (velocidad sin rastro) → &lt;strong&gt;ADRs&lt;/strong&gt; (la IA apoya, el humano decide) → &lt;strong&gt;agnóstico + libre&lt;/strong&gt; (transparencia). Cierro con humor.&lt;/p&gt;\n&lt;p&gt;Es la 'parte de IA' de mi charla de 3ipunt, enfocada a mod_exelearning y al software libre. Si voy justo de tiempo: acorto 'La IA hoy' y voy directo a los ADRs. Cambia a la pantalla y enseña un ADR real si puedes.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p><strong>Duración: ~15–20 min</strong> + stand. Tono ameno y honesto, <strong>sin hype</strong>. Audiencia de software libre (devs, responsables técnicos, comunidades).</p>
+<p>Hilo: la IA (programar/documentar) → el <strong>berenjenal</strong> (velocidad sin rastro) → <strong>ADRs</strong> (la IA apoya, el humano decide) → <strong>agnóstico + libre</strong> (transparencia). Cierro con humor.</p>
+<p>Es la 'parte de IA' de mi charla de 3ipunt, enfocada a mod_exelearning y al software libre. Si voy justo de tiempo: acorto 'La IA hoy' y voy directo a los ADRs. Cambia a la pantalla y enseña un ADR real si puedes.</p></div></div></div></div>
 </div>
 </div>
 </article>
 </div></main><div class="nav-buttons">
 <span class="nav-button nav-button-left" aria-hidden="true"><span>Anterior</span></span>
-<a href="html/la-ia-puede-programar.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+<a href="html/la-ia-hoy-y-el-berenjenal.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
 </div>
 <footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
 </div>

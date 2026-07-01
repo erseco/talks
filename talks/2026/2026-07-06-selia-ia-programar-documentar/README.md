@@ -1,20 +1,23 @@
-# La IA puede programar, pero la libertad hay que cuidarla
+# Inteligencia artificial: programar, documentar y no acabar en un berenjenal
 
-> Implicaciones de la IA en el desarrollo de software libre, con eXeLearning
-> como ejemplo.
+> Decisiones trazables (ADRs), IA agnóstica y software libre — con mod_exelearning como caso real.
 
-Charla corta (~20 min) en la **I Jornada sobre Software Libre e Inteligencia
-Artificial Abierta (seLIA)** — lunes 6 de julio de 2026, 15:20–15:40.
+Charla corta (~20 min) + stand en la **I Jornada sobre Software Libre e Inteligencia
+Artificial Abierta (seLIA)** — lunes 6 de julio de 2026.
 
-- Fuente Slidev: [`slides.md`](slides.md)
+- Metadatos: [`talk.yml`](talk.yml)
+- Contenido (fuente de verdad): [`../../../scripts/exe/specs/2026-07-06-selia-ia-programar-documentar.json`](../../../scripts/exe/specs/2026-07-06-selia-ia-programar-documentar.json)
 - Notas del ponente: [`notes.md`](notes.md)
-- Propuesta aceptada:
-  <https://codeberg.org/seLIA/Contrib/src/branch/main/propuestas/27_Cristina_Valdera-La_IA_puede_programar.md>
+- Unidad renderizada (eXeLearning, tema nova): [`index.html`](index.html)
+- Propuesta:
+  <https://codeberg.org/seLIA/Contrib/src/branch/main/propuestas/27_Ernesto_Serrano-La_IA_puede_programar.md>
 
 ## Generar localmente
 
 ```bash
-make slides   # renderiza esta charla (y las demás) en output/talks/<id>/
-make build    # valida, renderiza y genera la web en output/site/
-make serve TALK=talks/2026/2026-07-06-selia-ia-puede-programar-libertad/slides.md   # vista previa
+# Regenerar la unidad eXeLearning desde el spec (paso local):
+#   requiere python3 + `pip install markdown` y la CLI eXeLearning en $EXE_DIR
+make exe        # renderiza scripts/exe/specs/*.json en las carpetas de cada charla
+make build      # valida metadatos y genera la web en output/site/
+make serve      # vista previa en http://localhost:8080
 ```

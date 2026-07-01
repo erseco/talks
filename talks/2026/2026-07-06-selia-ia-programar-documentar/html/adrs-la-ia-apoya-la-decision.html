@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-SP00000018">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>ADRs: la IA apoya la decisión | Inteligencia artificial: programar, documentar y no acabar en un berenjenal</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Decisiones trazables (ADRs), IA agnóstica y software libre — con mod_exelearning como caso real">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"","packageTitle":"Inteligencia artificial: programar, documentar y no acabar en un berenjenal","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../search_index.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/markdown-text/markdown-text.js"></script><link rel="stylesheet" href="../idevices/markdown-text/markdown-text.css">
+<script src="../libs/exe_highlighter/exe_highlighter.js"> </script>
+<link rel="stylesheet" href="../libs/exe_highlighter/exe_highlighter.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#SP00000018" id="skipNav">Saltar al contenido</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Inicio</a>
+</li>
+<li> <a href="../html/la-ia-hoy-y-el-berenjenal.html" class="daddy">La IA hoy… y el berenjenal</a>
+<ul class="other-section">
+<li> <a href="../html/el-berenjenal.html" class="no-ch">El berenjenal</a>
+</li>
+</ul>
+</li>
+<li class="active"> <a href="../html/adrs-la-ia-apoya-la-decision.html" class="active daddy">ADRs: la IA apoya la decisión</a>
+<ul class="other-section">
+<li> <a href="../html/propone-la-ia-dispone-el-humano.html" class="no-ch">Propone la IA, dispone el humano</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/agnostica-transparente-y-libre.html" class="daddy">Agnóstica, transparente y libre</a>
+<ul class="other-section">
+<li> <a href="../html/software-libre-transparencia-contexto.html" class="no-ch">Software libre = transparencia + contexto</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/cierre.html" class="no-ch">Cierre</a>
+</li>
+</ul>
+</nav><main id="SP00000018" class="page"> <div id="exe-client-search" data-block-order-string="Caja %e" data-no-results-string="Sin resultados.">
+</div>
+<header class="main-header"> <p class="page-counter"> <span class="page-counter-label">Página </span><span class="page-counter-content"> <strong class="page-counter-current-page">4</strong><span class="page-counter-sep">/</span><strong class="page-counter-total">8</strong></span></p>
+
+<div class="package-header"><p class="package-title">Inteligencia artificial: programar, documentar y no acabar en un berenjenal</p></div>
+<div class="page-header"><h1 class="page-title">ADRs: la IA apoya la decisión</h1></div>
+</header><div id="page-content-SP00000018" class="page-content">
+<article id="SP00000019" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/objectives.svg" alt="">
+</div>
+<h1 class="box-title">Un ADR captura el porqué</h1>
+</header>
+<div class="box-content">
+<div id="SP00000020" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000020&quot;,&quot;markdownTextarea&quot;:&quot;Un **ADR** (Architecture Decision Record) documenta **una decisión**: no el código, el **porqué**.\n\nCada uno es un `DEC-NNNN` con secciones fijas: *Contexto · Problema · **Opciones · Evidencia · Decisión** · Consecuencias · Riesgos · Validación*.\n\nEn **mod_exelearning** (plugin de Moodle, **GPLv3**): **60 ADRs** — 53 aceptadas, 4 propuestas, 3 superseded. En el código, cada función **cita su decisión**: `// (DEC-0008)`.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;Un &lt;strong&gt;ADR&lt;/strong&gt; (Architecture Decision Record) documenta &lt;strong&gt;una decisión&lt;/strong&gt;: no el código, el &lt;strong&gt;porqué&lt;/strong&gt;.&lt;/p&gt;\n&lt;p&gt;Cada uno es un &lt;code&gt;DEC-NNNN&lt;/code&gt; con secciones fijas: &lt;em&gt;Contexto · Problema · &lt;/em&gt;&lt;em&gt;Opciones · Evidencia · Decisión&lt;/em&gt;&lt;em&gt; · Consecuencias · Riesgos · Validación&lt;/em&gt;.&lt;/p&gt;\n&lt;p&gt;En &lt;strong&gt;mod_exelearning&lt;/strong&gt; (plugin de Moodle, &lt;strong&gt;GPLv3&lt;/strong&gt;): &lt;strong&gt;60 ADRs&lt;/strong&gt; — 53 aceptadas, 4 propuestas, 3 superseded. En el código, cada función &lt;strong&gt;cita su decisión&lt;/strong&gt;: &lt;code&gt;// (DEC-0008)&lt;/code&gt;.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Un <strong>ADR</strong> (Architecture Decision Record) documenta <strong>una decisión</strong>: no el código, el <strong>porqué</strong>.</p>
+<p>Cada uno es un <code>DEC-NNNN</code> con secciones fijas: <em>Contexto · Problema · </em><em>Opciones · Evidencia · Decisión</em><em> · Consecuencias · Riesgos · Validación</em>.</p>
+<p>En <strong>mod_exelearning</strong> (plugin de Moodle, <strong>GPLv3</strong>): <strong>60 ADRs</strong> — 53 aceptadas, 4 propuestas, 3 superseded. En el código, cada función <strong>cita su decisión</strong>: <code>// (DEC-0008)</code>.</p></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000021" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/guide.svg" alt="">
+</div>
+<h1 class="box-title">El frontmatter deja rastro</h1>
+</header>
+<div class="box-content">
+<div id="SP00000022" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000022&quot;,&quot;markdownTextarea&quot;:&quot;```yaml\nid: DEC-0043\ntitulo: \&quot;Detección de GeoGebra calificable\&quot;\nestado: Aceptada        # Propuesta | Aceptada | Rechazada | Superseded\nfecha: 2026-06-22\nagentes: [erseco, codex]\nherramienta_ia:\n  interfaz: codex\n  modelo: gpt-5\nfuentes: [REPO-071, EXP-014]\n```\n\n- El ADR **declara quién decidió** (persona o agente) y **con qué IA y modelo**.\n- **\&quot;Sin fuente no hay afirmación\&quot;:** cada dato cita `repo + ruta + commit`, doc oficial o experimento reproducible.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;pre&gt;&lt;code class=\&quot;language-yaml\&quot;&gt;id: DEC-0043\ntitulo: &amp;quot;Detección de GeoGebra calificable&amp;quot;\nestado: Aceptada        # Propuesta | Aceptada | Rechazada | Superseded\nfecha: 2026-06-22\nagentes: [erseco, codex]\nherramienta_ia:\n  interfaz: codex\n  modelo: gpt-5\nfuentes: [REPO-071, EXP-014]\n&lt;/code&gt;&lt;/pre&gt;\n&lt;ul&gt;\n&lt;li&gt;El ADR &lt;strong&gt;declara quién decidió&lt;/strong&gt; (persona o agente) y &lt;strong&gt;con qué IA y modelo&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;\&quot;Sin fuente no hay afirmación\&quot;:&lt;/strong&gt; cada dato cita &lt;code&gt;repo + ruta + commit&lt;/code&gt;, doc oficial o experimento reproducible.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><pre><code class="language-yaml">id: DEC-0043
+titulo: &quot;Detección de GeoGebra calificable&quot;
+estado: Aceptada        # Propuesta | Aceptada | Rechazada | Superseded
+fecha: 2026-06-22
+agentes: [erseco, codex]
+herramienta_ia:
+  interfaz: codex
+  modelo: gpt-5
+fuentes: [REPO-071, EXP-014]
+</code></pre>
+<ul>
+<li>El ADR <strong>declara quién decidió</strong> (persona o agente) y <strong>con qué IA y modelo</strong>.</li>
+<li><strong>"Sin fuente no hay afirmación":</strong> cada dato cita <code>repo + ruta + commit</code>, doc oficial o experimento reproducible.</li>
+</ul></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000023" class="box teacher-only">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/info.svg" alt="">
+</div>
+<h1 class="box-title">Notas del ponente</h1>
+</header>
+<div class="box-content">
+<div id="SP00000024" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000024&quot;,&quot;markdownTextarea&quot;:&quot;Núcleo de la charla. Enseña, si puedes, un ADR real en `github.com/exelearning/mod_exelearning`. Elegí **DEC-0043** a propósito para el ejemplo del frontmatter porque lo hizo **codex + gpt-5** (no Claude): así ya planto la semilla del agnosticismo antes de llegar a esa sección.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;Núcleo de la charla. Enseña, si puedes, un ADR real en &lt;code&gt;github.com/exelearning/mod_exelearning&lt;/code&gt;. Elegí &lt;strong&gt;DEC-0043&lt;/strong&gt; a propósito para el ejemplo del frontmatter porque lo hizo &lt;strong&gt;codex + gpt-5&lt;/strong&gt; (no Claude): así ya planto la semilla del agnosticismo antes de llegar a esa sección.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Núcleo de la charla. Enseña, si puedes, un ADR real en <code>github.com/exelearning/mod_exelearning</code>. Elegí <strong>DEC-0043</strong> a propósito para el ejemplo del frontmatter porque lo hizo <strong>codex + gpt-5</strong> (no Claude): así ya planto la semilla del agnosticismo antes de llegar a esa sección.</p></div></div></div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/el-berenjenal.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/propone-la-ia-dispone-el-humano.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
