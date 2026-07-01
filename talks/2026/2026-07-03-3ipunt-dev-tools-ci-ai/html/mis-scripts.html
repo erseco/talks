@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-SP00000015">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Mis scripts | Herramientas de desarrollo, CI e IA</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Mi caja de herramientas real: shell y utilidades, IA (MCP, skills, ADRs) y CI con Make + GitHub Actions">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"","packageTitle":"Herramientas de desarrollo, CI e IA","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../search_index.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/markdown-text/markdown-text.js"></script><link rel="stylesheet" href="../idevices/markdown-text/markdown-text.css">
+<script src="../libs/exe_highlighter/exe_highlighter.js"> </script>
+<link rel="stylesheet" href="../libs/exe_highlighter/exe_highlighter.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#SP00000015" id="skipNav">Saltar al contenido</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Inicio</a>
+</li>
+<li> <a href="../html/terminal-y-shell.html" class="no-ch">Terminal y shell</a>
+</li>
+<li class="active"> <a href="../html/mis-scripts.html" class="active no-ch">Mis scripts</a>
+</li>
+<li> <a href="../html/gestores-de-paquetes.html" class="no-ch">Gestores de paquetes</a>
+</li>
+<li> <a href="../html/utilidades-del-dia-a-dia.html" class="no-ch">Utilidades del día a día</a>
+</li>
+<li> <a href="../html/como-uso-la-ia.html" class="no-ch">Cómo uso la IA</a>
+</li>
+<li> <a href="../html/mcp-darle-herramientas-a-la-ia.html" class="no-ch">MCP: darle herramientas a la IA</a>
+</li>
+<li> <a href="../html/skills-recetas-reutilizables.html" class="no-ch">Skills: recetas reutilizables</a>
+</li>
+<li> <a href="../html/prompts-de-calidad-y-contexto.html" class="no-ch">Prompts de calidad y contexto</a>
+</li>
+<li> <a href="../html/ejemplo-real-modexelearning-adrs.html" class="no-ch">Ejemplo real: mod_exelearning + ADRs</a>
+</li>
+<li> <a href="../html/ia-donde-si-y-donde-no.html" class="no-ch">IA: dónde sí y dónde no</a>
+</li>
+<li> <a href="../html/make-como-interfaz-unica.html" class="no-ch">Make como interfaz única</a>
+</li>
+<li> <a href="../html/entornos-reproducibles.html" class="no-ch">Entornos reproducibles</a>
+</li>
+<li> <a href="../html/ci-lo-mismo-que-en-local.html" class="no-ch">CI = lo mismo que en local</a>
+</li>
+<li> <a href="../html/lint-y-coding-standards.html" class="no-ch">Lint y coding standards</a>
+</li>
+<li> <a href="../html/dependabot-y-optimizacion.html" class="no-ch">Dependabot y optimización</a>
+</li>
+<li> <a href="../html/la-palabra-clave-automatizar.html" class="no-ch">La palabra clave: automatizar</a>
+</li>
+<li> <a href="../html/cierre.html" class="no-ch">Cierre</a>
+</li>
+</ul>
+</nav><main id="SP00000015" class="page"> <div id="exe-client-search" data-block-order-string="Caja %e" data-no-results-string="Sin resultados.">
+</div>
+<header class="main-header"> <p class="page-counter"> <span class="page-counter-label">Página </span><span class="page-counter-content"> <strong class="page-counter-current-page">3</strong><span class="page-counter-sep">/</span><strong class="page-counter-total">18</strong></span></p>
+
+<div class="package-header"><p class="package-title">Herramientas de desarrollo, CI e IA</p></div>
+<div class="page-header"><h1 class="page-title">Mis scripts</h1></div>
+</header><div id="page-content-SP00000015" class="page-content">
+<article id="SP00000016" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/guide.png" alt="">
+</div>
+<h1 class="box-title">Automatizar lo que repites cada día</h1>
+</header>
+<div class="box-content">
+<div id="SP00000017" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000017&quot;,&quot;markdownTextarea&quot;:&quot;Dos scripts míos, pequeños y con **enorme retorno**:\n\n- **`finder`** — abre Finder en un directorio (o en el actual). Salto terminal ↔ Finder sin soltar el teclado.\n- **`prs`** — panel de **PRs e issues abiertos** en todos mis repos (`ateeducacion` + `erseco`) vía `gh` (GraphQL) + `jq`, con **hyperlinks** clicables en el propio terminal. Un vistazo y sé qué tengo pendiente.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;Dos scripts míos, pequeños y con &lt;strong&gt;enorme retorno&lt;/strong&gt;:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;&lt;code&gt;finder&lt;/code&gt;&lt;/strong&gt; — abre Finder en un directorio (o en el actual). Salto terminal ↔ Finder sin soltar el teclado.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;&lt;code&gt;prs&lt;/code&gt;&lt;/strong&gt; — panel de &lt;strong&gt;PRs e issues abiertos&lt;/strong&gt; en todos mis repos (&lt;code&gt;ateeducacion&lt;/code&gt; + &lt;code&gt;erseco&lt;/code&gt;) vía &lt;code&gt;gh&lt;/code&gt; (GraphQL) + &lt;code&gt;jq&lt;/code&gt;, con &lt;strong&gt;hyperlinks&lt;/strong&gt; clicables en el propio terminal. Un vistazo y sé qué tengo pendiente.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Dos scripts míos, pequeños y con <strong>enorme retorno</strong>:</p>
+<ul>
+<li><strong><code>finder</code></strong> — abre Finder en un directorio (o en el actual). Salto terminal ↔ Finder sin soltar el teclado.</li>
+<li><strong><code>prs</code></strong> — panel de <strong>PRs e issues abiertos</strong> en todos mis repos (<code>ateeducacion</code> + <code>erseco</code>) vía <code>gh</code> (GraphQL) + <code>jq</code>, con <strong>hyperlinks</strong> clicables en el propio terminal. Un vistazo y sé qué tengo pendiente.</li>
+</ul></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000018" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/pieces.png" alt="">
+</div>
+<h1 class="box-title">Así se usan</h1>
+</header>
+<div class="box-content">
+<div id="SP00000019" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000019&quot;,&quot;markdownTextarea&quot;:&quot;```bash\nfinder            # abre Finder aquí\nfinder ~/Downloads\n\nprs               # tabla de PRs/issues abiertos por repo,\n                  # ordenada por actividad, con enlaces clicables\n# por dentro: gh api graphql + jq (+ hyperlinks de terminal)\n```\n\n&gt; No hace falta una herramienta enorme: **una función en tu `.zshrc`** que uses 20 veces al día ya paga el rato de escribirla.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;pre&gt;&lt;code class=\&quot;language-bash\&quot;&gt;finder            # abre Finder aquí\nfinder ~/Downloads\n\nprs               # tabla de PRs/issues abiertos por repo,\n                  # ordenada por actividad, con enlaces clicables\n# por dentro: gh api graphql + jq (+ hyperlinks de terminal)\n&lt;/code&gt;&lt;/pre&gt;\n&lt;blockquote&gt;\n&lt;p&gt;No hace falta una herramienta enorme: &lt;strong&gt;una función en tu &lt;code&gt;.zshrc&lt;/code&gt;&lt;/strong&gt; que uses 20 veces al día ya paga el rato de escribirla.&lt;/p&gt;\n&lt;/blockquote&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><pre><code class="language-bash">finder            # abre Finder aquí
+finder ~/Downloads
+
+prs               # tabla de PRs/issues abiertos por repo,
+                  # ordenada por actividad, con enlaces clicables
+# por dentro: gh api graphql + jq (+ hyperlinks de terminal)
+</code></pre>
+<blockquote>
+<p>No hace falta una herramienta enorme: <strong>una función en tu <code>.zshrc</code></strong> que uses 20 veces al día ya paga el rato de escribirla.</p>
+</blockquote></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000020" class="box teacher-only">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/info.png" alt="">
+</div>
+<h1 class="box-title">Notas del ponente</h1>
+</header>
+<div class="box-content">
+<div id="SP00000021" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000021&quot;,&quot;markdownTextarea&quot;:&quot;**Demo:** ejecuta `prs` en vivo — es lo más vistoso de esta sección. Enseña que los enlaces son clicables (cmd+click) y que reúne varias organizaciones.\n\nMensaje: guarda estos scripts en tus **dotfiles** (repo versionado). Lo que vive solo en tu máquina se pierde al cambiar de portátil; en git te sigue a todas partes y lo compartes con el equipo.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;&lt;strong&gt;Demo:&lt;/strong&gt; ejecuta &lt;code&gt;prs&lt;/code&gt; en vivo — es lo más vistoso de esta sección. Enseña que los enlaces son clicables (cmd+click) y que reúne varias organizaciones.&lt;/p&gt;\n&lt;p&gt;Mensaje: guarda estos scripts en tus &lt;strong&gt;dotfiles&lt;/strong&gt; (repo versionado). Lo que vive solo en tu máquina se pierde al cambiar de portátil; en git te sigue a todas partes y lo compartes con el equipo.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p><strong>Demo:</strong> ejecuta <code>prs</code> en vivo — es lo más vistoso de esta sección. Enseña que los enlaces son clicables (cmd+click) y que reúne varias organizaciones.</p>
+<p>Mensaje: guarda estos scripts en tus <strong>dotfiles</strong> (repo versionado). Lo que vive solo en tu máquina se pierde al cambiar de portátil; en git te sigue a todas partes y lo compartes con el equipo.</p></div></div></div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/terminal-y-shell.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/gestores-de-paquetes.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
