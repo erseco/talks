@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260701075729F9DUPF</value>
+    <value>20260701080352FI2TPT</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>2026070107572904T8U6</value>
+    <value>20260701080352VJHIQ4</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -52,7 +52,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-07-01T06:57:29.602Z</value>
+    <value>2026-07-01T07:03:52.053Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -164,12 +164,13 @@
           <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p><strong>La IA ya programa. El reto es no acabar en un berenjenal.</strong></p>
 <p>Charla en la <strong>I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)</strong>.</p>
-<p><strong>Ernesto Serrano Collado</strong> — <em>Rompiendo cosas desde 1983</em>.</p>
+<p><strong>Ernesto Serrano</strong> — <em>Rompiendo cosas desde 1983</em>.</p>
 <ul>
-<li>Coordinador del <strong>Área de Tecnología Educativa</strong> — Consejería de Educación, Gobierno de Canarias.</li>
-<li><strong>DevOps</strong> en eXeLearning · desarrollador del <em>Stevie Wonder Simulator</em> para Android.</li>
+<li>Desarrollador principal del <strong>simulador de Stevie Wonder</strong> para Android.</li>
+<li><strong>DevOps Engineer</strong> en eXeLearning.</li>
+<li>Coordinador del <strong>Área de Tecnología Educativa</strong> — Gobierno de Canarias.</li>
 </ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","markdownTextarea":"**La IA ya programa. El reto es no acabar en un berenjenal.**\n\nCharla en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n**Ernesto Serrano Collado** — *Rompiendo cosas desde 1983*.\n\n- Coordinador del **Área de Tecnología Educativa** — Consejería de Educación, Gobierno de Canarias.\n- **DevOps** en eXeLearning · desarrollador del *Stevie Wonder Simulator* para Android.","markdownTextareaHtml":"<p><strong>La IA ya programa. El reto es no acabar en un berenjenal.</strong></p>\n<p>Charla en la <strong>I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)</strong>.</p>\n<p><strong>Ernesto Serrano Collado</strong> — <em>Rompiendo cosas desde 1983</em>.</p>\n<ul>\n<li>Coordinador del <strong>Área de Tecnología Educativa</strong> — Consejería de Educación, Gobierno de Canarias.</li>\n<li><strong>DevOps</strong> en eXeLearning · desarrollador del <em>Stevie Wonder Simulator</em> para Android.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","markdownTextarea":"**La IA ya programa. El reto es no acabar en un berenjenal.**\n\nCharla en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n**Ernesto Serrano** — *Rompiendo cosas desde 1983*.\n\n- Desarrollador principal del **simulador de Stevie Wonder** para Android.\n- **DevOps Engineer** en eXeLearning.\n- Coordinador del **Área de Tecnología Educativa** — Gobierno de Canarias.","markdownTextareaHtml":"<p><strong>La IA ya programa. El reto es no acabar en un berenjenal.</strong></p>\n<p>Charla en la <strong>I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)</strong>.</p>\n<p><strong>Ernesto Serrano</strong> — <em>Rompiendo cosas desde 1983</em>.</p>\n<ul>\n<li>Desarrollador principal del <strong>simulador de Stevie Wonder</strong> para Android.</li>\n<li><strong>DevOps Engineer</strong> en eXeLearning.</li>\n<li>Coordinador del <strong>Área de Tecnología Educativa</strong> — Gobierno de Canarias.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
