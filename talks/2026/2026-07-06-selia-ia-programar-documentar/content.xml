@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260701085405B8684K</value>
+    <value>202607011213053K9D37</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>202607010854059QBJFV</value>
+    <value>20260701121305436RGK</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -52,7 +52,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-07-01T07:54:05.036Z</value>
+    <value>2026-07-01T11:13:04.910Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -1181,13 +1181,13 @@ fuentes: [REPO-071, EXP-014]
 </odeNavStructure>
 <odeNavStructure>
   <odePageId>SP00000035</odePageId>
-  <odeParentPageId></odeParentPageId>
-  <pageName>Agnóstica, transparente y libre</pageName>
-  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeParentPageId>SP00000018</odeParentPageId>
+  <pageName>¿ADR o SDD (spec-kit / openspec)?</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
   <odeNavStructureProperties>
     <odeNavStructureProperty>
       <key>titlePage</key>
-      <value>Agnóstica, transparente y libre</value>
+      <value>¿ADR o SDD (spec-kit / openspec)?</value>
     </odeNavStructureProperty>
     <odeNavStructureProperty>
       <key>visibility</key>
@@ -1207,11 +1207,11 @@ fuentes: [REPO-071, EXP-014]
     </odeNavStructureProperty>
     <odeNavStructureProperty>
       <key>titlePage</key>
-      <value>Agnóstica, transparente y libre</value>
+      <value>¿ADR o SDD (spec-kit / openspec)?</value>
     </odeNavStructureProperty>
     <odeNavStructureProperty>
       <key>titleNode</key>
-      <value>Agnóstica, transparente y libre</value>
+      <value>¿ADR o SDD (spec-kit / openspec)?</value>
     </odeNavStructureProperty>
     <odeNavStructureProperty>
       <key>titleHtml</key>
@@ -1226,8 +1226,8 @@ fuentes: [REPO-071, EXP-014]
     <odePagStructure>
       <odePageId>SP00000035</odePageId>
       <odeBlockId>SP00000036</odeBlockId>
-      <blockName>IA agnóstica: sin atarte a ninguna</blockName>
-      <iconName>guide</iconName>
+      <blockName>Qué vs por qué</blockName>
+      <iconName>ask</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1257,17 +1257,17 @@ fuentes: [REPO-071, EXP-014]
           <odeBlockId>SP00000036</odeBlockId>
           <odeIdeviceId>SP00000037</odeIdeviceId>
           <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>El frontmatter registra <code>interfaz</code> y <code>modelo</code>, así el proceso <strong>no se ata a ninguna IA</strong>:</p>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p><strong>No compiten: SDD dice el <em>qué</em>; el ADR, el <em>por qué</em>.</strong></p>
 <ul>
-<li><strong><a href="https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0043-deteccion-geogebra-auto-scorm.md">DEC-0043 ↗</a></strong> se decidió con <strong><code>codex</code> + <code>gpt-5</code></strong>.</li>
-<li><strong><a href="https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0044-auditoria-bugs-criticos.md">DEC-0044 ↗</a></strong> (auditoría de bugs) con <strong><code>claude-code</code> + <code>claude-fable-5</code></strong>.</li>
-<li>Otros, con <code>claude-opus</code>… <strong>da igual el motor</strong>.</li>
-<li>Y el mismo proceso vale con <strong>modelos de pesos abiertos</strong> (Llama, Mistral, Qwen, DeepSeek) e incluso de <strong>licencia libre / OSI</strong> (OLMo, IBM Granite), corriendo <strong>en local</strong> (Ollama).</li>
+<li><strong>SDD</strong> (Spec Kit, OpenSpec): spec → genera plan, tareas y código. <strong>Caduca</strong> al implementarla.</li>
+<li><strong>ADR</strong>: registra la decisión y su evidencia. <strong>Append-only</strong>, perdura.</li>
 </ul>
+<p><strong>A favor del ADR:</strong> agnóstico (markdown+git, <strong>sin lock-in</strong>), auditable, ideal en <strong>código vivo</strong>.<br>
+<strong>En contra:</strong> más manual, no genera código; para una <em>feature</em> nueva de cero, SDD estructura mejor.</p>
 <blockquote>
-<p>La <strong>decisión</strong> y su <strong>evidencia</strong> sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: <strong>cero lock-in</strong>.</p>
+<p>No es <em>o uno o otro</em>: se <strong>combinan</strong> (OpenSpec trae <code>spec-driven-with-adr</code>).</p>
 </blockquote></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000037","markdownTextarea":"El frontmatter registra `interfaz` y `modelo`, así el proceso **no se ata a ninguna IA**:\n\n- **[DEC-0043 ↗](https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0043-deteccion-geogebra-auto-scorm.md)** se decidió con **`codex` + `gpt-5`**.\n- **[DEC-0044 ↗](https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0044-auditoria-bugs-criticos.md)** (auditoría de bugs) con **`claude-code` + `claude-fable-5`**.\n- Otros, con `claude-opus`… **da igual el motor**.\n- Y el mismo proceso vale con **modelos de pesos abiertos** (Llama, Mistral, Qwen, DeepSeek) e incluso de **licencia libre / OSI** (OLMo, IBM Granite), corriendo **en local** (Ollama).\n\n> La **decisión** y su **evidencia** sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: **cero lock-in**.","markdownTextareaHtml":"<p>El frontmatter registra <code>interfaz</code> y <code>modelo</code>, así el proceso <strong>no se ata a ninguna IA</strong>:</p>\n<ul>\n<li><strong><a href=\"https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0043-deteccion-geogebra-auto-scorm.md\">DEC-0043 ↗</a></strong> se decidió con <strong><code>codex</code> + <code>gpt-5</code></strong>.</li>\n<li><strong><a href=\"https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0044-auditoria-bugs-criticos.md\">DEC-0044 ↗</a></strong> (auditoría de bugs) con <strong><code>claude-code</code> + <code>claude-fable-5</code></strong>.</li>\n<li>Otros, con <code>claude-opus</code>… <strong>da igual el motor</strong>.</li>\n<li>Y el mismo proceso vale con <strong>modelos de pesos abiertos</strong> (Llama, Mistral, Qwen, DeepSeek) e incluso de <strong>licencia libre / OSI</strong> (OLMo, IBM Granite), corriendo <strong>en local</strong> (Ollama).</li>\n</ul>\n<blockquote>\n<p>La <strong>decisión</strong> y su <strong>evidencia</strong> sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: <strong>cero lock-in</strong>.</p>\n</blockquote>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000037","markdownTextarea":"**No compiten: SDD dice el *qué*; el ADR, el *por qué*.**\n\n- **SDD** (Spec Kit, OpenSpec): spec → genera plan, tareas y código. **Caduca** al implementarla.\n- **ADR**: registra la decisión y su evidencia. **Append-only**, perdura.\n\n**A favor del ADR:** agnóstico (markdown+git, **sin lock-in**), auditable, ideal en **código vivo**.\n**En contra:** más manual, no genera código; para una *feature* nueva de cero, SDD estructura mejor.\n\n> No es *o uno o otro*: se **combinan** (OpenSpec trae `spec-driven-with-adr`).","markdownTextareaHtml":"<p><strong>No compiten: SDD dice el <em>qué</em>; el ADR, el <em>por qué</em>.</strong></p>\n<ul>\n<li><strong>SDD</strong> (Spec Kit, OpenSpec): spec → genera plan, tareas y código. <strong>Caduca</strong> al implementarla.</li>\n<li><strong>ADR</strong>: registra la decisión y su evidencia. <strong>Append-only</strong>, perdura.</li>\n</ul>\n<p><strong>A favor del ADR:</strong> agnóstico (markdown+git, <strong>sin lock-in</strong>), auditable, ideal en <strong>código vivo</strong>.<br>\n<strong>En contra:</strong> más manual, no genera código; para una <em>feature</em> nueva de cero, SDD estructura mejor.</p>\n<blockquote>\n<p>No es <em>o uno o otro</em>: se <strong>combinan</strong> (OpenSpec trae <code>spec-driven-with-adr</code>).</p>\n</blockquote>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1320,8 +1320,8 @@ fuentes: [REPO-071, EXP-014]
           <odeBlockId>SP00000038</odeBlockId>
           <odeIdeviceId>SP00000039</odeIdeviceId>
           <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Mensaje diferencial para una jornada de IA <strong>abierta</strong>: no dependemos de un proveedor. Como la evidencia se cita (<code>repo+ruta+commit</code>), cualquier IA —o persona— reproduce la verificación. Si preguntan por modelos locales: encaja perfecto, el proceso es el mismo con Ollama / pesos abiertos.</p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000039","markdownTextarea":"Mensaje diferencial para una jornada de IA **abierta**: no dependemos de un proveedor. Como la evidencia se cita (`repo+ruta+commit`), cualquier IA —o persona— reproduce la verificación. Si preguntan por modelos locales: encaja perfecto, el proceso es el mismo con Ollama / pesos abiertos.","markdownTextareaHtml":"<p>Mensaje diferencial para una jornada de IA <strong>abierta</strong>: no dependemos de un proveedor. Como la evidencia se cita (<code>repo+ruta+commit</code>), cualquier IA —o persona— reproduce la verificación. Si preguntan por modelos locales: encaja perfecto, el proceso es el mismo con Ollama / pesos abiertos.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Respuesta a la pregunta típica: <em>"¿por qué esto y no spec-kit / openspec?"</em>. Clave: <strong>SDD = qué, ADR = por qué</strong>; en un proyecto <strong>vivo y libre</strong> lo que se pierde es el porqué, y markdown+git <strong>no ata a ningún motor</strong>. Remate: no es <em>o uno o otro</em> — se <strong>combinan</strong> (OpenSpec trae <code>spec-driven-with-adr</code>). Si aprietan: <em>"spec para la feature, ADR para la coherencia entre features"</em>. Puedes usarla de reserva y saltarla si vas justo de tiempo.</p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000039","markdownTextarea":"Respuesta a la pregunta típica: *\"¿por qué esto y no spec-kit / openspec?\"*. Clave: **SDD = qué, ADR = por qué**; en un proyecto **vivo y libre** lo que se pierde es el porqué, y markdown+git **no ata a ningún motor**. Remate: no es *o uno o otro* — se **combinan** (OpenSpec trae `spec-driven-with-adr`). Si aprietan: *\"spec para la feature, ADR para la coherencia entre features\"*. Puedes usarla de reserva y saltarla si vas justo de tiempo.","markdownTextareaHtml":"<p>Respuesta a la pregunta típica: <em>\"¿por qué esto y no spec-kit / openspec?\"</em>. Clave: <strong>SDD = qué, ADR = por qué</strong>; en un proyecto <strong>vivo y libre</strong> lo que se pierde es el porqué, y markdown+git <strong>no ata a ningún motor</strong>. Remate: no es <em>o uno o otro</em> — se <strong>combinan</strong> (OpenSpec trae <code>spec-driven-with-adr</code>). Si aprietan: <em>\"spec para la feature, ADR para la coherencia entre features\"</em>. Puedes usarla de reserva y saltarla si vas justo de tiempo.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1344,13 +1344,13 @@ fuentes: [REPO-071, EXP-014]
 </odeNavStructure>
 <odeNavStructure>
   <odePageId>SP00000040</odePageId>
-  <odeParentPageId>SP00000035</odeParentPageId>
-  <pageName>Software libre = transparencia + contexto</pageName>
-  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Agnóstica, transparente y libre</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
   <odeNavStructureProperties>
     <odeNavStructureProperty>
       <key>titlePage</key>
-      <value>Software libre = transparencia + contexto</value>
+      <value>Agnóstica, transparente y libre</value>
     </odeNavStructureProperty>
     <odeNavStructureProperty>
       <key>visibility</key>
@@ -1370,11 +1370,11 @@ fuentes: [REPO-071, EXP-014]
     </odeNavStructureProperty>
     <odeNavStructureProperty>
       <key>titlePage</key>
-      <value>Software libre = transparencia + contexto</value>
+      <value>Agnóstica, transparente y libre</value>
     </odeNavStructureProperty>
     <odeNavStructureProperty>
       <key>titleNode</key>
-      <value>Software libre = transparencia + contexto</value>
+      <value>Agnóstica, transparente y libre</value>
     </odeNavStructureProperty>
     <odeNavStructureProperty>
       <key>titleHtml</key>
@@ -1389,8 +1389,8 @@ fuentes: [REPO-071, EXP-014]
     <odePagStructure>
       <odePageId>SP00000040</odePageId>
       <odeBlockId>SP00000041</odeBlockId>
-      <blockName>El repo libre es lo que lo hace posible</blockName>
-      <iconName>reflection</iconName>
+      <blockName>IA agnóstica: sin atarte a ninguna</blockName>
+      <iconName>guide</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
         <odePagStructureProperty>
@@ -1420,13 +1420,17 @@ fuentes: [REPO-071, EXP-014]
           <odeBlockId>SP00000041</odeBlockId>
           <odeIdeviceId>SP00000042</odeIdeviceId>
           <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Que el repo sea <strong>libre y público</strong> (mod_exelearning, <strong>GPLv3</strong>) no es un detalle: es lo que hace todo esto posible.</p>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>El frontmatter registra <code>interfaz</code> y <code>modelo</code>, así el proceso <strong>no se ata a ninguna IA</strong>:</p>
 <ul>
-<li><strong>Contexto</strong>: cualquier IA (o persona) lee el repo y <strong>retoma el hilo</strong> — issues, PRs, ADRs, evidencia.</li>
-<li><strong>Transparencia</strong>: todo es <strong>append-only</strong> y citable; se puede auditar.</li>
-<li><strong>Coherencia libre</strong>: <em>pesos abiertos ≠ software libre</em>; prefiere modelos <strong>abiertos/locales</strong>, no subas datos sensibles y <strong>devuelve al procomún</strong>.</li>
-</ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000042","markdownTextarea":"Que el repo sea **libre y público** (mod_exelearning, **GPLv3**) no es un detalle: es lo que hace todo esto posible.\n\n- **Contexto**: cualquier IA (o persona) lee el repo y **retoma el hilo** — issues, PRs, ADRs, evidencia.\n- **Transparencia**: todo es **append-only** y citable; se puede auditar.\n- **Coherencia libre**: *pesos abiertos ≠ software libre*; prefiere modelos **abiertos/locales**, no subas datos sensibles y **devuelve al procomún**.","markdownTextareaHtml":"<p>Que el repo sea <strong>libre y público</strong> (mod_exelearning, <strong>GPLv3</strong>) no es un detalle: es lo que hace todo esto posible.</p>\n<ul>\n<li><strong>Contexto</strong>: cualquier IA (o persona) lee el repo y <strong>retoma el hilo</strong> — issues, PRs, ADRs, evidencia.</li>\n<li><strong>Transparencia</strong>: todo es <strong>append-only</strong> y citable; se puede auditar.</li>\n<li><strong>Coherencia libre</strong>: <em>pesos abiertos ≠ software libre</em>; prefiere modelos <strong>abiertos/locales</strong>, no subas datos sensibles y <strong>devuelve al procomún</strong>.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+<li><strong><a href="https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0043-deteccion-geogebra-auto-scorm.md">DEC-0043 ↗</a></strong> se decidió con <strong><code>codex</code> + <code>gpt-5</code></strong>.</li>
+<li><strong><a href="https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0044-auditoria-bugs-criticos.md">DEC-0044 ↗</a></strong> (auditoría de bugs) con <strong><code>claude-code</code> + <code>claude-fable-5</code></strong>.</li>
+<li>Otros, con <code>claude-opus</code>… <strong>da igual el motor</strong>.</li>
+<li>Y el mismo proceso vale con <strong>modelos de pesos abiertos</strong> (Llama, Mistral, Qwen, DeepSeek) e incluso de <strong>licencia libre / OSI</strong> (OLMo, IBM Granite), corriendo <strong>en local</strong> (Ollama).</li>
+</ul>
+<blockquote>
+<p>La <strong>decisión</strong> y su <strong>evidencia</strong> sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: <strong>cero lock-in</strong>.</p>
+</blockquote></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000042","markdownTextarea":"El frontmatter registra `interfaz` y `modelo`, así el proceso **no se ata a ninguna IA**:\n\n- **[DEC-0043 ↗](https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0043-deteccion-geogebra-auto-scorm.md)** se decidió con **`codex` + `gpt-5`**.\n- **[DEC-0044 ↗](https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0044-auditoria-bugs-criticos.md)** (auditoría de bugs) con **`claude-code` + `claude-fable-5`**.\n- Otros, con `claude-opus`… **da igual el motor**.\n- Y el mismo proceso vale con **modelos de pesos abiertos** (Llama, Mistral, Qwen, DeepSeek) e incluso de **licencia libre / OSI** (OLMo, IBM Granite), corriendo **en local** (Ollama).\n\n> La **decisión** y su **evidencia** sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: **cero lock-in**.","markdownTextareaHtml":"<p>El frontmatter registra <code>interfaz</code> y <code>modelo</code>, así el proceso <strong>no se ata a ninguna IA</strong>:</p>\n<ul>\n<li><strong><a href=\"https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0043-deteccion-geogebra-auto-scorm.md\">DEC-0043 ↗</a></strong> se decidió con <strong><code>codex</code> + <code>gpt-5</code></strong>.</li>\n<li><strong><a href=\"https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0044-auditoria-bugs-criticos.md\">DEC-0044 ↗</a></strong> (auditoría de bugs) con <strong><code>claude-code</code> + <code>claude-fable-5</code></strong>.</li>\n<li>Otros, con <code>claude-opus</code>… <strong>da igual el motor</strong>.</li>\n<li>Y el mismo proceso vale con <strong>modelos de pesos abiertos</strong> (Llama, Mistral, Qwen, DeepSeek) e incluso de <strong>licencia libre / OSI</strong> (OLMo, IBM Granite), corriendo <strong>en local</strong> (Ollama).</li>\n</ul>\n<blockquote>\n<p>La <strong>decisión</strong> y su <strong>evidencia</strong> sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: <strong>cero lock-in</strong>.</p>\n</blockquote>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1479,8 +1483,8 @@ fuentes: [REPO-071, EXP-014]
           <odeBlockId>SP00000043</odeBlockId>
           <odeIdeviceId>SP00000044</odeIdeviceId>
           <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Cierre conceptual: el software libre es el <strong>sustrato</strong> que da CONTEXTO a la IA y TRANSPARENCIA al proceso; un repo cerrado no puede ofrecer esto. Coletilla clásica de la jornada: <em>pesos abiertos no es lo mismo que libre</em> — mira la licencia real. En un repo privado, este sistema pierde casi toda su gracia.</p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000044","markdownTextarea":"Cierre conceptual: el software libre es el **sustrato** que da CONTEXTO a la IA y TRANSPARENCIA al proceso; un repo cerrado no puede ofrecer esto. Coletilla clásica de la jornada: *pesos abiertos no es lo mismo que libre* — mira la licencia real. En un repo privado, este sistema pierde casi toda su gracia.","markdownTextareaHtml":"<p>Cierre conceptual: el software libre es el <strong>sustrato</strong> que da CONTEXTO a la IA y TRANSPARENCIA al proceso; un repo cerrado no puede ofrecer esto. Coletilla clásica de la jornada: <em>pesos abiertos no es lo mismo que libre</em> — mira la licencia real. En un repo privado, este sistema pierde casi toda su gracia.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Mensaje diferencial para una jornada de IA <strong>abierta</strong>: no dependemos de un proveedor. Como la evidencia se cita (<code>repo+ruta+commit</code>), cualquier IA —o persona— reproduce la verificación. Si preguntan por modelos locales: encaja perfecto, el proceso es el mismo con Ollama / pesos abiertos.</p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000044","markdownTextarea":"Mensaje diferencial para una jornada de IA **abierta**: no dependemos de un proveedor. Como la evidencia se cita (`repo+ruta+commit`), cualquier IA —o persona— reproduce la verificación. Si preguntan por modelos locales: encaja perfecto, el proceso es el mismo con Ollama / pesos abiertos.","markdownTextareaHtml":"<p>Mensaje diferencial para una jornada de IA <strong>abierta</strong>: no dependemos de un proveedor. Como la evidencia se cita (<code>repo+ruta+commit</code>), cualquier IA —o persona— reproduce la verificación. Si preguntan por modelos locales: encaja perfecto, el proceso es el mismo con Ollama / pesos abiertos.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1503,6 +1507,165 @@ fuentes: [REPO-071, EXP-014]
 </odeNavStructure>
 <odeNavStructure>
   <odePageId>SP00000045</odePageId>
+  <odeParentPageId>SP00000040</odeParentPageId>
+  <pageName>Software libre = transparencia + contexto</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Software libre = transparencia + contexto</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Software libre = transparencia + contexto</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Software libre = transparencia + contexto</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>SP00000045</odePageId>
+      <odeBlockId>SP00000046</odeBlockId>
+      <blockName>El repo libre es lo que lo hace posible</blockName>
+      <iconName>reflection</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000045</odePageId>
+          <odeBlockId>SP00000046</odeBlockId>
+          <odeIdeviceId>SP00000047</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Que el repo sea <strong>libre y público</strong> (mod_exelearning, <strong>GPLv3</strong>) no es un detalle: es lo que hace todo esto posible.</p>
+<ul>
+<li><strong>Contexto</strong>: cualquier IA (o persona) lee el repo y <strong>retoma el hilo</strong> — issues, PRs, ADRs, evidencia.</li>
+<li><strong>Transparencia</strong>: todo es <strong>append-only</strong> y citable; se puede auditar.</li>
+<li><strong>Coherencia libre</strong>: <em>pesos abiertos ≠ software libre</em>; prefiere modelos <strong>abiertos/locales</strong>, no subas datos sensibles y <strong>devuelve al procomún</strong>.</li>
+</ul></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000047","markdownTextarea":"Que el repo sea **libre y público** (mod_exelearning, **GPLv3**) no es un detalle: es lo que hace todo esto posible.\n\n- **Contexto**: cualquier IA (o persona) lee el repo y **retoma el hilo** — issues, PRs, ADRs, evidencia.\n- **Transparencia**: todo es **append-only** y citable; se puede auditar.\n- **Coherencia libre**: *pesos abiertos ≠ software libre*; prefiere modelos **abiertos/locales**, no subas datos sensibles y **devuelve al procomún**.","markdownTextareaHtml":"<p>Que el repo sea <strong>libre y público</strong> (mod_exelearning, <strong>GPLv3</strong>) no es un detalle: es lo que hace todo esto posible.</p>\n<ul>\n<li><strong>Contexto</strong>: cualquier IA (o persona) lee el repo y <strong>retoma el hilo</strong> — issues, PRs, ADRs, evidencia.</li>\n<li><strong>Transparencia</strong>: todo es <strong>append-only</strong> y citable; se puede auditar.</li>\n<li><strong>Coherencia libre</strong>: <em>pesos abiertos ≠ software libre</em>; prefiere modelos <strong>abiertos/locales</strong>, no subas datos sensibles y <strong>devuelve al procomún</strong>.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000045</odePageId>
+      <odeBlockId>SP00000048</odeBlockId>
+      <blockName>Notas del ponente</blockName>
+      <iconName>info</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000045</odePageId>
+          <odeBlockId>SP00000048</odeBlockId>
+          <odeIdeviceId>SP00000049</odeIdeviceId>
+          <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Cierre conceptual: el software libre es el <strong>sustrato</strong> que da CONTEXTO a la IA y TRANSPARENCIA al proceso; un repo cerrado no puede ofrecer esto. Coletilla clásica de la jornada: <em>pesos abiertos no es lo mismo que libre</em> — mira la licencia real. En un repo privado, este sistema pierde casi toda su gracia.</p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000049","markdownTextarea":"Cierre conceptual: el software libre es el **sustrato** que da CONTEXTO a la IA y TRANSPARENCIA al proceso; un repo cerrado no puede ofrecer esto. Coletilla clásica de la jornada: *pesos abiertos no es lo mismo que libre* — mira la licencia real. En un repo privado, este sistema pierde casi toda su gracia.","markdownTextareaHtml":"<p>Cierre conceptual: el software libre es el <strong>sustrato</strong> que da CONTEXTO a la IA y TRANSPARENCIA al proceso; un repo cerrado no puede ofrecer esto. Coletilla clásica de la jornada: <em>pesos abiertos no es lo mismo que libre</em> — mira la licencia real. En un repo privado, este sistema pierde casi toda su gracia.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>SP00000050</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Cierre</pageName>
   <odeNavStructureOrder>4</odeNavStructureOrder>
@@ -1546,8 +1709,8 @@ fuentes: [REPO-071, EXP-014]
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>SP00000045</odePageId>
-      <odeBlockId>SP00000046</odeBlockId>
+      <odePageId>SP00000050</odePageId>
+      <odeBlockId>SP00000051</odeBlockId>
       <blockName>Takeaways</blockName>
       <iconName>objectives</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
@@ -1575,9 +1738,9 @@ fuentes: [REPO-071, EXP-014]
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>SP00000045</odePageId>
-          <odeBlockId>SP00000046</odeBlockId>
-          <odeIdeviceId>SP00000047</odeIdeviceId>
+          <odePageId>SP00000050</odePageId>
+          <odeBlockId>SP00000051</odeBlockId>
+          <odeIdeviceId>SP00000052</odeIdeviceId>
           <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ol>
 <li>La IA <strong>programa y documenta</strong>; <strong>tú decides</strong>.</li>
@@ -1586,7 +1749,7 @@ fuentes: [REPO-071, EXP-014]
 <li><strong>Repo libre = transparencia + contexto</strong> para cualquier IA.</li>
 <li><strong>Sin fuente no hay afirmación</strong>, y <strong>revisa el diff</strong>.</li>
 </ol></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000047","markdownTextarea":"1. La IA **programa y documenta**; **tú decides**.\n2. Documenta la **decisión** (ADRs), no solo el código.\n3. Registra **qué IA y modelo** → **agnóstico**, sin lock-in.\n4. **Repo libre = transparencia + contexto** para cualquier IA.\n5. **Sin fuente no hay afirmación**, y **revisa el diff**.","markdownTextareaHtml":"<ol>\n<li>La IA <strong>programa y documenta</strong>; <strong>tú decides</strong>.</li>\n<li>Documenta la <strong>decisión</strong> (ADRs), no solo el código.</li>\n<li>Registra <strong>qué IA y modelo</strong> → <strong>agnóstico</strong>, sin lock-in.</li>\n<li><strong>Repo libre = transparencia + contexto</strong> para cualquier IA.</li>\n<li><strong>Sin fuente no hay afirmación</strong>, y <strong>revisa el diff</strong>.</li>\n</ol>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000052","markdownTextarea":"1. La IA **programa y documenta**; **tú decides**.\n2. Documenta la **decisión** (ADRs), no solo el código.\n3. Registra **qué IA y modelo** → **agnóstico**, sin lock-in.\n4. **Repo libre = transparencia + contexto** para cualquier IA.\n5. **Sin fuente no hay afirmación**, y **revisa el diff**.","markdownTextareaHtml":"<ol>\n<li>La IA <strong>programa y documenta</strong>; <strong>tú decides</strong>.</li>\n<li>Documenta la <strong>decisión</strong> (ADRs), no solo el código.</li>\n<li>Registra <strong>qué IA y modelo</strong> → <strong>agnóstico</strong>, sin lock-in.</li>\n<li><strong>Repo libre = transparencia + contexto</strong> para cualquier IA.</li>\n<li><strong>Sin fuente no hay afirmación</strong>, y <strong>revisa el diff</strong>.</li>\n</ol>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1606,8 +1769,8 @@ fuentes: [REPO-071, EXP-014]
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>SP00000045</odePageId>
-      <odeBlockId>SP00000048</odeBlockId>
+      <odePageId>SP00000050</odePageId>
+      <odeBlockId>SP00000053</odeBlockId>
       <blockName>Moraleja</blockName>
       <iconName>reflection</iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
@@ -1635,15 +1798,15 @@ fuentes: [REPO-071, EXP-014]
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>SP00000045</odePageId>
-          <odeBlockId>SP00000048</odeBlockId>
-          <odeIdeviceId>SP00000049</odeIdeviceId>
+          <odePageId>SP00000050</odePageId>
+          <odeBlockId>SP00000053</odeBlockId>
+          <odeIdeviceId>SP00000054</odeIdeviceId>
           <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><blockquote>
 <p>La IA no te saca del berenjenal. <strong>Un buen ADR, sí.</strong></p>
 </blockquote>
 <p>Programar rápido está al alcance de cualquiera. <strong>Documentar la decisión</strong> —de forma trazable, agnóstica y libre— es lo que te deja dormir tranquilo. Y si el repo es libre, el berenjenal lo desenredamos entre todos.</p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000049","markdownTextarea":"> La IA no te saca del berenjenal. **Un buen ADR, sí.**\n\nProgramar rápido está al alcance de cualquiera. **Documentar la decisión** —de forma trazable, agnóstica y libre— es lo que te deja dormir tranquilo. Y si el repo es libre, el berenjenal lo desenredamos entre todos.","markdownTextareaHtml":"<blockquote>\n<p>La IA no te saca del berenjenal. <strong>Un buen ADR, sí.</strong></p>\n</blockquote>\n<p>Programar rápido está al alcance de cualquiera. <strong>Documentar la decisión</strong> —de forma trazable, agnóstica y libre— es lo que te deja dormir tranquilo. Y si el repo es libre, el berenjenal lo desenredamos entre todos.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000054","markdownTextarea":"> La IA no te saca del berenjenal. **Un buen ADR, sí.**\n\nProgramar rápido está al alcance de cualquiera. **Documentar la decisión** —de forma trazable, agnóstica y libre— es lo que te deja dormir tranquilo. Y si el repo es libre, el berenjenal lo desenredamos entre todos.","markdownTextareaHtml":"<blockquote>\n<p>La IA no te saca del berenjenal. <strong>Un buen ADR, sí.</strong></p>\n</blockquote>\n<p>Programar rápido está al alcance de cualquiera. <strong>Documentar la decisión</strong> —de forma trazable, agnóstica y libre— es lo que te deja dormir tranquilo. Y si el repo es libre, el berenjenal lo desenredamos entre todos.</p>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1663,8 +1826,8 @@ fuentes: [REPO-071, EXP-014]
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>SP00000045</odePageId>
-      <odeBlockId>SP00000050</odeBlockId>
+      <odePageId>SP00000050</odePageId>
+      <odeBlockId>SP00000055</odeBlockId>
       <blockName>Enlaces y gracias</blockName>
       <iconName>download</iconName>
       <odePagStructureOrder>3</odePagStructureOrder>
@@ -1692,9 +1855,9 @@ fuentes: [REPO-071, EXP-014]
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>SP00000045</odePageId>
-          <odeBlockId>SP00000050</odeBlockId>
-          <odeIdeviceId>SP00000051</odeIdeviceId>
+          <odePageId>SP00000050</odePageId>
+          <odeBlockId>SP00000055</odeBlockId>
+          <odeIdeviceId>SP00000056</odeIdeviceId>
           <odeIdeviceTypeName>markdown-text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Gracias. ¿Preguntas? (y pásate por el stand)</p>
 <ul>
@@ -1704,7 +1867,7 @@ fuentes: [REPO-071, EXP-014]
 <li>GitHub de Ernesto — <a href="https://github.com/erseco">https://github.com/erseco</a></li>
 <li>Web personal — <a href="https://ernesto.es">https://ernesto.es</a></li>
 </ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000051","markdownTextarea":"Gracias. ¿Preguntas? (y pásate por el stand)\n\n- mod_exelearning — <https://github.com/exelearning/mod_exelearning>\n- eXeLearning — <https://exelearning.net>\n- seLIA (jornada) — <https://codeberg.org/seLIA>\n- GitHub de Ernesto — <https://github.com/erseco>\n- Web personal — <https://ernesto.es>","markdownTextareaHtml":"<p>Gracias. ¿Preguntas? (y pásate por el stand)</p>\n<ul>\n<li>mod_exelearning — <a href=\"https://github.com/exelearning/mod_exelearning\">https://github.com/exelearning/mod_exelearning</a></li>\n<li>eXeLearning — <a href=\"https://exelearning.net\">https://exelearning.net</a></li>\n<li>seLIA (jornada) — <a href=\"https://codeberg.org/seLIA\">https://codeberg.org/seLIA</a></li>\n<li>GitHub de Ernesto — <a href=\"https://github.com/erseco\">https://github.com/erseco</a></li>\n<li>Web personal — <a href=\"https://ernesto.es\">https://ernesto.es</a></li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000056","markdownTextarea":"Gracias. ¿Preguntas? (y pásate por el stand)\n\n- mod_exelearning — <https://github.com/exelearning/mod_exelearning>\n- eXeLearning — <https://exelearning.net>\n- seLIA (jornada) — <https://codeberg.org/seLIA>\n- GitHub de Ernesto — <https://github.com/erseco>\n- Web personal — <https://ernesto.es>","markdownTextareaHtml":"<p>Gracias. ¿Preguntas? (y pásate por el stand)</p>\n<ul>\n<li>mod_exelearning — <a href=\"https://github.com/exelearning/mod_exelearning\">https://github.com/exelearning/mod_exelearning</a></li>\n<li>eXeLearning — <a href=\"https://exelearning.net\">https://exelearning.net</a></li>\n<li>seLIA (jornada) — <a href=\"https://codeberg.org/seLIA\">https://codeberg.org/seLIA</a></li>\n<li>GitHub de Ernesto — <a href=\"https://github.com/erseco\">https://github.com/erseco</a></li>\n<li>Web personal — <a href=\"https://ernesto.es\">https://ernesto.es</a></li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>

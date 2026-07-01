@@ -122,6 +122,23 @@
               "md": "Es la parte que convence a un público de software libre: no es *\"confía en mí\"*, es un **sistema auditable** y público. Si puedes, ábrelo en vivo: `github.com/exelearning/mod_exelearning/tree/main/research` y el `AGENTS.md`. Regla estrella a leer en voz alta: **\"sin fuente no hay afirmación\"**. No te enredes con cada carpeta; basta la idea: decisiones + fuentes + experimentos, todo enlazado y append-only."
             }
           ]
+        },
+        {
+          "title": "¿ADR o SDD (spec-kit / openspec)?",
+          "icon": "ask",
+          "blocks": [
+            {
+              "title": "Qué vs por qué",
+              "icon": "ask",
+              "md": "**No compiten: SDD dice el *qué*; el ADR, el *por qué*.**\n\n- **SDD** (Spec Kit, OpenSpec): spec → genera plan, tareas y código. **Caduca** al implementarla.\n- **ADR**: registra la decisión y su evidencia. **Append-only**, perdura.\n\n**A favor del ADR:** agnóstico (markdown+git, **sin lock-in**), auditable, ideal en **código vivo**.\n**En contra:** más manual, no genera código; para una *feature* nueva de cero, SDD estructura mejor.\n\n> No es *o uno o otro*: se **combinan** (OpenSpec trae `spec-driven-with-adr`)."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Respuesta a la pregunta típica: *\"¿por qué esto y no spec-kit / openspec?\"*. Clave: **SDD = qué, ADR = por qué**; en un proyecto **vivo y libre** lo que se pierde es el porqué, y markdown+git **no ata a ningún motor**. Remate: no es *o uno o otro* — se **combinan** (OpenSpec trae `spec-driven-with-adr`). Si aprietan: *\"spec para la feature, ADR para la coherencia entre features\"*. Puedes usarla de reserva y saltarla si vas justo de tiempo."
+            }
+          ]
         }
       ]
     },

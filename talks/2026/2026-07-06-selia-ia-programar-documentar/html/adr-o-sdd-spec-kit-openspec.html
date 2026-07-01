@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-SP00000035">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>¿ADR o SDD (spec-kit / openspec)? | Inteligencia artificial: programar, documentar y no acabar en un berenjenal</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Decisiones trazables (ADRs), IA agnóstica y software libre — con mod_exelearning como caso real">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"","packageTitle":"Inteligencia artificial: programar, documentar y no acabar en un berenjenal","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../search_index.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/markdown-text/markdown-text.js"></script><link rel="stylesheet" href="../idevices/markdown-text/markdown-text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#SP00000035" id="skipNav">Saltar al contenido</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Inicio</a>
+</li>
+<li> <a href="../html/la-ia-hoy-y-el-berenjenal.html" class="daddy">La IA hoy… y el berenjenal</a>
+<ul class="other-section">
+<li> <a href="../html/el-berenjenal.html" class="no-ch">El berenjenal</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/adrs-la-ia-apoya-la-decision.html" class="daddy">ADRs: la IA apoya la decisión</a>
+<ul class="other-section">
+<li> <a href="../html/propone-la-ia-dispone-el-humano.html" class="no-ch">Propone la IA, dispone el humano</a>
+</li>
+<li> <a href="../html/research-no-solo-adrs.html" class="no-ch">research/: no solo ADRs</a>
+</li>
+<li class="active"> <a href="../html/adr-o-sdd-spec-kit-openspec.html" class="active no-ch">¿ADR o SDD (spec-kit / openspec)?</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/agnostica-transparente-y-libre.html" class="daddy">Agnóstica, transparente y libre</a>
+<ul class="other-section">
+<li> <a href="../html/software-libre-transparencia-contexto.html" class="no-ch">Software libre = transparencia + contexto</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/cierre.html" class="no-ch">Cierre</a>
+</li>
+</ul>
+</nav><main id="SP00000035" class="page"> <div id="exe-client-search" data-block-order-string="Caja %e" data-no-results-string="Sin resultados.">
+</div>
+<header class="main-header"> <p class="page-counter"> <span class="page-counter-label">Página </span><span class="page-counter-content"> <strong class="page-counter-current-page">7</strong><span class="page-counter-sep">/</span><strong class="page-counter-total">10</strong></span></p>
+
+<div class="package-header"><p class="package-title">Inteligencia artificial: programar, documentar y no acabar en un berenjenal</p></div>
+<div class="page-header"><h1 class="page-title">¿ADR o SDD (spec-kit / openspec)?</h1></div>
+</header><div id="page-content-SP00000035" class="page-content">
+<article id="SP00000036" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/ask.svg" alt="">
+</div>
+<h1 class="box-title">Qué vs por qué</h1>
+</header>
+<div class="box-content">
+<div id="SP00000037" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000037&quot;,&quot;markdownTextarea&quot;:&quot;**No compiten: SDD dice el *qué*; el ADR, el *por qué*.**\n\n- **SDD** (Spec Kit, OpenSpec): spec → genera plan, tareas y código. **Caduca** al implementarla.\n- **ADR**: registra la decisión y su evidencia. **Append-only**, perdura.\n\n**A favor del ADR:** agnóstico (markdown+git, **sin lock-in**), auditable, ideal en **código vivo**.\n**En contra:** más manual, no genera código; para una *feature* nueva de cero, SDD estructura mejor.\n\n&gt; No es *o uno o otro*: se **combinan** (OpenSpec trae `spec-driven-with-adr`).&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;&lt;strong&gt;No compiten: SDD dice el &lt;em&gt;qué&lt;/em&gt;; el ADR, el &lt;em&gt;por qué&lt;/em&gt;.&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;SDD&lt;/strong&gt; (Spec Kit, OpenSpec): spec → genera plan, tareas y código. &lt;strong&gt;Caduca&lt;/strong&gt; al implementarla.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;ADR&lt;/strong&gt;: registra la decisión y su evidencia. &lt;strong&gt;Append-only&lt;/strong&gt;, perdura.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;A favor del ADR:&lt;/strong&gt; agnóstico (markdown+git, &lt;strong&gt;sin lock-in&lt;/strong&gt;), auditable, ideal en &lt;strong&gt;código vivo&lt;/strong&gt;.&lt;br&gt;\n&lt;strong&gt;En contra:&lt;/strong&gt; más manual, no genera código; para una &lt;em&gt;feature&lt;/em&gt; nueva de cero, SDD estructura mejor.&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;p&gt;No es &lt;em&gt;o uno o otro&lt;/em&gt;: se &lt;strong&gt;combinan&lt;/strong&gt; (OpenSpec trae &lt;code&gt;spec-driven-with-adr&lt;/code&gt;).&lt;/p&gt;\n&lt;/blockquote&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p><strong>No compiten: SDD dice el <em>qué</em>; el ADR, el <em>por qué</em>.</strong></p>
+<ul>
+<li><strong>SDD</strong> (Spec Kit, OpenSpec): spec → genera plan, tareas y código. <strong>Caduca</strong> al implementarla.</li>
+<li><strong>ADR</strong>: registra la decisión y su evidencia. <strong>Append-only</strong>, perdura.</li>
+</ul>
+<p><strong>A favor del ADR:</strong> agnóstico (markdown+git, <strong>sin lock-in</strong>), auditable, ideal en <strong>código vivo</strong>.<br>
+<strong>En contra:</strong> más manual, no genera código; para una <em>feature</em> nueva de cero, SDD estructura mejor.</p>
+<blockquote>
+<p>No es <em>o uno o otro</em>: se <strong>combinan</strong> (OpenSpec trae <code>spec-driven-with-adr</code>).</p>
+</blockquote></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000038" class="box teacher-only">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/info.svg" alt="">
+</div>
+<h1 class="box-title">Notas del ponente</h1>
+</header>
+<div class="box-content">
+<div id="SP00000039" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000039&quot;,&quot;markdownTextarea&quot;:&quot;Respuesta a la pregunta típica: *\&quot;¿por qué esto y no spec-kit / openspec?\&quot;*. Clave: **SDD = qué, ADR = por qué**; en un proyecto **vivo y libre** lo que se pierde es el porqué, y markdown+git **no ata a ningún motor**. Remate: no es *o uno o otro* — se **combinan** (OpenSpec trae `spec-driven-with-adr`). Si aprietan: *\&quot;spec para la feature, ADR para la coherencia entre features\&quot;*. Puedes usarla de reserva y saltarla si vas justo de tiempo.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;Respuesta a la pregunta típica: &lt;em&gt;\&quot;¿por qué esto y no spec-kit / openspec?\&quot;&lt;/em&gt;. Clave: &lt;strong&gt;SDD = qué, ADR = por qué&lt;/strong&gt;; en un proyecto &lt;strong&gt;vivo y libre&lt;/strong&gt; lo que se pierde es el porqué, y markdown+git &lt;strong&gt;no ata a ningún motor&lt;/strong&gt;. Remate: no es &lt;em&gt;o uno o otro&lt;/em&gt; — se &lt;strong&gt;combinan&lt;/strong&gt; (OpenSpec trae &lt;code&gt;spec-driven-with-adr&lt;/code&gt;). Si aprietan: &lt;em&gt;\&quot;spec para la feature, ADR para la coherencia entre features\&quot;&lt;/em&gt;. Puedes usarla de reserva y saltarla si vas justo de tiempo.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Respuesta a la pregunta típica: <em>"¿por qué esto y no spec-kit / openspec?"</em>. Clave: <strong>SDD = qué, ADR = por qué</strong>; en un proyecto <strong>vivo y libre</strong> lo que se pierde es el porqué, y markdown+git <strong>no ata a ningún motor</strong>. Remate: no es <em>o uno o otro</em> — se <strong>combinan</strong> (OpenSpec trae <code>spec-driven-with-adr</code>). Si aprietan: <em>"spec para la feature, ADR para la coherencia entre features"</em>. Puedes usarla de reserva y saltarla si vas justo de tiempo.</p></div></div></div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/research-no-solo-adrs.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/agnostica-transparente-y-libre.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
