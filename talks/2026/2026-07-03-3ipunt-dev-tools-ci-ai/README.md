@@ -1,6 +1,6 @@
 # Herramientas de desarrollo, CI e IA
 
-> Mi caja de herramientas real: shell y utilidades, IA (MCP, skills, ADRs) y CI con Make + GitHub Actions.
+> Abajo el trabajo: shell, utilidades, IA y CI para hacer más y trabajar menos.
 
 Charla práctica para **3ipunt** — viernes 3 de julio de 2026 (~60 min). Recorrido
 tool-by-tool por mi entorno de trabajo real, en tres bloques: **Herramientas**, **IA** y **CI**.

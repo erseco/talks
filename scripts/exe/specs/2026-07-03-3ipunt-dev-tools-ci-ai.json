@@ -1,7 +1,7 @@
 {
   "id": "2026-07-03-3ipunt-dev-tools-ci-ai",
   "title": "Herramientas de desarrollo, CI e IA",
-  "subtitle": "Mi caja de herramientas real: shell y utilidades, IA (MCP, skills, ADRs) y CI con Make + GitHub Actions",
+  "subtitle": "Abajo el trabajo: shell, utilidades, IA y CI para hacer más y trabajar menos",
   "author": "Ernesto Serrano",
   "lang": "es",
   "theme": "nova",

@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260701071138U2PPXP</value>
+    <value>2026070107160575HBH4</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260701071138FKZJGW</value>
+    <value>202607010716056RXIZV</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -32,7 +32,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_description</key>
-    <value>Mi caja de herramientas real: shell y utilidades, IA (MCP, skills, ADRs) y CI con Make + GitHub Actions</value>
+    <value>Abajo el trabajo: shell, utilidades, IA y CI para hacer más y trabajar menos</value>
   </odeProperty>
   <odeProperty>
     <key>pp_lang</key>
@@ -52,7 +52,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-07-01T06:11:38.586Z</value>
+    <value>2026-07-01T06:16:05.368Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>

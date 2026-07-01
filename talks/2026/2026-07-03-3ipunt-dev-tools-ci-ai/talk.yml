@@ -1,6 +1,6 @@
 id: "2026-07-03-3ipunt-dev-tools-ci-ai"
 title: "Herramientas de desarrollo, CI e IA"
-subtitle: "Mi caja de herramientas real: shell y utilidades, IA (MCP, skills, ADRs) y CI con Make + GitHub Actions"
+subtitle: "Abajo el trabajo: shell, utilidades, IA y CI para hacer más y trabajar menos"
 description: "Charla práctica para 3ipunt: recorrido tool-by-tool por mi entorno de trabajo real — terminal y utilidades, IA (MCP, skills, prompts, ADRs) e integración continua con Make y GitHub Actions."
 date: "2026-07-03"
 year: 2026
@@ -8,7 +8,7 @@ event: "3ipunt"
 location: ""
 language: "es"
 type: "talk"
-status: "draft"
+status: "ready"
 duration_minutes: 60
 audience:
   - "developers"
