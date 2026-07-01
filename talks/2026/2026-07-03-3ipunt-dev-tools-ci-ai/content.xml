@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>2026070107160575HBH4</value>
+    <value>20260701071826689YUB</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>202607010716056RXIZV</value>
+    <value>20260701071826JRV138</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -24,7 +24,7 @@
 <odeProperties>
   <odeProperty>
     <key>pp_title</key>
-    <value>Herramientas de desarrollo, CI e IA</value>
+    <value>Abajo el trabajo</value>
   </odeProperty>
   <odeProperty>
     <key>pp_author</key>
@@ -32,7 +32,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_description</key>
-    <value>Abajo el trabajo: shell, utilidades, IA y CI para hacer más y trabajar menos</value>
+    <value>shell, utilidades, IA y CI para hacer más y trabajar menos.</value>
   </odeProperty>
   <odeProperty>
     <key>pp_lang</key>
@@ -52,7 +52,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-07-01T06:16:05.368Z</value>
+    <value>2026-07-01T06:18:26.384Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -131,7 +131,7 @@
     <odePagStructure>
       <odePageId>SP00000001</odePageId>
       <odeBlockId>SP00000002</odeBlockId>
-      <blockName>Herramientas de desarrollo, CI e IA</blockName>
+      <blockName>Abajo el trabajo</blockName>
       <iconName>book</iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>

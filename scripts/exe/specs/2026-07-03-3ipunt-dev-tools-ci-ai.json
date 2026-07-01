@@ -1,7 +1,7 @@
 {
   "id": "2026-07-03-3ipunt-dev-tools-ci-ai",
-  "title": "Herramientas de desarrollo, CI e IA",
-  "subtitle": "Abajo el trabajo: shell, utilidades, IA y CI para hacer más y trabajar menos",
+  "title": "Abajo el trabajo",
+  "subtitle": "shell, utilidades, IA y CI para hacer más y trabajar menos.",
   "author": "Ernesto Serrano",
   "lang": "es",
   "theme": "nova",
@@ -14,7 +14,7 @@
       "icon": "book",
       "blocks": [
         {
-          "title": "Herramientas de desarrollo, CI e IA",
+          "title": "Abajo el trabajo",
           "icon": "book",
           "md": "Charla para **3ipunt** — las herramientas que uso a diario para **trabajar menos**: shell y utilidades, IA (MCP, skills, ADRs) e integración continua con Make y GitHub Actions.\n\n**Ernesto Serrano**\n\n- Coordinador del **Área de Tecnología Educativa** — Consejería de Educación, Gobierno de Canarias.\n- **DevOps** en eXeLearning.\n- Desarrollador del *Stevie Wonder Simulator* para Android.\n\n> La premisa: **trabajar menos, pero hacer más.** Iré enseñando el terminal y los repos por el camino."
         },

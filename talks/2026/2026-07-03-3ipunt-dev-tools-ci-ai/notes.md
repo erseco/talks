@@ -1,4 +1,4 @@
-# Notas del ponente — Herramientas de desarrollo, CI e IA
+# Notas del ponente — Abajo el trabajo (Herramientas de desarrollo, CI e IA)
 
 Charla para 3ipunt · 2026-07-03 · ~60 min + preguntas · Ponente: Ernesto Serrano (ernesto.es)
 

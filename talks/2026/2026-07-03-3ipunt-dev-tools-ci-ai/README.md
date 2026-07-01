@@ -1,6 +1,8 @@
-# Herramientas de desarrollo, CI e IA
+# Abajo el trabajo
 
-> Abajo el trabajo: shell, utilidades, IA y CI para hacer más y trabajar menos.
+> shell, utilidades, IA y CI para hacer más y trabajar menos.
+>
+> Herramientas de desarrollo, CI e IA — charla para 3ipunt.
 
 Charla práctica para **3ipunt** — viernes 3 de julio de 2026 (~60 min). Recorrido
 tool-by-tool por mi entorno de trabajo real, en tres bloques: **Herramientas**, **IA** y **CI**.
