@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-SP00000051">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Prompts de calidad y contexto | Herramientas de desarrollo, CI e IA</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Mi caja de herramientas real: shell y utilidades, IA (MCP, skills, ADRs) y CI con Make + GitHub Actions">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"","packageTitle":"Herramientas de desarrollo, CI e IA","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../search_index.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/markdown-text/markdown-text.js"></script><link rel="stylesheet" href="../idevices/markdown-text/markdown-text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#SP00000051" id="skipNav">Saltar al contenido</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Inicio</a>
+</li>
+<li> <a href="../html/terminal-y-shell.html" class="no-ch">Terminal y shell</a>
+</li>
+<li> <a href="../html/mis-scripts.html" class="no-ch">Mis scripts</a>
+</li>
+<li> <a href="../html/gestores-de-paquetes.html" class="no-ch">Gestores de paquetes</a>
+</li>
+<li> <a href="../html/utilidades-del-dia-a-dia.html" class="no-ch">Utilidades del día a día</a>
+</li>
+<li> <a href="../html/como-uso-la-ia.html" class="no-ch">Cómo uso la IA</a>
+</li>
+<li> <a href="../html/mcp-darle-herramientas-a-la-ia.html" class="no-ch">MCP: darle herramientas a la IA</a>
+</li>
+<li> <a href="../html/skills-recetas-reutilizables.html" class="no-ch">Skills: recetas reutilizables</a>
+</li>
+<li class="active"> <a href="../html/prompts-de-calidad-y-contexto.html" class="active no-ch">Prompts de calidad y contexto</a>
+</li>
+<li> <a href="../html/ejemplo-real-modexelearning-adrs.html" class="no-ch">Ejemplo real: mod_exelearning + ADRs</a>
+</li>
+<li> <a href="../html/ia-donde-si-y-donde-no.html" class="no-ch">IA: dónde sí y dónde no</a>
+</li>
+<li> <a href="../html/make-como-interfaz-unica.html" class="no-ch">Make como interfaz única</a>
+</li>
+<li> <a href="../html/entornos-reproducibles.html" class="no-ch">Entornos reproducibles</a>
+</li>
+<li> <a href="../html/ci-lo-mismo-que-en-local.html" class="no-ch">CI = lo mismo que en local</a>
+</li>
+<li> <a href="../html/lint-y-coding-standards.html" class="no-ch">Lint y coding standards</a>
+</li>
+<li> <a href="../html/dependabot-y-optimizacion.html" class="no-ch">Dependabot y optimización</a>
+</li>
+<li> <a href="../html/la-palabra-clave-automatizar.html" class="no-ch">La palabra clave: automatizar</a>
+</li>
+<li> <a href="../html/cierre.html" class="no-ch">Cierre</a>
+</li>
+</ul>
+</nav><main id="SP00000051" class="page"> <div id="exe-client-search" data-block-order-string="Caja %e" data-no-results-string="Sin resultados.">
+</div>
+<header class="main-header"> <p class="page-counter"> <span class="page-counter-label">Página </span><span class="page-counter-content"> <strong class="page-counter-current-page">9</strong><span class="page-counter-sep">/</span><strong class="page-counter-total">18</strong></span></p>
+
+<div class="package-header"><p class="package-title">Herramientas de desarrollo, CI e IA</p></div>
+<div class="page-header"><h1 class="page-title">Prompts de calidad y contexto</h1></div>
+</header><div id="page-content-SP00000051" class="page-content">
+<article id="SP00000052" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/objectives.png" alt="">
+</div>
+<h1 class="box-title">Un buen prompt + contexto de GitHub</h1>
+</header>
+<div class="box-content">
+<div id="SP00000053" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000053&quot;,&quot;markdownTextarea&quot;:&quot;La calidad de la salida = calidad de la **tarea** que planteas.\n\nUn buen encargo lleva:\n\n- **Objetivo** claro y acotado.\n- **Restricciones**: qué **NO** tocar.\n- **Criterio de \&quot;hecho\&quot;** y **tests**.\n\nY enséñale a **leer GitHub** (issues, PRs, código) para que genere tareas de calidad con el contexto real del proyecto, no con suposiciones.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;La calidad de la salida = calidad de la &lt;strong&gt;tarea&lt;/strong&gt; que planteas.&lt;/p&gt;\n&lt;p&gt;Un buen encargo lleva:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Objetivo&lt;/strong&gt; claro y acotado.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Restricciones&lt;/strong&gt;: qué &lt;strong&gt;NO&lt;/strong&gt; tocar.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Criterio de \&quot;hecho\&quot;&lt;/strong&gt; y &lt;strong&gt;tests&lt;/strong&gt;.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Y enséñale a &lt;strong&gt;leer GitHub&lt;/strong&gt; (issues, PRs, código) para que genere tareas de calidad con el contexto real del proyecto, no con suposiciones.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>La calidad de la salida = calidad de la <strong>tarea</strong> que planteas.</p>
+<p>Un buen encargo lleva:</p>
+<ul>
+<li><strong>Objetivo</strong> claro y acotado.</li>
+<li><strong>Restricciones</strong>: qué <strong>NO</strong> tocar.</li>
+<li><strong>Criterio de "hecho"</strong> y <strong>tests</strong>.</li>
+</ul>
+<p>Y enséñale a <strong>leer GitHub</strong> (issues, PRs, código) para que genere tareas de calidad con el contexto real del proyecto, no con suposiciones.</p></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000054" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/guide.png" alt="">
+</div>
+<h1 class="box-title">Instrucciones personalizadas = contexto permanente</h1>
+</header>
+<div class="box-content">
+<div id="SP00000055" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000055&quot;,&quot;markdownTextarea&quot;:&quot;Lo que no quieres repetir en cada prompt, escríbelo una vez en `CLAUDE.md` / `AGENTS.md`: convenciones, estándares, \&quot;nunca toques secretos\&quot;, idioma de los comentarios…\n\n- Es el **contexto que la IA lee siempre**, en todo el repo.\n- Mis instrucciones personalizadas → **`&lt;TODO: enlace a mis instrucciones personalizadas&gt;`**&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;Lo que no quieres repetir en cada prompt, escríbelo una vez en &lt;code&gt;CLAUDE.md&lt;/code&gt; / &lt;code&gt;AGENTS.md&lt;/code&gt;: convenciones, estándares, \&quot;nunca toques secretos\&quot;, idioma de los comentarios…&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Es el &lt;strong&gt;contexto que la IA lee siempre&lt;/strong&gt;, en todo el repo.&lt;/li&gt;\n&lt;li&gt;Mis instrucciones personalizadas → &lt;strong&gt;&lt;code&gt;&amp;lt;TODO: enlace a mis instrucciones personalizadas&amp;gt;&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Lo que no quieres repetir en cada prompt, escríbelo una vez en <code>CLAUDE.md</code> / <code>AGENTS.md</code>: convenciones, estándares, "nunca toques secretos", idioma de los comentarios…</p>
+<ul>
+<li>Es el <strong>contexto que la IA lee siempre</strong>, en todo el repo.</li>
+<li>Mis instrucciones personalizadas → <strong><code><TODO: enlace a mis instrucciones personalizadas></code></strong></li>
+</ul></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000056" class="box teacher-only">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/info.png" alt="">
+</div>
+<h1 class="box-title">Notas del ponente</h1>
+</header>
+<div class="box-content">
+<div id="SP00000057" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000057&quot;,&quot;markdownTextarea&quot;:&quot;**Recuerda rellenar el placeholder del enlace** antes de la charla (o quítalo).\n\nEjemplo concreto de \&quot;enseñarle a leer GitHub\&quot;: en vez de describir un bug a mano, dile *\&quot;lee el issue #123 y su hilo, mira el PR relacionado y propón un plan\&quot;*. El contexto lo saca del repo, no de tu memoria.\n\nEncadena con la siguiente diapo: la mejor forma de que ese contexto sea **permanente y trazable** no es un prompt largo, es un **sistema** — y eso es exactamente lo que hago en mod_exelearning con los ADRs.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;&lt;strong&gt;Recuerda rellenar el placeholder del enlace&lt;/strong&gt; antes de la charla (o quítalo).&lt;/p&gt;\n&lt;p&gt;Ejemplo concreto de \&quot;enseñarle a leer GitHub\&quot;: en vez de describir un bug a mano, dile &lt;em&gt;\&quot;lee el issue #123 y su hilo, mira el PR relacionado y propón un plan\&quot;&lt;/em&gt;. El contexto lo saca del repo, no de tu memoria.&lt;/p&gt;\n&lt;p&gt;Encadena con la siguiente diapo: la mejor forma de que ese contexto sea &lt;strong&gt;permanente y trazable&lt;/strong&gt; no es un prompt largo, es un &lt;strong&gt;sistema&lt;/strong&gt; — y eso es exactamente lo que hago en mod_exelearning con los ADRs.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p><strong>Recuerda rellenar el placeholder del enlace</strong> antes de la charla (o quítalo).</p>
+<p>Ejemplo concreto de "enseñarle a leer GitHub": en vez de describir un bug a mano, dile <em>"lee el issue #123 y su hilo, mira el PR relacionado y propón un plan"</em>. El contexto lo saca del repo, no de tu memoria.</p>
+<p>Encadena con la siguiente diapo: la mejor forma de que ese contexto sea <strong>permanente y trazable</strong> no es un prompt largo, es un <strong>sistema</strong> — y eso es exactamente lo que hago en mod_exelearning con los ADRs.</p></div></div></div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/skills-recetas-reutilizables.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/ejemplo-real-modexelearning-adrs.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

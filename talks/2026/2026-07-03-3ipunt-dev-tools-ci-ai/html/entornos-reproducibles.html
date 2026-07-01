@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-SP00000077">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Entornos reproducibles | Herramientas de desarrollo, CI e IA</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Mi caja de herramientas real: shell y utilidades, IA (MCP, skills, ADRs) y CI con Make + GitHub Actions">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"","packageTitle":"Herramientas de desarrollo, CI e IA","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../search_index.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/markdown-text/markdown-text.js"></script><link rel="stylesheet" href="../idevices/markdown-text/markdown-text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#SP00000077" id="skipNav">Saltar al contenido</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Inicio</a>
+</li>
+<li> <a href="../html/terminal-y-shell.html" class="no-ch">Terminal y shell</a>
+</li>
+<li> <a href="../html/mis-scripts.html" class="no-ch">Mis scripts</a>
+</li>
+<li> <a href="../html/gestores-de-paquetes.html" class="no-ch">Gestores de paquetes</a>
+</li>
+<li> <a href="../html/utilidades-del-dia-a-dia.html" class="no-ch">Utilidades del día a día</a>
+</li>
+<li> <a href="../html/como-uso-la-ia.html" class="no-ch">Cómo uso la IA</a>
+</li>
+<li> <a href="../html/mcp-darle-herramientas-a-la-ia.html" class="no-ch">MCP: darle herramientas a la IA</a>
+</li>
+<li> <a href="../html/skills-recetas-reutilizables.html" class="no-ch">Skills: recetas reutilizables</a>
+</li>
+<li> <a href="../html/prompts-de-calidad-y-contexto.html" class="no-ch">Prompts de calidad y contexto</a>
+</li>
+<li> <a href="../html/ejemplo-real-modexelearning-adrs.html" class="no-ch">Ejemplo real: mod_exelearning + ADRs</a>
+</li>
+<li> <a href="../html/ia-donde-si-y-donde-no.html" class="no-ch">IA: dónde sí y dónde no</a>
+</li>
+<li> <a href="../html/make-como-interfaz-unica.html" class="no-ch">Make como interfaz única</a>
+</li>
+<li class="active"> <a href="../html/entornos-reproducibles.html" class="active no-ch">Entornos reproducibles</a>
+</li>
+<li> <a href="../html/ci-lo-mismo-que-en-local.html" class="no-ch">CI = lo mismo que en local</a>
+</li>
+<li> <a href="../html/lint-y-coding-standards.html" class="no-ch">Lint y coding standards</a>
+</li>
+<li> <a href="../html/dependabot-y-optimizacion.html" class="no-ch">Dependabot y optimización</a>
+</li>
+<li> <a href="../html/la-palabra-clave-automatizar.html" class="no-ch">La palabra clave: automatizar</a>
+</li>
+<li> <a href="../html/cierre.html" class="no-ch">Cierre</a>
+</li>
+</ul>
+</nav><main id="SP00000077" class="page"> <div id="exe-client-search" data-block-order-string="Caja %e" data-no-results-string="Sin resultados.">
+</div>
+<header class="main-header"> <p class="page-counter"> <span class="page-counter-label">Página </span><span class="page-counter-content"> <strong class="page-counter-current-page">13</strong><span class="page-counter-sep">/</span><strong class="page-counter-total">18</strong></span></p>
+
+<div class="package-header"><p class="package-title">Herramientas de desarrollo, CI e IA</p></div>
+<div class="page-header"><h1 class="page-title">Entornos reproducibles</h1></div>
+</header><div id="page-content-SP00000077" class="page-content">
+<article id="SP00000078" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/case.png" alt="">
+</div>
+<h1 class="box-title">Docker, playgrounds y Alpine</h1>
+</header>
+<div class="box-content">
+<div id="SP00000079" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000079&quot;,&quot;markdownTextarea&quot;:&quot;- **Docker / playgrounds**: entornos idénticos para todos; se acabó el *\&quot;en mi máquina funciona\&quot;*. Levantar y tirar entornos con un comando.\n- **Alpine** siempre que se pueda: imágenes **pequeñas, rápidas y con menos superficie de ataque**. Builds y despliegues más ágiles.\n- Ejemplo: **alpine-moodle** — Moodle completo sobre Alpine, ligero y reproducible (`github.com/erseco/alpine-moodle`).&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Docker / playgrounds&lt;/strong&gt;: entornos idénticos para todos; se acabó el &lt;em&gt;\&quot;en mi máquina funciona\&quot;&lt;/em&gt;. Levantar y tirar entornos con un comando.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Alpine&lt;/strong&gt; siempre que se pueda: imágenes &lt;strong&gt;pequeñas, rápidas y con menos superficie de ataque&lt;/strong&gt;. Builds y despliegues más ágiles.&lt;/li&gt;\n&lt;li&gt;Ejemplo: &lt;strong&gt;alpine-moodle&lt;/strong&gt; — Moodle completo sobre Alpine, ligero y reproducible (&lt;code&gt;github.com/erseco/alpine-moodle&lt;/code&gt;).&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><ul>
+<li><strong>Docker / playgrounds</strong>: entornos idénticos para todos; se acabó el <em>"en mi máquina funciona"</em>. Levantar y tirar entornos con un comando.</li>
+<li><strong>Alpine</strong> siempre que se pueda: imágenes <strong>pequeñas, rápidas y con menos superficie de ataque</strong>. Builds y despliegues más ágiles.</li>
+<li>Ejemplo: <strong>alpine-moodle</strong> — Moodle completo sobre Alpine, ligero y reproducible (<code>github.com/erseco/alpine-moodle</code>).</li>
+</ul></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000080" class="box teacher-only">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/info.png" alt="">
+</div>
+<h1 class="box-title">Notas del ponente</h1>
+</header>
+<div class="box-content">
+<div id="SP00000081" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000081&quot;,&quot;markdownTextarea&quot;:&quot;Demo/enseña **alpine-moodle**: el contraste de tamaño de imagen frente a una basada en Debian es el argumento visual. Menos peso = pulls más rápidos, CI más rápida, menos CVEs que parchear.\n\nConecta con la diapo anterior: el `Makefile` orquesta Docker; el gestor de paquetes de Alpine (`apk`) es el mismo concepto de \&quot;declara tu entorno\&quot; que brew/apt. Todo es la misma idea a distintas capas.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;Demo/enseña &lt;strong&gt;alpine-moodle&lt;/strong&gt;: el contraste de tamaño de imagen frente a una basada en Debian es el argumento visual. Menos peso = pulls más rápidos, CI más rápida, menos CVEs que parchear.&lt;/p&gt;\n&lt;p&gt;Conecta con la diapo anterior: el &lt;code&gt;Makefile&lt;/code&gt; orquesta Docker; el gestor de paquetes de Alpine (&lt;code&gt;apk&lt;/code&gt;) es el mismo concepto de \&quot;declara tu entorno\&quot; que brew/apt. Todo es la misma idea a distintas capas.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Demo/enseña <strong>alpine-moodle</strong>: el contraste de tamaño de imagen frente a una basada en Debian es el argumento visual. Menos peso = pulls más rápidos, CI más rápida, menos CVEs que parchear.</p>
+<p>Conecta con la diapo anterior: el <code>Makefile</code> orquesta Docker; el gestor de paquetes de Alpine (<code>apk</code>) es el mismo concepto de "declara tu entorno" que brew/apt. Todo es la misma idea a distintas capas.</p></div></div></div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/make-como-interfaz-unica.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/ci-lo-mismo-que-en-local.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

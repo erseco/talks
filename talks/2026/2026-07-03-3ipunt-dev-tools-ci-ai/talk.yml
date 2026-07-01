@@ -1,7 +1,7 @@
 id: "2026-07-03-3ipunt-dev-tools-ci-ai"
 title: "Herramientas de desarrollo, CI e IA"
-subtitle: "Del editor al pipeline: cómo trabajar mejor sin delegar el criterio"
-description: "Charla para 3ipunt sobre herramientas modernas de desarrollo, integración continua e inteligencia artificial aplicada al ciclo de vida del software."
+subtitle: "Mi caja de herramientas real: shell y utilidades, IA (MCP, skills, ADRs) y CI con Make + GitHub Actions"
+description: "Charla práctica para 3ipunt: recorrido tool-by-tool por mi entorno de trabajo real — terminal y utilidades, IA (MCP, skills, prompts, ADRs) e integración continua con Make y GitHub Actions."
 date: "2026-07-03"
 year: 2026
 event: "3ipunt"
@@ -9,7 +9,7 @@ location: ""
 language: "es"
 type: "talk"
 status: "draft"
-duration_minutes: 45
+duration_minutes: 60
 audience:
   - "developers"
   - "technical leads"
@@ -17,7 +17,10 @@ audience:
   - "DevOps"
 topics:
   - "development-tools"
+  - "shell"
+  - "mcp"
   - "ci-cd"
+  - "automation"
   - "ai"
   - "devops"
   - "software-quality"
