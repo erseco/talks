@@ -18,6 +18,9 @@ Spec shape (JSON):
 Blocks: `md` → a Markdown iDevice (markdown-text); `image` → a Text iDevice with
 an embedded image (copied into the unit's media library). `teacher: true` marks
 the block teacher-only (shown only in eXeLearning's teacher/docente mode).
+
+A page may nest subpages via an optional `"children": [ {page}, ... ]` list; each
+child becomes a subnode in the outline (its `odeParentPageId` points at the parent).
 """
 
 import html as _html
@@ -159,11 +162,11 @@ def block(page_id, block_id, order, component_xml, icon, block_name, teacher_onl
     )
 
 
-def nav_page(page_id, name, order, blocks_xml):
+def nav_page(page_id, name, order, blocks_xml, parent_id=""):
     return (
         "<odeNavStructure>"
         f"<odePageId>{page_id}</odePageId>"
-        "<odeParentPageId></odeParentPageId>"
+        f"<odeParentPageId>{parent_id}</odeParentPageId>"
         f"<pageName>{xesc(name)}</pageName>"
         f"<odeNavStructureOrder>{order}</odeNavStructureOrder>"
         "<odeNavStructureProperties>"
@@ -181,7 +184,9 @@ def nav_page(page_id, name, order, blocks_xml):
 def build_content_xml(spec, spec_dir):
     theme = spec.get("theme", "base")
     pages_xml = []
-    for p_order, page in enumerate(spec["pages"], start=1):
+    order = [0]
+
+    def emit_page(page, parent_id):
         pid = nid()
         blocks_xml = []
         for b_order, blk in enumerate(page.get("blocks", []), start=1):
@@ -203,7 +208,14 @@ def build_content_xml(spec, spec_dir):
                       block_name=blk.get("title", page["title"]),
                       teacher_only=teacher)
             )
-        pages_xml.append(nav_page(pid, page["title"], p_order, "".join(blocks_xml)))
+        order[0] += 1
+        pages_xml.append(nav_page(pid, page["title"], order[0], "".join(blocks_xml), parent_id))
+        # Nested subpages (subnodes) reference this page as their parent.
+        for child in page.get("children", []):
+            emit_page(child, pid)
+
+    for page in spec["pages"]:
+        emit_page(page, "")
 
     footer = spec.get("footer", "")
     pp_license = LICENSE_MAP.get(spec.get("license", ""), spec.get("license", ""))

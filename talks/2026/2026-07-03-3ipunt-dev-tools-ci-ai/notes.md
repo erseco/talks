@@ -5,10 +5,13 @@ Charla para 3ipunt · 2026-07-03 · ~60 min + preguntas · Ponente: Ernesto Serr
 ## Objetivo de la charla
 
 Recorrido **práctico y tool-by-tool** por mi entorno de trabajo real, en tres bloques
-—Herramientas, IA y CI— unidos por una sola idea: **automatizar el feedback**. No es una
-charla de teoría ni de hype: cada herramienta que enseño la uso a diario, y siempre que
-pueda la enseñaré funcionando en el terminal o en el navegador. El público debe salir con
-una lista concreta de cosas que probar el lunes.
+—Herramientas, IA y CI— unidos por una premisa: **trabajar menos, pero hacer más**
+automatizando el feedback y lo repetitivo. No es una charla de teoría ni de hype: cada
+herramienta que enseño la uso a diario, y siempre que pueda la enseñaré funcionando en el
+terminal o en el navegador. El público debe salir con una lista concreta de cosas que
+probar el lunes.
+
+Navegación en árbol: **Inicio → tres nodos (Herramientas / IA / CI) con subnodos → Cierre.**
 
 ## Audiencia
 
@@ -38,7 +41,7 @@ de alumnado). Tono práctico, honesto y técnico. **Sin hype de IA.**
 **3. CI → ~16 min**
 - Make como interfaz única → 3 min
 - Entornos reproducibles (Docker / Alpine / alpine-moodle) → 4 min
-- CI = lo mismo que en local (moodle-plugin-ci) → 3 min
+- CI = lo mismo que en local (make lint/test/behat/test-js) → 3 min
 - Lint y coding standards (biome, mago, phpcs, WP Plugin Check) → 3 min
 - Dependabot y optimización (matrices, caché, previews) → 3 min
 
@@ -59,10 +62,12 @@ y acorta el ejemplo de mod_exelearning a solo la diapositiva del frontmatter del
 - **CI:** el `Makefile` es el contrato — lo que corro en local es lo que corre la CI.
   Entornos reproducibles (Docker/Alpine), la CI que puedo reproducir en mi máquina,
   el lint no negociable, Dependabot y la paralelización. Todo desemboca en una palabra:
-  **automatizar**. Cierro enseñando que esta misma charla se publica sola.
+  **automatizar**. Cierro enseñando que esta misma charla se publica sola, y remato con la
+  imagen de humor «Abajo el trabajo» (guiño a la premisa: **trabajar menos, hacer más**).
 
 ## Mensajes clave
 
+- **Trabajar menos, pero hacer más.** Automatiza lo repetitivo; reserva tu criterio para lo que importa. (premisa)
 - **Automatiza el feedback.** Lo que automatizas no se te olvida ni te lo saltas con prisas. (frase ancla)
 - Scripts propios pequeños en tus **dotfiles** = gran retorno; en git te siguen a todas partes.
 - **La IA es tan buena como el contexto que le das** (MCP + skills + instrucciones + ADRs).
@@ -74,11 +79,12 @@ y acorta el ejemplo de mod_exelearning a solo la diapositiva del frontmatter del
 
 ## Recordatorios antes de empezar
 
-- **Rellenar el placeholder** `<TODO: enlace a mis instrucciones personalizadas>` en las
-  diapositivas "Prompts de calidad y contexto" y "Enlaces y gracias" (o quitarlo).
+- Enlace a instrucciones personalizadas ya puesto (`docs.ernesto.es/js3O2Vt-TEOWId35AkEJkg`)
+  en "Prompts de calidad y contexto" y "Enlaces y gracias"; ábrelo un momento en la charla.
 - Tener la terminal preparada con un directorio de demo y `prs` funcionando (`gh` con login).
 - Tener abiertos en pestañas: `github.com/exelearning/mod_exelearning` (un ADR real) y
   `github.com/erseco/alpine-moodle`.
+- Cierre: la última diapositiva es la imagen «Abajo el trabajo» como nota de humor.
 
 ## Preguntas posibles (y respuestas cortas)
 

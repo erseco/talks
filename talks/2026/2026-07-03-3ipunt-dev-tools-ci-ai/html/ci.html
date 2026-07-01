@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-SP00000080">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>CI | Herramientas de desarrollo, CI e IA</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Mi caja de herramientas real: shell y utilidades, IA (MCP, skills, ADRs) y CI con Make + GitHub Actions">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"","packageTitle":"Herramientas de desarrollo, CI e IA","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../search_index.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/markdown-text/markdown-text.js"></script><link rel="stylesheet" href="../idevices/markdown-text/markdown-text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#SP00000080" id="skipNav">Saltar al contenido</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Inicio</a>
+</li>
+<li> <a href="../html/herramientas.html" class="daddy">Herramientas</a>
+<ul class="other-section">
+<li> <a href="../html/terminal-y-shell.html" class="no-ch">Terminal y shell</a>
+</li>
+<li> <a href="../html/mis-scripts.html" class="no-ch">Mis scripts</a>
+</li>
+<li> <a href="../html/gestores-de-paquetes.html" class="no-ch">Gestores de paquetes</a>
+</li>
+<li> <a href="../html/utilidades-del-dia-a-dia.html" class="no-ch">Utilidades del día a día</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/ia.html" class="daddy">IA</a>
+<ul class="other-section">
+<li> <a href="../html/como-uso-la-ia.html" class="no-ch">Cómo uso la IA</a>
+</li>
+<li> <a href="../html/mcp-darle-herramientas-a-la-ia.html" class="no-ch">MCP: darle herramientas a la IA</a>
+</li>
+<li> <a href="../html/skills-recetas-reutilizables.html" class="no-ch">Skills: recetas reutilizables</a>
+</li>
+<li> <a href="../html/prompts-de-calidad-y-contexto.html" class="no-ch">Prompts de calidad y contexto</a>
+</li>
+<li> <a href="../html/ejemplo-real-modexelearning-adrs.html" class="no-ch">Ejemplo real: mod_exelearning + ADRs</a>
+</li>
+<li> <a href="../html/ia-donde-si-y-donde-no.html" class="no-ch">IA: dónde sí y dónde no</a>
+</li>
+</ul>
+</li>
+<li class="active"> <a href="../html/ci.html" class="active daddy">CI</a>
+<ul class="other-section">
+<li> <a href="../html/make-como-interfaz-unica.html" class="no-ch">Make como interfaz única</a>
+</li>
+<li> <a href="../html/entornos-reproducibles.html" class="no-ch">Entornos reproducibles</a>
+</li>
+<li> <a href="../html/ci-lo-mismo-que-en-local.html" class="no-ch">CI = lo mismo que en local</a>
+</li>
+<li> <a href="../html/lint-y-coding-standards.html" class="no-ch">Lint y coding standards</a>
+</li>
+<li> <a href="../html/dependabot-y-optimizacion.html" class="no-ch">Dependabot y optimización</a>
+</li>
+<li> <a href="../html/la-palabra-clave-automatizar.html" class="no-ch">La palabra clave: automatizar</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/cierre.html" class="no-ch">Cierre</a>
+</li>
+</ul>
+</nav><main id="SP00000080" class="page"> <div id="exe-client-search" data-block-order-string="Caja %e" data-no-results-string="Sin resultados.">
+</div>
+<header class="main-header"> <p class="page-counter"> <span class="page-counter-label">Página </span><span class="page-counter-content"> <strong class="page-counter-current-page">14</strong><span class="page-counter-sep">/</span><strong class="page-counter-total">21</strong></span></p>
+
+<div class="package-header"><p class="package-title">Herramientas de desarrollo, CI e IA</p></div>
+<div class="page-header"><h1 class="page-title">CI</h1></div>
+</header><div id="page-content-SP00000080" class="page-content">
+<article id="SP00000081" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/guide.png" alt="">
+</div>
+<h1 class="box-title">Sección 3 — CI</h1>
+</header>
+<div class="box-content">
+<div id="SP00000082" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000082&quot;,&quot;markdownTextarea&quot;:&quot;Del portátil al deploy, sin sustos. La idea: **lo que corro en local es lo que corre la CI**, y todo lo repetitivo lo hace una máquina.\n\n- Make · entornos reproducibles (Docker/Alpine) · CI = local · lint · Dependabot · automatizar.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;Del portátil al deploy, sin sustos. La idea: &lt;strong&gt;lo que corro en local es lo que corre la CI&lt;/strong&gt;, y todo lo repetitivo lo hace una máquina.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Make · entornos reproducibles (Docker/Alpine) · CI = local · lint · Dependabot · automatizar.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Del portátil al deploy, sin sustos. La idea: <strong>lo que corro en local es lo que corre la CI</strong>, y todo lo repetitivo lo hace una máquina.</p>
+<ul>
+<li>Make · entornos reproducibles (Docker/Alpine) · CI = local · lint · Dependabot · automatizar.</li>
+</ul></div></div></div></div>
+</div>
+</div>
+</article><article id="SP00000083" class="box teacher-only">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/info.png" alt="">
+</div>
+<h1 class="box-title">Notas del ponente</h1>
+</header>
+<div class="box-content">
+<div id="SP00000084" class="idevice_node markdown-text" data-idevice-path="../idevices/markdown-text/" data-idevice-type="markdown-text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;SP00000084&quot;,&quot;markdownTextarea&quot;:&quot;Sección de cierre técnico (~18 min). Todo desemboca en una palabra: **automatizar**. Remata enseñando que esta misma charla se valida, construye y publica sola.&quot;,&quot;markdownTextareaHtml&quot;:&quot;&lt;p&gt;Sección de cierre técnico (~18 min). Todo desemboca en una palabra: &lt;strong&gt;automatizar&lt;/strong&gt;. Remata enseñando que esta misma charla se valida, construye y publica sola.&lt;/p&gt;&quot;,&quot;markdownInfoDurationInput&quot;:&quot;&quot;,&quot;markdownInfoDurationTextInput&quot;:&quot;Duración:&quot;,&quot;markdownInfoParticipantsInput&quot;:&quot;&quot;,&quot;markdownInfoParticipantsTextInput&quot;:&quot;Agrupar:&quot;,&quot;markdownFeedbackInput&quot;:&quot;Mostrar comentarios&quot;,&quot;markdownFeedbackTextarea&quot;:&quot;&quot;,&quot;markdownFeedbackTextareaHtml&quot;:&quot;&quot;}" data-idevice-template="markdown-text.html">
+<div class="exe-markdown-template"><div class="markdownTextIdeviceContent"><div class="exe-markdown-activity"><div class="markdown-body"><p>Sección de cierre técnico (~18 min). Todo desemboca en una palabra: <strong>automatizar</strong>. Remata enseñando que esta misma charla se valida, construye y publica sola.</p></div></div></div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/ia-donde-si-y-donde-no.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/make-como-interfaz-unica.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

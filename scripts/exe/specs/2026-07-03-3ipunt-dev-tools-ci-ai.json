@@ -16,7 +16,7 @@
         {
           "title": "Herramientas de desarrollo, CI e IA",
           "icon": "book",
-          "md": "**Mi caja de herramientas real, no teoría.**\n\nCharla para **3ipunt** — lo que uso a diario para trabajar mejor: shell y utilidades, IA (MCP, skills, ADRs) e integración continua con Make y GitHub Actions.\n\n- **Ernesto Serrano** — freelance software / DevOps (ernesto.es). PHP / Moodle, Docker, CI/CD, infra reproducible.\n- Cada herramienta que enseño la uso **de verdad**. Iré enseñando el terminal y los repos por el camino."
+          "md": "Charla para **3ipunt** — las herramientas que uso a diario para **trabajar menos**: shell y utilidades, IA (MCP, skills, ADRs) e integración continua con Make y GitHub Actions.\n\n**Ernesto Serrano**\n\n- Coordinador del **Área de Tecnología Educativa** — Consejería de Educación, Gobierno de Canarias.\n- **DevOps** en eXeLearning.\n- Desarrollador del *Stevie Wonder Simulator* para Android.\n\n> La premisa: **trabajar menos, pero hacer más.** Iré enseñando el terminal y los repos por el camino."
         },
         {
           "title": "Agenda: tres bloques",
@@ -27,318 +27,375 @@
           "title": "Notas del ponente",
           "icon": "info",
           "teacher": true,
-          "md": "**Duración total: ~60 min** + preguntas. Reparto aproximado: Herramientas 18' · IA 22' · CI 18' · cierre 2'.\n\n**Tono:** práctico y honesto, **sin hype de IA**. Audiencia técnica de 3ipunt (PHP/Moodle, e-learning, DevOps): no explicar lo básico, conectar con su realidad.\n\n**Formato demo:** cuando puedas, cambia a la terminal o al navegador y **enséñalo funcionando** en vez de leer la diapo. La presentación es el guion; la demo es el mensaje.\n\nSi te quedas sin tiempo: comprime la sección de utilidades y acorta el ejemplo de mod_exelearning a la diapositiva del ADR."
+          "md": "**Duración total: ~60 min** + preguntas. Reparto aproximado: Herramientas 18' · IA 22' · CI 18' · cierre 2'.\n\n**Tono:** práctico y honesto, **sin hype de IA**. Audiencia técnica de 3ipunt (PHP/Moodle, e-learning, DevOps): no explicar lo básico, conectar con su realidad.\n\n**Formato demo:** cuando puedas, cambia a la terminal o al navegador y **enséñalo funcionando** en vez de leer la diapo. La presentación es el guion; la demo es el mensaje.\n\nLa estructura es árbol: Inicio → tres nodos (Herramientas / IA / CI) con subnodos → Cierre. Si te quedas sin tiempo: comprime Utilidades y acorta el ejemplo de mod_exelearning a la diapositiva del ADR."
         }
       ]
     },
     {
-      "title": "Terminal y shell",
+      "title": "Herramientas",
       "icon": "case",
       "blocks": [
         {
-          "title": "oh-my-zsh + zsh-autosuggestions",
+          "title": "Sección 1 — Herramientas",
           "icon": "case",
-          "md": "El terminal es donde paso el día: invierte en él.\n\n- **oh-my-zsh** — framework para zsh: temas, plugins y atajos con cero esfuerzo. Tema `robbyrussell`, plugins `git`, `docker`, `macos`, `bun`.\n- **zsh-autosuggestions** — sugiere el comando **según tu historial** mientras escribes; aceptas con `→`. Escribes la mitad y ejecutas lo de siempre.\n- El plugin `git` añade decenas de alias (`gst`, `gco`, `gp`…) y el estado de la rama en el prompt."
-        },
-        {
-          "title": "Instalación mínima",
-          "icon": "guide",
-          "md": "```bash\n# oh-my-zsh\nsh -c \"$(curl -fsSL https://install.ohmyz.sh)\"\n# zsh-autosuggestions (plugin custom) + activarlo en ~/.zshrc\ngit clone https://github.com/zsh-users/zsh-autosuggestions \\\n  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n# plugins=(git docker macos bun zsh-autosuggestions)\n```"
+          "md": "El terminal, mis scripts y las utilidades que uso cada día. Nada espectacular: piezas pequeñas que, sumadas, ahorran horas.\n\n- Terminal y shell · mis scripts · gestores de paquetes · utilidades.\n- Regla: **si lo hago más de dos veces, lo automatizo.**"
         },
         {
           "title": "Notas del ponente",
           "icon": "info",
           "teacher": true,
-          "md": "**Demo (30s):** abre una terminal limpia, escribe `git ` y deja que aparezca la sugerencia fantasma; acéptala con la flecha. Escribe `cd ~/Dr` y enseña el autocompletado.\n\nIdea a transmitir: **no memorizas comandos, los reconoces**. El shell recuerda por ti. Menciona que esto vale para bash (`ble.sh`, `fzf`) y para fish sin configurar nada."
+          "md": "Sección práctica y rápida (~18 min). Cambia a la terminal siempre que puedas: aquí lo importante es que **lo vean funcionar**, no que lean la diapositiva."
         }
-      ]
-    },
-    {
-      "title": "Mis scripts",
-      "icon": "guide",
-      "blocks": [
+      ],
+      "children": [
         {
-          "title": "Automatizar lo que repites cada día",
-          "icon": "guide",
-          "md": "Dos scripts míos, pequeños y con **enorme retorno**:\n\n- **`finder`** — abre Finder en un directorio (o en el actual). Salto terminal ↔ Finder sin soltar el teclado.\n- **`prs`** — panel de **PRs e issues abiertos** en todos mis repos (`ateeducacion` + `erseco`) vía `gh` (GraphQL) + `jq`, con **hyperlinks** clicables en el propio terminal. Un vistazo y sé qué tengo pendiente."
-        },
-        {
-          "title": "Así se usan",
-          "icon": "pieces",
-          "md": "```bash\nfinder            # abre Finder aquí\nfinder ~/Downloads\n\nprs               # tabla de PRs/issues abiertos por repo,\n                  # ordenada por actividad, con enlaces clicables\n# por dentro: gh api graphql + jq (+ hyperlinks de terminal)\n```\n\n> No hace falta una herramienta enorme: **una función en tu `.zshrc`** que uses 20 veces al día ya paga el rato de escribirla."
-        },
-        {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "**Demo:** ejecuta `prs` en vivo — es lo más vistoso de esta sección. Enseña que los enlaces son clicables (cmd+click) y que reúne varias organizaciones.\n\nMensaje: guarda estos scripts en tus **dotfiles** (repo versionado). Lo que vive solo en tu máquina se pierde al cambiar de portátil; en git te sigue a todas partes y lo compartes con el equipo."
-        }
-      ]
-    },
-    {
-      "title": "Gestores de paquetes",
-      "icon": "pieces",
-      "blocks": [
-        {
-          "title": "brew / apt-get / winget: el mismo concepto",
-          "icon": "pieces",
-          "md": "Instalar y actualizar software **desde el terminal**, reproducible y scriptable.\n\n- **macOS → Homebrew (`brew`)**: para mí es un *must*. Todo (CLI y apps) desde un sitio.\n- **Linux → `apt-get`** (o `dnf`, `pacman`…).\n- **Windows → `winget`**.\n\nCambia el comando, no la idea: **un gestor declara tu entorno**. Ese mismo concepto reaparece luego en Docker y en la CI."
-        },
-        {
-          "title": "El mismo entorno en tres sistemas",
-          "icon": "guide",
-          "md": "```bash\n# macOS\nbrew install ncdu gh jq bun\n# Debian / Ubuntu\nsudo apt-get install -y ncdu gh jq\n# Windows\nwinget install jqlang.jq GitHub.cli\n```\n\nAviso: los catálogos difieren un poco entre sistemas, pero el flujo \"un comando para montar mi entorno\" es idéntico."
-        },
-        {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "Aquí planta la semilla que recogerás en la sección de CI: **si tu entorno se instala con un comando, ya casi tienes tu CI escrita**. Un `Makefile` o un `Dockerfile` no son más que esa misma lista de `install` puesta en orden.\n\nEn Windows, recomienda combinar `winget` con **WSL2** para tener las mismas herramientas Unix que en mac/Linux."
-        }
-      ]
-    },
-    {
-      "title": "Utilidades del día a día",
-      "icon": "case",
-      "blocks": [
-        {
-          "title": "Tres que uso constantemente",
+          "title": "Terminal y shell",
           "icon": "case",
-          "md": "- **Amphetamine** (macOS) / **Caffeine** (Windows) — evitan que el equipo se **suspenda**: builds largos, tests, descargas o una demo que no se corta a mitad.\n- **ncdu** — *disk usage* navegable en el terminal: ordena por tamaño y encuentras al instante quién se come el disco (`node_modules`, imágenes de Docker, cachés).\n- **codexbar** — monitor de **uso y tokens de IA** en la barra de menú: sé en todo momento cómo voy de consumo con los agentes."
+          "blocks": [
+            {
+              "title": "oh-my-zsh + zsh-autosuggestions",
+              "icon": "case",
+              "md": "El terminal es donde paso el día: invierte en él.\n\n- **oh-my-zsh** — framework para zsh: temas, plugins y atajos con cero esfuerzo. Plugins `git`, `docker`, `macos`, `bun`.\n- **zsh-autosuggestions** — sugiere el comando **según tu historial** mientras escribes; aceptas con `→`. Escribes la mitad y ejecutas lo de siempre."
+            },
+            {
+              "title": "Instalación mínima",
+              "icon": "guide",
+              "md": "```bash\n# oh-my-zsh\nsh -c \"$(curl -fsSL https://install.ohmyz.sh)\"\n# zsh-autosuggestions (plugin custom) + activarlo en ~/.zshrc\ngit clone https://github.com/zsh-users/zsh-autosuggestions \\\n  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n# plugins=(git docker macos bun zsh-autosuggestions)\n```"
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "**Demo (30s):** abre una terminal limpia, escribe `git ` y deja que aparezca la sugerencia fantasma; acéptala con la flecha. Escribe `cd ~/Dr` y enseña el autocompletado.\n\nIdea a transmitir: **no memorizas comandos, los reconoces**. El shell recuerda por ti. Vale también para bash (`fzf`, `ble.sh`) y para fish sin configurar nada."
+            }
+          ]
         },
         {
-          "title": "ncdu en 5 segundos",
+          "title": "Mis scripts",
           "icon": "guide",
-          "md": "```bash\nncdu ~                    # navega tu home, ordenado por tamaño\nncdu / --exclude /proc    # todo el disco\n# dentro: flechas para navegar, 'd' borra, 'q' sale\n```\n\nEncontrar 30 GB de `node_modules` y cachés viejas suele ser cuestión de segundos."
+          "blocks": [
+            {
+              "title": "Automatizar lo que repites cada día",
+              "icon": "guide",
+              "md": "Dos scripts míos, pequeños y con **enorme retorno**:\n\n- **`finder`** — abre Finder en un directorio (o en el actual). Salto terminal ↔ Finder sin soltar el teclado.\n- **`prs`** — panel de **PRs e issues abiertos** en todos mis repos vía `gh` (GraphQL) + `jq`, con **hyperlinks** clicables en el propio terminal. Un vistazo y sé qué tengo pendiente."
+            },
+            {
+              "title": "Así se usan",
+              "icon": "pieces",
+              "md": "```bash\nfinder            # abre Finder aquí\nfinder ~/Downloads\n\nprs               # tabla de PRs/issues abiertos por repo,\n                  # ordenada por actividad, con enlaces clicables\n# por dentro: gh api graphql + jq (+ hyperlinks de terminal)\n```\n\n> No hace falta una herramienta enorme: **una función en tu `.zshrc`** que uses 20 veces al día ya paga el rato de escribirla."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "**Demo:** ejecuta `prs` en vivo — es lo más vistoso de esta sección. Enseña que los enlaces son clicables (cmd+click) y que reúne todos tus repos de un vistazo.\n\nMensaje: guarda estos scripts en tus **dotfiles** (repo versionado). Lo que vive solo en tu máquina se pierde al cambiar de portátil; en git te sigue a todas partes y lo compartes con el equipo."
+            }
+          ]
         },
         {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "**codexbar:** describe genérico — una app de barra de menú que muestra el consumo de tokens/uso de las herramientas de IA de código (Claude Code / Codex). El punto no es la app concreta, sino **tener visibilidad del coste** cuando delegas trabajo en agentes: si no lo mides, no lo controlas.\n\n**Amphetamine:** cuenta la anécdota del portátil que se duerme a mitad de un build o de una demo. Pequeño, pero salva presentaciones."
+          "title": "Gestores de paquetes",
+          "icon": "pieces",
+          "blocks": [
+            {
+              "title": "brew / apt-get / winget: el mismo concepto",
+              "icon": "pieces",
+              "md": "Instalar y actualizar software **desde el terminal**, reproducible y scriptable.\n\n- **macOS → Homebrew (`brew`)**: para mí es un *must*. Todo (CLI y apps) desde un sitio.\n- **Linux → `apt-get`** (o `dnf`, `pacman`…).\n- **Windows → `winget`**.\n\nCambia el comando, no la idea: **un gestor declara tu entorno**. Ese mismo concepto reaparece luego en Docker y en la CI."
+            },
+            {
+              "title": "El mismo entorno en tres sistemas",
+              "icon": "guide",
+              "md": "```bash\n# macOS\nbrew install ncdu gh jq bun\n# Debian / Ubuntu\nsudo apt-get install -y ncdu gh jq\n# Windows\nwinget install jqlang.jq GitHub.cli\n```\n\nAviso: los catálogos difieren un poco entre sistemas, pero el flujo \"un comando para montar mi entorno\" es idéntico."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Aquí planta la semilla que recogerás en la sección de CI: **si tu entorno se instala con un comando, ya casi tienes tu CI escrita**. Un `Makefile` o un `Dockerfile` no son más que esa misma lista de `install` puesta en orden.\n\nEn Windows, recomienda combinar `winget` con **WSL2** para tener las mismas herramientas Unix que en mac/Linux."
+            }
+          ]
+        },
+        {
+          "title": "Utilidades del día a día",
+          "icon": "case",
+          "blocks": [
+            {
+              "title": "Tres que uso constantemente",
+              "icon": "case",
+              "md": "- **Amphetamine** (macOS) / **Caffeine** (Windows) — evitan que el equipo se **suspenda**: builds largos, tests, descargas o una demo que no se corta a mitad.\n- **ncdu** — *disk usage* navegable en el terminal: ordena por tamaño y encuentras al instante quién se come el disco (`node_modules`, imágenes de Docker, cachés).\n- **codexbar** — monitor de **uso y tokens de IA** en la barra de menú: sé en todo momento cómo voy de consumo con los agentes."
+            },
+            {
+              "title": "ncdu en 5 segundos",
+              "icon": "guide",
+              "md": "```bash\nncdu ~                    # navega tu home, ordenado por tamaño\nncdu / --exclude /proc    # todo el disco\n# dentro: flechas para navegar, 'd' borra, 'q' sale\n```\n\nEncontrar 30 GB de `node_modules` y cachés viejas suele ser cuestión de segundos."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "**codexbar:** descríbelo genérico — una app de barra de menú que muestra el consumo de tokens/uso de las herramientas de IA de código (Claude Code / Codex). El punto no es la app concreta, sino **tener visibilidad del coste** cuando delegas trabajo en agentes: si no lo mides, no lo controlas.\n\n**Amphetamine:** cuenta la anécdota del portátil que se duerme a mitad de un build o de una demo. Pequeño, pero salva presentaciones."
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Cómo uso la IA",
+      "title": "IA",
       "icon": "reflection",
       "blocks": [
         {
-          "title": "Chat ≠ autocomplete ≠ agente",
+          "title": "Sección 2 — IA",
           "icon": "reflection",
-          "md": "- **Chat**: preguntas y respuestas; copias y pegas tú.\n- **Autocomplete**: sugiere mientras escribes.\n- **Agente** (lo que más uso, p. ej. **Claude Code**): tiene **herramientas** y **bucle** — lee el repo, ejecuta comandos, modifica archivos, corre tests y abre PRs.\n\n> La diferencia no es \"más listo\", es **cuánto le dejas tocar** y con qué contexto.\n\nY la clave de todo: **la IA es tan buena como el contexto que le das.** Las tres cosas que siguen —MCP, skills, instrucciones— son formas de darle ese contexto."
+          "md": "Sin hype: uso la IA como una herramienta más, y la clave es **el contexto** que le doy — herramientas (MCP), recetas (skills) y contexto permanente (instrucciones, ADRs).\n\n- Cómo la uso · MCP · skills · prompts · un ejemplo real · dónde **no** decide sola."
         },
         {
           "title": "Notas del ponente",
           "icon": "info",
           "teacher": true,
-          "md": "Este es el **único** tramo conceptual de la charla; que sea corto (2 min). Sirve de marco para las cuatro diapos siguientes: MCP (herramientas), skills (recetas), prompts/instrucciones (contexto) y el ejemplo real de ADRs.\n\nAviso honesto: todo esto vale para cualquier IA de código (Copilot, Cursor, Codex…), no solo Claude Code. Yo enseño lo que uso, pero los conceptos son transferibles."
+          "md": "Sección más larga (~22 min) y el corazón de la charla. Mantén el tono honesto: la IA **propone**, el humano **dispone**. El clímax es el ejemplo de mod_exelearning con los ADRs."
         }
-      ]
-    },
-    {
-      "title": "MCP: darle herramientas a la IA",
-      "icon": "guide",
-      "blocks": [
+      ],
+      "children": [
         {
-          "title": "Los MCP que uso",
+          "title": "Cómo uso la IA",
+          "icon": "reflection",
+          "blocks": [
+            {
+              "title": "Chat ≠ autocomplete ≠ agente",
+              "icon": "reflection",
+              "md": "- **Chat**: preguntas y respuestas; copias y pegas tú.\n- **Agente** (lo que más uso, p. ej. **Claude Code**): tiene **herramientas** y **bucle** — lee el repo, ejecuta comandos, modifica archivos, corre tests y abre PRs.\n\n> La diferencia no es \"más listo\", es **cuánto le dejas tocar** y con qué contexto.\n\nY la clave de todo: **la IA es tan buena como el contexto que le das.** Las tres cosas que siguen —MCP, skills, instrucciones— son formas de darle ese contexto."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Este es el **único** tramo conceptual de la charla; que sea corto (2 min). Sirve de marco para las diapos siguientes: MCP (herramientas), skills (recetas), prompts/instrucciones (contexto) y el ejemplo real de ADRs.\n\nAviso honesto: todo esto vale para cualquier IA de código (Copilot, Cursor, Codex…), no solo Claude Code. Yo enseño lo que uso, pero los conceptos son transferibles."
+            }
+          ]
+        },
+        {
+          "title": "MCP: darle herramientas a la IA",
           "icon": "guide",
-          "md": "**MCP** = conectar la IA a herramientas y datos externos.\n\n- **context7** — documentación **actualizada** de librerías.\n- **chrome-devtools / claude-in-chrome** — navegador y DevTools.\n- **github** — issues, PRs y repos.\n- **exa** — búsqueda web.\n- **filesystem** — acceso a archivos.\n\n> Sin MCP la IA solo habla. Con MCP, **actúa**."
+          "blocks": [
+            {
+              "title": "Los MCP que uso",
+              "icon": "guide",
+              "md": "**MCP** = conectar la IA a herramientas y datos externos.\n\n- **context7** — documentación **actualizada** de librerías.\n- **chrome-devtools / claude-in-chrome** — navegador y DevTools.\n- **github** — issues, PRs y repos.\n- **exa** — búsqueda web.\n- **filesystem** — acceso a archivos.\n\n> Sin MCP la IA solo habla. Con MCP, **actúa**."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Diapositiva de poco texto: **explícala tú, no la leas**. Un MCP (Model Context Protocol) es un enchufe estándar entre el modelo y una herramienta.\n\nPor cada uno, una frase:\n- **context7**: le da los **docs reales y recientes** de la librería, así deja de **inventarse APIs** viejas o inexistentes. Es lo que más alucinaciones evita.\n- **chrome-devtools / claude-in-chrome**: la IA abre el navegador, mira la consola, la red y el DOM → depurar web y automatizar pruebas.\n- **github**: lee y escribe issues y PRs → convierte una conversación en trabajo trazable.\n- **exa**: búsqueda web cuando necesita algo fuera del repo.\n- **filesystem**: leer/escribir archivos fuera del proyecto actual.\n\nRemata: **eliges qué MCP montas por proyecto**; no todos, solo los que ese trabajo necesita."
+            }
+          ]
         },
         {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "Diapositiva de poco texto: **explícala tú, no la leas**. Un MCP (Model Context Protocol) es un enchufe estándar entre el modelo y una herramienta.\n\nPor cada uno, una frase:\n- **context7**: le da los **docs reales y recientes** de la librería, así deja de **inventarse APIs** viejas o inexistentes. Es lo que más alucinaciones evita.\n- **chrome-devtools / claude-in-chrome**: la IA abre el navegador, mira la consola, la red y el DOM → depurar web y automatizar pruebas.\n- **github**: lee y escribe issues y PRs → convierte una conversación en trabajo trazable.\n- **exa**: búsqueda web cuando necesita algo fuera del repo.\n- **filesystem**: leer/escribir archivos fuera del proyecto actual.\n\nRemata: **eliges qué MCP montas por proyecto**; no todos, solo los que ese trabajo necesita."
-        }
-      ]
-    },
-    {
-      "title": "Skills: recetas reutilizables",
-      "icon": "pieces",
-      "blocks": [
-        {
-          "title": "Capacidades empaquetadas",
+          "title": "Skills: recetas reutilizables",
           "icon": "pieces",
-          "md": "Una **skill** es un procedimiento o capacidad empaquetada que la IA invoca cuando toca. Las que uso:\n\n- **superpowers** — orquestación multi-agente: brainstorming, TDD, code review, debugging sistemático.\n- **security-audit (Cloudflare)** — auditoría de seguridad del código.\n- **webwright** — automatización y pruebas web con navegador real.\n- **code-review**, **improve**, **modern-web-guidance** — revisión, mejoras y buenas prácticas web al día.\n\n> Skills = **procesos** que la IA sigue igual cada vez; no dependes de recordar el prompt perfecto."
+          "blocks": [
+            {
+              "title": "Capacidades empaquetadas",
+              "icon": "pieces",
+              "md": "Una **skill** es un procedimiento o capacidad empaquetada que la IA invoca cuando toca. Las que uso:\n\n- **superpowers** — orquestación multi-agente: brainstorming, TDD, code review, debugging sistemático.\n- **security-audit (Cloudflare)** — auditoría de seguridad del código.\n- **webwright** — automatización y pruebas web con navegador real.\n- **code-review**, **improve**, **modern-web-guidance** — revisión, mejoras y buenas prácticas web al día.\n\n> Skills = **procesos** que la IA sigue igual cada vez; no dependes de recordar el prompt perfecto."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Diferencia clara: **MCP = herramientas** (con qué actúa); **skill = receta/proceso** (cómo trabaja). Se combinan.\n\nDestaca los que quieres enseñar:\n- **security-audit** de Cloudflare: pídele \"haz una auditoría de seguridad de este código\" y aplica una metodología, no improvisa.\n- **superpowers**: convierte una tarea en un flujo con fases (planificar → implementar con TDD → revisar) y hasta lanza subagentes en paralelo.\n- **webwright**: automatiza tareas web reproducibles con capturas de evidencia.\n\nSi hay tiempo, lanza una skill en vivo (p. ej. una mini auditoría o un code-review del diff actual)."
+            }
+          ]
         },
         {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "Diferencia clara: **MCP = herramientas** (con qué actúa); **skill = receta/proceso** (cómo trabaja). Se combinan.\n\nDestaca los que pediste enseñar:\n- **security-audit** de Cloudflare: pídele \"haz una auditoría de seguridad de este código\" y aplica una metodología, no improvisa.\n- **superpowers**: convierte una tarea en un flujo con fases (planificar → implementar con TDD → revisar) y hasta lanza subagentes en paralelo.\n- **webwright**: automatiza tareas web reproducibles con capturas de evidencia.\n\nSi hay tiempo, lanza una skill en vivo (p. ej. una mini auditoría o un code-review del diff actual)."
-        }
-      ]
-    },
-    {
-      "title": "Prompts de calidad y contexto",
-      "icon": "objectives",
-      "blocks": [
-        {
-          "title": "Un buen prompt + contexto de GitHub",
+          "title": "Prompts de calidad y contexto",
           "icon": "objectives",
-          "md": "La calidad de la salida = calidad de la **tarea** que planteas.\n\nUn buen encargo lleva:\n\n- **Objetivo** claro y acotado.\n- **Restricciones**: qué **NO** tocar.\n- **Criterio de \"hecho\"** y **tests**.\n\nY enséñale a **leer GitHub** (issues, PRs, código) para que genere tareas de calidad con el contexto real del proyecto, no con suposiciones."
+          "blocks": [
+            {
+              "title": "Un buen prompt + contexto de GitHub",
+              "icon": "objectives",
+              "md": "La calidad de la salida = calidad de la **tarea** que planteas.\n\nUn buen encargo lleva:\n\n- **Objetivo** claro y acotado.\n- **Restricciones**: qué **NO** tocar.\n- **Criterio de \"hecho\"** y **tests**.\n\nY enséñale a **leer GitHub** (issues, PRs, código) para que genere tareas de calidad con el contexto real del proyecto, no con suposiciones."
+            },
+            {
+              "title": "Instrucciones personalizadas = contexto permanente",
+              "icon": "guide",
+              "md": "Lo que no quieres repetir en cada prompt, escríbelo una vez en `CLAUDE.md` / `AGENTS.md`: convenciones, estándares, \"nunca toques secretos\", idioma de los comentarios…\n\n- Es el **contexto que la IA lee siempre**, en todo el repo.\n- Mis instrucciones personalizadas → <https://docs.ernesto.es/js3O2Vt-TEOWId35AkEJkg?view>"
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Abre el enlace de tus instrucciones y enséñalo por encima (está en la diapo).\n\nEjemplo concreto de \"enseñarle a leer GitHub\": en vez de describir un bug a mano, dile *\"lee el issue #123 y su hilo, mira el PR relacionado y propón un plan\"*. El contexto lo saca del repo, no de tu memoria.\n\nEncadena con la siguiente diapo: la mejor forma de que ese contexto sea **permanente y trazable** no es un prompt largo, es un **sistema** — y eso es exactamente lo que hago en mod_exelearning con los ADRs."
+            }
+          ]
         },
         {
-          "title": "Instrucciones personalizadas = contexto permanente",
-          "icon": "guide",
-          "md": "Lo que no quieres repetir en cada prompt, escríbelo una vez en `CLAUDE.md` / `AGENTS.md`: convenciones, estándares, \"nunca toques secretos\", idioma de los comentarios…\n\n- Es el **contexto que la IA lee siempre**, en todo el repo.\n- Mis instrucciones personalizadas → **`<TODO: enlace a mis instrucciones personalizadas>`**"
-        },
-        {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "**Recuerda rellenar el placeholder del enlace** antes de la charla (o quítalo).\n\nEjemplo concreto de \"enseñarle a leer GitHub\": en vez de describir un bug a mano, dile *\"lee el issue #123 y su hilo, mira el PR relacionado y propón un plan\"*. El contexto lo saca del repo, no de tu memoria.\n\nEncadena con la siguiente diapo: la mejor forma de que ese contexto sea **permanente y trazable** no es un prompt largo, es un **sistema** — y eso es exactamente lo que hago en mod_exelearning con los ADRs."
-        }
-      ]
-    },
-    {
-      "title": "Ejemplo real: mod_exelearning + ADRs",
-      "icon": "case",
-      "blocks": [
-        {
-          "title": "Que la IA desarrolle y documente TODO, trazable",
+          "title": "Ejemplo real: mod_exelearning + ADRs",
           "icon": "case",
-          "md": "**mod_exelearning** — mi plugin de Moodle para embeber unidades de eXeLearning. Reto: usar IA para avanzar rápido **sin perder** la trazabilidad de por qué está hecho cada cosa.\n\nSolución: un sistema de **ADR** (Architecture Decision Records). Cada decisión es un documento **`DEC-NNNN`** con secciones fijas: *Contexto · Problema · Opciones · Evidencia · Decisión · Consecuencias · Riesgos · Validación · Seguimiento*.\n\n- **60+ ADRs**, numeración monótona, índices auto-generados.\n- Regla de oro: **\"sin fuente no hay afirmación\"** (cada dato cita repo+ruta+commit, doc oficial o experimento)."
+          "blocks": [
+            {
+              "title": "Que la IA desarrolle y documente TODO, trazable",
+              "icon": "case",
+              "md": "**mod_exelearning** — plugin de Moodle para embeber unidades de eXeLearning. Reto: usar IA para avanzar rápido **sin perder** la trazabilidad de por qué está hecho cada cosa.\n\nSolución: un sistema de **ADR** (Architecture Decision Records). Cada decisión es un documento **`DEC-NNNN`** con secciones fijas: *Contexto · Problema · Opciones · Evidencia · Decisión · Consecuencias · Riesgos · Validación · Seguimiento*.\n\n- **60+ ADRs**, numeración monótona, índices auto-generados.\n- Regla de oro: **\"sin fuente no hay afirmación\"** (cada dato cita repo+ruta+commit, doc oficial o experimento)."
+            },
+            {
+              "title": "El frontmatter registra quién decidió (humano o IA)",
+              "icon": "guide",
+              "md": "```yaml\nid: DEC-0007\ntitulo: \"Gestión de intentos\"\nestado: Aceptada\nfecha: 2026-06-10\nagentes: [erseco, claude-code]\nherramienta_ia:\n  interfaz: claude-code\n  modelo: claude-opus-4-7\nfuentes: [REPO-042, FTE-011]\n```\n\n- Cada ADR **declara si lo escribió una persona o un agente**, y con qué modelo.\n- En el código, cada función **cita su decisión**: `// (DEC-0008)`.\n- `AGENTS.md` fija las reglas: **Context7 obligatorio** para APIs, tests con cada cambio, `phpcs --standard=moodle` a **0/0**, e índices regenerados como *Definition of Done*."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Este es el **clímax de la sección de IA** y responde a \"que la IA desarrolle y documente todo\". El repo: `github.com/exelearning/mod_exelearning`.\n\nMensajes:\n- La IA no solo escribe código: **escribe la justificación** y la deja citable, igual que un humano. Un ADR escrito por `claude-code` se audita igual que uno mío.\n- Cuentas incluso con **auditorías multi-agente** registradas como decisiones (p. ej. una de seguridad con 21 hallazgos, otra de bugs críticos). La IA revisa a la IA, y queda por escrito.\n- Moraleja: no delegas el **criterio**, delegas la **redacción disciplinada**. El sistema (ADRs + AGENTS.md + índices validados) es lo que hace que la velocidad no cueste trazabilidad.\n\nSi vas bien de tiempo, abre un ADR real en pantalla y enseña el frontmatter y las secciones."
+            }
+          ]
         },
         {
-          "title": "El frontmatter registra quién decidió (humano o IA)",
-          "icon": "guide",
-          "md": "```yaml\nid: DEC-0007\ntitulo: \"Gestión de intentos\"\nestado: Aceptada\nfecha: 2026-06-10\nagentes: [erseco, claude-code]\nherramienta_ia:\n  interfaz: claude-code\n  modelo: claude-opus-4-7\nfuentes: [REPO-042, FTE-011]\n```\n\n- Cada ADR **declara si lo escribió una persona o un agente**, y con qué modelo.\n- En el código, cada función **cita su decisión**: `// (DEC-0008)`.\n- `AGENTS.md` fija las reglas: **Context7 obligatorio** para APIs, tests con cada cambio, `phpcs --standard=moodle` a **0/0**, e índices regenerados como *Definition of Done*."
-        },
-        {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "Este es el **clímax de la sección de IA** y responde a \"que la IA desarrolle y documente todo\". El repo: `github.com/exelearning/mod_exelearning`.\n\nMensajes:\n- La IA no solo escribe código: **escribe la justificación** y la deja citable, igual que un humano. Un ADR escrito por `claude-code` se audita igual que uno mío.\n- Cuentas incluso con **auditorías multi-agente** registradas como decisiones (p. ej. una de seguridad con 21 hallazgos, otra de bugs críticos). La IA revisa a la IA, y queda por escrito.\n- Moraleja: no delegas el **criterio**, delegas la **redacción disciplinada**. El sistema (ADRs + AGENTS.md + índices validados) es lo que hace que la velocidad no cueste trazabilidad.\n\nSi vas bien de tiempo, abre un ADR real en pantalla y enseña el frontmatter y las secciones."
-        }
-      ]
-    },
-    {
-      "title": "IA: dónde sí y dónde no",
-      "icon": "ask",
-      "blocks": [
-        {
-          "title": "Dónde ayuda de verdad",
-          "icon": "reflection",
-          "md": "- **Explorar** código desconocido.\n- **Borradores**: primer esqueleto de función o test.\n- **Tests** para código sin cobertura.\n- **Refactors** pequeños y mecánicos.\n- **Explicar** errores y trazas.\n- **Documentación** a partir del código real.\n- **Primer filtro** de revisión (no el último)."
-        },
-        {
-          "title": "Dónde NO decide sola",
+          "title": "IA: dónde sí y dónde no",
           "icon": "ask",
-          "md": "- **Arquitectura**: decisiones a años vista.\n- **Seguridad**: permisos, cripto, control de acceso.\n- **Datos sensibles**: RGPD, datos de alumnado, calificaciones.\n- **Cambios masivos sin tests**.\n- **Dependencias críticas** y **producción**.\n\n> La IA **propone**; el humano **dispone**. Y pase lo que pase: **revisa siempre el diff.** Lo verde no es lo correcto."
+          "blocks": [
+            {
+              "title": "Dónde ayuda de verdad",
+              "icon": "reflection",
+              "md": "- **Explorar** código desconocido.\n- **Borradores**: primer esqueleto de función o test.\n- **Tests** para código sin cobertura.\n- **Refactors** pequeños y mecánicos.\n- **Explicar** errores y trazas.\n- **Documentación** a partir del código real.\n- **Primer filtro** de revisión (no el último)."
+            },
+            {
+              "title": "Dónde NO decide sola",
+              "icon": "ask",
+              "md": "- **Arquitectura**: decisiones a años vista.\n- **Seguridad**: permisos, cripto, control de acceso.\n- **Datos sensibles**: RGPD, datos de alumnado, calificaciones.\n- **Cambios masivos sin tests**.\n- **Dependencias críticas** y **producción**.\n\n> La IA **propone**; el humano **dispone**. Y pase lo que pase: **revisa siempre el diff.** Lo verde no es lo correcto."
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Make como interfaz única",
+      "title": "CI",
       "icon": "guide",
       "blocks": [
         {
-          "title": "Un Makefile, todas las máquinas",
+          "title": "Sección 3 — CI",
           "icon": "guide",
-          "md": "`make` está en **todos** los sistemas (multiplataforma; da algo de trabajo, pero compensa).\n\n- Una **única interfaz** para el proyecto: no memorizas comandos largos, ejecutas verbos.\n- **Lo que corro en local = lo que corre la CI.** El mismo `make test` en mi portátil y en GitHub Actions.\n- Autodocumentado: `make help` lista lo que se puede hacer."
-        },
-        {
-          "title": "Ejemplo real (este repo de charlas)",
-          "icon": "pieces",
-          "md": "```make\nmake install   # dependencias\nmake validate  # comprobar metadatos de cada charla\nmake build     # validate + generar el sitio estático\nmake serve     # http://localhost:8080\nmake exe       # (local) regenerar la unidad eXeLearning\n```\n\nEsta misma presentación se construye con estos targets."
+          "md": "Del portátil al deploy, sin sustos. La idea: **lo que corro en local es lo que corre la CI**, y todo lo repetitivo lo hace una máquina.\n\n- Make · entornos reproducibles (Docker/Alpine) · CI = local · lint · Dependabot · automatizar."
         },
         {
           "title": "Notas del ponente",
           "icon": "info",
           "teacher": true,
-          "md": "Idea ancla de la sección: **el Makefile es el contrato**. Reduce la distancia entre \"funciona en mi máquina\" y \"funciona en la CI\" a cero, porque **ejecutan literalmente lo mismo**.\n\nDemo posible: `make help` en este repo, y luego enseña que el workflow de GitHub Actions llama a `make validate` y `make build` — los mismos verbos."
+          "md": "Sección de cierre técnico (~18 min). Todo desemboca en una palabra: **automatizar**. Remata enseñando que esta misma charla se valida, construye y publica sola."
         }
-      ]
-    },
-    {
-      "title": "Entornos reproducibles",
-      "icon": "case",
-      "blocks": [
+      ],
+      "children": [
         {
-          "title": "Docker, playgrounds y Alpine",
+          "title": "Make como interfaz única",
+          "icon": "guide",
+          "blocks": [
+            {
+              "title": "Un Makefile, todas las máquinas",
+              "icon": "guide",
+              "md": "`make` está en **todos** los sistemas (multiplataforma; da algo de trabajo, pero compensa).\n\n- Una **única interfaz** para el proyecto: no memorizas comandos largos, ejecutas verbos.\n- **Lo que corro en local = lo que corre la CI.** El mismo `make test` en mi portátil y en GitHub Actions.\n- Autodocumentado: `make help` lista lo que se puede hacer."
+            },
+            {
+              "title": "Ejemplo real (este repo de charlas)",
+              "icon": "pieces",
+              "md": "```make\nmake install   # dependencias\nmake validate  # comprobar metadatos de cada charla\nmake build     # validate + generar el sitio estático\nmake serve     # http://localhost:8080\nmake exe       # (local) regenerar la unidad eXeLearning\n```\n\nEsta misma presentación se construye con estos targets."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Idea ancla de la sección: **el Makefile es el contrato**. Reduce la distancia entre \"funciona en mi máquina\" y \"funciona en la CI\" a cero, porque **ejecutan literalmente lo mismo**.\n\nDemo posible: `make help` en este repo, y luego enseña que el workflow de GitHub Actions llama a `make validate` y `make build` — los mismos verbos."
+            }
+          ]
+        },
+        {
+          "title": "Entornos reproducibles",
           "icon": "case",
-          "md": "- **Docker / playgrounds**: entornos idénticos para todos; se acabó el *\"en mi máquina funciona\"*. Levantar y tirar entornos con un comando.\n- **Alpine** siempre que se pueda: imágenes **pequeñas, rápidas y con menos superficie de ataque**. Builds y despliegues más ágiles.\n- Ejemplo: **alpine-moodle** — Moodle completo sobre Alpine, ligero y reproducible (`github.com/erseco/alpine-moodle`)."
+          "blocks": [
+            {
+              "title": "Docker, playgrounds y Alpine",
+              "icon": "case",
+              "md": "- **Docker / playgrounds**: entornos idénticos para todos; se acabó el *\"en mi máquina funciona\"*. Levantar y tirar entornos con un comando.\n- **Alpine** siempre que se pueda: imágenes **pequeñas, rápidas y con menos superficie de ataque**. Builds y despliegues más ágiles.\n- Ejemplo: **alpine-moodle** — Moodle completo sobre Alpine, ligero y reproducible (`github.com/erseco/alpine-moodle`)."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Demo/enseña **alpine-moodle**: el contraste de tamaño de imagen frente a una basada en Debian es el argumento visual. Menos peso = pulls más rápidos, CI más rápida, menos CVEs que parchear.\n\nConecta con la diapo anterior: el `Makefile` orquesta Docker; el gestor de paquetes de Alpine (`apk`) es el mismo concepto de \"declara tu entorno\" que brew/apt. Todo es la misma idea a distintas capas."
+            }
+          ]
         },
         {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "Demo/enseña **alpine-moodle**: el contraste de tamaño de imagen frente a una basada en Debian es el argumento visual. Menos peso = pulls más rápidos, CI más rápida, menos CVEs que parchear.\n\nConecta con la diapo anterior: el `Makefile` orquesta Docker; el gestor de paquetes de Alpine (`apk`) es el mismo concepto de \"declara tu entorno\" que brew/apt. Todo es la misma idea a distintas capas."
-        }
-      ]
-    },
-    {
-      "title": "CI = lo mismo que en local",
-      "icon": "pieces",
-      "blocks": [
-        {
-          "title": "Reproducir el fallo deja de ser una lotería",
+          "title": "CI = lo mismo que en local",
           "icon": "pieces",
-          "md": "Los tests que fallan en la CI tienen que poder fallar **en tu máquina**.\n\nEn Moodle/PHP, **moodle-plugin-ci** ejecuta en local exactamente lo mismo que el pipeline:\n\n```bash\nmoodle-plugin-ci phpcs      # estándar de código de Moodle\nmoodle-plugin-ci phpunit    # tests unitarios\nmoodle-plugin-ci behat      # tests de aceptación\nmoodle-plugin-ci validate   # manifiesto del plugin\n```"
+          "blocks": [
+            {
+              "title": "Reproducir el fallo deja de ser una lotería",
+              "icon": "pieces",
+              "md": "Los tests que fallan en la CI tienen que poder fallar **en tu máquina**.\n\nEn eXeLearning y en **mod_exelearning**, el mismo `make` que uso en local es el que corre la CI:\n\n```bash\nmake up-local   # eXeLearning: levantar el editor en local\nmake lint       # phpcs (estándar Moodle) + estilo\nmake test       # PHPUnit dentro del contenedor Docker\nmake behat      # tests de aceptación\nmake test-js    # Vitest para el JS del plugin\n```"
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Mensaje: **el objetivo del feedback es que sea barato y temprano**. Si solo te enteras de un fallo cuando la CI se pone roja tras 10 minutos, has perdido. Con un `Makefile`, la CI cabe en tu terminal.\n\nEjemplo real: mod_exelearning corre estos mismos targets en una **matriz** de PHP 8.1–8.4 × Moodle 4.5→5.2 × PostgreSQL/MariaDB. Mucho, pero cada combinación es el mismo `make` que puedes lanzar en local."
+            }
+          ]
         },
         {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "Mensaje: **el objetivo del feedback es que sea barato y temprano**. Si solo te enteras de un fallo cuando la CI se pone roja tras 10 minutos, has perdido. `moodle-plugin-ci` (y su equivalente en cualquier stack) trae la CI a tu terminal.\n\nEjemplo real: mod_exelearning corre esto en una **matriz** de PHP 8.1–8.4 × Moodle 4.5→5.2 × PostgreSQL/MariaDB. Mucho, pero cada combinación es el mismo comando que puedes lanzar en local."
-        }
-      ]
-    },
-    {
-      "title": "Lint y coding standards",
-      "icon": "guide",
-      "blocks": [
-        {
-          "title": "El estilo, automatizado y no negociable",
+          "title": "Lint y coding standards",
           "icon": "guide",
-          "md": "Discutir estilo en cada PR es tiempo perdido: que lo decida una herramienta.\n\n```bash\nbiome check .                   # JS/TS: lint + formato (Rust, rapidísimo)\nmago lint && mago fmt           # PHP: análisis y formato\nphpcs --standard=moodle local/x # PHP: estándar de Moodle\nwp plugin check my-plugin       # WordPress: sugerencias antes de publicar\n```\n\nMeta: **0 warnings**. El linter es un miembro más del equipo que nunca se cansa ni se despista."
+          "blocks": [
+            {
+              "title": "El estilo, automatizado y no negociable",
+              "icon": "guide",
+              "md": "Discutir estilo en cada PR es tiempo perdido: que lo decida una herramienta.\n\n```bash\nbiome check .                   # JS/TS: lint + formato (Rust, rapidísimo)\nmago lint && mago fmt           # PHP: análisis y formato\nphpcs --standard=moodle local/x # PHP: estándar de Moodle\nwp plugin check my-plugin       # WordPress: sugerencias antes de publicar\n```\n\nMeta: **0 warnings**. El linter es un miembro más del equipo que nunca se cansa ni se despista."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Cada plataforma, su estándar:\n- **biome** para JS/TS: reemplaza ESLint+Prettier, es de Rust y vuela.\n- **mago** para PHP: toolchain moderno (formatea y analiza).\n- **phpcs** con `--standard=moodle` o WordPress (WPCS): el estándar oficial de cada ecosistema.\n- **WordPress Plugin Check**: además del lint, te da **sugerencias** para pasar la revisión del directorio de plugins.\n\nPunto clave: esto corre **antes** en un hook de pre-commit, y **otra vez** en la CI como red de seguridad. Mismo comando en ambos sitios."
+            }
+          ]
         },
         {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "Cada plataforma, su estándar:\n- **biome** para JS/TS: reemplaza ESLint+Prettier, es de Rust y vuela.\n- **mago** para PHP: toolchain moderno (formatea y analiza).\n- **phpcs** con `--standard=moodle` o WordPress (WPCS): el estándar oficial de cada ecosistema.\n- **WordPress Plugin Check**: además del lint, te da **sugerencias** para pasar la revisión del directorio de plugins.\n\nPunto clave: esto corre **antes** en un hook de pre-commit, y **otra vez** en la CI como red de seguridad. Mismo comando en ambos sitios."
-        }
-      ]
-    },
-    {
-      "title": "Dependabot y optimización",
-      "icon": "objectives",
-      "blocks": [
-        {
-          "title": "Actualizaciones automáticas: adiós al dependency hell",
+          "title": "Dependabot y optimización",
           "icon": "objectives",
-          "md": "- **Dependabot** abre **PRs de actualización** de dependencias automáticamente. Actualizas poco y a menudo en vez de un salto gigante y doloroso.\n- Con la CI en verde, revisar y mergear cada bump es trivial. *(Este mismo repo lo usa: sus últimos commits son merges de dependabot.)*"
+          "blocks": [
+            {
+              "title": "Actualizaciones automáticas: adiós al dependency hell",
+              "icon": "objectives",
+              "md": "- **Dependabot** abre **PRs de actualización** de dependencias automáticamente. Actualizas poco y a menudo en vez de un salto gigante y doloroso.\n- Con la CI en verde, revisar y mergear cada bump es trivial. *(Este mismo repo lo usa: sus últimos commits son merges de dependabot.)*"
+            },
+            {
+              "title": "Paralelizar y optimizar",
+              "icon": "pieces",
+              "md": "- **Matrices** de jobs en paralelo (versiones, BBDD, SO) → resultados en minutos, no en horas.\n- **Caché** de dependencias y capas de Docker.\n- **Despliegues por PR** rápidos: cada pull request genera su *preview* para revisar el cambio antes de mergear.\n\nMenos espera = más iteraciones = mejor software."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Ejemplo de matriz real: la CI de mod_exelearning cruza PHP × Moodle × BBDD y corre todo en paralelo. Sin paralelizar sería inviable; con paralelización cabe en cada PR.\n\nConecta Dependabot con la charla entera: es **automatizar el mantenimiento**. El coste de estar al día baja tanto que dejas de posponerlo. Y como todo pasa por la misma CI, una actualización rota se detecta sola."
+            }
+          ]
         },
         {
-          "title": "Paralelizar y optimizar",
-          "icon": "pieces",
-          "md": "- **Matrices** de jobs en paralelo (versiones, BBDD, SO) → resultados en minutos, no en horas.\n- **Caché** de dependencias y capas de Docker.\n- **Despliegues por PR** rápidos: cada pull request genera su *preview* para revisar el cambio antes de mergear.\n\nMenos espera = más iteraciones = mejor software."
-        },
-        {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "Ejemplo de matriz real: la CI de mod_exelearning cruza PHP × Moodle × BBDD y corre todo en paralelo. Sin paralelizar sería inviable; con paralelización cabe en cada PR.\n\nConecta Dependabot con la charla entera: es **automatizar el mantenimiento**. El coste de estar al día baja tanto que dejas de posponerlo. Y como todo pasa por la misma CI, una actualización rota se detecta sola."
-        }
-      ]
-    },
-    {
-      "title": "La palabra clave: automatizar",
-      "icon": "reflection",
-      "blocks": [
-        {
-          "title": "Del portátil al deploy, una sola cinta",
+          "title": "La palabra clave: automatizar",
           "icon": "reflection",
-          "md": "Todo lo de hoy es una idea repetida en capas: **automatizar el feedback**.\n\n```text\nMake (local)  →  GitHub Actions (CI)  →  Pages / pre-release (deploy)\n```\n\n- El mismo comando en tu máquina y en la nube.\n- **Esta misma presentación** se valida, se construye y se publica sola en cada push.\n\n> Automatiza antes de escalar: lo que automatizas no se te olvida ni te lo saltas con prisas."
-        },
-        {
-          "title": "Notas del ponente",
-          "icon": "info",
-          "teacher": true,
-          "md": "Cierre de la sección de CI y puente al final. Enseña, si puedes, el workflow de GitHub Actions de este repo y el sitio publicado en `erseco.github.io/talks` — el bucle completo, en vivo.\n\nFrase para rematar: **\"la IA acelera el centro del proceso; la automatización protege los extremos\"**. Ninguna sustituye al criterio; ambas lo amplifican."
+          "blocks": [
+            {
+              "title": "Del portátil al deploy, una sola cinta",
+              "icon": "reflection",
+              "md": "Todo lo de hoy es una idea repetida en capas: **automatizar el feedback**.\n\n```text\nMake (local)  →  GitHub Actions (CI)  →  Pages / pre-release (deploy)\n```\n\n- El mismo comando en tu máquina y en la nube.\n- **Esta misma presentación** se valida, se construye y se publica sola en cada push.\n\n> Automatiza antes de escalar: lo que automatizas no se te olvida ni te lo saltas con prisas."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Cierre de la sección de CI y puente al final. Enseña, si puedes, el workflow de GitHub Actions de este repo y el sitio publicado en `erseco.github.io/talks` — el bucle completo, en vivo.\n\nFrase para rematar: **\"la IA acelera el centro del proceso; la automatización protege los extremos\"**. Ninguna sustituye al criterio; ambas lo amplifican."
+            }
+          ]
         }
       ]
     },
@@ -354,7 +411,13 @@
         {
           "title": "Enlaces y gracias",
           "icon": "download",
-          "md": "Gracias. ¿Preguntas?\n\n- Repositorio de la charla — <https://github.com/erseco/talks>\n- Web de presentaciones — <https://erseco.github.io/talks/>\n- mod_exelearning — <https://github.com/exelearning/mod_exelearning>\n- alpine-moodle — <https://github.com/erseco/alpine-moodle>\n- GitHub de Ernesto — <https://github.com/erseco>\n- Web personal — <https://ernesto.es>\n- Mis instrucciones personalizadas — <TODO: enlace>"
+          "md": "Gracias. ¿Preguntas?\n\n- Repositorio de la charla — <https://github.com/erseco/talks>\n- Web de presentaciones — <https://erseco.github.io/talks/>\n- mod_exelearning — <https://github.com/exelearning/mod_exelearning>\n- alpine-moodle — <https://github.com/erseco/alpine-moodle>\n- GitHub de Ernesto — <https://github.com/erseco>\n- Web personal — <https://ernesto.es>\n- Mis instrucciones personalizadas — <https://docs.ernesto.es/js3O2Vt-TEOWId35AkEJkg?view>"
+        },
+        {
+          "title": "Abajo el trabajo",
+          "icon": "gallery",
+          "image": "../assets/2026-07-03-3ipunt-dev-tools-ci-ai/abajo-el-trabajo.jpg",
+          "caption": "Trabajar menos, pero hacer más: el resto, que lo automatice la máquina."
         }
       ]
     }
