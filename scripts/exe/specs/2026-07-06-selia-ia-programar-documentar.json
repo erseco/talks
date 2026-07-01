@@ -79,7 +79,7 @@
         {
           "title": "El frontmatter deja rastro",
           "icon": "guide",
-          "md": "```yaml\nid: DEC-0043\ntitulo: \"Detección de GeoGebra calificable\"\nestado: Aceptada        # Propuesta | Aceptada | Rechazada | Superseded\nfecha: 2026-06-22\nagentes: [erseco, codex]\nherramienta_ia:\n  interfaz: codex\n  modelo: gpt-5\nfuentes: [REPO-071, EXP-014]\n```\n\n- El ADR **declara quién decidió** (persona o agente) y **con qué IA y modelo**.\n- **\"Sin fuente no hay afirmación\":** cada dato cita `repo + ruta + commit`, doc oficial o experimento reproducible."
+          "md": "```yaml\nid: DEC-0043\ntitulo: \"Detección de GeoGebra calificable\"\nestado: Aceptada        # Propuesta | Aceptada | Rechazada | Superseded\nfecha: 2026-06-22\nagentes: [erseco, codex]\nherramienta_ia:\n  interfaz: codex\n  modelo: gpt-5\nfuentes: [REPO-071, EXP-014]\n```\n\n- El ADR **declara quién decidió** (persona o agente) y **con qué IA y modelo**.\n- **\"Sin fuente no hay afirmación\":** cada dato cita `repo + ruta + commit`, doc oficial o experimento reproducible.\n- Ver el ADR completo en el repo: [DEC-0043 ↗](https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0043-deteccion-geogebra-auto-scorm.md)"
         },
         {
           "title": "Notas del ponente",
@@ -96,13 +96,30 @@
             {
               "title": "Los papeles quedan claros",
               "icon": "pieces",
-              "md": "El ADR reparte los papeles:\n\n- La **IA redacta** las *Opciones* y la *Evidencia* (con fuentes).\n- El **humano decide**: fija el `estado` (Propuesta → **Aceptada / Rechazada**).\n\nEjemplo real: **auditorías multi-agente**. En **DEC-0016**, decenas de agentes revisan en 12 dimensiones → **21 hallazgos**; el humano **corrige 18 y difiere 3** con justificación.\n\n> La IA **propone**; el humano **dispone**. Y siempre: **revisa el diff**."
+              "md": "El ADR reparte los papeles:\n\n- La **IA redacta** las *Opciones* y la *Evidencia* (con fuentes).\n- El **humano decide**: fija el `estado` (Propuesta → **Aceptada / Rechazada**).\n\nEjemplo real: **auditorías multi-agente**. En **[DEC-0016 ↗](https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0016-auditoria-seguridad-correccion.md)**, decenas de agentes revisan en 12 dimensiones → **21 hallazgos**; el humano **corrige 18 y difiere 3** con justificación.\n\n> La IA **propone**; el humano **dispone**. Y siempre: **revisa el diff**."
             },
             {
               "title": "Notas del ponente",
               "icon": "info",
               "teacher": true,
               "md": "El mensaje para seLIA: la IA no toma la decisión, la **prepara**. El `estado` (Propuesta/Aceptada/Rechazada) es del humano. Las auditorías multi-agente dan buen 'wow', pero recalca: el valor no es el número de agentes, es que **queda por escrito quién decidió y por qué**."
+            }
+          ]
+        },
+        {
+          "title": "research/: no solo ADRs",
+          "icon": "guide",
+          "blocks": [
+            {
+              "title": "Un sistema de trazabilidad completo",
+              "icon": "guide",
+              "md": "Los ADRs no van solos: viven en [`research/`](https://github.com/exelearning/mod_exelearning/tree/main/research), un sistema que hace **todo trazable**.\n\n- **`decisiones/`** — los ADRs (`DEC-NNNN`).\n- **`fuentes/`** — fuentes citables (repos de referencia, docs): `REPO-NNN` / `FTE-NNN`.\n- **`experimentos/`** — reproducibles (`EXP-NNN`): comando, commit, entorno, métricas.\n- **`analisis/`, `tareas/`, `status.yaml`, diario** — trabajo y estado, **append-only**.\n- **`plantillas/`, `schemas/`, `tools/`** — plantilla de ADR, validación e **índices auto-generados**.\n- **[`AGENTS.md` ↗](https://github.com/exelearning/mod_exelearning/blob/main/research/AGENTS.md)** — las reglas del juego para personas y IA.\n\n> Cada ADR **cita** sus fuentes y experimentos por su id. Tiras del hilo y llegas a la evidencia."
+            },
+            {
+              "title": "Notas del ponente",
+              "icon": "info",
+              "teacher": true,
+              "md": "Es la parte que convence a un público de software libre: no es *\"confía en mí\"*, es un **sistema auditable** y público. Si puedes, ábrelo en vivo: `github.com/exelearning/mod_exelearning/tree/main/research` y el `AGENTS.md`. Regla estrella a leer en voz alta: **\"sin fuente no hay afirmación\"**. No te enredes con cada carpeta; basta la idea: decisiones + fuentes + experimentos, todo enlazado y append-only."
             }
           ]
         }
@@ -115,7 +132,7 @@
         {
           "title": "IA agnóstica: sin atarte a ninguna",
           "icon": "guide",
-          "md": "El frontmatter registra `interfaz` y `modelo`, así el proceso **no se ata a ninguna IA**:\n\n- **DEC-0043** se decidió con **`codex` + `gpt-5`**.\n- **DEC-0044** (auditoría de bugs) con **`claude-code` + `claude-fable-5`**.\n- Otros, con `claude-opus`… **da igual el motor**.\n- Y el mismo proceso vale con **modelos de pesos abiertos** (Llama, Mistral, Qwen, DeepSeek) e incluso de **licencia libre / OSI** (OLMo, IBM Granite), corriendo **en local** (Ollama).\n\n> La **decisión** y su **evidencia** sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: **cero lock-in**."
+          "md": "El frontmatter registra `interfaz` y `modelo`, así el proceso **no se ata a ninguna IA**:\n\n- **[DEC-0043 ↗](https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0043-deteccion-geogebra-auto-scorm.md)** se decidió con **`codex` + `gpt-5`**.\n- **[DEC-0044 ↗](https://github.com/exelearning/mod_exelearning/blob/main/research/decisiones/adr/DEC-0044-auditoria-bugs-criticos.md)** (auditoría de bugs) con **`claude-code` + `claude-fable-5`**.\n- Otros, con `claude-opus`… **da igual el motor**.\n- Y el mismo proceso vale con **modelos de pesos abiertos** (Llama, Mistral, Qwen, DeepSeek) e incluso de **licencia libre / OSI** (OLMo, IBM Granite), corriendo **en local** (Ollama).\n\n> La **decisión** y su **evidencia** sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: **cero lock-in**."
         },
         {
           "title": "Notas del ponente",
