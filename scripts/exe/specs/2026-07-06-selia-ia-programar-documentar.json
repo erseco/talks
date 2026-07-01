@@ -16,7 +16,7 @@
         {
           "title": "Programar, documentar y no acabar en un berenjenal",
           "icon": "book",
-          "md": "**La IA ya programa. El reto es no acabar en un berenjenal.**\n\nCharla en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n**Ernesto Serrano** — *Rompiendo cosas desde 1983*.\n\n- Desarrollador principal del **simulador de Stevie Wonder** para Android.\n- **DevOps Engineer** en eXeLearning.\n- Coordinador del **Área de Tecnología Educativa** — Gobierno de Canarias."
+          "md": "**La IA ya programa. El reto es no acabar en un berenjenal.**\n\nCharla en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n**Ernesto Serrano** — *Rompiendo cosas desde 1983*.\n\n- Desarrollador principal del **simulador de Stevie Wonder** para Android.\n- **DevOps Engineer** en eXeLearning.\n- Coordinador del **Área de Tecnología Educativa**, de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, en la Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias."
         },
         {
           "title": "La idea central",
@@ -115,7 +115,7 @@
         {
           "title": "IA agnóstica: sin atarte a ninguna",
           "icon": "guide",
-          "md": "El frontmatter registra `interfaz` y `modelo`, así el proceso **no se ata a ninguna IA**:\n\n- **DEC-0043** se decidió con **`codex` + `gpt-5`**.\n- **DEC-0044** (auditoría de bugs) con **`claude-code` + `claude-fable-5`**.\n- Otros, con `claude-opus`… **da igual el motor**.\n\n> La **decisión** y su **evidencia** sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: **cero lock-in**."
+          "md": "El frontmatter registra `interfaz` y `modelo`, así el proceso **no se ata a ninguna IA**:\n\n- **DEC-0043** se decidió con **`codex` + `gpt-5`**.\n- **DEC-0044** (auditoría de bugs) con **`claude-code` + `claude-fable-5`**.\n- Otros, con `claude-opus`… **da igual el motor**.\n- Y el mismo proceso vale con **modelos de pesos abiertos** (Llama, Mistral, Qwen, DeepSeek) e incluso de **licencia libre / OSI** (OLMo, IBM Granite), corriendo **en local** (Ollama).\n\n> La **decisión** y su **evidencia** sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: **cero lock-in**."
         },
         {
           "title": "Notas del ponente",

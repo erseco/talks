@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260701080352FI2TPT</value>
+    <value>20260701081152B6SZ2C</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260701080352VJHIQ4</value>
+    <value>20260701081152SZ96XF</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -52,7 +52,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-07-01T07:03:52.053Z</value>
+    <value>2026-07-01T07:11:52.182Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -168,9 +168,9 @@
 <ul>
 <li>Desarrollador principal del <strong>simulador de Stevie Wonder</strong> para Android.</li>
 <li><strong>DevOps Engineer</strong> en eXeLearning.</li>
-<li>Coordinador del <strong>Área de Tecnología Educativa</strong> — Gobierno de Canarias.</li>
+<li>Coordinador del <strong>Área de Tecnología Educativa</strong>, de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, en la Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias.</li>
 </ul></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","markdownTextarea":"**La IA ya programa. El reto es no acabar en un berenjenal.**\n\nCharla en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n**Ernesto Serrano** — *Rompiendo cosas desde 1983*.\n\n- Desarrollador principal del **simulador de Stevie Wonder** para Android.\n- **DevOps Engineer** en eXeLearning.\n- Coordinador del **Área de Tecnología Educativa** — Gobierno de Canarias.","markdownTextareaHtml":"<p><strong>La IA ya programa. El reto es no acabar en un berenjenal.</strong></p>\n<p>Charla en la <strong>I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)</strong>.</p>\n<p><strong>Ernesto Serrano</strong> — <em>Rompiendo cosas desde 1983</em>.</p>\n<ul>\n<li>Desarrollador principal del <strong>simulador de Stevie Wonder</strong> para Android.</li>\n<li><strong>DevOps Engineer</strong> en eXeLearning.</li>\n<li>Coordinador del <strong>Área de Tecnología Educativa</strong> — Gobierno de Canarias.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","markdownTextarea":"**La IA ya programa. El reto es no acabar en un berenjenal.**\n\nCharla en la **I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)**.\n\n**Ernesto Serrano** — *Rompiendo cosas desde 1983*.\n\n- Desarrollador principal del **simulador de Stevie Wonder** para Android.\n- **DevOps Engineer** en eXeLearning.\n- Coordinador del **Área de Tecnología Educativa**, de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, en la Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias.","markdownTextareaHtml":"<p><strong>La IA ya programa. El reto es no acabar en un berenjenal.</strong></p>\n<p>Charla en la <strong>I Jornada sobre Software Libre e Inteligencia Artificial Abierta (seLIA)</strong>.</p>\n<p><strong>Ernesto Serrano</strong> — <em>Rompiendo cosas desde 1983</em>.</p>\n<ul>\n<li>Desarrollador principal del <strong>simulador de Stevie Wonder</strong> para Android.</li>\n<li><strong>DevOps Engineer</strong> en eXeLearning.</li>\n<li>Coordinador del <strong>Área de Tecnología Educativa</strong>, de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, en la Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias.</li>\n</ul>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1096,11 +1096,12 @@ fuentes: [REPO-071, EXP-014]
 <li><strong>DEC-0043</strong> se decidió con <strong><code>codex</code> + <code>gpt-5</code></strong>.</li>
 <li><strong>DEC-0044</strong> (auditoría de bugs) con <strong><code>claude-code</code> + <code>claude-fable-5</code></strong>.</li>
 <li>Otros, con <code>claude-opus</code>… <strong>da igual el motor</strong>.</li>
+<li>Y el mismo proceso vale con <strong>modelos de pesos abiertos</strong> (Llama, Mistral, Qwen, DeepSeek) e incluso de <strong>licencia libre / OSI</strong> (OLMo, IBM Granite), corriendo <strong>en local</strong> (Ollama).</li>
 </ul>
 <blockquote>
 <p>La <strong>decisión</strong> y su <strong>evidencia</strong> sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: <strong>cero lock-in</strong>.</p>
 </blockquote></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000032","markdownTextarea":"El frontmatter registra `interfaz` y `modelo`, así el proceso **no se ata a ninguna IA**:\n\n- **DEC-0043** se decidió con **`codex` + `gpt-5`**.\n- **DEC-0044** (auditoría de bugs) con **`claude-code` + `claude-fable-5`**.\n- Otros, con `claude-opus`… **da igual el motor**.\n\n> La **decisión** y su **evidencia** sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: **cero lock-in**.","markdownTextareaHtml":"<p>El frontmatter registra <code>interfaz</code> y <code>modelo</code>, así el proceso <strong>no se ata a ninguna IA</strong>:</p>\n<ul>\n<li><strong>DEC-0043</strong> se decidió con <strong><code>codex</code> + <code>gpt-5</code></strong>.</li>\n<li><strong>DEC-0044</strong> (auditoría de bugs) con <strong><code>claude-code</code> + <code>claude-fable-5</code></strong>.</li>\n<li>Otros, con <code>claude-opus</code>… <strong>da igual el motor</strong>.</li>\n</ul>\n<blockquote>\n<p>La <strong>decisión</strong> y su <strong>evidencia</strong> sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: <strong>cero lock-in</strong>.</p>\n</blockquote>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000032","markdownTextarea":"El frontmatter registra `interfaz` y `modelo`, así el proceso **no se ata a ninguna IA**:\n\n- **DEC-0043** se decidió con **`codex` + `gpt-5`**.\n- **DEC-0044** (auditoría de bugs) con **`claude-code` + `claude-fable-5`**.\n- Otros, con `claude-opus`… **da igual el motor**.\n- Y el mismo proceso vale con **modelos de pesos abiertos** (Llama, Mistral, Qwen, DeepSeek) e incluso de **licencia libre / OSI** (OLMo, IBM Granite), corriendo **en local** (Ollama).\n\n> La **decisión** y su **evidencia** sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: **cero lock-in**.","markdownTextareaHtml":"<p>El frontmatter registra <code>interfaz</code> y <code>modelo</code>, así el proceso <strong>no se ata a ninguna IA</strong>:</p>\n<ul>\n<li><strong>DEC-0043</strong> se decidió con <strong><code>codex</code> + <code>gpt-5</code></strong>.</li>\n<li><strong>DEC-0044</strong> (auditoría de bugs) con <strong><code>claude-code</code> + <code>claude-fable-5</code></strong>.</li>\n<li>Otros, con <code>claude-opus</code>… <strong>da igual el motor</strong>.</li>\n<li>Y el mismo proceso vale con <strong>modelos de pesos abiertos</strong> (Llama, Mistral, Qwen, DeepSeek) e incluso de <strong>licencia libre / OSI</strong> (OLMo, IBM Granite), corriendo <strong>en local</strong> (Ollama).</li>\n</ul>\n<blockquote>\n<p>La <strong>decisión</strong> y su <strong>evidencia</strong> sobreviven a la IA que las escribió. Cambias de modelo (o de proveedor) sin perder el hilo: <strong>cero lock-in</strong>.</p>\n</blockquote>","markdownInfoDurationInput":"","markdownInfoDurationTextInput":"Duración:","markdownInfoParticipantsInput":"","markdownInfoParticipantsTextInput":"Agrupar:","markdownFeedbackInput":"Mostrar comentarios","markdownFeedbackTextarea":"","markdownFeedbackTextareaHtml":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
