@@ -115,7 +115,10 @@ function normalise(t) {
   const DD = DECKS_SUBDIR;
 
   // eXeLearning talks ship a pre-rendered unit (unzipped .elpx) under unit/.
-  const online = (engine === 'exelearning' && t.hasUnit) ? `${DD}/${id}/unit/index.html` : null;
+  // `teacher_mode: true` links the unit with ?exe-teacher=1 so the teacher-layer
+  // (docente) toggle is offered; exe_export.js then carries the param across pages.
+  const unitParams = d.teacher_mode ? '?exe-teacher=1' : '';
+  const online = (engine === 'exelearning' && t.hasUnit) ? `${DD}/${id}/unit/index.html${unitParams}` : null;
 
   return {
     id,

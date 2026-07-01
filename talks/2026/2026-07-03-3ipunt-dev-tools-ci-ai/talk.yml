@@ -25,6 +25,9 @@ topics:
   - "devops"
   - "software-quality"
 engine: "exelearning"
+# Link the unit with ?exe-teacher=1 so the teacher-layer (docente) toggle is
+# available on every page (exe_export.js propagates the param across navigation).
+teacher_mode: true
 formats:
   unit: "index.html"
 external:

@@ -4,17 +4,17 @@
 <userPreferences>
   <userPreference>
     <key>theme</key>
-    <value>base</value>
+    <value>nova</value>
   </userPreference>
 </userPreferences>
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260701065358WZLA0G</value>
+    <value>20260701071138U2PPXP</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260701065358SVTUUD</value>
+    <value>20260701071138FKZJGW</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -48,11 +48,11 @@
   </odeProperty>
   <odeProperty>
     <key>pp_theme</key>
-    <value>base</value>
+    <value>nova</value>
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-07-01T05:53:58.802Z</value>
+    <value>2026-07-01T06:11:38.586Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>

@@ -4,7 +4,7 @@
   "subtitle": "Mi caja de herramientas real: shell y utilidades, IA (MCP, skills, ADRs) y CI con Make + GitHub Actions",
   "author": "Ernesto Serrano",
   "lang": "es",
-  "theme": "base",
+  "theme": "nova",
   "license": "creative commons: cc by-sa 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "footer": "<p>Ernesto Serrano · 3ipunt, 2026-07-03 · Licencia <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license noopener\" target=\"_blank\">CC BY-SA 4.0</a></p>",
