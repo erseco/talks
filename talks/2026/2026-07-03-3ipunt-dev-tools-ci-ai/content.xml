@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260701071826689YUB</value>
+    <value>20260702230820Z4IP53</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260701071826JRV138</value>
+    <value>2026070223082079ZG6F</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -52,7 +52,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>2026-07-01T06:18:26.384Z</value>
+    <value>2026-07-02T22:08:19.900Z</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -4078,6 +4078,60 @@ wp plugin check my-plugin       # WordPress: sugerencias antes de publicar
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000125/abajo-el-trabajo.jpg" alt="Trabajar menos, pero hacer más: el resto, que lo automatice la máquina." style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p style="text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;">Trabajar menos, pero hacer más: el resto, que lo automatice la máquina.</p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
           <jsonProperties><![CDATA[{"ideviceId":"SP00000125","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000125/abajo-el-trabajo.jpg\" alt=\"Trabajar menos, pero hacer más: el resto, que lo automatice la máquina.\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p><p style=\"text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;\">Trabajar menos, pero hacer más: el resto, que lo automatice la máquina.</p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>SP00000119</odePageId>
+      <odeBlockId>SP00000126</odeBlockId>
+      <blockName>Playlist de la charla</blockName>
+      <iconName>gallery</iconName>
+      <odePagStructureOrder>4</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>SP00000119</odePageId>
+          <odeBlockId>SP00000126</odeBlockId>
+          <odeIdeviceId>SP00000127</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000127/spotify-playlist-qr.png" alt="Escanea el código para la playlist de Spotify de la charla" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p style="text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;">Escanea el código para la playlist de Spotify de la charla</p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000127","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000127/spotify-playlist-qr.png\" alt=\"Escanea el código para la playlist de Spotify de la charla\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p><p style=\"text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;\">Escanea el código para la playlist de Spotify de la charla</p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>

@@ -418,6 +418,12 @@
           "icon": "gallery",
           "image": "../assets/2026-07-03-3ipunt-dev-tools-ci-ai/abajo-el-trabajo.jpg",
           "caption": "Trabajar menos, pero hacer más: el resto, que lo automatice la máquina."
+        },
+        {
+          "title": "Playlist de la charla",
+          "icon": "gallery",
+          "image": "../assets/2026-07-03-3ipunt-dev-tools-ci-ai/spotify-playlist-qr.png",
+          "caption": "Escanea el código para la playlist de Spotify de la charla"
         }
       ]
     }
