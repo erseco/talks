@@ -1,5 +1,13 @@
 """
-Build an eXeLearning .elp (legacy zip with content.xml) from a simple JSON spec.
+Build a minimal, intermediate content.xml (zipped as .elp) from a simple JSON
+spec. This is not a spec-complete ODE 2.0 document — it skips the DOCTYPE,
+xmlns/version attributes, and odeId/odeVersionId/exe_version resources, and
+uses older resource keys (odeVersionName, isDownload) that the eXeLearning
+importer tolerates but its own exporter no longer produces. It only needs to
+be good enough for that importer to round-trip it: scripts/exe/build.sh feeds
+this .elp into the real eXeLearning CLI (`make export-elpx`), which re-emits a
+proper, spec-compliant content.xml as part of a real .elpx — that's what
+actually gets unzipped into each talk's folder and committed.
 
 Spec shape (JSON):
 {
