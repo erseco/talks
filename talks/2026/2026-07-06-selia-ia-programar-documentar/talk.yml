@@ -31,6 +31,7 @@ external:
   source_url: "https://codeberg.org/seLIA/Contrib/src/branch/main/propuestas/27_Ernesto_Serrano-La_IA_puede_programar.md"
   video_url: null
   event_url: "https://codeberg.org/seLIA"
+  pdf_url: "https://erseco.github.io/talks/charlas/2026-07-06-selia-ia-programar-documentar/unit/content/2026-07-06-selia-ia-programar-documentar.pdf"
 license:
   content: "CC BY-SA 4.0"
   code: "CC BY-SA 4.0"
