@@ -18,7 +18,7 @@
   </odeResource>
   <odeResource>
     <key>exe_version</key>
-    <value></value>
+    <value>4.0.5</value>
   </odeResource>
 </odeResources>
 <odeProperties>
@@ -51,8 +51,12 @@
     <value>nova</value>
   </odeProperty>
   <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.5</value>
+  </odeProperty>
+  <odeProperty>
     <key>pp_modified</key>
-    <value>2026-07-02T22:08:19.900Z</value>
+    <value>1791799205262</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -4076,8 +4080,8 @@ wp plugin check my-plugin       # WordPress: sugerencias antes de publicar
           <odeBlockId>SP00000124</odeBlockId>
           <odeIdeviceId>SP00000125</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000125/abajo-el-trabajo.jpg" alt="Trabajar menos, pero hacer más: el resto, que lo automatice la máquina." style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p style="text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;">Trabajar menos, pero hacer más: el resto, que lo automatice la máquina.</p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000125","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000125/abajo-el-trabajo.jpg\" alt=\"Trabajar menos, pero hacer más: el resto, que lo automatice la máquina.\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p><p style=\"text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;\">Trabajar menos, pero hacer más: el resto, que lo automatice la máquina.</p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000125/abajo-el-trabajo.jpg" alt="Trabajar menos, pero hacer más: el resto, que lo automatice la máquina." style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p style="text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;">Trabajar menos, pero hacer más: el resto, que lo automatice la máquina.</p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000125","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000125/abajo-el-trabajo.jpg\" alt=\"Trabajar menos, pero hacer más: el resto, que lo automatice la máquina.\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p><p style=\"text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;\">Trabajar menos, pero hacer más: el resto, que lo automatice la máquina.</p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4130,8 +4134,8 @@ wp plugin check my-plugin       # WordPress: sugerencias antes de publicar
           <odeBlockId>SP00000126</odeBlockId>
           <odeIdeviceId>SP00000127</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000127/spotify-playlist-qr.png" alt="Escanea el código para la playlist de Spotify de la charla" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p style="text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;">Escanea el código para la playlist de Spotify de la charla</p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000127","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000127/spotify-playlist-qr.png\" alt=\"Escanea el código para la playlist de Spotify de la charla\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p><p style=\"text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;\">Escanea el código para la playlist de Spotify de la charla</p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000127/spotify-playlist-qr.png" alt="Escanea el código para la playlist de Spotify de la charla" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p style="text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;">Escanea el código para la playlist de Spotify de la charla</p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000127","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000127/spotify-playlist-qr.png\" alt=\"Escanea el código para la playlist de Spotify de la charla\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p><p style=\"text-align:center;font-size:.85em;color:#555;margin:.4em 0 0;\">Escanea el código para la playlist de Spotify de la charla</p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
