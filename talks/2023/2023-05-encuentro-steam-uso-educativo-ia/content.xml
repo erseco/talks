@@ -18,7 +18,7 @@
   </odeResource>
   <odeResource>
     <key>exe_version</key>
-    <value></value>
+    <value>4.0.5</value>
   </odeResource>
 </odeResources>
 <odeProperties>
@@ -51,8 +51,12 @@
     <value>jeanette</value>
   </odeProperty>
   <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.5</value>
+  </odeProperty>
+  <odeProperty>
     <key>pp_modified</key>
-    <value>2026-06-26T07:20:25.011Z</value>
+    <value>1791798148005</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -162,8 +166,8 @@
           <odeBlockId>SP00000002</odeBlockId>
           <odeIdeviceId>SP00000003</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000003/slide-01.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000003/slide-01.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000003/slide-01.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000003","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000003/slide-01.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -262,8 +266,8 @@
           <odeBlockId>SP00000005</odeBlockId>
           <odeIdeviceId>SP00000006</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000006/slide-02.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000006","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000006/slide-02.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000006/slide-02.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000006","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000006/slide-02.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -416,8 +420,8 @@
           <odeBlockId>SP00000010</odeBlockId>
           <odeIdeviceId>SP00000011</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000011/slide-03.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000011","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000011/slide-03.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000011/slide-03.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000011","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000011/slide-03.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -571,8 +575,8 @@
           <odeBlockId>SP00000015</odeBlockId>
           <odeIdeviceId>SP00000016</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000016/slide-04.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000016","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000016/slide-04.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000016/slide-04.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000016","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000016/slide-04.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -725,8 +729,8 @@
           <odeBlockId>SP00000020</odeBlockId>
           <odeIdeviceId>SP00000021</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000021/slide-05.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000021","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000021/slide-05.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000021/slide-05.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000021","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000021/slide-05.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -880,8 +884,8 @@
           <odeBlockId>SP00000025</odeBlockId>
           <odeIdeviceId>SP00000026</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000026/slide-06.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000026","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000026/slide-06.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000026/slide-06.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000026","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000026/slide-06.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -980,8 +984,8 @@
           <odeBlockId>SP00000028</odeBlockId>
           <odeIdeviceId>SP00000029</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000029/slide-07.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000029","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000029/slide-07.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000029/slide-07.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000029","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000029/slide-07.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1138,8 +1142,8 @@
           <odeBlockId>SP00000033</odeBlockId>
           <odeIdeviceId>SP00000034</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000034/slide-08.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000034","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000034/slide-08.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000034/slide-08.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000034","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000034/slide-08.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1292,8 +1296,8 @@
           <odeBlockId>SP00000038</odeBlockId>
           <odeIdeviceId>SP00000039</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000039/slide-09.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000039","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000039/slide-09.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000039/slide-09.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000039","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000039/slide-09.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1392,8 +1396,8 @@
           <odeBlockId>SP00000041</odeBlockId>
           <odeIdeviceId>SP00000042</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000042/slide-10.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000042","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000042/slide-10.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000042/slide-10.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000042","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000042/slide-10.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1549,8 +1553,8 @@
           <odeBlockId>SP00000046</odeBlockId>
           <odeIdeviceId>SP00000047</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000047/slide-11.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000047","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000047/slide-11.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000047/slide-11.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000047","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000047/slide-11.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1708,8 +1712,8 @@
           <odeBlockId>SP00000051</odeBlockId>
           <odeIdeviceId>SP00000052</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000052/slide-12.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000052","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000052/slide-12.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000052/slide-12.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000052","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000052/slide-12.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -1862,8 +1866,8 @@
           <odeBlockId>SP00000056</odeBlockId>
           <odeIdeviceId>SP00000057</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000057/slide-13.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000057","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000057/slide-13.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000057/slide-13.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000057","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000057/slide-13.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2022,8 +2026,8 @@
           <odeBlockId>SP00000061</odeBlockId>
           <odeIdeviceId>SP00000062</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000062/slide-14.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000062","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000062/slide-14.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000062/slide-14.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000062","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000062/slide-14.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2122,8 +2126,8 @@
           <odeBlockId>SP00000064</odeBlockId>
           <odeIdeviceId>SP00000065</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000065/slide-15.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000065","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000065/slide-15.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000065/slide-15.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000065","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000065/slide-15.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2278,8 +2282,8 @@
           <odeBlockId>SP00000069</odeBlockId>
           <odeIdeviceId>SP00000070</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000070/slide-16.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000070","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000070/slide-16.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000070/slide-16.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000070","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000070/slide-16.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2432,8 +2436,8 @@
           <odeBlockId>SP00000074</odeBlockId>
           <odeIdeviceId>SP00000075</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000075/slide-17.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000075","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000075/slide-17.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000075/slide-17.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000075","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000075/slide-17.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2591,8 +2595,8 @@
           <odeBlockId>SP00000079</odeBlockId>
           <odeIdeviceId>SP00000080</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000080/slide-18.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000080","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000080/slide-18.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000080/slide-18.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000080","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000080/slide-18.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2746,8 +2750,8 @@
           <odeBlockId>SP00000084</odeBlockId>
           <odeIdeviceId>SP00000085</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000085/slide-19.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000085","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000085/slide-19.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000085/slide-19.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000085","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000085/slide-19.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -2846,8 +2850,8 @@
           <odeBlockId>SP00000087</odeBlockId>
           <odeIdeviceId>SP00000088</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000088/slide-20.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000088","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000088/slide-20.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000088/slide-20.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000088","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000088/slide-20.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3004,8 +3008,8 @@
           <odeBlockId>SP00000092</odeBlockId>
           <odeIdeviceId>SP00000093</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000093/slide-21.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000093","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000093/slide-21.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000093/slide-21.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000093","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000093/slide-21.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3158,8 +3162,8 @@
           <odeBlockId>SP00000097</odeBlockId>
           <odeIdeviceId>SP00000098</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000098/slide-22.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000098","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000098/slide-22.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000098/slide-22.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000098","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000098/slide-22.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3258,8 +3262,8 @@
           <odeBlockId>SP00000100</odeBlockId>
           <odeIdeviceId>SP00000101</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000101/slide-23.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000101","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000101/slide-23.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000101/slide-23.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000101","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000101/slide-23.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3423,8 +3427,8 @@
           <odeBlockId>SP00000105</odeBlockId>
           <odeIdeviceId>SP00000106</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000106/slide-24.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000106","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000106/slide-24.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000106/slide-24.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000106","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000106/slide-24.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3523,8 +3527,8 @@
           <odeBlockId>SP00000108</odeBlockId>
           <odeIdeviceId>SP00000109</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000109/slide-25.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000109","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000109/slide-25.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000109/slide-25.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000109","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000109/slide-25.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3683,8 +3687,8 @@
           <odeBlockId>SP00000113</odeBlockId>
           <odeIdeviceId>SP00000114</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000114/slide-26.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000114","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000114/slide-26.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000114/slide-26.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000114","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000114/slide-26.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -3848,8 +3852,8 @@
           <odeBlockId>SP00000118</odeBlockId>
           <odeIdeviceId>SP00000119</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000119/slide-27.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000119","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000119/slide-27.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000119/slide-27.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000119","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000119/slide-27.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4002,8 +4006,8 @@
           <odeBlockId>SP00000123</odeBlockId>
           <odeIdeviceId>SP00000124</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000124/slide-28.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000124","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000124/slide-28.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000124/slide-28.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000124","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000124/slide-28.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4159,8 +4163,8 @@
           <odeBlockId>SP00000128</odeBlockId>
           <odeIdeviceId>SP00000129</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000129/slide-29.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000129","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000129/slide-29.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000129/slide-29.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000129","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000129/slide-29.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4319,8 +4323,8 @@
           <odeBlockId>SP00000133</odeBlockId>
           <odeIdeviceId>SP00000134</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000134/slide-30.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000134","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000134/slide-30.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000134/slide-30.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000134","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000134/slide-30.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4473,8 +4477,8 @@
           <odeBlockId>SP00000138</odeBlockId>
           <odeIdeviceId>SP00000139</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000139/slide-31.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000139","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000139/slide-31.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000139/slide-31.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000139","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000139/slide-31.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4627,8 +4631,8 @@
           <odeBlockId>SP00000143</odeBlockId>
           <odeIdeviceId>SP00000144</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000144/slide-32.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000144","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000144/slide-32.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000144/slide-32.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000144","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000144/slide-32.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4781,8 +4785,8 @@
           <odeBlockId>SP00000148</odeBlockId>
           <odeIdeviceId>SP00000149</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000149/slide-33.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000149","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000149/slide-33.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000149/slide-33.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000149","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000149/slide-33.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -4935,8 +4939,8 @@
           <odeBlockId>SP00000153</odeBlockId>
           <odeIdeviceId>SP00000154</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000154/slide-34.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000154","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000154/slide-34.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000154/slide-34.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000154","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000154/slide-34.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -5089,8 +5093,8 @@
           <odeBlockId>SP00000158</odeBlockId>
           <odeIdeviceId>SP00000159</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000159/slide-35.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000159","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000159/slide-35.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000159/slide-35.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000159","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000159/slide-35.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -5252,8 +5256,8 @@
           <odeBlockId>SP00000163</odeBlockId>
           <odeIdeviceId>SP00000164</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000164/slide-36.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000164","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000164/slide-36.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000164/slide-36.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000164","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000164/slide-36.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -5408,8 +5412,8 @@
           <odeBlockId>SP00000168</odeBlockId>
           <odeIdeviceId>SP00000169</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000169/slide-37.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000169","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000169/slide-37.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000169/slide-37.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000169","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000169/slide-37.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
@@ -5562,8 +5566,8 @@
           <odeBlockId>SP00000173</odeBlockId>
           <odeIdeviceId>SP00000174</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/SP00000174/slide-38.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"SP00000174","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/SP00000174/slide-38.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
+          <htmlView><![CDATA[<div class="exe-text-template"><div class="textIdeviceContent"><div class="exe-text-activity"><div><p style="text-align:center;margin:0;"><img src="{{context_path}}/content/resources/SP00000174/slide-38.png" alt="" style="max-width:100%;height:auto;display:block;margin:0 auto;" /></p><p class="clearfix"> </p></div></div></div></div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"SP00000174","textInfoDurationInput":"","textInfoDurationTextInput":"Duración:","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupar:","textTextarea":"<p style=\"text-align:center;margin:0;\"><img src=\"{{context_path}}/content/resources/SP00000174/slide-38.png\" alt=\"\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;\" /></p>","textFeedbackInput":"Mostrar comentarios","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>1</odeComponentsOrder>
           <odeComponentsProperties>
             <odeComponentsProperty>
